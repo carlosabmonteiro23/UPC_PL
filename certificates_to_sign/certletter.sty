@@ -1,0 +1,23 @@
+% Shared layout for statements/certificates to be signed by third parties
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{certletter}
+\RequirePackage[a4paper,margin=2.5cm]{geometry}
+\RequirePackage[T1]{fontenc}
+\RequirePackage[utf8]{inputenc}
+\RequirePackage{lmodern}
+\RequirePackage{xcolor}
+\RequirePackage{enumitem}
+\RequirePackage[hidelinks]{hyperref}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+\pagestyle{empty}
+% \signatory{Name}{titles, separated by \\}
+\newcommand{\signatory}[2]{\def\@signame{#1}\def\@sigtitles{#2}}
+\newcommand{\certheader}{%
+  {\large\bfseries\@signame\par}\vspace{-0.6em}
+  {\small\@sigtitles\par}\vspace{1.5em}}
+\newcommand{\signatureblock}[1]{% #1 = place and date
+  \vspace{2em}#1\par\vspace{4em}
+  \rule{7cm}{0.4pt}\par\vspace{-0.6em}
+  \@signame\par\vspace{-0.8em}{\small\@sigtitles\par}}
+\newcommand{\fillin}[1]{\textcolor{red}{[#1]}}

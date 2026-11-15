@@ -1,0 +1,60 @@
+% lector.sty -- shared preamble for the HAP and PT of concurs LE-403/729 (UPC)
+% Builds on Calafell's style.sty. Keep this file identical in HAP/ and PT/.
+\ProvidesPackage{lector}
+\RequirePackage{style}
+\RequirePackage[spanish,es-noshorthands,es-tabla]{babel}
+\RequirePackage{graphicx,float,tabularx,multirow,array,booktabs}
+\RequirePackage[final]{pdfpages}
+\RequirePackage{fancyhdr}
+\RequirePackage[titles]{tocloft}
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+\definecolor{MSBlue}{rgb}{.204,.353,.541}
+\setlength\headheight{30pt}
+
+% ---------------------------------------------------------------
+% Candidate and post data (ONLY name/surname as personal data, base 3.5)
+\newcommand{\CandName}{Carlos Monteiro}   % TODO: write your full name exactly as on your ID
+\newcommand{\PostRef}{LE-403/729}
+\newcommand{\PostCode}{71027970}
+
+% Header/footer. #1 = HAP or PT
+\newcommand{\setupheader}[1]{%
+  \pagestyle{fancy}\fancyhf{}%
+  \fancyhead[L]{\includegraphics[width=4.5cm]{logo-upc}}%
+  \fancyhead[R]{\small #1 -- \CandName\\ Ref. concurso: \PostRef}%
+  \fancyfoot[R]{\small P\'agina \thepage}%
+  \fancypagestyle{plain}{\fancyhf{}%
+    \fancyhead[L]{\includegraphics[width=4.5cm]{logo-upc}}%
+    \fancyhead[R]{\small #1 -- \CandName\\ Ref. concurso: \PostRef}%
+    \fancyfoot[R]{\small P\'agina \thepage}}%
+}
+
+% Post data block (Annex II of the call, DOGC 9787, 4.11.2026)
+\newcommand{\postdata}{%
+\begin{tabular}{@{}p{5.2cm}p{10cm}@{}}
+\toprule
+Categor\'ia:                & 1 plaza de Profesorado Lector \\
+C\'odigo de la plaza:       & \PostCode \\
+Referencia del concurso:   & \PostRef \\
+Unidad de adscripci\'on:   & 729 -- Departamento de Mec\'anica de Fluidos \\
+\'Ambito de conocimiento:  & Ingenier\'ia Industrial \\
+\'Area de conocimiento:    & Mec\'anica de Fluidos \\
+Unidad de vinculaci\'on principal: & Escuela de Ingenier\'ia de Barcelona Este (EEBE) \\
+\bottomrule
+\end{tabular}}
+
+% ---------------------------------------------------------------
+% Drafting helpers (remove/neutralise before submitting: set \finaltrue)
+\newif\iffinal \finalfalse
+\newcommand{\TODO}[1]{\iffinal\else{\color{red}\textbf{[PENDIENTE: #1]}}\fi}
+\newcommand{\NOTE}[1]{\iffinal\else{\color{orange}\textit{[Nota: #1]}}\fi}
+
+% Supporting documents: \certlink{label}{text} in the body, \certpdf{label}{file} in the annex.
+% If the PDF is not yet in documents_justificacio/, a placeholder page is printed.
+\newcommand{\certlink}[2]{\hyperlink{cert-#1.1}{(#2)}}
+\newcommand{\certpdf}[2]{%
+  \IfFileExists{./documents_justificacio/#2}{%
+    \includepdf[pages=-,link,linkname=cert-#1,pagecommand={\thispagestyle{empty}}]{./documents_justificacio/#2}}{%
+    \clearpage\hypertarget{cert-#1.1}{}\thispagestyle{empty}\vspace*{5cm}
+    \begin{center}\Large\color{red}Falta el documento justificativo:\\ \texttt{documents\_justificacio/\detokenize{#2}}\end{center}\clearpage}}

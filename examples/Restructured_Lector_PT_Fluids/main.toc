@@ -1,0 +1,25 @@
+\contentsline {section}{\numberline {1}Research Plan}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Research Background}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Research Ojectives}{4}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Data-Driven Wall Models for high-Reynolds and high-Mach number aerodynamics}{4}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Data-driven high-fidelity fast predictive models for environmental flows}{5}{subsubsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.3}High-Performance Computing Strategy}{7}{subsubsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.3}Resource Procurement}{8}{subsection.1.3}%
+\contentsline {subsubsection}{\numberline {1.3.1}Financial Resources}{8}{subsubsection.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.2}Computational Resources}{8}{subsubsection.1.3.2}%
+\contentsline {subsubsection}{\numberline {1.3.3}Software tools}{9}{subsubsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.4}Work plan}{10}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Research Contacts and Collaborations}{12}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Innovation and Technology Transfer}{13}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}Dissemination Plan}{13}{subsection.1.7}%
+\contentsline {section}{\numberline {2}Teaching Plan}{14}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Teaching Background}{14}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Contextualization of the teaching project}{15}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Teaching framework in the EHEA}{15}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}The Studies at the Escola d'Enginyeria Barcelona Est (EEBE).}{16}{subsubsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.3}Subjects of the present call and profile adequacy}{17}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Training Plan Innovation}{19}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Teaching methodology Innovation}{20}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Bachelor's, Master's, and Ph.D. Thesis Planning}{21}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Personal vision on the studies}{22}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Equality and Inclusion}{23}{subsection.2.8}%

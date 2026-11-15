@@ -1,0 +1,106 @@
+% lector.sty -- shared preamble for the HAP and PT of concurs LE-403/729 (UPC)
+% Builds on Calafell's style.sty. Keep this file identical in HAP/ and PT/.
+\ProvidesPackage{lector}
+\RequirePackage{style}
+\RequirePackage[british]{babel}
+\RequirePackage{graphicx,float,tabularx,multirow,array,booktabs}
+\RequirePackage[final]{pdfpages}
+\RequirePackage{fancyhdr}
+\RequirePackage[titles]{tocloft}
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+% --- Palette (slightly refreshed): deep UPC-like navy + a lighter accent
+\definecolor{MSBlue}{HTML}{1D4E7E}   % headings, title
+\definecolor{UPCAccent}{HTML}{007BC0} % rules, numbers, links (UPC blue)
+\definecolor{SoftGray}{HTML}{6B7280}  % header/footer text
+\hypersetup{linkcolor=MSBlue, urlcolor=UPCAccent, citecolor=UPCAccent} % internal links (contents, certificates) navy; web links accent
+% Section headings: accent-coloured number, thin rule under sections
+\titleformat{\section}{\color{MSBlue}\Large\bfseries}{\textcolor{UPCAccent}{\thesection}}{0.6em}{}[{\color{UPCAccent!35}\titlerule[0.6pt]}]
+\titleformat{\subsection}{\color{MSBlue}\large\bfseries}{\textcolor{UPCAccent}{\thesubsection}}{0.6em}{}[{\color{UPCAccent!20}\titlerule[0.4pt]}]
+\titlespacing*{\subsection}{0pt}{3.2ex plus 1ex minus .2ex}{1.4ex plus .2ex}
+\titleformat{\subsubsection}{\color{MSBlue}\normalsize\bfseries}{\textcolor{UPCAccent}{\thesubsubsection}}{0.5em}{}
+\titlespacing*{\section}{0pt}{2.2ex plus .5ex minus .2ex}{1.4ex plus .2ex}
+% Bullets in the accent colour
+\setlist[itemize,1]{label={\color{SoftGray}\textbullet}}
+\setlist[itemize,2]{label={\color{SoftGray}\textendash}, topsep=1pt, itemsep=0pt, parsep=0pt}
+\RequirePackage[a4paper, top=2.6cm, bottom=2.4cm, left=2.3cm, right=2.3cm, headheight=30pt, headsep=0.7cm, footskip=1.1cm]{geometry} % A4; footer well inside the page
+\setlength\emergencystretch{3em} % avoid long DOIs running into the margin
+
+% CV-style entries: title (bold) with the period right-aligned, institution below,
+% then the details as a dash sub-list.
+\newenvironment{entries}{\begin{itemize}[leftmargin=0pt, label={}, itemsep=0.9ex]}{\end{itemize}}
+\newcommand{\entry}[3]{\item {\bfseries #2}\hfill #1%
+  \if\relax\detokenize{#3}\relax\else\\*#3\fi}
+\newcommand{\docsep}{\unskip\nobreak\hskip0.5em$\cdot$\hskip0.5em\ignorespaces}
+
+% ---------------------------------------------------------------
+% Candidate and post data (ONLY name/surname as personal data, base 3.5)
+\newcommand{\CandName}{Carlos Alexandre Bandarrinha Monteiro}
+\newcommand{\PostRef}{LE-403/729}
+\newcommand{\PostCode}{71027970}
+
+% Header/footer. #1 = HAP or PT
+\newcommand{\setupheader}[1]{%
+  \pagestyle{fancy}\fancyhf{}\setlength{\headwidth}{\textwidth}%
+  \renewcommand{\headrule}{{\color{UPCAccent!30}\hrule height 0.5pt}}%
+  \fancyhead[L]{\includegraphics[width=4.5cm]{logo-upc}}%
+  \fancyhead[R]{\small\color{SoftGray} #1 -- \CandName\\ Ref.: \PostRef}%
+  \fancyfoot[R]{\small\color{SoftGray} Page \thepage}%
+  \fancypagestyle{plain}{\fancyhf{}%
+    \fancyhead[L]{\includegraphics[width=4.5cm]{logo-upc}}%
+    \fancyhead[R]{\small\color{SoftGray} #1 -- \CandName\\ Ref.: \PostRef}%
+    \fancyfoot[R]{\small\color{SoftGray} Page \thepage}}%
+}
+
+% Post data block (Annex II of the call, DOGC 9787, 4.11.2026)
+\newcommand{\postdata}{%
+\begin{tabular}{@{}p{4cm}>{\raggedright\arraybackslash}p{11.5cm}@{}}
+\toprule
+Site Code:            & \PostCode \\
+Position Reference:   & \PostRef \\
+Unit of assignment:   & 729 -- Department of Fluid Mechanics \\
+Field of Knowledge:   & Industrial Engineering \\
+Area of Knowledge:    & Fluid Mechanics \\
+Linked Unit:          & Barcelona East School of Engineering (EEBE) \\
+\bottomrule
+\end{tabular}}
+
+% ---------------------------------------------------------------
+% Drafting helpers (remove/neutralise before submitting: set \finaltrue)
+\newif\iffinal \finalfalse
+\newcommand{\TODO}[1]{\iffinal\else{\color{red}\textbf{[TODO: #1]}}\fi}
+% \nocert: marks a merit whose supporting document is not attached (asterisk; the
+% explanatory footnote is printed at the first use in each section).
+\def\nocert@sec{-1}
+\newcommand{\nocert}{\ifnum\value{section}=\nocert@sec\relax\textsuperscript{*}\else
+  \xdef\nocert@sec{\arabic{section}}{\renewcommand{\thefootnote}{*}\footnote{Merits marked
+  with an asterisk (*) have no supporting document attached. The corresponding certificate
+  can be requested from the issuing organisation and provided if the committee requires it,
+  given sufficient time.}}\addtocounter{footnote}{-1}\fi}
+% \MAYBE{...}: content still to be decided, highlighted in yellow (plain text with \finaltrue)
+\RequirePackage{soul}
+\newcommand{\MAYBE}[1]{\iffinal #1\else{\sethlcolor{yellow}\hl{#1}}\fi}
+% revise environment: whole block with yellow background (to be revised; plain with \finaltrue)
+\RequirePackage[most]{tcolorbox}
+\newtcolorbox{revisebox}{breakable, enhanced, colback=yellow!40, colframe=yellow!40,
+  boxrule=0pt, arc=0pt, left=3pt, right=3pt, top=3pt, bottom=3pt}
+\newenvironment{revise}{\iffinal\else\begin{revisebox}\fi}{\iffinal\else\end{revisebox}\fi}
+\newcommand{\NOTE}[1]{\iffinal\else{\color{orange}\textit{[Note: #1]}}\fi}
+
+% Supporting documents: \certlink{label}{text} in the body, \certpdf{label}{file} in the annex.
+% If the PDF is not yet in documents_justificacio/, a placeholder page is printed.
+% Missing files are recorded in the .aux, so the link in the text also gets a red note
+% (takes effect on the second LaTeX run; latexmk handles this; hidden with \finaltrue).
+\newcommand{\certlink}[2]{\hyperlink{cert-#1.1}{(#2)}%
+  \@ifundefined{certmissing@#1}{}{\iffinal\else~{\color{red}\textbf{[missing document]}}\fi}}
+% One-line course: year -- title (italic), provider (duration) . document link
+\newcommand{\course}[4]{#1 -- \emph{#2}, #3\if\relax\detokenize{#4}\relax\else\docsep\mbox{#4}\fi}
+% \certref: same as \certlink but without parentheses (for "Documents:" lines)
+\newcommand{\certref}[2]{\hyperlink{cert-#1.1}{#2}%
+  \@ifundefined{certmissing@#1}{}{\iffinal\else~{\color{red}\textbf{[missing document]}}\fi}}
+\newcommand{\certpdf}[2]{%
+  \IfFileExists{./documents_justificacio/#2}{%
+    \includepdf[pages=-,link,linkname=cert-#1,pagecommand={\thispagestyle{empty}}]{./documents_justificacio/#2}}{%
+    \immediate\write\@auxout{\string\global\string\@namedef{certmissing@#1}{}}%
+    \clearpage\hypertarget{cert-#1.1}{}\thispagestyle{empty}\vspace*{5cm}
+    \begin{center}\Large\color{red}Missing supporting document:\\ \texttt{documents\_justificacio/\detokenize{#2}}\end{center}\clearpage}}

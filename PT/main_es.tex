@@ -1,0 +1,430 @@
+% =====================================================================
+%  PLAN DE TRABAJO (PT) -- Concurso LE-403/729 (UPC)
+%  Borrador generado el 05/11/2026. Docencia: solo asignaturas de la convocatoria.
+%  Investigación: solo las tres líneas de investigación de la convocatoria.
+%  Completar cada \TODO{}; activar \finaltrue antes de presentar.
+%  Nombre del archivo de salida: Monteiro_Carlos_PT.pdf
+% =====================================================================
+\documentclass[11pt]{article}
+\usepackage{lector}
+\usepackage{pgfgantt}
+%\finaltrue
+\setupheader{PT}
+
+\title{\textbf{Plan de Trabajo}}
+\author{\Large \CandName}
+\date{}
+
+\begin{document}
+\maketitle
+\thispagestyle{plain}
+\vspace{0.5cm}
+\begin{center}\postdata\end{center}
+
+\vspace{0.8cm}
+\noindent\textbf{Resumen.}
+Este plan de trabajo abarca los seis años del contrato de profesor lector (2027--2033),
+con una autoevaluación al final del tercer año que coincide con la evaluación prevista en
+el artículo 78 de la LOSU. En investigación, consolidaré una línea sobre \emph{turbulencia
+multifísica en fluidos compresibles y supercríticos}, analizada mediante \emph{métodos
+basados en datos y de causalidad} para la predicción de eventos extremos, y calculada con
+\emph{solvers distribuidos y acelerados en GPU}. Estas son las tres líneas de investigación
+de la convocatoria. En docencia, contribuiré a las asignaturas termofluidodinámicas de la
+EEBE: Termodinámica y Transferencia de Calor (teoría), Mecánica de Fluidos (laboratorio),
+Ingeniería de Fluidos (teoría) y la asignatura de máster Mecánica de Fluidos Computacional.
+Introduciré metodologías computacionales y de aprendizaje activo, y vincularé los trabajos
+de fin de estudios al plan de investigación.
+
+\newpage
+\tableofcontents
+\newpage
+
+% =====================================================================
+\section{Proyecto de investigación}
+
+\subsection{Antecedentes}
+Mi tesis doctoral en la UPC (2023--2026, Sobresaliente \emph{cum laude}) estudió la
+\emph{turbulencia de pared con pseudoebullición en flujos supercríticos}. Mediante
+simulación numérica directa con termodinámica de gas real, caractericé los regímenes de
+flujo de fluidos transcríticos a alta presión en microconductos [J4]. También contribuí a una
+base de datos abierta de flujos en canal microconfinado en régimen laminar, de transición y
+turbulento [J3, D2], y colaboré en el análisis de los experimentos correspondientes con
+métodos basados en datos [J7]. Para que estas simulaciones fueran fiables y asequibles,
+establecí criterios de resolución para la DNS de turbulencia de pared transcrítica [J5] y
+estudié unidades mínimas de flujo [J6]. Recientemente expliqué cómo la flotabilidad genera
+flujos secundarios y redistribuye la cantidad de movimiento en la turbulencia transcrítica
+en conductos [J2] (\emph{Editor's Pick} de \emph{Physics of Fluids}). Este trabajo constituye
+la base de la \textbf{línea A} (turbulencia multifísica, compresible y supercrítica).
+
+Todas estas simulaciones se apoyan en mi trabajo en la \textbf{línea C}. He liderado el
+desarrollo de RHEA-X, la versión distribuida y residente en GPU del solver de código
+abierto RHEA (MPI + OpenACC/CUDA) [J1]. Lo optimicé en los MareNostrum Hackathons del BSC
+y lo he utilizado en asignaciones competitivas en MareNostrum~5, Finisterrae~III y
+sistemas nacionales canadienses (más de 10 millones de horas de núcleo/GPU en total).
+
+En 2026 inicié la \textbf{línea B} en el CTR Summer Program de la Universidad de Stanford,
+con el proyecto \emph{inferencia causa--efecto en eventos extremos de flujo de calor en la
+pared en flujos supercríticos}. El estudio lagrangiano de eventos termofluidodinámicos
+extremos (RES IM-2026-1-0034) y el conjunto de datos para aprendizaje automático BLASTNet
+[D1] lo amplían. Continuaré este trabajo en la University of British Columbia entre junio y
+agosto de 2027. Este plan se construye directamente sobre estas tres bases. (Las
+referencias [J*], [C*], [D*] siguen la numeración del HAP.)
+
+\subsection{Motivación y objetivos de investigación}
+Los fluidos supercríticos y transcríticos son clave en varias tecnologías de la transición
+energética: ciclos de potencia de CO$_2$ supercrítico, refrigeración de motores cohete de
+propulsante líquido y de estatorreactores (\emph{scramjets}), almacenamiento e inyección de
+hidrógeno a alta presión, y reactores refrigerados por agua supercrítica. Cerca de la línea
+pseudocrítica, las propiedades termofísicas varían en órdenes de magnitud en intervalos de
+temperatura muy pequeños. La turbulencia resultante está fuertemente acoplada con la
+termodinámica y la transferencia de calor. Los eventos raros e intensos de esta turbulencia,
+como el deterioro local de la transferencia de calor, los picos de presión o la inversión del
+flujo, determinan los márgenes de seguridad y los límites de diseño. Sin embargo, sus causas
+se conocen poco y son difíciles de predecir. Las simulaciones de alta fidelidad pueden
+resolver estos flujos, pero solo en grandes supercomputadores basados en GPU, y los datos
+que generan requieren nuevas herramientas de análisis.
+
+Este plan aborda el problema a lo largo de las tres líneas de la convocatoria:
+
+\begin{description}[leftmargin=0.6cm]
+\item[Línea A -- Flujos turbulentos multifísicos; fluidos compresibles y supercríticos.]
+  \begin{itemize}
+  \item[O1.] Generar bases de datos de alta fidelidad (DNS/LES con resolución de pared) de
+  turbulencia de pared y de cizalladura libre a presión supercrítica, con termodinámica y
+  propiedades de transporte de gas real. Incluirán canales y tuberías calentados y enfriados,
+  así como capas de mezcla y chorros transcríticos.
+  \item[O2.] Caracterizar el acoplamiento multifísico entre turbulencia, transferencia de
+  calor y no idealidades termodinámicas (pseudoebullición, compresibilidad, flotabilidad), y
+  su efecto en el deterioro y la mejora de la transferencia de calor.
+  \end{itemize}
+\item[Línea B -- Predicción basada en datos de flujos de ingeniería; eventos extremos; causalidad.]
+  \begin{itemize}
+  \item[O3.] Identificar los mecanismos causales que originan los eventos extremos (p.~ej.,
+  picos de flujo de calor y de esfuerzo cortante en la pared) mediante causalidad basada en
+  teoría de la información y estadística condicionada. Partirá del trabajo iniciado en el
+  CTR-Stanford en 2026 y continuará en la UBC en 2027.
+  \item[O4.] Desarrollar modelos basados en datos e informados por la causalidad que
+  predigan estos eventos extremos y otras magnitudes de interés en ingeniería: precursores,
+  modelos de orden reducido y modelos sustitutos basados en redes neuronales.
+  \end{itemize}
+\item[Línea C -- Modelización y computación; programación distribuida (CPU) y acelerada (GPU).]
+  \begin{itemize}
+  \item[O5.] Desarrollar y mantener solvers de código abierto y rendimiento portable para
+  flujos compresibles de gas real en supercomputadores híbridos CPU--GPU (MPI +
+  OpenACC/CUDA), con análisis de datos \emph{in situ} y acoplamiento con aprendizaje
+  automático. Se basará en RHEA-X [J1], cuyo desarrollo lidero.
+  \item[O6.] Desarrollar modelos de submalla y de pared para turbulencia supercrítica,
+  coherentes con la termodinámica de gas real, entrenados y validados con las bases de datos
+  de O1.
+  \end{itemize}
+\end{description}
+\TODO{Adaptar los objetivos a tu experiencia real y mantener como máximo 2 por línea.}
+
+\subsection{Paquetes de trabajo}
+\textbf{PdT0 -- Recursos, creación de grupo y gestión (A1--A6).}
+Solicitud de financiación competitiva y de tiempo de cálculo
+(apartado~\ref{sec:resources}). Captación y dirección de estudiantes de doctorado y de
+máster. Autoevaluación del tercer año y replanificación.
+
+\textbf{PdT1 -- Turbulencia multifísica supercrítica (O1, O2; A1--A5).}
+Configuración de casos DNS/LES con ecuaciones de estado de gas real (Peng--Robinson) y
+modelos de transporte a alta presión. Validación con la literatura y con datos
+experimentales, y publicación de bases de datos abiertas. \emph{Resultados esperados:} 2--3
+artículos Q1 (p.~ej., J.\ Fluid Mech., Phys.\ Rev.\ Fluids, Int.\ J.\ Heat Mass Transfer)
+y una base de datos abierta.
+
+\textbf{PdT2 -- Causalidad y eventos extremos (O3; A1--A4).}
+Aplicación de inferencia causal basada en teoría de la información a los datos del PdT1
+para jerarquizar los mecanismos que originan los eventos extremos de transferencia de calor y
+de cizalladura. Este paquete es el núcleo de la estancia en la UBC en 2027.
+\emph{Resultados esperados:} 2 artículos Q1 y 1 tesis doctoral.
+
+\textbf{PdT3 -- Predicción basada en datos (O4; A2--A6).}
+Desarrollo de predictores y modelos sustitutos, informados por la causalidad, de eventos
+extremos y magnitudes de ingeniería, con cuantificación de incertidumbre.
+\emph{Resultados esperados:} 2 artículos Q1, modelos de código abierto y 1 tesis doctoral.
+
+\textbf{PdT4 -- Solvers y modelos HPC (O5, O6; A1--A6).}
+Portabilidad, optimización y escalado de los solvers en sistemas GPU europeos
+preexaescala, y acoplamiento con entornos de aprendizaje automático. Desarrollo y
+validación de modelos de submalla y de pared para gas real.
+\emph{Resultados esperados:} versiones de software, 1--2 artículos (p.~ej., J.\ Comput.\
+Phys., Comput.\ Phys.\ Commun.) y asignaciones de cálculo.
+
+\textbf{PdT5 -- Movilidad, colaboraciones y difusión (A1--A6).}
+Estancias de investigación, colaboraciones internacionales, congresos y divulgación
+(apartados~\ref{sec:mobility}--\ref{sec:dissemination}).
+
+\begin{figure}[H]
+\centering
+\begin{ganttchart}[
+    hgrid, vgrid={*1{dotted}},
+    x unit=0.55cm, y unit chart=0.55cm,
+    time slot format=simple,
+    title height=1,
+    bar/.append style={fill=MSBlue!70},
+    milestone/.append style={fill=red},
+    bar label font=\footnotesize,
+    group label font=\footnotesize\bfseries
+  ]{1}{24}
+  \gantttitle{A1}{4}\gantttitle{A2}{4}\gantttitle{A3}{4}\gantttitle{A4}{4}\gantttitle{A5}{4}\gantttitle{A6}{4}\\
+  \ganttbar{PdT0 Recursos y grupo}{1}{24}\\
+  \ganttbar{PdT1 Turbulencia supercrítica}{1}{20}\\
+  \ganttbar{PdT2 Causalidad y extremos}{1}{16}\\
+  \ganttbar{PdT3 Predicción basada en datos}{5}{24}\\
+  \ganttbar{PdT4 Solvers y modelos HPC}{1}{24}\\
+  \ganttbar{PdT5 Movilidad (UBC)}{2}{3}\ganttbar[inline]{}{6}{6}\ganttbar[inline]{}{10}{10}\\
+  \ganttmilestone{Evaluación del 3.\textsuperscript{er} año}{12}\\
+  \ganttmilestone{Defensa tesis 1}{18}\\
+  \ganttmilestone{Defensa tesis 2}{23}
+\end{ganttchart}
+\caption{Cronograma por trimestres a lo largo de los seis años de contrato (A = año).
+\TODO{alinear A1 con el inicio real del contrato (primer cuatrimestre posible, base 8.3) y
+con las fechas reales de las estancias}}
+\end{figure}
+
+\subsection{Movilidad investigadora}\label{sec:mobility}
+\begin{itemize}
+\item \textbf{2026 (realizada)}: CTR Summer Program, Universidad de Stanford (1 mes, con
+certificado), sobre fluidos supercríticos, eventos extremos y causalidad. Proyecto:
+\emph{Inferencia causa--efecto en eventos extremos de flujo de calor en la pared en flujos
+supercríticos}. \TODO{colaboradores}
+\item \textbf{Junio--agosto de 2027 (financiada y ya organizada)}: University of British
+Columbia (Canadá). Investigación en turbulencia multifísica y causalidad. Anfitri\'on:
+\TODO{p.~ej., Prof.~Mona Rahmani -- confirmar}; financiación: \TODO{programa}
+\item \textbf{2027--2030 (prevista, años 1--3)}: estancias breves en grupos europeos que
+complementan el plan. Por ejemplo, el grupo del Prof.\ Mario Di Renzo (Università del
+Salento, Italia), sobre simulación en GPU de flujos compresibles, de alta entalpía y
+multifísicos. \TODO{verificar la afiliación y añadir 1--2 grupos europeos más y sus temas}
+\end{itemize}
+Estas estancias refuerzan la internacionalización y darán lugar a publicaciones y
+solicitudes conjuntas (p.~ej., MSCA Doctoral Networks, convocatorias EuroHPC).
+
+\subsection{Recursos y estrategia de financiación}\label{sec:resources}
+\begin{itemize}
+\item \textbf{Nacional}: Plan Estatal -- Proyectos de Generación de Conocimiento (PID),
+primero como miembro del equipo y después como investigador principal. Convocatorias Ramón
+y Cajal y Consolidación Investigadora cuando sea elegible. Contratos predoctorales FPI/FPU
+vinculados a los proyectos.
+\item \textbf{Autonómica}: AGAUR SGR (con el grupo del departamento), ayudas predoctorales
+FI y Doctorados Industriales con empresas.
+\item \textbf{Europea}: ERC Starting Grant (objetivo: años 3--5), MSCA Doctoral Networks y
+Postdoctoral Fellowships con acogida en la UPC, Horizonte Europa Clúster 5 (Clima, Energía
+y Movilidad).
+\item \textbf{Cálculo}: asignaciones competitivas en la RES (MareNostrum~5), EuroHPC JU y
+socios internacionales.
+\item \textbf{Industria y transferencia}: contratos con empresas del sector energético
+(ciclos de sCO$_2$, hidrógeno) y de propulsión aeroespacial, con el apoyo de los servicios
+de transferencia de la UPC.
+\end{itemize}
+\TODO{enumerar los proyectos en los que ya participas y las primeras solicitudes previstas, con fechas}
+
+\subsection{Dirección de tesis doctorales y creación de grupo}
+Mi objetivo es codirigir dos tesis doctorales durante el contrato y dirigir una tercera en
+solitario a partir del cuarto año. Temas propuestos:
+\begin{enumerate}
+\item Mecanismos causales y predicción de eventos extremos de transferencia de calor en
+turbulencia de pared supercrítica (PdT1--PdT2--PdT3).
+\item Modelización de submalla y de pared para gas real en LES acelerada en GPU de flujos
+transcríticos (PdT1--PdT4).
+\item Modelos de orden reducido basados en datos para componentes termofluidodinámicos de
+ciclos de potencia de CO$_2$ supercrítico (PdT3, con la industria).
+\end{enumerate}
+Los trabajos de fin de grado y de máster (TFG/TFM) alimentarán estas líneas
+(apartado~\ref{sec:theses}).
+
+\subsection{Colaboraciones, transferencia y difusión}\label{sec:dissemination}
+\begin{itemize}
+\item \textbf{Colaboraciones}: Departamento de Mecánica de Fluidos de la UPC; CTR-Stanford;
+UBC; grupos europeos visitados en el PdT5. \TODO{añadir colaboradores actuales}
+\item \textbf{Revistas}: J.\ Fluid Mech., Phys.\ Rev.\ Fluids, J.\ Comput.\ Phys.,
+Int.\ J.\ Heat Mass Transfer, Int.\ J.\ Heat Fluid Flow, J.\ Supercrit.\ Fluids.
+\item \textbf{Congresos}: APS-DFD, ETMM, TSFP, ECCOMAS/WCCM, EUROMECH.
+\item \textbf{Ciencia abierta}: códigos de código abierto (GitHub, DOI de Zenodo) y bases
+de datos abiertas, siguiendo los principios FAIR y los planes de gestión de datos de los
+proyectos.
+\end{itemize}
+
+% =====================================================================
+\section{Proyecto docente}
+
+\subsection{Experiencia docente}
+En la EEBE he impartido la teoría completa de \emph{Termodinámica y Transferencia de Calor}
+(TTC) \TODO{grados, cursos, horas} y las sesiones de laboratorio de \emph{Mecánica de
+Fluidos} (MF) \TODO{grados, cursos, horas}. En el cuatrimestre de primavera de 2027
+impartiré la teoría de \emph{Ingeniería de Fluidos}. Estas asignaturas cubren el núcleo del
+perfil docente de la convocatoria: termodinámica, transferencia de calor y mecánica de
+fluidos, tanto en el nivel fundamental como en el aplicado. En el ICE de la UPC he
+completado el curso \emph{M2.4 -- Atenea: curso de nivel medio} (2026), que aplico al diseño
+de las asignaturas en el campus virtual (actividades condicionales, grupos de laboratorio,
+control de asistencia). He realizado además varios cursos de
+catalán (nivel actual B1) \TODO{confirmar}.
+
+\subsection{Contexto: los grados de la EEBE}
+La EEBE ofrece grados de 240 ECTS que comparten un bloque común inicial. En ese bloque,
+\emph{Mecánica de Fluidos} (3.\textsuperscript{er} cuatrimestre) y \emph{Termodinámica y
+Transferencia de Calor} (4.\textsuperscript{o} cuatrimestre) son obligatorias en todos los
+grados de ingeniería \TODO{comprobar los cuatrimestres en los planes de estudios vigentes}.
+Las asignaturas específicas de cursos posteriores se apoyan en ellas. El Máster
+Universitario en Tecnologías Mecánicas incluye \emph{Mecánica de Fluidos Computacional}. La
+docencia sigue el marco del EEES: carga de trabajo en ECTS (25--30 h/ECTS), aprendizaje
+basado en competencias y evaluación continua.
+
+\subsection{Asignaturas de la convocatoria y adecuación}
+\begin{center}
+\small
+\begin{tabularx}{\textwidth}{@{}p{3.9cm}p{3.6cm}X@{}}
+\toprule
+\textbf{Asignatura} & \textbf{Titulación(es)} & \textbf{Mi contribución} \\
+\midrule
+Termodinámica y Transferencia de Calor & Grados en Ingeniería de la Energía, Mecánica, Biomédica, Electrónica Industrial y Automática, y Eléctrica & Teoría impartida (apartado~\ref{sec:ttc}); herramientas computacionales de propiedades; laboratorios de transferencia de calor \\
+Termodinámica & Grado en Ingeniería de Materiales & Mismos fundamentos que TTC; propiedades de fluidos reales \\
+Mecánica de Fluidos & Todos los grados de la EEBE & Laboratorio impartido; teoría y problemas \\
+Ingeniería de Fluidos & Grado en Ingeniería Mecánica & Teoría a partir de la primavera de 2027 (apartado~\ref{sec:ef}) \\
+Ingeniería Térmica & Grado en Ingeniería Mecánica & Intercambiadores de calor y sistemas térmicos; vínculo con la transferencia de calor supercrítica \\
+Centrales Eléctricas y Energías Renovables & Grado en Ingeniería Eléctrica & Ciclos Rankine y Brayton, ciclos de sCO$_2$, energías renovables \\
+Generación Termofluidodinámica & Grado en Ingeniería de la Energía & Turbomáquinas y generación de energía térmica \\
+Mecánica de Fluidos Computacional & Máster Universitario en Tecnologías Mecánicas & CFD, HPC (MPI/CUDA) y análisis de flujos (apartado~\ref{sec:cfm}) \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\subsection{Asignatura desarrollada: Termodinámica y Transferencia de Calor (TTC)}\label{sec:ttc}
+\NOTE{Adaptado del apartado 4.5 del proyecto de Profesor Agregado; reescribir con tus propias palabras y contrastar con la guía docente vigente de TTC.}
+
+\textbf{Requisitos previos.} Haber superado Física II y Cálculo Numérico--Ecuaciones
+Diferenciales; cursar Mecánica de Fluidos en paralelo o con anterioridad.
+
+\textbf{Objetivos de aprendizaje.} Al finalizar la asignatura, el estudiantado debe ser capaz de:
+\begin{itemize}
+\item enunciar y aplicar los principios cero, primero y segundo de la termodinámica a sistemas cerrados y abiertos;
+\item modelizar componentes (cilindro--pistón, turbinas, compresores, intercambiadores de
+calor), representar procesos en diagramas termodinámicos y evaluar propiedades de sustancias reales;
+\item analizar ciclos de potencia y de refrigeración (Rankine, Brayton, compresión de vapor) y calcular su rendimiento;
+\item distinguir la conducción, la convección y la radiación, y aplicarlas a problemas de aislamiento, refrigeración e intercambio de calor.
+\end{itemize}
+Competencia transversal: aprendizaje autónomo (nivel 2).
+
+\textbf{Temario.}
+(1) Fundamentos: sistemas, temperatura, gas ideal, propiedades de sustancias puras.
+(2) Primer principio: trabajo, energía interna, calor, entalpía, calores específicos, procesos politrópicos, sistemas cerrados y abiertos.
+(3) Segundo principio: entropía, irreversibilidades, máquinas térmicas, ciclo de Carnot, rendimientos isentrópicos, ciclos Brayton, Rankine y de refrigeración.
+(4) Conducción: ecuación del calor, paredes planas y cilíndricas, resistencias térmicas, coeficiente global.
+(5) Convección: natural y forzada, flujos internos y externos, correlaciones empíricas.
+(6) Radiación: cuerpo negro y cuerpo gris, ley de Kirchhoff, factores de visión, intercambio radiativo.
+
+\textbf{Metodología.} Se combinan clases expositivas participativas con el \emph{aula
+invertida}. Cada semana, una sesión de una hora introduce el bloque siguiente y el material
+que debe estudiarse (vídeos breves, apuntes, ejemplos resueltos). La sesión de dos horas se
+dedica a la resolución de problemas en grupos reducidos. El estudiantado utiliza
+herramientas computacionales de propiedades (p.~ej., la librería de código abierto CoolProp
+en cuadernos de Python) para explorar el comportamiento de fluidos reales y de ciclos. Un
+miniproyecto vincula la asignatura con la tecnología actual, p.~ej., un ciclo de CO$_2$
+supercrítico.
+
+\textbf{Dedicación (6 ECTS, 150 h).}
+\begin{center}\small
+\begin{tabular}{@{}llrr@{}}
+\toprule
+& Actividad & Horas & \% \\ \midrule
+Dirigida & Teoría y ejemplos & 30 & 20 \\
+         & Resolución de problemas en grupo & 15 & 10 \\
+         & Laboratorio & 15 & 10 \\
+Autónoma & Estudio, problemas y proyecto & 90 & 60 \\ \bottomrule
+\end{tabular}
+\end{center}
+
+\textbf{Evaluación.} Cuestionarios previos en Atenea (15\,\%); entregables en el aula
+(15\,\%); informes de laboratorio (20\,\%); examen parcial (20\,\%); examen final (30\,\%).
+\TODO{contrastar con la normativa de evaluación vigente de TTC en la EEBE}
+
+\textbf{Prácticas de laboratorio.} Termometría, calorimetría, conducción, procesos y ciclos, radiación.
+
+\textbf{Bibliografía.} Y.\ A.\ \c{C}engel, M.\ A.\ Boles, \emph{Termodinámica},
+McGraw-Hill. Y.\ A.\ \c{C}engel, A.\ J.\ Ghajar, \emph{Transferencia de calor y masa:
+fundamentos y aplicaciones}, McGraw-Hill. M.\ J.\ Moran, H.\ N.\ Shapiro, \emph{Fundamentos
+de termodinámica técnica}, Reverté.
+
+\textbf{Planificación (15 semanas).} Semanas 1--2: tema 1; semanas 3--6: tema 2; semanas
+7--9: tema 3 (examen parcial en la semana 8); semanas 10--11: tema 4; semanas 12--13: tema
+5; semanas 14--15: tema 6. Sesiones de laboratorio cada dos semanas.
+
+\subsection{Ingeniería de Fluidos}\label{sec:ef}
+Impartiré la teoría de esta asignatura a partir de la primavera de 2027.
+\TODO{Copiar el temario de la guía docente vigente (p.~ej., flujo en conductos y redes,
+bombas y turbomáquinas, semejanza, cavitación, sistemas de fluidos). Describir la
+metodología prevista: casos de estudio de instalaciones reales, proyectos de selección de
+bombas y solvers sencillos de redes en Python. Describir la evaluación.}
+
+\subsection{Asignatura de máster: Mecánica de Fluidos Computacional}\label{sec:cfm}
+La asignatura (aproximadamente 1,5~h de teoría + 1,5~h de laboratorio por semana) abarca
+Python para computación científica, métodos numéricos (EDO, EDP, álgebra lineal), un solver
+de Navier--Stokes incompresible/compresible, computación de altas prestaciones (OpenMP, MPI,
+CUDA) y análisis computacional de flujos (estabilidad, POD, DMD). La evaluación combina
+entregables, un proyecto de curso por parejas y un examen final. Mi experiencia
+investigadora se relaciona directamente con las partes de HPC y de flujo compresible.
+Propongo:
+\begin{itemize}
+\item una sesión de laboratorio en GPU que acelere el ejemplo de Jacobi/Poisson de la
+asignatura con CUDA u OpenACC y mida la aceleración y la escalabilidad;
+\item ampliar el tema de análisis de flujos con análisis de series temporales basado en
+datos y en causalidad (p.~ej., el caso de la cavidad con tapa móvil), vinculado a la línea de
+investigación B;
+\item proyectos de curso que puedan convertirse en TFM dentro del plan de investigación.
+\end{itemize}
+\TODO{acordar la contribución concreta con los coordinadores de la asignatura}
+
+\subsection{Innovación docente}
+\begin{itemize}
+\item Aula invertida y vídeos breves compartidos entre el profesorado de la asignatura, para
+homogeneizar los contenidos entre grupos.
+\item Cuadernos computacionales (Python, CoolProp, CFD sencilla) en TTC, MF e Ingeniería de
+Fluidos, para acercar las herramientas de fluidos reales y de simulación al nivel de grado.
+\item Aprendizaje basado en proyectos sobre casos de la transición energética (ciclos de
+sCO$_2$, hidrógeno, bombas de calor).
+\item Uso responsable de la inteligencia artificial generativa en la resolución de problemas
+y en los informes, de acuerdo con las directrices de la UPC.
+\item Formación continua en el ICE, continuando el itinerario iniciado con el curso de Atenea (2026), con prioridad para metodologías activas y evaluación, y participación en proyectos de
+innovación docente.
+\end{itemize}
+
+\subsection{Trabajos de fin de grado, de máster y tesis doctorales}\label{sec:theses}
+\textbf{TFG}: análisis termodinámico de un ciclo Brayton de CO$_2$ supercrítico; estudio
+experimental y numérico de un intercambiador de calor; aceleración en GPU de un solver de la
+ecuación del calor.\\
+\textbf{TFM}: LES de flujo calentado en tubería a presión supercrítica; análisis causal de
+eventos de transferencia de calor en bases de datos de turbulencia; modelo sustituto basado
+en redes neuronales del flujo de calor en la pared.\\
+\textbf{Tesis doctorales}: temas indicados en el proyecto de investigación.
+
+\subsection{Compromiso lingüístico}
+Impartiré docencia en catalán, castellano e inglés, de acuerdo con el plan lingüístico de la
+EEBE. Actualmente tengo el nivel B1 de catalán \TODO{confirmar} y he realizado varios
+cursos de catalán \TODO{enumerar}. He solicitado la exención temporal prevista en el
+art.~4.2 de la Normativa de acreditación del conocimiento de catalán del PDI de la UPC (Acuerdo
+CG/2025/06/29) y, al incorporarme, me inscribiré en el itinerario de formación en catalán del
+PDI del Servicio de Lenguas y Terminología (SLT). Mi objetivo es obtener el certificado C1
+(itinerario del SLT o examen CIFALC) en los dos primeros años, muy por delante de la
+evaluación del tercer año y del plan de estabilización, que lo exigen.
+
+\subsection{Igualdad e inclusión}
+Aplicaré el Plan de Igualdad de Género de la UPC en la docencia y en la investigación. Esto
+implica utilizar un lenguaje y unos ejemplos inclusivos, buscar el equilibrio en la
+captación de estudiantes e investigadores, atender al estudiantado con necesidades
+específicas y apoyar a las mujeres en la ingeniería mediante actividades de divulgación y
+mentoría.
+
+% =====================================================================
+\section{Hitos del tercer año (autoevaluación)}
+\begin{itemize}
+\item Docencia: docencia regular en al menos 3 asignaturas del perfil; material de aula
+invertida de TTC disponible; Ingeniería de Fluidos consolidada; formación en el ICE
+completada; nivel C1 de catalán.
+\item Investigación: 4--6 artículos Q1 en las tres líneas; al menos una solicitud de
+proyecto competitivo como investigador principal o coinvestigador principal; al menos una
+asignación de cálculo; 1--2 doctorandos incorporados.
+\item Internacionalización: estancia en la UBC (2027) y al menos una estancia europea
+realizadas, con publicaciones conjuntas.
+\end{itemize}
+
+\end{document}

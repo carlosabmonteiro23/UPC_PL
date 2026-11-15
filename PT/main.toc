@@ -1,0 +1,23 @@
+\babel@toc {british}{}\relax 
+\contentsline {section}{\numberline {1}Research plan}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Research background}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Motivation and research objectives}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Work packages}{4}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Research mobility}{5}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Resources and funding strategy}{5}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Computational resources and software tools}{6}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}PhD supervision and group building}{6}{subsection.1.7}%
+\contentsline {subsection}{\numberline {1.8}Collaborations, transfer and dissemination}{6}{subsection.1.8}%
+\contentsline {section}{\numberline {2}Teaching plan}{7}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Teaching background}{7}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Personal vision of teaching}{7}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Context: the EEBE degrees}{8}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Subjects of the call and adequacy}{8}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Developed subject: Thermodynamics and Heat Transfer (TTC)}{8}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Fluid Engineering}{9}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Master's subject: Computational Fluid Mechanics}{11}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Teaching innovation}{11}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.9}Bachelor's, master's and PhD theses}{11}{subsection.2.9}%
+\contentsline {subsection}{\numberline {2.10}Language commitment}{11}{subsection.2.10}%
+\contentsline {subsection}{\numberline {2.11}Equality and inclusion}{12}{subsection.2.11}%
+\contentsline {section}{\numberline {3}Year-3 milestones (self-assessment)}{12}{section.3}%
