@@ -1,0 +1,260 @@
+% =====================================================================
+%  PLA DE TREBALL (PT) -- Concurs LE-403/729 (UPC) -- SKELETON
+%  Structure drafted 15/11/2026 from the analysis of PT_Royano, PT_Joan and
+%  Projecte_Professor_Agregat, adapted to the HAP (3 research lines).
+%  Orange [Note: ...] = what to write and where it comes from.
+%  Red [TODO: ...]    = information still to be provided.
+%  Target length: 16--20 pages (Royano 17, Joan 25). American English.
+%  Personal data: ONLY name and surname (base 3.5).
+% =====================================================================
+\documentclass[11pt]{article}
+\usepackage{lector}
+\newcommand{\sectionbreak}{\clearpage}
+%\finaltrue
+\setupheader{PT}
+
+\title{\textbf{Pla de Treball}\\[2pt]\large Work Plan}
+\author{\Large \CandName}
+\date{}
+
+\begin{document}
+\maketitle
+\thispagestyle{plain}
+\vspace{0.5cm}
+\begin{center}\postdata\end{center}
+
+\vspace{0.8cm}
+\noindent\textbf{Summary.}
+\NOTE{One paragraph (8--10 lines). State how the plan answers the three requirements of the
+call: (i) teaching in the thermofluid subjects of the EEBE and the Master's Degree in
+Mechanical Technologies; (ii) research in the three lines of the department; (iii)
+supervision of doctoral theses. Name the three research lines exactly as in HAP 3.3 and the
+subjects developed in Part 2. End with the six-year horizon (2027--2032) and the Year-3
+evaluation.}
+
+\newpage
+\tableofcontents
+
+% =====================================================================
+\section{Research plan}
+
+\subsection{Background and motivation}
+\NOTE{1--1.5 pages. Royano's ``Antecedentes y justificaci\'on'' model: start from what the
+PhD established and which open questions it left, then the engineering motivation. Reuse
+the narrative of HAP 3.3 but with references to the literature.}
+\begin{itemize}
+  \item Engineering motivation: supercritical fluids in sCO$_2$ power and refrigeration
+  cycles, regenerative cooling of rocket engines, thermal management, chemical processing;
+  hypersonic aerothermal loads for space exploration. \TODO{3--5 references}
+  \item What my PhD and postdoctoral work established: DNS methodology for transcritical
+  wall turbulence [J5, J6], flow regimes and secondary flows in ducts [J2, J4, R1], the
+  GPU-resident solver RHEA-X [J1].
+  \item Open questions that define this plan:
+  \begin{itemize}
+    \item Which mechanisms identified in canonical flows govern heat transfer and pressure
+    loss in engineering configurations?
+    \item Which flow processes precede extreme wall-heat-flux events, and how early can
+    they be anticipated?
+    \item How can high-fidelity solvers sample rare events at exascale with real-fluid
+    thermodynamics?
+  \end{itemize}
+  \item Link to the department: SCRAMBLE (ERC), GReCEF, the three lines of the call.
+\end{itemize}
+
+\subsection{Research lines and objectives}
+\NOTE{2--2.5 pages. Same three lines as HAP 3.3, each mapped to the profile line(s) of the
+call. Royano's format works well: ``Current status'' (one short paragraph, with the
+supporting papers) and ``Strategy 2027--2032'' (two objectives per line, numbered O1--O6).
+Keep objectives measurable.}
+
+\subsubsection*{Line 1 -- Physics of multiphysics turbulence in supercritical and
+compressible flows (profile line a)}
+\begin{itemize}
+  \item \textbf{Current status.} \TODO{PhD results; [J2]--[J7], [R1]}
+  \item \textbf{O1.} \TODO{e.g.\ high-fidelity databases of heated/cooled channels and ducts
+  across the pseudo-boiling line, including engineering-relevant geometries}
+  \item \textbf{O2.} \TODO{e.g.\ mechanisms governing heat-transfer deterioration/enhancement
+  and pressure loss; reference data for engineering models (regenerative cooling, sCO$_2$
+  heat exchangers)}
+\end{itemize}
+
+\subsubsection*{Line 2 -- Causality and data-driven prediction of extreme events (profile
+line b)}
+\begin{itemize}
+  \item \textbf{Current status.} \TODO{CTR 2026; [R2], [R3]; RES IM-2026-1-0034;
+  collaborations (Chandra, Lozano-Dur\'an, Mart\'inez-S\'anchez, Yang)}
+  \item \textbf{O3.} \TODO{e.g.\ a Lagrangian causality framework (transfer entropy,
+  non-stationary formulations) to rank the precursors of extreme wall-heat-flux events}
+  \item \textbf{O4.} \TODO{e.g.\ causality-informed predictors and surrogates; transfer to
+  hypersonic boundary layers (Salento) and ocean turbulence/microplastics (UBC)}
+\end{itemize}
+
+\subsubsection*{Line 3 -- Distributed and GPU-accelerated high-fidelity CFD for exascale
+computing (profile line c)}
+\begin{itemize}
+  \item \textbf{Current status.} \TODO{RHEA-X [J1]; surrogates [R4]; hackathons; 6 HPC
+  allocations}
+  \item \textbf{O5.} \TODO{e.g.\ scalable, performance-portable open-source solver on
+  pre-exascale/exascale systems; directive-based vs.\ vendor-specific programming}
+  \item \textbf{O6.} \TODO{e.g.\ efficient real-fluid property evaluation and in-situ
+  Lagrangian tracking of large particle ensembles; reproducible benchmarks}
+\end{itemize}
+
+\subsubsection*{Long-term direction}
+\NOTE{One paragraph: the three lines converge on high-speed aerothermodynamics for space
+exploration and on industry-linked thermofluid design (as in the closing paragraph of HAP
+3.3). This shows a research trajectory beyond the contract.}
+
+\subsection{Work plan and timeline (2027--2032)}
+\NOTE{2--3 pages. Royano's two-phase structure fits the Lector contract and its Year-3
+evaluation: Phase 1 (Y1--Y3) consolidation and independence; Phase 2 (Y4--Y6) expansion,
+PhD supervision and transfer. Joan's format for each WP: tasks, required resources,
+expected outcomes. Add numbered milestones (H1, H2, ...) tied to papers, proposals and
+theses, and a Gantt chart (reuse the pgfgantt chart of the current PT).}
+\begin{itemize}
+  \item \textbf{WP0 -- Resources, group building and management (Y1--Y6).} \TODO{}
+  \item \textbf{WP1 -- Supercritical and compressible turbulence (O1, O2).} \TODO{tasks,
+  resources, outcomes}
+  \item \textbf{WP2 -- Lagrangian causality and extreme events (O3).} \TODO{}
+  \item \textbf{WP3 -- Prediction and transfer to other flows (O4).} \TODO{UBC 2027,
+  Salento 2028}
+  \item \textbf{WP4 -- Exascale solver and real-fluid models (O5, O6).} \TODO{}
+  \item \textbf{WP5 -- Mobility, collaborations, dissemination and transfer (Y1--Y6).}
+  \TODO{}
+\end{itemize}
+\NOTE{Milestones table: e.g.\ H1 publication of [R1]/[R2] (Y1); H2 first own competitive
+project as PI (Y1--Y2); H3 first PhD student (Y2); H4 open release of the exascale solver
+version (Y3); ... Expected outcomes per WP in numbers (Q1 papers, datasets, software
+releases, theses).}
+
+\subsection{Resources, funding strategy and risk management}
+\NOTE{1.5 pages. Combine Joan (list of target calls; computational resources; software)
+and Royano (staged strategy + contingency plan). Be concrete and realistic.}
+\begin{itemize}
+  \item \textbf{Starting point.} SCRAMBLE (ERC StG) resources and GReCEF infrastructure.
+  \TODO{project end date}
+  \item \textbf{Competitive funding (as PI or co-PI).} AEI \emph{Generaci\'on de
+  Conocimiento} (young-researcher modality); AGAUR; ERC Starting Grant (medium term);
+  MSCA Doctoral Networks / Postdoctoral Fellowships (as host); Horizon Europe /
+  EuroHPC; Mitacs and bilateral mobility programs. \TODO{check eligibility and dates}
+  \item \textbf{Computing.} RES and EuroHPC calls; Digital Research Alliance of Canada via
+  UBC; track record of 6 allocations ($>$10 M core and GPU hours).
+  \item \textbf{Software and data.} RHEA-X (open source), thermophysical surrogate
+  software [R4], CoolProp; FAIR data repositories (Zenodo, Figshare+, BLASTNet).
+  \item \textbf{Industry and transfer.} \MAYBE{Smart Ocean Peniche}; \TODO{other companies
+  or industrial doctorates (Doctorat Industrial)}
+  \item \textbf{Contingency plan.} \NOTE{What happens if a proposal or a PhD grant fails:
+  e.g.\ scope reduction to canonical cases, TFM students for auxiliary tasks, reuse of
+  existing databases, smaller allocations.}
+\end{itemize}
+
+\subsection{PhD supervision and group building}
+\NOTE{0.5--1 page. Proposed thesis topics (one per line or crossing lines), funding route
+for each (FPI/FPU, AGAUR FI, Doctorat Industrial, project), co-supervision first, sole
+supervision later; TFG/TFM as entry point. Mention the hackathon team-leading experience
+carefully (no overclaiming).}
+\begin{enumerate}
+  \item \TODO{Thesis 1 -- Lines 1--2: mechanisms and prediction of extreme heat-transfer
+  events in supercritical wall turbulence}
+  \item \TODO{Thesis 2 -- Line 3: exascale real-fluid solver and Lagrangian sampling}
+  \item \TODO{Thesis 3 (optional) -- industrial doctorate / sCO$_2$ components}
+\end{enumerate}
+
+\subsection{Mobility and collaborations}
+\NOTE{0.5--1 page. Planned stays with dates and goals (UBC summer 2027, 3 months, Mitacs;
+Universit\`a del Salento 2028, 6 months, teaching concentrated in one semester); ongoing
+collaborations (CTR, Caltech/MIT, Penn State, Stanford/Ihme) and prospective ones (IST,
+Smart Ocean). Explain what each brings to the plan, not only the names.}
+
+\subsection{Open science, transfer and dissemination}
+\NOTE{0.5 page. Target journals (JFM, Phys.\ Rev.\ Fluids, IJHMT, Phys.\ Fluids, CPC, JCP);
+conferences (THMT-27, EFDC3 2027, APS DFD, ETMM, ECCOMAS); open-source releases; FAIR
+datasets; outreach (Setmana de la Ci\`encia, UPC Open Days).}
+
+% =====================================================================
+\section{Teaching plan}
+
+\subsection{Teaching background and personal vision}
+\NOTE{0.5--1 page. Brief: subjects taught, hours, surveys, coordination support (details
+are in the HAP). Then a short personal vision: linking fundamental physics with
+engineering design; industrial cases (inverter cooling at Continental); simulation as a
+learning tool; feedback-based learning (``predict, measure, explain'').}
+
+\subsection{Context: the degrees and subjects of the call}
+\NOTE{1 page. Joan's ``Contextualization'' kept short (do not copy the 15 pages of the
+Agregat project on the EHEA). EEBE/EPSEVG degrees, where each subject sits in the study
+plan, number of groups. Then a table: Subject -- Degree(s) -- ECTS -- My contribution.
+Reuse the table of the current PT.}
+\begin{itemize}
+  \item Thermodynamics and Heat Transfer (820020, 6 ECTS); Thermodynamics.
+  \item Fluid Mechanics (820013).
+  \item Fluid Engineering (340058, 6 ECTS, EPSEVG).
+  \item Thermal Engineering; Power Plants and Renewable Energies; Thermofluid-Dynamic
+  Generation.
+  \item Computational Fluid Mechanics (Master's Degree in Mechanical Technologies).
+\end{itemize}
+
+\subsection{Developed subject: Thermodynamics and Heat Transfer (TTC)}
+\NOTE{3--4 pages. Royano's five-part structure for each developed subject. Base it on the
+official course guide of 820020 and on the TTC plan of the Agregat project (prerequisites,
+objectives, methodology, assessment, resources, syllabus, schedule), but in your own words
+and showing what you add.}
+\subsubsection*{Learning objectives} \TODO{}
+\subsubsection*{Contents and syllabus} \TODO{units and weeks}
+\subsubsection*{Methodology} \TODO{active learning feasible with large groups; real-fluid
+property tools (CoolProp) and computational examples; industrial cases}
+\subsubsection*{Assessment} \TODO{as in the course guide; continuous assessment}
+\subsubsection*{Schedule and student workload} \TODO{60 h on-site + 90 h autonomous}
+
+\subsection{Developed subject: Fluid Engineering (EPSEVG)}
+\NOTE{2--3 pages. Same five-part structure. This is the strongest teaching argument: you
+will coordinate it and teach groups M65 and M66 in spring 2027. Reuse the detailed section
+of the current PT (objectives, 6 units, methodology, workload 52.5/7.5/90, assessment
+CP1/CP2/labs/problems, bibliography). Note: the course guide lists Catalan as the teaching
+language.}
+\subsubsection*{Learning objectives} \TODO{}
+\subsubsection*{Contents and syllabus} \TODO{}
+\subsubsection*{Methodology} \TODO{external aerodynamics cases (Formula Student, truck drag,
+NACA~0012 database [R5]); turbomachinery}
+\subsubsection*{Assessment} \TODO{}
+\subsubsection*{Schedule and student workload} \TODO{}
+
+\subsection{Master's subject: Computational Fluid Mechanics}
+\NOTE{1 page. Proposal of contributions agreed with the subject coordinators: GPU laboratory
+session (CUDA/OpenACC on the subject's Poisson/Jacobi example), data-driven and causal flow
+analysis, course projects that lead to TFM.}
+
+\subsection{Teaching innovation and training plan}
+\NOTE{1 page. Joan's ``Training Plan Innovation'' + ``Methodology Innovation'': concrete,
+feasible actions (computational notebooks in TTC/MF/Fluid Engineering; laboratory guides
+built around ``predict, measure, explain''; responsible use of generative AI following UPC
+guidelines; flipped-classroom material shared among lecturers). ICE training pathway
+(Atenea M2.4, conflict management, active methodologies) and participation in
+teaching-innovation projects.}
+
+\subsection{Supervision of TFG, TFM and PhD theses}
+\NOTE{0.5 page. Example topics per level, each feeding a research line.}
+
+\subsection{Language plan}
+\NOTE{0.5 page. Current A2; B1 course scheduled in 2026; C1 within the first two years
+(SLT pathway or CIFALC); temporary exemption requested under CG/2025/06/29. Teaching
+languages and how the EPSEVG Catalan requirement will be met.}
+
+\subsection{Equality, inclusion and sustainability}
+\NOTE{0.5 page. Joan includes this; keep it concrete: inclusive examples and groups, UPC
+gender-equality plan, sustainability in TFG topics (energy transition).}
+
+% =====================================================================
+\section{Year-3 milestones and self-assessment}
+\NOTE{0.5--1 page. Table of measurable indicators for the intermediate evaluation:
+publications (Q1, first/corresponding author), funding obtained as PI, PhD students
+recruited, teaching (surveys, coordination, innovation projects), Catalan C1, mobility
+completed. Add Year-6 targets in a second column.}
+
+% =====================================================================
+\section*{References}
+\addcontentsline{toc}{section}{References}
+\NOTE{Numbered references cited in Part 1 and in the subject plans. Reuse and verify the 13
+references of the current PT.}
+
+\end{document}

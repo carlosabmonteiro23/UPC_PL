@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1794568072 "main.tex" "main.pdf" "main" 1794568073
+["pdflatex"] 1794764549 "main.tex" "main.pdf" "main" 1794764551
   "/etc/texmf/web2c/texmf.cnf" 1654593952 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -254,12 +254,12 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1654593971 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1769838248 2799796 1298ec03ec103d1e650bd076904485db ""
-  "lector.sty" 1794563089 6520 b759234047374f8d59543162f0defe85 ""
+  "lector.sty" 1794764541 6520 ee2e11396d41856420902be1f9100387 ""
   "logo-upc.jpeg" 1793877590 71975 8b0f1a216663429c3567c58d22a5f1bc ""
-  "main.aux" 1794568073 5936 34369138554b5a1fc96726267a498ca7 "pdflatex"
-  "main.out" 1794568073 4464 97936b29178f94ee54f24a8212f35713 "pdflatex"
+  "main.aux" 1794764550 5936 34369138554b5a1fc96726267a498ca7 "pdflatex"
+  "main.out" 1794764550 4464 97936b29178f94ee54f24a8212f35713 "pdflatex"
   "main.tex" 1794568067 38076 61b3089f31dc14962bde09450089d0c2 ""
-  "main.toc" 1794568073 2074 a9ac347aaf07a8f06029fb5e90e89025 "pdflatex"
+  "main.toc" 1794764550 2074 a9ac347aaf07a8f06029fb5e90e89025 "pdflatex"
   "style.sty" 1793877590 14907 245763fd14b1d6766acd342399007263 ""
   (generated)
   "main.aux"
