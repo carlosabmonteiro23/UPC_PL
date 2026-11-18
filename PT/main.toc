@@ -10,55 +10,57 @@
 \contentsline {subsection}{\numberline {1.3}Growth of the research lines and long-term direction}{7}{subsection.1.3}%
 \contentsline {paragraph}{Long-term direction.}{7}{paragraph*.7}%
 \contentsline {subsection}{\numberline {1.4}Work plan and timeline}{7}{subsection.1.4}%
-\contentsline {paragraph}{WP1 -- Supercritical turbulence databases (Line~1; O1--O3; Y1--Y6).}{7}{paragraph*.8}%
-\contentsline {paragraph}{WP2 -- Causality and extreme events (Line~2; O4--O6; Y1--Y6).}{7}{paragraph*.9}%
+\contentsline {paragraph}{WP1 -- Supercritical turbulence databases (Line~1; O1--O3; Y1--Y6).}{8}{paragraph*.8}%
+\contentsline {paragraph}{WP2 -- Causality and extreme events (Line~2; O4--O6; Y1--Y6).}{8}{paragraph*.9}%
 \contentsline {paragraph}{WP3 -- Solver performance and exascale readiness (Line~3; O7, O8; Y1--Y6).}{8}{paragraph*.10}%
 \contentsline {paragraph}{WP4 -- Resources, group building and management (Y1--Y6).}{8}{paragraph*.11}%
 \contentsline {paragraph}{WP5 -- Mobility, collaborations and dissemination (Y1--Y6).}{8}{paragraph*.12}%
 \contentsline {subsection}{\numberline {1.5}Resources, funding strategy and risk management}{9}{subsection.1.5}%
 \contentsline {paragraph}{Starting point.}{9}{paragraph*.14}%
-\contentsline {paragraph}{Funding.}{9}{paragraph*.15}%
-\contentsline {paragraph}{Computing resources.}{9}{paragraph*.16}%
-\contentsline {paragraph}{Software and data.}{9}{paragraph*.17}%
-\contentsline {paragraph}{Risk management.}{9}{paragraph*.18}%
-\contentsline {subsection}{\numberline {1.6}Supervision of doctoral theses and group building}{9}{subsection.1.6}%
-\contentsline {subsection}{\numberline {1.7}Mobility and collaborations}{10}{subsection.1.7}%
-\contentsline {subsection}{\numberline {1.8}Open science, transfer and dissemination}{10}{subsection.1.8}%
-\contentsline {section}{\numberline {2}Teaching plan}{12}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Teaching background}{12}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Personal vision of teaching}{12}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Institutional context}{12}{subsection.2.3}%
-\contentsline {paragraph}{The EHEA framework.}{12}{paragraph*.19}%
-\contentsline {paragraph}{The EEBE.}{13}{paragraph*.20}%
-\contentsline {paragraph}{The EPSEVG.}{13}{paragraph*.21}%
-\contentsline {paragraph}{The Department of Fluid Mechanics.}{13}{paragraph*.22}%
-\contentsline {subsection}{\numberline {2.4}Subjects of the call and adequacy}{13}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Developed subject: Thermodynamics and Heat Transfer (TTC)}{14}{subsection.2.5}%
-\contentsline {paragraph}{Prerequisites.}{14}{paragraph*.23}%
-\contentsline {paragraph}{Competences and learning objectives.}{14}{paragraph*.24}%
-\contentsline {paragraph}{Contents.}{14}{paragraph*.25}%
-\contentsline {paragraph}{Methodology.}{15}{paragraph*.26}%
-\contentsline {paragraph}{Assessment.}{15}{paragraph*.27}%
-\contentsline {paragraph}{Workload (6 ECTS, 150 hours).}{15}{paragraph*.28}%
-\contentsline {paragraph}{Resources.}{15}{paragraph*.29}%
-\contentsline {paragraph}{Schedule (15 weeks).}{15}{paragraph*.30}%
-\contentsline {subsection}{\numberline {2.6}Developed subject: Fluid Engineering}{15}{subsection.2.6}%
-\contentsline {paragraph}{Prerequisites and competences.}{16}{paragraph*.31}%
-\contentsline {paragraph}{Learning objectives.}{16}{paragraph*.32}%
-\contentsline {paragraph}{Contents.}{16}{paragraph*.33}%
-\contentsline {paragraph}{Methodology.}{16}{paragraph*.34}%
-\contentsline {paragraph}{Assessment.}{16}{paragraph*.35}%
-\contentsline {paragraph}{Workload (6 ECTS, 150 hours).}{16}{paragraph*.36}%
-\contentsline {paragraph}{Schedule.}{16}{paragraph*.37}%
-\contentsline {paragraph}{Bibliography.}{17}{paragraph*.38}%
-\contentsline {subsection}{\numberline {2.7}Master's subject: Computational Fluid Mechanics}{17}{subsection.2.7}%
-\contentsline {subsection}{\numberline {2.8}Teaching innovation and training plan}{17}{subsection.2.8}%
-\contentsline {subsection}{\numberline {2.9}Generative artificial intelligence in learning}{17}{subsection.2.9}%
-\contentsline {paragraph}{The issue.}{17}{paragraph*.39}%
-\contentsline {paragraph}{The European framework.}{18}{paragraph*.40}%
-\contentsline {paragraph}{What I will do.}{18}{paragraph*.41}%
-\contentsline {subsection}{\numberline {2.10}Supervision of TFG, TFM and doctoral theses}{18}{subsection.2.10}%
-\contentsline {subsection}{\numberline {2.11}Language plan}{19}{subsection.2.11}%
-\contentsline {subsection}{\numberline {2.12}Equality, inclusion and sustainability}{19}{subsection.2.12}%
-\contentsline {section}{\numberline {3}Year-3 milestones and self-assessment}{20}{section.3}%
-\contentsline {section}{References}{23}{section.3}%
+\contentsline {paragraph}{Independent output before the first project.}{9}{paragraph*.15}%
+\contentsline {paragraph}{Funding strategy.}{9}{paragraph*.16}%
+\contentsline {paragraph}{Accreditation and stabilization.}{10}{paragraph*.17}%
+\contentsline {paragraph}{Computing resources.}{10}{paragraph*.18}%
+\contentsline {paragraph}{Software and data.}{10}{paragraph*.19}%
+\contentsline {paragraph}{Risk management.}{10}{paragraph*.20}%
+\contentsline {subsection}{\numberline {1.6}Supervision of doctoral theses and group building}{11}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}Mobility and collaborations}{11}{subsection.1.7}%
+\contentsline {subsection}{\numberline {1.8}Open science, transfer and dissemination}{12}{subsection.1.8}%
+\contentsline {section}{\numberline {2}Teaching plan}{13}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Teaching background}{13}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Personal vision of teaching}{13}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Institutional context}{13}{subsection.2.3}%
+\contentsline {paragraph}{The EHEA framework.}{13}{paragraph*.21}%
+\contentsline {paragraph}{The EEBE.}{14}{paragraph*.22}%
+\contentsline {paragraph}{The EPSEVG.}{14}{paragraph*.23}%
+\contentsline {paragraph}{The Department of Fluid Mechanics.}{14}{paragraph*.24}%
+\contentsline {subsection}{\numberline {2.4}Subjects of the call and adequacy}{14}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Developed subject: Thermodynamics and Heat Transfer (TTC)}{15}{subsection.2.5}%
+\contentsline {paragraph}{Prerequisites.}{15}{paragraph*.25}%
+\contentsline {paragraph}{Competences and learning objectives.}{15}{paragraph*.26}%
+\contentsline {paragraph}{Contents.}{15}{paragraph*.27}%
+\contentsline {paragraph}{Methodology.}{16}{paragraph*.28}%
+\contentsline {paragraph}{Assessment.}{16}{paragraph*.29}%
+\contentsline {paragraph}{Workload (6 ECTS, 150 hours).}{16}{paragraph*.30}%
+\contentsline {paragraph}{Resources.}{16}{paragraph*.31}%
+\contentsline {paragraph}{Schedule (15 weeks).}{16}{paragraph*.32}%
+\contentsline {subsection}{\numberline {2.6}Developed subject: Fluid Engineering}{16}{subsection.2.6}%
+\contentsline {paragraph}{Prerequisites and competences.}{17}{paragraph*.33}%
+\contentsline {paragraph}{Learning objectives.}{17}{paragraph*.34}%
+\contentsline {paragraph}{Contents.}{17}{paragraph*.35}%
+\contentsline {paragraph}{Methodology.}{17}{paragraph*.36}%
+\contentsline {paragraph}{Assessment.}{17}{paragraph*.37}%
+\contentsline {paragraph}{Workload (6 ECTS, 150 hours).}{17}{paragraph*.38}%
+\contentsline {paragraph}{Schedule.}{17}{paragraph*.39}%
+\contentsline {paragraph}{Bibliography.}{18}{paragraph*.40}%
+\contentsline {subsection}{\numberline {2.7}Master's subject: Computational Fluid Mechanics}{18}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Teaching innovation and training plan}{18}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.9}Generative artificial intelligence in learning}{18}{subsection.2.9}%
+\contentsline {paragraph}{The issue.}{18}{paragraph*.41}%
+\contentsline {paragraph}{The European framework.}{19}{paragraph*.42}%
+\contentsline {paragraph}{What I will do.}{19}{paragraph*.43}%
+\contentsline {subsection}{\numberline {2.10}Supervision of TFG, TFM and doctoral theses}{19}{subsection.2.10}%
+\contentsline {subsection}{\numberline {2.11}Language plan}{20}{subsection.2.11}%
+\contentsline {subsection}{\numberline {2.12}Equality, inclusion and sustainability}{20}{subsection.2.12}%
+\contentsline {section}{\numberline {3}Year-3 milestones and self-assessment}{21}{section.3}%
+\contentsline {section}{References}{24}{section.3}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.1.31)  18 NOV 2026 09:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.1.31)  18 NOV 2026 12:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1162,10 +1162,10 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <logo-upc.jpeg, id=138, 1336.995pt x 296.10625pt>
 File: logo-upc.jpeg Graphic file (type jpg)
 <use logo-upc.jpeg>
-Package pdftex.def Info: logo-upc.jpeg  used on input line 45.
+Package pdftex.def Info: logo-upc.jpeg  used on input line 47.
 (pdftex.def)             Requested size: 128.0374pt x 28.3563pt.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 45.
+(Font)              scaled to size 9.49997pt on input line 47.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
 (fancyhdr)                Make it at least 32.93633pt, for example:
@@ -1178,14 +1178,14 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
  <./logo-upc.jpeg>]
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 13.67995pt on input line 46.
+(Font)              scaled to size 13.67995pt on input line 48.
 (./main.toc)
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
 File: logo-upc.jpeg Graphic file (type jpg)
 <use logo-upc.jpeg>
-Package pdftex.def Info: logo-upc.jpeg  used on input line 49.
+Package pdftex.def Info: logo-upc.jpeg  used on input line 51.
 (pdftex.def)             Requested size: 128.0374pt x 28.3563pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -1199,19 +1199,19 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 51.
+(Font)              scaled to size 11.39996pt on input line 53.
 <images/co2_pseudoboiling.pdf, id=200, 245.718pt x 187.902pt>
 File: images/co2_pseudoboiling.pdf Graphic file (type pdf)
 <use images/co2_pseudoboiling.pdf>
-Package pdftex.def Info: images/co2_pseudoboiling.pdf  used on input line 114.
+Package pdftex.def Info: images/co2_pseudoboiling.pdf  used on input line 116.
 (pdftex.def)             Requested size: 186.64716pt x 142.73819pt.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 155.
+(Font)              scaled to size 7.59998pt on input line 157.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 7.59998pt on input line 155.
+(Font)              scaled to size 7.59998pt on input line 157.
 File: logo-upc.jpeg Graphic file (type jpg)
 <use logo-upc.jpeg>
-Package pdftex.def Info: logo-upc.jpeg  used on input line 173.
+Package pdftex.def Info: logo-upc.jpeg  used on input line 175.
 (pdftex.def)             Requested size: 128.0374pt x 28.3563pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -1226,7 +1226,7 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 ]
 File: logo-upc.jpeg Graphic file (type jpg)
 <use logo-upc.jpeg>
-Package pdftex.def Info: logo-upc.jpeg  used on input line 209.
+Package pdftex.def Info: logo-upc.jpeg  used on input line 211.
 (pdftex.def)             Requested size: 128.0374pt x 28.3563pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -1239,7 +1239,7 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 [4 <./images/co2_pseudoboiling.pdf>]
 File: logo-upc.jpeg Graphic file (type jpg)
 <use logo-upc.jpeg>
-Package pdftex.def Info: logo-upc.jpeg  used on input line 266.
+Package pdftex.def Info: logo-upc.jpeg  used on input line 268.
 (pdftex.def)             Requested size: 128.0374pt x 28.3563pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -1252,7 +1252,7 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 [5]
 File: logo-upc.jpeg Graphic file (type jpg)
 <use logo-upc.jpeg>
-Package pdftex.def Info: logo-upc.jpeg  used on input line 320.
+Package pdftex.def Info: logo-upc.jpeg  used on input line 322.
 (pdftex.def)             Requested size: 128.0374pt x 28.3563pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -1264,19 +1264,19 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
 [6]
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 3
-20.
+22.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 320.
+(Font)              scaled to size 10.40245pt on input line 322.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 362.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 375.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 10.40245pt on input line 362.
+(Font)              scaled to size 10.40245pt on input line 375.
 File: logo-upc.jpeg Graphic file (type jpg)
 <use logo-upc.jpeg>
-Package pdftex.def Info: logo-upc.jpeg  used on input line 377.
+Package pdftex.def Info: logo-upc.jpeg  used on input line 380.
 (pdftex.def)             Requested size: 128.0374pt x 28.3563pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -1290,7 +1290,7 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 Missing character: There is no , in font nullfont!
 File: logo-upc.jpeg Graphic file (type jpg)
 <use logo-upc.jpeg>
-Package pdftex.def Info: logo-upc.jpeg  used on input line 458.
+Package pdftex.def Info: logo-upc.jpeg  used on input line 490.
 (pdftex.def)             Requested size: 128.0374pt x 28.3563pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -1303,7 +1303,7 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 [8]
 File: logo-upc.jpeg Graphic file (type jpg)
 <use logo-upc.jpeg>
-Package pdftex.def Info: logo-upc.jpeg  used on input line 515.
+Package pdftex.def Info: logo-upc.jpeg  used on input line 514.
 (pdftex.def)             Requested size: 128.0374pt x 28.3563pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -1316,7 +1316,7 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 [9]
 File: logo-upc.jpeg Graphic file (type jpg)
 <use logo-upc.jpeg>
-Package pdftex.def Info: logo-upc.jpeg  used on input line 569.
+Package pdftex.def Info: logo-upc.jpeg  used on input line 575.
 (pdftex.def)             Requested size: 128.0374pt x 28.3563pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -1329,7 +1329,7 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 [10]
 File: logo-upc.jpeg Graphic file (type jpg)
 <use logo-upc.jpeg>
-Package pdftex.def Info: logo-upc.jpeg  used on input line 577.
+Package pdftex.def Info: logo-upc.jpeg  used on input line 615.
 (pdftex.def)             Requested size: 128.0374pt x 28.3563pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -1342,7 +1342,7 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 [11]
 File: logo-upc.jpeg Graphic file (type jpg)
 <use logo-upc.jpeg>
-Package pdftex.def Info: logo-upc.jpeg  used on input line 633.
+Package pdftex.def Info: logo-upc.jpeg  used on input line 661.
 (pdftex.def)             Requested size: 128.0374pt x 28.3563pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -1352,29 +1352,25 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.93633pt}.
 
-[12
+[12]
+File: logo-upc.jpeg Graphic file (type jpg)
+<use logo-upc.jpeg>
+Package pdftex.def Info: logo-upc.jpeg  used on input line 717.
+(pdftex.def)             Requested size: 128.0374pt x 28.3563pt.
+
+Package fancyhdr Warning: \headheight is too small (30.0pt): 
+(fancyhdr)                Make it at least 32.93633pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.93633pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.93633pt}.
+
+[13
 
 ]
 File: logo-upc.jpeg Graphic file (type jpg)
 <use logo-upc.jpeg>
-Package pdftex.def Info: logo-upc.jpeg  used on input line 679.
-(pdftex.def)             Requested size: 128.0374pt x 28.3563pt.
-
-Package fancyhdr Warning: \headheight is too small (30.0pt): 
-(fancyhdr)                Make it at least 32.93633pt, for example:
-(fancyhdr)                \setlength{\headheight}{32.93633pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.93633pt}.
-
-[13]
-Overfull \hbox (1.39594pt too wide) in paragraph at lines 721--721
-[]|\T1/phv/b/n/10 Unit| 
- []
-
-File: logo-upc.jpeg Graphic file (type jpg)
-<use logo-upc.jpeg>
-Package pdftex.def Info: logo-upc.jpeg  used on input line 722.
+Package pdftex.def Info: logo-upc.jpeg  used on input line 763.
 (pdftex.def)             Requested size: 128.0374pt x 28.3563pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -1385,9 +1381,13 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.93633pt}.
 
 [14]
+Overfull \hbox (1.39594pt too wide) in paragraph at lines 805--805
+[]|\T1/phv/b/n/10 Unit| 
+ []
+
 File: logo-upc.jpeg Graphic file (type jpg)
 <use logo-upc.jpeg>
-Package pdftex.def Info: logo-upc.jpeg  used on input line 772.
+Package pdftex.def Info: logo-upc.jpeg  used on input line 806.
 (pdftex.def)             Requested size: 128.0374pt x 28.3563pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -1400,7 +1400,7 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 [15]
 File: logo-upc.jpeg Graphic file (type jpg)
 <use logo-upc.jpeg>
-Package pdftex.def Info: logo-upc.jpeg  used on input line 828.
+Package pdftex.def Info: logo-upc.jpeg  used on input line 856.
 (pdftex.def)             Requested size: 128.0374pt x 28.3563pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -1413,7 +1413,7 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 [16]
 File: logo-upc.jpeg Graphic file (type jpg)
 <use logo-upc.jpeg>
-Package pdftex.def Info: logo-upc.jpeg  used on input line 879.
+Package pdftex.def Info: logo-upc.jpeg  used on input line 912.
 (pdftex.def)             Requested size: 128.0374pt x 28.3563pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -1426,7 +1426,7 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 [17]
 File: logo-upc.jpeg Graphic file (type jpg)
 <use logo-upc.jpeg>
-Package pdftex.def Info: logo-upc.jpeg  used on input line 933.
+Package pdftex.def Info: logo-upc.jpeg  used on input line 963.
 (pdftex.def)             Requested size: 128.0374pt x 28.3563pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -1439,7 +1439,7 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 [18]
 File: logo-upc.jpeg Graphic file (type jpg)
 <use logo-upc.jpeg>
-Package pdftex.def Info: logo-upc.jpeg  used on input line 943.
+Package pdftex.def Info: logo-upc.jpeg  used on input line 1017.
 (pdftex.def)             Requested size: 128.0374pt x 28.3563pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -1452,7 +1452,7 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 [19]
 File: logo-upc.jpeg Graphic file (type jpg)
 <use logo-upc.jpeg>
-Package pdftex.def Info: logo-upc.jpeg  used on input line 962.
+Package pdftex.def Info: logo-upc.jpeg  used on input line 1027.
 (pdftex.def)             Requested size: 128.0374pt x 28.3563pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -1462,16 +1462,14 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.93633pt}.
 
-[20
+[20]
+Underfull \hbox (badness 1275) in paragraph at lines 1043--1043
+\T1/phv/m/n/10 com-pleted, with joint art-icles; US stay
+ []
 
-]
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 963.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 9.49997pt on input line 963.
 File: logo-upc.jpeg Graphic file (type jpg)
 <use logo-upc.jpeg>
-Package pdftex.def Info: logo-upc.jpeg  used on input line 985.
+Package pdftex.def Info: logo-upc.jpeg  used on input line 1047.
 (pdftex.def)             Requested size: 128.0374pt x 28.3563pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -1486,7 +1484,7 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 ]
 File: logo-upc.jpeg Graphic file (type jpg)
 <use logo-upc.jpeg>
-Package pdftex.def Info: logo-upc.jpeg  used on input line 1007.
+Package pdftex.def Info: logo-upc.jpeg  used on input line 1070.
 (pdftex.def)             Requested size: 128.0374pt x 28.3563pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -1496,10 +1494,12 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.93633pt}.
 
-[22]
+[22
+
+]
 File: logo-upc.jpeg Graphic file (type jpg)
 <use logo-upc.jpeg>
-Package pdftex.def Info: logo-upc.jpeg  used on input line 1051.
+Package pdftex.def Info: logo-upc.jpeg  used on input line 1092.
 (pdftex.def)             Requested size: 128.0374pt x 28.3563pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -1510,17 +1510,9 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.93633pt}.
 
 [23]
-LaTeX Font Info:    Trying to load font information for T1+zlmtt on input line 
-1074.
-(/usr/share/texlive/texmf-dist/tex/latex/zlmtt/t1zlmtt.fd
-File: t1zlmtt.fd 2014/02/07 v1.0 Alternate font definitions for Latin Modern Ty
-pewriter, Michael Sharpe
-)
-LaTeX Font Info:    Font shape `T1/zlmtt/m/n' will be
-(Font)              scaled to size 11.00006pt on input line 1074.
 File: logo-upc.jpeg Graphic file (type jpg)
 <use logo-upc.jpeg>
-Package pdftex.def Info: logo-upc.jpeg  used on input line 1077.
+Package pdftex.def Info: logo-upc.jpeg  used on input line 1136.
 (pdftex.def)             Requested size: 128.0374pt x 28.3563pt.
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -1530,18 +1522,39 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.93633pt}.
 
-[24] (./main.aux)
+[24]
+LaTeX Font Info:    Trying to load font information for T1+zlmtt on input line 
+1159.
+(/usr/share/texlive/texmf-dist/tex/latex/zlmtt/t1zlmtt.fd
+File: t1zlmtt.fd 2014/02/07 v1.0 Alternate font definitions for Latin Modern Ty
+pewriter, Michael Sharpe
+)
+LaTeX Font Info:    Font shape `T1/zlmtt/m/n' will be
+(Font)              scaled to size 11.00006pt on input line 1159.
+File: logo-upc.jpeg Graphic file (type jpg)
+<use logo-upc.jpeg>
+Package pdftex.def Info: logo-upc.jpeg  used on input line 1162.
+(pdftex.def)             Requested size: 128.0374pt x 28.3563pt.
+
+Package fancyhdr Warning: \headheight is too small (30.0pt): 
+(fancyhdr)                Make it at least 32.93633pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.93633pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.93633pt}.
+
+[25] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: C62A1044E4727F248B203EACEEEFAB08;5561.
  ) 
 Here is how much of TeX's memory you used:
- 37418 strings out of 478287
- 739674 string characters out of 5849289
- 1075896 words of memory out of 5000000
- 54778 multiletter control sequences out of 15000+600000
+ 37584 strings out of 478287
+ 742760 string characters out of 5849289
+ 1095496 words of memory out of 5000000
+ 54941 multiletter control sequences out of 15000+600000
  513134 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 145i,15n,146p,707b,1116s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 145i,15n,146p,766b,1118s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texlive/texmf-dist
 /fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
@@ -1555,10 +1568,10 @@ e1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/
 uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (24 pages, 325696 bytes).
+Output written on main.pdf (25 pages, 334768 bytes).
 PDF statistics:
- 659 PDF objects out of 1000 (max. 8388607)
- 538 compressed objects within 6 object streams
- 167 named destinations out of 1000 (max. 500000)
+ 669 PDF objects out of 1000 (max. 8388607)
+ 547 compressed objects within 6 object streams
+ 170 named destinations out of 1000 (max. 500000)
  365 words of extra memory for PDF output out of 10000 (max. 10000000)
 
