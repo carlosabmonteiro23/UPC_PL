@@ -1,0 +1,936 @@
+% =====================================================================
+%  PLA DE TREBALL (PT) -- Concurs LE-403/729 (UPC)
+%  Version 2 (16/11/2026), built on PT_skeleton.tex. American English, aligned with the
+%  HAP (three research lines, HAP numbering of publications [J], [R], [C], [D]).
+%  General context on the UPC, the EEBE and the subjects adapted from the PT of
+%  J. Calafell and the Professor Agregat project, rewritten in English.
+%  Personal data: ONLY name and surname (base 3.5).
+%  Before submitting: uncomment \finaltrue to hide the marks.
+%  Output file name: Monteiro_Carlos_PT.pdf
+% =====================================================================
+\documentclass[11pt]{article}
+\usepackage{lector}
+\usepackage{pgfgantt}
+\newcommand{\sectionbreak}{\clearpage}
+%\finaltrue
+\setupheader{PT}
+
+\title{\textbf{Pla de Treball}\\[2pt]\large Work Plan}
+\author{\Large \CandName}
+\date{}
+
+\begin{document}
+\maketitle
+\thispagestyle{plain}
+\vspace{0.5cm}
+\begin{center}\postdata\end{center}
+
+%\vspace{0.8cm}
+%\noindent\textbf{Summary.}
+%This work plan describes how I will meet the three requirements of position LE-403/729 over the six years of the Lector contract, with a self-assessment in the third year. In research, the plan develops the three lines presented in the HAP, which correspond to the priorities of the call: the physics of multiphysics turbulence in supercritical and compressible flows; the causal analysis and data-driven prediction of extreme events; and distributed, GPU-accelerated high-fidelity CFD for exascale computing. In teaching, it develops two subjects of the profile that I currently teach, Thermodynamics and Heat Transfer and Fluid Engineering, proposes contributions to the master's subject Computational Fluid Mechanics, and links final theses to the research plan. In supervision, it builds on my current experience to co-supervise two doctoral theses during the contract. Publications are cited with the numbering of the HAP ([J], [R], [C], [D]); other references are numbered and listed at the end.
+
+\newpage
+\tableofcontents
+
+% =====================================================================
+\section{Research plan}\label{sec:research}
+
+\subsection{Background and motivation}
+Supercritical fluids are central to several technologies of the energy transition and of
+aerospace propulsion: supercritical CO$_2$ power cycles~\cite{Ahn2015}, regenerative
+cooling of liquid-rocket engines and high-pressure injection~\cite{JofreUrzay2021},
+thermal management, and chemical processing and extraction~\cite{Yoo2013}. Above the
+critical pressure, an isobaric change of temperature can drive the fluid across the
+pseudo-boiling region, where density, viscosity, thermal conductivity and specific heat
+vary by orders of magnitude over a narrow temperature interval~\cite{Banuti2015}. In this
+regime, turbulence, heat transfer and thermodynamics are strongly coupled, and phenomena
+such as heat-transfer deterioration still lack a reliable predictive
+description~\cite{Pizzarelli2018}.
+
+My doctoral and postdoctoral work in the Department of Fluid Mechanics, within the ERC
+project SCRAMBLE, has established the computational basis to study this coupling. I
+contributed resolution standards [J5] and minimal-flow-unit criteria [J6] for the direct
+numerical simulation (DNS) of transcritical wall turbulence, characterized the laminar,
+transitional and turbulent regimes of microconfined flows [J3, J4, J7], and explained how
+buoyancy drives secondary flows and redistributes momentum in transcritical duct turbulence
+[J2, R1]. All these simulations rely on the GPU acceleration of the open-source solver
+RHEA, which I carried out and published as RHEA-X [J1].
+
+This work leaves three open questions, which define the present plan:
+\begin{enumerate}[label=(\roman*)]
+  \item Which mechanisms identified in canonical flows govern heat transfer and pressure
+  loss in engineering configurations, such as regenerative cooling passages and the heat
+  exchangers of supercritical power cycles?
+  \item Which flow processes precede the largest excursions in wall heat flux, and how
+  early can those events be anticipated?
+  \item How can high-fidelity solvers resolve strong property gradients, track large
+  ensembles of fluid parcels and sample rare events at exascale with real-fluid
+  thermodynamics?
+\end{enumerate}
+These questions correspond to the three research lines of the call: (a) multiphysics
+turbulent flows, compressible and supercritical fluids; (b) data-driven prediction of
+engineering flows, extreme events and causality; and (c) modeling and computation with
+distributed (CPU) and accelerated (GPU) programming.
+
+\subsection{Research lines and objectives}
+The plan is organized in three interconnected lines, with two objectives each over a
+six-year horizon. Each line starts from a consolidated result and targets a measurable
+outcome.
+
+\subsubsection*{Line 1 -- Physics of multiphysics turbulence in supercritical and
+compressible flows (profile line a)}
+\textbf{Current status.} The DNS methodology for transcritical wall turbulence is
+established [J5, J6], and the effects of pseudo-boiling and buoyancy on flow regimes,
+secondary motions and heat transfer have been characterized in channels and square ducts
+[J2, J3, J4, R1]. These results are limited to canonical configurations and to a reduced
+range of thermodynamic conditions.
+
+\textbf{Objectives.}
+\begin{itemize}
+  \item[\textbf{O1.}] Generate high-fidelity databases of heated and cooled wall-bounded
+  flows across the pseudo-boiling line, extending the canonical cases towards conditions
+  representative of regenerative cooling passages and sCO$_2$ heat exchangers.
+  \item[\textbf{O2.}] Identify the mechanisms that govern heat-transfer deterioration,
+  heat-transfer enhancement and pressure loss in these flows and, combined with Line~2,
+  predict and prevent heat-transfer deterioration in regenerative cooling and supercritical
+  thermodynamic cycles.
+\end{itemize}
+
+\subsubsection*{Line 2 -- Causality and data-driven prediction of extreme events (profile
+line b)}
+\textbf{Current status.} During the 2026 CTR Summer Program at Stanford University, I
+combined Lagrangian signals with transfer entropy~\cite{Schreiber2000} to examine which
+turbulent processes precede extreme wall-heat-flux events in supercritical flows and in
+what sequence they occur [R2, R3]. The work continues with the RES allocation
+IM-2026-1-0034 and with collaborators at CTR (non-stationary transfer entropy), Caltech
+and MIT (information-theoretic causality~\cite{LozanoDuranArranz2022,MartinezSanchez2024})
+and Penn State (compact neural networks for wall-normal profiles).
+
+\textbf{Objectives.}
+\begin{itemize}
+  \item[\textbf{O3.}] Formalize a Lagrangian causality framework that ranks the
+  precursors of extreme wall-heat-flux events, and test whether these precursors improve
+  the prediction of the targeted events.
+  \item[\textbf{O4.}] Assess the transferability of the framework to two further
+  settings: the aggregation of microplastics and biogenic particles in ocean
+  turbulence~\cite{vanSebille2020} (University of British Columbia), and extreme wall heat
+  flux in compressible and hypersonic boundary layers (Universit\`a del Salento, and
+  prospectively Stanford University).
+\end{itemize}
+
+\subsubsection*{Line 3 -- Distributed and GPU-accelerated high-fidelity CFD for exascale
+computing (profile line c)}
+\textbf{Current status.} RHEA-X is a distributed, GPU-resident solver that combines MPI
+and OpenACC for the high-fidelity simulation of multiphysics turbulence [J1]. Ongoing work
+compares directive-based and vendor-specific GPU programming, optimizes kernels, and
+develops low-rank surrogate models that reduce the cost of real-fluid property evaluation
+on GPUs [R4].
+
+\textbf{Objectives.}
+\begin{itemize}
+  \item[\textbf{O5.}] Deliver and maintain an open-source multiphysics solver that
+  exploits exascale systems while preserving the numerical fidelity required for turbulence
+  research, with reproducible benchmarks of accuracy and cost versus problem size and GPU
+  count.
+  \item[\textbf{O6.}] Integrate efficient real-fluid property evaluation and the in-situ
+  tracking of large ensembles of Lagrangian trajectories, providing the event samples
+  needed by Line~2.
+\end{itemize}
+
+\subsection{Growth of the research lines and long-term direction}\label{sec:growth}
+The three lines grow from canonical problems towards engineering conditions. Each step is
+already supported by an external group that selects, adopts or co-develops the work. This
+external validation reduces the risk of the plan and sets the order of its steps.
+
+\paragraph{Line 1: from canonical ducts to engineering and compressible conditions.} The
+square-duct results [R1] will be presented at EFDC3 (2027) and extended to heated and cooled
+ducts at the conditions of regenerative cooling passages and sCO$_2$ heat exchangers (O1,
+O2). The data already serve as a reference beyond the group: they contribute to the BLASTNet
+machine-learning dataset coordinated by the group of Prof.\ M.\ Ihme at Stanford University
+[D1], and the group of Prof.\ X.\ Yang at Penn State uses the SCRAMBLE datasets to train
+compact neural networks for wall-normal profiles. Supercritical flows remain the main focus
+of the plan throughout the contract.
+
+\paragraph{Line 2: from one flow to a transferable method.} The approach was selected through
+the competitive call of the 2026 CTR Summer Program and will be presented at THMT-27 (2027).
+Its development follows three steps. In year~1, the framework is formalized, combining
+non-stationary transfer entropy, developed with A.\ Chandra at CTR, with the
+information-theoretic causality developed at Caltech and
+MIT~\cite{LozanoDuranArranz2022,MartinezSanchez2024}, and applied to supercritical wall
+turbulence and to ocean turbulence. The oceanic application builds on the stay at UBC in
+summer 2027, before the start of the contract, on the aggregation of microplastics with
+biogenic particles, a process controlled by particle encounters in
+turbulence~\cite{Michels2018,vanSebille2020}. In year~2, the stay at the Universit\`a del
+Salento extends the framework to extreme wall heat flux in compressible boundary layers, and
+participation in the Madrid Summer School on Turbulence (UPM, 2029, tentative), whose recent
+editions focused on causality and information theory, would expose it to the main European
+community in this topic. In year~3, a prospective stay at Stanford University, through CTR and the Jos\'e Castillejo program
+in its Fulbright modality,
+would consolidate this extension with Prof.\ G.\ Iaccarino, and with Prof.\ S.\ Lele and A.\
+Chandra, who also work on supercritical flows. The Lagrangian description is natural in all
+these settings~\cite{Toschi2009}. If the precursors identified in one class of flows remain
+meaningful in another, the framework becomes a general tool rather than a case study.
+
+\paragraph{Line 3: from a validated solver to an exascale platform.} RHEA-X is published
+[J1], its GPU kernels have been optimized in two BSC hackathons, and its use has been
+granted in six peer-reviewed supercomputing allocations. The next step, performance
+portability and in-situ Lagrangian sampling (O5, O6), is required by Lines 1 and 2 and
+addresses the bottlenecks identified in the roadmap of computational fluid dynamics towards
+exascale computing: scalable solvers and the analysis of data that can no longer be stored
+in full~\cite{Slotnick2014}. The multi-GPU hypersonic solver HTR of the Salento
+group~\cite{DiRenzo2020} provides a reference for comparison and exchange.
+
+\paragraph{Long-term direction.} With a mature causal framework and a deeper understanding
+of supercritical wall turbulence, Phase~2 targets the central engineering problem of the
+field: to uncover, predict and prevent heat-transfer deterioration~\cite{Pizzarelli2018,Yoo2013}
+in its applications, from the regenerative cooling of rocket engines to supercritical
+thermodynamic cycles~\cite{Ahn2015}. Beyond the contract, the same three capabilities lead
+naturally to high-speed aerothermodynamics. Hypersonic vehicles and air-breathing
+propulsion systems face extreme wall heat fluxes, large property variations and
+thermochemical effects~\cite{Urzay2018}, and DNS has shown that transition and turbulence
+interact with high-enthalpy chemistry and thermal non-equilibrium near cold
+walls~\cite{DiRenzoUrzay2021,Passiatore2022}. These problems require the physics of
+turbulence with strong property variations (Line~1), the identification and prediction of
+extreme wall-heat-flux events (Line~2) and GPU solvers able to resolve them (Line~3). The
+stays at the Universit\`a del Salento and Stanford University prepare this extension, in
+line with the department's priority on compressible flows and with European programs in
+aeronautics and space.
+
+\subsection{Work plan and timeline}
+The plan is structured in two phases of three years, consistent with the intermediate
+evaluation of the Lector contract:
+\begin{itemize}
+  \item \textbf{Phase 1 (years 1--3): consolidation and independence.} Development of the
+  causal framework and its application to supercritical and oceanic flows (year~1), its
+  extension to compressible boundary layers at the Universit\`a del Salento (year~2) and,
+  prospectively, at Stanford University (year~3); first competitive project as principal
+  investigator, first doctoral student and release of the exascale-ready solver.
+  \item \textbf{Phase 2 (years 4--6): prediction and prevention.} Use of the mature
+  framework and the supercritical databases to predict and prevent heat-transfer
+  deterioration in regenerative cooling and supercritical thermodynamic cycles; a European
+  grant application, a second doctoral thesis and industry-linked projects.
+\end{itemize}
+Year~1 corresponds to the academic year 2027--28, with the contract starting in September
+2027.
+The activities are grouped in six work packages (WPs). For each one, the tasks, the
+required resources and the expected outcomes are given.
+
+\paragraph{WP0 -- Resources, group building and management (Y1--Y6).}
+\emph{Tasks:} applications for competitive funding and computing time
+(Section~\ref{sec:resources}); recruitment and supervision of doctoral, master's and
+bachelor's students; coordination with GReCEF and the SCRAMBLE team; Year-3
+self-assessment and re-planning.
+\emph{Expected outcomes:} a funded research project as principal investigator or
+co-principal investigator, two doctoral students, yearly computing allocations.
+
+\paragraph{WP1 -- Supercritical and compressible turbulence (O1, O2; Y1--Y5).}
+\emph{Tasks:} T1.1 publication of the ongoing work on square ducts [R1]; T1.2 DNS of heated
+and cooled channels and ducts across the pseudo-boiling line, using real-fluid equations
+of state~\cite{PengRobinson1976} and high-pressure transport models~\cite{Chung1988};
+T1.3 analysis of heat-transfer deterioration, enhancement and pressure loss; T1.4
+release of an open reference database.
+\emph{Resources:} RHEA-X, RES and EuroHPC allocations, doctoral student 1 from year 2.
+\emph{Expected outcomes:} 3--4 Q1 articles (e.g.\ \emph{J.\ Fluid Mech.}, \emph{Int.\ J.\
+Heat Mass Transfer}, \emph{Phys.\ Rev.\ Fluids}) and an open database.
+
+\paragraph{WP2 -- Lagrangian causality and extreme events (O2, O3; Y1--Y6).}
+\emph{Tasks:} T2.1 completion of the CTR work [R2, R3] (Y1); T2.2 formalization of the
+Lagrangian causality framework, including non-stationary transfer entropy, and application
+to supercritical wall turbulence (Y1--Y2); T2.3 precursor-based prediction of extreme
+wall-heat-flux events and assessment against conditional statistics (Y2--Y4); T2.4
+prediction and prevention of heat-transfer deterioration in regenerative cooling and
+supercritical-cycle configurations, combining the mature framework with the WP1 databases
+(Y4--Y6).
+\emph{Resources:} WP1 databases, RES IM-2026-1-0034 and subsequent allocations,
+collaborations with CTR, Caltech and MIT.
+\emph{Expected outcomes:} 2--3 Q1 articles, an open-source analysis code, the core of
+doctoral thesis~1.
+
+\paragraph{WP3 -- Transfer to compressible and environmental flows (O4; Y1--Y6).}
+\emph{Tasks:} T3.1 microplastic and biogenic-particle aggregation in ocean turbulence,
+from the results of the UBC stay (summer 2027) (Y1); T3.2 extreme wall heat flux in
+compressible and hypersonic boundary layers (stay at the Universit\`a del Salento, second
+semester of 2028), building on the multi-GPU hypersonic solver HTR~\cite{DiRenzo2020}
+(Y2); T3.3 compact neural networks for wall-normal profiles trained on the SCRAMBLE
+datasets (with Penn State) (Y1--Y3); T3.4 causality and extreme events in compressible
+turbulence (prospective Jos\'e Castillejo--Fulbright stay at Stanford University) (Y3).
+\emph{Resources:} Mitacs Globalink Research Award, RAC-2026 allocation, Salento hosting,
+Jos\'e Castillejo--Fulbright application.
+\emph{Expected outcomes:} 2--3 joint Q1 articles and a joint funding proposal.
+
+\paragraph{WP4 -- Exascale solver and real-fluid models (O5, O6; Y1--Y6).}
+\emph{Tasks:} T4.1 scalability and performance portability (directive-based and
+vendor-specific programming); T4.2 GPU-suited real-fluid surrogate models [R4]; T4.3
+in-situ tracking of Lagrangian trajectories; T4.4 versioned open-source releases with
+reproducible benchmarks.
+\emph{Resources:} EuroHPC development and production calls, BSC hackathons, doctoral
+student 2 from year 4.
+\emph{Expected outcomes:} solver releases with DOIs, 2 articles (e.g.\ \emph{Comput.\
+Phys.\ Commun.}, \emph{J.\ Comput.\ Phys.}), large-scale allocations.
+
+\paragraph{WP5 -- Mobility, collaborations, dissemination and transfer (Y1--Y6).}
+\emph{Tasks:} research stays, joint publications and proposals with the collaborating
+groups (Section~\ref{sec:mobility}), conferences and summer schools (THMT-27, EFDC3 2027;
+Madrid Summer School on Turbulence 2029, tentative), open science and transfer
+(Section~\ref{sec:dissemination}).
+
+\begin{center}\small
+\begin{tabularx}{\textwidth}{@{}p{1.0cm}p{1.2cm}X@{}}
+\toprule
+\textbf{Mil.} & \textbf{Year} & \textbf{Milestone} \\
+\midrule
+H1 & Y1 & Publication of the square-duct and CTR work [R1, R3] and of the results of the UBC stay. \\
+H2 & Y1--Y2 & First competitive project submitted as principal investigator or co-principal investigator. \\
+H3 & Y2 & Stay at the Universit\`a del Salento completed; Jos\'e Castillejo--Fulbright application submitted; doctoral student 1 recruited. \\
+H4 & Y3 & Prospective stay at Stanford University; open reference database and exascale-ready solver release; Year-3 self-assessment. \\
+H5 & Y4 & First predictions of heat-transfer deterioration; European grant application (ERC Starting Grant); doctoral student 2 recruited. \\
+H6 & Y5 & Defense of doctoral thesis 1. \\
+H7 & Y6 & Industry-linked project in thermofluid design; independent research line consolidated. \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\begin{figure}[H]
+\centering
+\definecolor{GLineA}{HTML}{2F5D8A}%
+\definecolor{GLineB}{HTML}{C8742B}%
+\definecolor{GLineC}{HTML}{3C8D6E}%
+\definecolor{GCross}{HTML}{8C96A0}%
+\begin{ganttchart}[
+    hgrid={*1{black!10}},
+    vgrid={*3{black!10, dashed}, *1{black!35}},
+    x unit=0.5cm, y unit title=0.5cm, y unit chart=0.6cm,
+    time slot format=simple,
+    canvas/.append style={draw=black!35, line width=0.4pt},
+    title/.append style={draw=black!35, fill=MSBlue!12},
+    title label font=\small\bfseries\color{MSBlue},
+    title height=1,
+    bar height=0.5, bar top shift=0.25,
+    bar/.append style={draw=none, rounded corners=1.5pt},
+    bar label font=\footnotesize,
+    bar label node/.append style={align=right},
+    milestone/.append style={fill=MSBlue, draw=none},
+    milestone label font=\footnotesize\bfseries\color{MSBlue},
+    milestone height=0.5, milestone top shift=0.25
+  ]{1}{24}
+  \gantttitle{Y1}{4}\gantttitle{Y2}{4}\gantttitle{Y3}{4}\gantttitle{Y4}{4}\gantttitle{Y5}{4}\gantttitle{Y6}{4}\\
+  \gantttitlelist[title/.append style={fill=MSBlue!4}, title label font=\scriptsize\color{black!60}]{1,...,4,1,2,3,4,1,2,3,4,1,2,3,4,1,2,3,4,1,2,3,4}{1}\\
+  \ganttbar[bar/.append style={fill=GCross}]{WP0 Resources \& group}{1}{24}\\
+  \ganttbar[bar/.append style={fill=GLineA}]{WP1 Supercritical turbulence}{1}{20}\\
+  \ganttbar[bar/.append style={fill=GLineB}]{WP2 Causality \& extremes}{1}{16}\\
+  \ganttbar[bar/.append style={fill=GLineA!55}]{Heat-transfer deterioration}{13}{24}\\
+  \ganttbar[bar/.append style={fill=GLineB!70}]{WP3 Transfer to other flows}{2}{24}\\
+  \ganttbar[bar/.append style={fill=GLineC}]{WP4 Exascale solver \& models}{1}{24}\\
+  \ganttbar[bar/.append style={fill=GCross}]{WP5 Stays (Salento, Stanford)}{5}{6}%
+  \ganttbar[inline, bar/.append style={fill=GCross!40, draw=GCross, dashed}]{}{11}{12}\\
+  \ganttmilestone[milestone/.append style={fill=red!75!black}, milestone label font=\footnotesize\bfseries\color{red!75!black}]{Year-3 self-assessment}{12}\\
+  \ganttmilestone{PhD 1 defense}{20}\\
+  \ganttmilestone{PhD 2 well advanced}{24}
+\end{ganttchart}
+\caption{Timeline by quarters over the six years of the contract (Y = year; 1--4 =
+quarter); Y1 = 2027--28. The UBC stay (summer 2027) precedes Y1. Colors: \textcolor{GLineA}{$\blacksquare$}~Line~1,
+\textcolor{GLineB}{$\blacksquare$}~Line~2, \textcolor{GLineC}{$\blacksquare$}~Line~3,
+\textcolor{GCross}{$\blacksquare$}~cross-cutting; dashed bar: prospective stay.}
+\end{figure}
+
+\subsection{Resources, funding strategy and risk management}\label{sec:resources}
+\paragraph{Starting point.} The plan starts from the resources of the ERC Starting Grant
+SCRAMBLE, which currently funds my postdoctoral position, and from the infrastructure of
+GReCEF. This base covers the first year of WP1, WP2 and WP4 without depending on new
+funding.
+
+\paragraph{Competitive funding.} Proposals will be submitted as principal investigator
+whenever eligible, and otherwise within the group:
+\begin{itemize}
+  \item \textbf{National:} Plan Estatal, \emph{Proyectos de Generaci\'on de Conocimiento}
+  (modality for young researchers), with associated FPI predoctoral contracts; FPU
+  contracts.
+  \item \textbf{Regional:} AGAUR FI predoctoral grants and \emph{Doctorats Industrials}
+  with companies in the energy and aerospace sectors.
+  \item \textbf{European:} ERC Starting Grant (target: years 4--5, within the eligibility
+  window after the PhD); Marie Sk\l{}odowska-Curie Postdoctoral Fellowships and Doctoral
+  Networks hosted at the UPC; Horizon Europe Cluster 5 (Climate, Energy and Mobility).
+  \item \textbf{Mobility:} Mitacs Globalink Research Award (2027), Jos\'e Castillejo
+  program in its Fulbright modality (prospective stay at Stanford University in year~3) and bilateral programs for the
+  stays and for incoming visitors.
+\end{itemize}
+
+\paragraph{Computing resources.} I will apply every year to the RES calls (MareNostrum~5
+accelerated partition) and, from year 2, to the EuroHPC JU \emph{Regular} and
+\emph{Extreme Scale} calls, when the WP1 databases require pre-exascale systems. The plan
+builds on my participation in six competitive allocations in 2023--2026, totaling more
+than 10 million core and GPU hours, and on access to Canadian national systems through the
+collaboration with UBC. Development, testing and post-processing will use the GPU
+workstations of the group and the UPC clusters.
+
+\paragraph{Software and data.} RHEA-X [J1] is the core tool of WP1, WP2 and WP4. Analysis
+and surrogate models will use Python (NumPy, SciPy, PyTorch) and Julia, the thermophysical
+surrogate software [R4] and CoolProp~\cite{CoolProp2014}. Databases will be stored on the
+long-term storage of the HPC centers and published in open repositories (Zenodo,
+Figshare+, BLASTNet [D1]) following the FAIR principles.
+
+\paragraph{Contingency plan.} The plan is designed so that its core does not depend on a
+single source of funding:
+\begin{itemize}
+  \item If the first project proposal is not funded, WP1 and WP2 will continue with the
+  SCRAMBLE resources and existing databases, and the proposal will be resubmitted with the
+  results of Phase 1.
+  \item If a doctoral contract cannot be secured in year 2, its first tasks will be
+  carried out through master's theses and by myself, and the recruitment will be moved to
+  the next call.
+  \item If the large-scale allocations are reduced, the simulation campaigns will be
+  prioritized by objective, and smaller cases will be run on national and UPC resources.
+\end{itemize}
+
+\subsection{Supervision of doctoral theses and group building}
+Teaching at the EEBE allows identifying motivated students early. TFG and TFM projects
+will be the entry point to the research lines, and the most capable students will be
+encouraged to continue with a doctoral thesis. I currently tutor a curricular internship
+on extreme events in turbulent flows, co-supervised a Bachelor's thesis on supercritical
+duct flow, and led a team of doctoral researchers in the 8th MareNostrum Hackathon. I aim
+to co-supervise two doctoral theses during the contract and to supervise independently
+from Phase~2:
+\begin{enumerate}
+  \item \textbf{Mechanisms and prediction of extreme heat-transfer events in supercritical
+  wall turbulence} (Lines 1--2; WP1--WP2). Funding: FPI linked to the first project, or
+  AGAUR FI.
+  \item \textbf{Exascale real-fluid solver with in-situ Lagrangian sampling} (Line 3;
+  WP4). Funding: FPI/FPU or project funding.
+  \item \textbf{Optional -- Industrial doctorate on thermofluid components of sCO$_2$
+  cycles or ocean engineering} (Lines 1--2; WP3), depending on the industrial partner.
+\end{enumerate}
+
+\subsection{Mobility and collaborations}\label{sec:mobility}
+\begin{itemize}
+  \item \textbf{University of British Columbia (Canada), summer 2027, 3 months, before
+  the start of the contract.} Host:
+  \href{https://chbe.ubc.ca/mona-rahmani/}{Prof.\ Mona Rahmani}. Application of the
+  Lagrangian causality framework to the aggregation of microplastics in ocean turbulence,
+  using the RAC-2026 GPU allocation (Mitacs Globalink Research Award).
+  \item \textbf{Universit\`a del Salento (Italy), second semester of 2028 (year~2), 6
+  months.} Hosts:
+  \href{https://www.unisalento.it/scheda-utente/-/people/mario.direnzo}{Prof.\ Mario Di
+  Renzo} and \href{https://www.unisalento.it/scheda-utente/-/people/donatella.passiatore}{Prof.\
+  Donatella Passiatore}. Extension of the causal framework to extreme wall-heat-flux events
+  in compressible and hypersonic boundary layers. The
+  Department of Fluid Mechanics has agreed to concentrate my teaching in one semester that
+  year.
+  \item \textbf{Madrid Summer School on Turbulence, Universidad Polit\'ecnica de Madrid,
+  summer 2029 (year~2), tentative.} Participation in the
+  \href{https://torroja.dmt.upm.es/summer.html}{summer school} of the turbulence group of
+  the UPM, whose
+  \href{http://torroja.dmt.upm.es/summer23/}{2023} and
+  \href{http://torroja.dmt.upm.es/summer25/}{2025} editions focused strongly on causality
+  and information theory in turbulence research. It would place the framework of Line~2
+  under the scrutiny of the leading European group in this topic, between the Salento and
+  Stanford stays.
+  \item \textbf{Stanford University (USA), academic year 2029--30 (year~3), prospective.}
+  Host: \href{https://me.stanford.edu/people/gianluca-iaccarino}{Prof.\ Gianluca Iaccarino}
+  (Department of Mechanical Engineering), through the Center for Turbulence Research, in
+  collaboration with \href{https://me.stanford.edu/people/sanjiva-lele}{Prof.\ Sanjiva
+  Lele} and A.\ Chandra, who work on supercritical flows. Causality and extreme events in
+  compressible turbulent flows. Funding: application from the UPC to the
+  \href{https://www.ciencia.gob.es/Convocatorias/2024/JoseCastillejo2024.html}{Jos\'e
+  Castillejo program} of the Spanish Ministry of Science, Innovation and Universities,
+  whose junior modality funds stays of young doctors with a teaching or research contract
+  at a Spanish university and reserves part of its stays in the USA for the Fulbright
+  program. The call usually opens in January--February, so the application would be
+  submitted in year~2, after the Salento stay, for a stay in year~3.
+  \item \textbf{Ongoing collaborations.} CTR, Stanford University (non-stationary transfer
+  entropy, with A.\ Chandra); Caltech and MIT (Lagrangian information-theoretic
+  frameworks, with Prof.\ A.\ Lozano-Dur\'an and \'A.\ Mart\'inez-S\'anchez); Penn State
+  (compact neural networks, with Prof.\ X.\ Yang); Stanford University (BLASTNet, with the
+  group of Prof.\ M.\ Ihme).
+  \item \textbf{Prospective collaborations.} \MAYBE{Instituto Superior T{\'e}cnico (Lisbon), Prof. Carlos da Silva: turbulent/non-turbulent interfaces in flows with variable fluid properties.}
+  \MAYBE{Smart Ocean Peniche (Portugal): R\&D projects in ocean engineering.}
+\end{itemize}
+These stays and collaborations will lead to joint publications and joint proposals (e.g.\
+MSCA Doctoral Networks, EuroHPC calls), and to incoming visits of collaborators to the
+UPC.
+
+\subsection{Open science, transfer and dissemination}\label{sec:dissemination}
+\begin{itemize}
+  \item \textbf{Journals:} \emph{J.\ Fluid Mech.}, \emph{Phys.\ Rev.\ Fluids},
+  \emph{Int.\ J.\ Heat Mass Transfer}, \emph{Phys.\ Fluids}, \emph{Comput.\ Phys.\
+  Commun.}, \emph{J.\ Comput.\ Phys.}
+  \item \textbf{Conferences:} THMT-27 and EFDC3 (2027, scheduled), APS-DFD, ETMM, TSFP,
+  ECCOMAS.
+  \item \textbf{Open science:} open-source releases of RHEA-X and of the analysis codes with
+  versioned DOIs, and open databases following the FAIR principles.
+  \item \textbf{Transfer:} reference data and reduced models for the design of
+  regenerative cooling passages and sCO$_2$ heat exchangers; industry-linked projects and
+  doctorates through the UPC transfer services.
+  \item \textbf{Outreach:} participation in the UPC open days and the \emph{Setmana de la
+  Ci\`encia}, and in initiatives that encourage girls to pursue engineering studies.
+\end{itemize}
+
+% =====================================================================
+\section{Teaching plan}\label{sec:teaching}
+
+\subsection{Teaching background}
+Since 2024--25 I have taught 180 class hours at the UPC, and in 2026--27 I teach the full
+load of my contract (242 hours). At the EEBE, I have taught the laboratory of \emph{Fluid
+Mechanics} (820013) every year since 2024--25 (eight groups, 120 hours), and in autumn
+2026 I teach the full course of group M1 of \emph{Thermodynamics and Heat Transfer}
+(820020), supporting the coordination of the subject in exam preparation, marking and
+review. At the EPSEVG, I teach the laboratory of \emph{Fundamentals of Thermal
+Engineering} (340038), and in spring 2027 I will coordinate \emph{Fluid Engineering}
+(340058) and teach its two theory groups. Student surveys rated my Fluid Mechanics
+laboratory groups at 4.6--4.8 out of 5 in 2025--26 S2, above the department, school and
+university averages.
+
+\subsection{Personal vision of teaching}
+I see engineering teaching as training students to model a real system: to decide what
+matters, write the balance that governs it, estimate the answer before computing it, and
+check that the result makes physical sense. Thermodynamics, heat transfer and fluid
+mechanics are well suited to this, because every concept can be tied to a device the
+students know: a heat pump, a pumping installation, a car, a power cycle.
+
+Three principles guide my teaching:
+\begin{itemize}
+  \item \textbf{Clarity and closeness.} I explain each session step by step and make sure
+  the group has understood before moving on.
+  \item \textbf{Feedback to learn, not only to grade.} I return individual comments on
+  every laboratory report so that students improve progressively, which they highlight in
+  the surveys. The same idea guides the exam reviews in Thermodynamics and Heat Transfer.
+  \item \textbf{Current engineering in the classroom.} My industrial experience (thermal
+  simulation at Continental, Formula Student aerodynamics) and my research on supercritical
+  fluids and high-performance computing provide examples and computational tools that make
+  the classical content relevant. For instance, an inverter-cooling case shows how
+  conduction through solid components and convection at cooling surfaces together
+  determine component temperatures.
+\end{itemize}
+
+Following a common classification of engineering studies, the subjects of the call play
+different roles: \emph{core subjects} such as Fluid Mechanics and Thermodynamics and Heat
+Transfer set the basis that later subjects assume, while \emph{specialized subjects} such
+as Fluid Engineering, Thermal Engineering and Computational Fluid Mechanics extend this
+basis to engineering applications. Core subjects should prioritize solid fundamentals and
+working habits; specialized subjects should connect them to design decisions and to the
+tools used in industry and research. Active learning, which has been shown to improve
+student performance in science and engineering~\cite{Freeman2014}, will be introduced
+progressively and coordinated with the other lecturers of each subject.
+
+\subsection{Institutional context}\label{sec:context}
+\paragraph{The EHEA framework.} Teaching at the UPC follows the European Higher Education
+Area (EHEA), initiated with the Bologna Declaration in 1999 and implemented in Spain
+through Royal Decree 1393/2007. Its central elements are the two-cycle structure
+(bachelor's and master's degrees, followed by the doctorate), the European Credit Transfer
+System (ECTS), in which one credit corresponds to 25--30 hours of student work, including
+autonomous study, and competence-based learning. Bachelor's degrees in Spain have 240
+ECTS. At the UPC, study plans are defined in terms of specific and generic competences
+that must be assessed, with particular attention to autonomous learning, teamwork,
+sustainability and foreign languages.
+
+\paragraph{The EEBE.} The Barcelona East School of Engineering (EEBE) started in 2016--17
+as the core of the Diagonal-Bes\`os Campus, with about 3,500 students and 400 teaching and
+research staff at its opening. Its aim is to be a high-quality engineering hub for the
+industry of the 21st century, combining teaching with research, innovation and knowledge
+transfer. The EEBE offers seven bachelor's degrees (Biomedical, Energy, Materials,
+Electrical, Industrial Electronics and Automatic Control, Mechanical, and Chemical
+Engineering), several master's degrees, including the Master's Degree in Mechanical
+Technologies, and doctoral programs. The bachelor's degrees share a common first block in
+which \emph{Fluid Mechanics} (semester 3) and \emph{Thermodynamics and Heat Transfer}
+(semester 4) are compulsory, so these subjects reach a large number of students from
+different degrees. Each degree then builds on this block with its own specialized
+subjects.
+
+\paragraph{The EPSEVG.} The Vilanova i la Geltr\'u School of Engineering (EPSEVG) offers
+bachelor's degrees in the industrial field. \emph{Fluid Engineering} is compulsory in the
+Bachelor's Degree in Mechanical Engineering and optional in the degrees in Electrical
+Engineering and in Industrial Electronics and Automatic Control Engineering.
+
+\paragraph{The Department of Fluid Mechanics.} The department has more than fifty
+lecturers, researchers and support staff, distributed among the UPC schools where it
+teaches: ESEIAAT, ETSEIB, EEBE and EPSEVG. Its activity covers turbomachinery,
+oil-hydraulic and pneumatic systems, computational simulation and scientific computing,
+turbulence and transport phenomena, with international collaborations that include
+Stanford University, the University of British Columbia, EPFL, the von Karman Institute and
+the Politecnico di Torino. My research group, GReCEF, is one of the department's research
+groups. The plan reinforces the department's existing links with Stanford and UBC through
+the collaborations described in Section~\ref{sec:mobility}.
+
+\subsection{Subjects of the call and adequacy}
+The table relates each subject of the profile to its degrees and to my contribution.
+\begin{center}\small
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{3.7cm}>{\raggedright\arraybackslash}p{3.9cm}X@{}}
+\toprule
+\textbf{Subject} & \textbf{Degree(s)} & \textbf{My contribution} \\
+\midrule
+Thermodynamics and Heat Transfer (820020, 6 ECTS) & Bachelor's degrees in Biomedical, Electrical, Energy, Industrial Electronics and Automatic Control, and Mechanical Engineering & Full course of group M1 (2026--27), support to coordination; developed in Section~\ref{sec:ttc} \\
+Thermodynamics & Bachelor's degree in Materials Engineering & Same fundamentals as TTC; real-fluid properties \\
+Fluid Mechanics (820013) & All EEBE degrees & Laboratory since 2024--25 (8 groups); theory and problems \\
+Fluid Engineering (340058, 6 ECTS, EPSEVG) & Bachelor's degree in Mechanical Engineering & Coordination and theory groups M65 and M66 from spring 2027; developed in Section~\ref{sec:ef} \\
+Thermal Engineering & Bachelor's degree in Mechanical Engineering & Laboratory of Fundamentals of Thermal Engineering (EPSEVG); heat exchangers and thermal systems; industrial thermal design \\
+Power Plants and Renewable Energies & Bachelor's degree in Electrical Engineering & Rankine and Brayton cycles; supercritical CO$_2$ cycles \\
+Thermofluid-Dynamic Power Generation & Bachelor's degree in Energy Engineering & Turbomachinery and thermal power generation \\
+Computational Fluid Mechanics & Master's Degree in Mechanical Technologies & CFD, HPC (MPI, OpenACC, CUDA) and flow analysis; Section~\ref{sec:cfm} \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\subsection{Developed subject: Thermodynamics and Heat Transfer (TTC)}\label{sec:ttc}
+TTC is a compulsory subject of five bachelor's degrees of the EEBE, taught in the fourth
+semester to a large number of students in many groups and by several lecturers. This
+makes coordination essential and makes it possible to introduce methodological changes
+gradually and to compare their effect across groups. My proposal therefore keeps the
+structure and assessment of the official course guide and adds elements that I can test
+in my own groups, in agreement with the coordinators.
+
+\paragraph{Prerequisites.} Calculus, Physics I, Algebra and Multivariable Calculus,
+Numerical Calculus -- Differential Equations, and Fluid Mechanics.
+
+\paragraph{Competences and learning objectives.} Specific competence CEI-07: understand
+applied thermodynamics and heat transfer, their basic principles and their application to
+engineering problems. Generic competence: self-directed learning (level 2). By the end of
+the course, students should be able to:
+\begin{itemize}
+  \item state and apply the zeroth, first and second laws of thermodynamics to closed and
+  open systems;
+  \item model components (piston--cylinder devices, turbines, compressors, heat
+  exchangers), represent processes in thermodynamic diagrams and evaluate the properties of
+  real substances;
+  \item analyze power and refrigeration cycles (Brayton, Rankine, vapor compression) and
+  compute their efficiency;
+  \item distinguish conduction, convection and radiation, and apply them to insulation,
+  cooling and heat-exchange problems.
+\end{itemize}
+
+\paragraph{Contents.} The six units of the course guide, with their on-site hours:
+\begin{center}\small
+\begin{tabularx}{\textwidth}{@{}p{0.6cm}Xp{1.3cm}p{1.2cm}@{}}
+\toprule
+\textbf{Unit} & \textbf{Contents} & \textbf{Theory} & \textbf{Lab} \\
+\midrule
+1 & Introduction: systems, temperature and the zeroth law, ideal gas, pure substances & 10 h & 2 h \\
+2 & First law: work, internal energy, heat, enthalpy, specific heats, polytropic processes, closed and open systems & 11.5 h & 2 h \\
+3 & Second law: entropy, irreversibilities, Carnot efficiency, isentropic efficiencies, Brayton, Rankine and vapor-compression cycles & 10 h & -- \\
+4 & Conduction: heat equation, plane and cylindrical walls, thermal resistances, overall coefficient & 6 h & 2 h \\
+5 & Convection: natural and forced, internal and external flows, empirical correlations & 6 h & 2 h \\
+6 & Radiation: electromagnetic spectrum, black, grey and real bodies, Kirchhoff's law & 6 h & 2 h \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\paragraph{Methodology.} The course guide combines lectures with active methodologies,
+individual problem solving and teamwork in the laboratory. Within this framework, I will
+add three elements:
+\begin{itemize}
+  \item \textbf{Real-fluid property tools.} Short Python notebooks with the open-source
+  library CoolProp~\cite{CoolProp2014} to evaluate properties, build diagrams and explore
+  cycles, so that students can check their hand calculations and see the effect of each
+  parameter.
+  \item \textbf{Engineering cases.} Each unit closes with a case drawn from industry or
+  research: the cooling of an automotive inverter (conduction and convection), a
+  supercritical CO$_2$ Brayton cycle (second law), or the effect of property variations
+  near the pseudo-boiling line on heat transfer (convection).
+  \item \textbf{In-class problem solving in small groups.} Part of the large-group hours
+  will be devoted to problems that students solve in class with my support, preceded by
+  short preparatory material, as a first step towards a flipped classroom.
+\end{itemize}
+
+\paragraph{Assessment.} The official scheme is kept: mid-term exam (35\,\%), final exam
+(45\,\%), laboratory practices (15\,\%) and generic skills (5\,\%), with compulsory
+attendance at all laboratory sessions and a re-assessment test according to the EEBE
+regulations. Within the generic-skills component, I propose short individual tasks based
+on the notebooks, which assess self-directed learning and give early feedback before the
+mid-term exam.
+
+\paragraph{Workload (6 ECTS, 150 hours).} 45 hours in large groups, 15 hours in small
+groups (laboratory) and 90 hours of self-study.
+
+\paragraph{Resources.} The Atenea virtual campus, which I organize with the tools learned
+in the ICE training; problem collections and exams prepared with Julia-based tools; the
+laboratory sessions (thermometry, calorimetry, conduction, processes and cycles,
+radiation); and the basic bibliography: Y.\ A.\ \c{C}engel and M.\ A.\ Boles,
+\emph{Thermodynamics: An Engineering Approach}, McGraw-Hill; Y.\ A.\ \c{C}engel and A.\
+J.\ Ghajar, \emph{Heat and Mass Transfer: Fundamentals and Applications}, McGraw-Hill.
+
+\paragraph{Schedule (15 weeks).} Weeks 1--3: unit 1; weeks 4--6: unit 2; weeks 7--9:
+unit 3, with the mid-term exam in the mid-term period; weeks 10--11: unit 4; weeks
+12--13: unit 5; weeks 14--15: unit 6. Laboratory sessions every two weeks.
+
+\subsection{Developed subject: Fluid Engineering}\label{sec:ef}
+From spring 2027, I will coordinate \emph{Enginyeria de Fluids} (340058, 6 ECTS) at the
+EPSEVG and teach its two theory groups, M65 and M66 (92 class hours). The subject extends
+Fluid Mechanics to the design and analysis of engineering systems, and it is where my
+experience in external aerodynamics and industrial simulation contributes most directly.
+
+\paragraph{Prerequisites and competences.} Differential equations, advanced calculus and
+\emph{Fluid Mechanics} (340039). Specific competence CE24: applied knowledge of the
+fundamentals of fluid-mechanical systems and machines.
+
+\paragraph{Learning objectives.} By the end of the course, students should be able to:
+\begin{itemize}
+  \item apply the differential equations of fluid motion, dimensional analysis and
+  similarity to engineering problems and model testing;
+  \item compute drag and lift on bodies in external flow for simple geometries;
+  \item describe the fundamentals of turbomachines and analyze hydraulic installations
+  with pumps, including operating point, variable speed, pump selection and cavitation;
+  \item use specific software to simulate hydraulic networks;
+  \item solve one-dimensional compressible flows in nozzles and ducts;
+  \item work in a team, taking part in its coordination.
+\end{itemize}
+
+\paragraph{Contents.} (1) Differential analysis of flow: kinematics, continuity, Euler and
+Navier--Stokes equations. (2) Dimensional analysis and similarity: Buckingham $\Pi$
+theorem, complete and incomplete similarity. (3) Drag and lift in external flow: boundary
+layer, friction and pressure drag, cylinders and spheres, lift. (4) Turbomachines:
+velocity triangles, Euler's equation, degree of reaction, similarity, characteristic
+curves. (5) Installations with turbomachines: system and pump curves, operating point,
+variable speed, pump selection, cavitation. (6) Compressible flow: speed of sound, Mach
+number, stagnation conditions, nozzles and diffusers, normal shocks, Fanno and Rayleigh
+flows.
+
+\paragraph{Methodology.} Theory sessions combine the exposition of the fundamentals with
+worked problems, and students then solve the problem collections in and out of class. I
+will add three elements, consistent with the course guide:
+\begin{itemize}
+  \item \textbf{Real-installation case studies} in units 4--5: from the pump curve in a
+  manufacturer's catalog to the operating point of a building or irrigation network, which
+  students then reproduce in the EPANET laboratory session.
+  \item \textbf{Short computational examples} (Python or Julia) to visualize velocity
+  triangles, pump and system curves, and the Fanno and Rayleigh lines, so that students
+  explore the effect of each parameter before solving problems by hand.
+  \item \textbf{Examples from aerodynamics and propulsion} in units 3 and 6: the
+  drag-reduction system of a Formula Student car [C2], the DNS database of a NACA~0012
+  airfoil [R5], and high-speed flows.
+\end{itemize}
+As coordinator, I will ensure that both groups share materials, problem collections and
+assessment criteria.
+
+\paragraph{Assessment.} Two individual mid-term exams (CP1, units 1--3, 38\,\%; CP2, units
+4--6, 38\,\%), laboratory reports assessed with a rubric (16\,\%) and individually solved
+problem sets submitted through Atenea (8\,\%). Students with a final grade of at least 2.0
+may take a global re-assessment exam.
+
+\paragraph{Workload (6 ECTS, 150 hours).} 52.5 hours in large groups (theory and
+problems), 7.5 hours in small groups (laboratory: pumps in series and parallel, EPANET) and
+90 hours of autonomous learning.
+
+\paragraph{Schedule.} Units 1--3 in weeks 1--7, with CP1 in the mid-term period; units
+4--6 in weeks 8--15, with CP2 in the final period; laboratory sessions during units 5 and
+6.
+
+\paragraph{Bibliography.} Y.\ A.\ \c{C}engel and J.\ M.\ Cimbala, \emph{Mec\'anica de
+fluidos: fundamentos y aplicaciones}, McGraw-Hill, 2018; F.\ M.\ White, \emph{Mec\'anica de
+fluidos}, McGraw-Hill, 2008; S.\ de las Heras, \emph{Mec\'anica de fluidos en
+ingenier\'ia}, Iniciativa Digital Polit\`ecnica, 2012.
+
+\subsection{Master's subject: Computational Fluid Mechanics}\label{sec:cfm}
+The subject of the Master's Degree in Mechanical Technologies covers numerical methods, a
+Navier--Stokes flow solver, high-performance computing and computational flow analysis.
+My research relates directly to its high-performance computing and compressible-flow
+parts. In agreement with the subject coordinators, I propose:
+\begin{itemize}
+  \item a GPU laboratory session that accelerates the subject's Poisson/Jacobi example
+  with OpenACC or CUDA and measures speed-up and scalability;
+  \item an extension of the flow-analysis topic with data-driven and causal analysis of
+  time series, linked to research Line~2;
+  \item guidance on model selection and numerical accuracy, so that students learn to judge
+  which design decisions a simulation can support;
+  \item course projects that can grow into master's theses within the research plan.
+\end{itemize}
+
+\subsection{Teaching innovation and training plan}
+\begin{itemize}
+  \item \textbf{Computational notebooks} in TTC, Fluid Mechanics and Fluid Engineering, to
+  bring real-fluid properties and simulation tools to the bachelor's level, using
+  open-source tools (Python, Julia, CoolProp) that students can keep using after their
+  studies.
+  \item \textbf{Laboratory sessions around a clear learning goal:} students should be able
+  to predict an outcome, compare it with their measurements and explain the discrepancies.
+  I will work with the course teams to review the experiments, guides and equipment needs
+  around this goal.
+  \item \textbf{Shared preparatory material} (short videos, notes and solved examples)
+  among the lecturers of each subject, to homogenize contents across groups and prepare a
+  progressive flipped classroom.
+  \item \textbf{Responsible use of generative artificial intelligence,} detailed in
+  Section~\ref{sec:ai} and building on my training in AI for education.
+  \item \textbf{Continuous training at the ICE}, continuing the pathway started with the
+  Atenea courses (M2.4, intermediate and advanced) and the workshop on conflict
+  management, with priority on active methodologies and assessment, and participation in
+  teaching-innovation projects of the EEBE.
+\end{itemize}
+
+\subsection{Generative artificial intelligence in learning}\label{sec:ai}
+\paragraph{The issue.} Generative AI is already part of how students study. In a survey of
+5,894 students at Swedish universities, most students knew and used ChatGPT, and engineering
+students reported the highest use; more than half viewed it positively, but almost as many
+were concerned about its effect on learning and assessment~\cite{Stohr2024}. The effect on
+learning depends on how the tool is used. In a field experiment with almost a thousand
+students, unrestricted access to GPT-4 improved performance on practice problems but reduced
+later exam performance, because most students asked for the answers; a version that gave
+hints instead of solutions avoided this harm~\cite{Bastani2025}. Conversely, in a randomized
+trial in an introductory physics course, an AI tutor designed according to research-based
+pedagogy produced larger learning gains than an in-class active-learning
+session~\cite{Kestin2025}. AI therefore supports learning when it prompts students to think,
+and harms it when it replaces their thinking.
+
+\paragraph{The European framework.} European institutions have chosen adaptation over
+prohibition. The European University Association considers that banning AI tools would be
+futile and asks universities to adapt learning, teaching and assessment to their responsible
+use~\cite{EUA2023}. The European Commission's ethical guidelines for educators place human
+agency, fairness and justified choice at the center of any use of AI in
+teaching~\cite{EC2022}. The EU AI Act classifies AI systems that evaluate learning outcomes
+or monitor students during tests as high-risk~\cite{AIAct2024}, which supports keeping
+assessment decisions in human hands. At the UPC, the guide on the use of artificial
+intelligence sets the institutional framework~\cite{UPCAI2026}, and UPC schools already
+recommend specifying the permitted use of AI in each course guide and assessment activity.
+
+\paragraph{What I will do.} In Thermodynamics and Heat Transfer and in Fluid Engineering, in
+agreement with the coordinators and within the UPC guidelines:
+\begin{itemize}
+  \item \textbf{State the AI policy for each activity} in the course guide and in Atenea:
+  not allowed, allowed with disclosure, or required. Exams, which account for 80\,\% of the
+  grade in TTC and 76\,\% in Fluid Engineering, remain in person, without AI and graded by
+  the lecturers, so that the grade reflects individual understanding.
+  \item \textbf{Pilot a guided assistant} built with the corporate tools of the UPC and the
+  course material, configured to give hints and ask questions rather than final answers,
+  for practice outside the classroom.
+  \item \textbf{Use AI as an object of critique.} Students receive an AI-generated
+  solution to a thermodynamics or pump-installation problem and must find and correct its
+  errors (property values, sign conventions, unjustified assumptions), which trains the
+  physical judgment that the subjects aim to develop.
+  \item \textbf{Measure the effect.} TTC is taught in many parallel groups, which allows
+  comparing groups with and without each measure through short pre- and post-tests and the
+  student surveys. The results will be shared with the course team and presented as a
+  teaching-innovation project through the ICE.
+\end{itemize}
+
+\subsection{Supervision of TFG, TFM and doctoral theses}\label{sec:theses}
+Final theses are an opportunity to advance specific parts of the research plan while
+training students in current methods. The scope of each project will be adjusted to the
+student's background.
+\begin{itemize}
+  \item \textbf{TFG:} thermodynamic analysis of a supercritical CO$_2$ Brayton cycle with
+  real-fluid properties; GPU acceleration of a heat-equation solver; statistical analysis
+  of extreme events in turbulence data.
+  \item \textbf{TFM:} DNS of heated duct flow at supercritical pressure; causal analysis of
+  heat-transfer events in turbulence databases; neural-network surrogate of real-fluid
+  properties or wall heat flux.
+  \item \textbf{Doctoral theses:} the topics proposed in Section~\ref{sec:research}.
+\end{itemize}
+
+\subsection{Language plan}
+I teach in Spanish and use English as the working language of my research. I have
+completed 100 hours of Catalan courses at the UPC Language and Terminology Service (SLT),
+reaching level A2 (\emph{Catal\`a B\`asic 1} and \emph{3}, 2025), and the B1 course is
+scheduled. I have requested the temporary exemption provided for in the UPC regulations on
+the accreditation of knowledge of Catalan for teaching and research staff (Agreement
+CG/2025/06/29), and I will follow the SLT training pathway for teaching staff with the goal
+of obtaining the C1 certificate within the first two years of the contract, ahead of the
+Year-3 self-assessment. \MAYBE{Course materials of Fluid Engineering, whose course guide lists Catalan as the language of instruction, will be provided in Catalan.}
+
+\subsection{Equality, inclusion and sustainability}
+I will apply the UPC Gender Equality Plan in teaching and research: inclusive language and
+examples, balance in the recruitment of students and researchers, and attention to
+students with specific needs. I will take part in UPC initiatives that encourage girls and
+students from under-represented groups to pursue engineering studies. Sustainability will
+be present in the examples and final theses through energy-transition cases, such as
+supercritical CO$_2$ cycles, heat pumps and efficient thermal management.
+
+% =====================================================================
+\section{Year-3 milestones and self-assessment}
+The following indicators will be used for the self-assessment in the third year and as
+targets for the end of the contract.
+\begin{center}\small
+\begin{tabularx}{\textwidth}{@{}p{3.0cm}XX@{}}
+\toprule
+\textbf{Area} & \textbf{Year 3} & \textbf{Year 6} \\
+\midrule
+Research output & 4--6 Q1 articles in the three lines; open database and solver release & 10--12 Q1 articles; consolidated independent line \\
+Funding & At least one competitive project submitted as principal investigator or co-principal investigator; yearly computing allocations & Funded project as principal investigator; European grant application \\
+Supervision & Doctoral student 1 recruited; TFG and TFM supervised & Doctoral thesis 1 defended; doctoral student 2 recruited \\
+Teaching & At least three subjects of the profile taught; Fluid Engineering coordinated; computational material available in TTC; AI pilot evaluated & Teaching-innovation project; master's subject contribution; survey ratings above the department average \\
+Internationalization & Stays at UBC and Universit\`a del Salento completed, with joint articles; prospective Jos\'e Castillejo--Fulbright stay at Stanford University & Joint proposal with an international partner; incoming visitors \\
+Language & Catalan C1 & -- \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+% =====================================================================
+\begin{thebibliography}{99}\small
+\addcontentsline{toc}{section}{References}
+\bibitem{Ahn2015} Y.\ Ahn, S.\ J.\ Bae, M.\ Kim, S.\ K.\ Cho, S.\ Baik, J.\ I.\ Lee, J.\ E.\ Cha.
+Review of supercritical CO$_2$ power cycle technology and current status of research and
+development. \emph{Nuclear Engineering and Technology}, 47(6):647--661, 2015.
+\bibitem{JofreUrzay2021} L.\ Jofre, J.\ Urzay. Transcritical diffuse-interface hydrodynamics
+of propellants in high-pressure combustors of chemical propulsion systems. \emph{Progress
+in Energy and Combustion Science}, 82:100877, 2021.
+\bibitem{Yoo2013} J.\ Y.\ Yoo. The turbulent flows of supercritical fluids with heat
+transfer. \emph{Annual Review of Fluid Mechanics}, 45:495--525, 2013.
+\bibitem{Banuti2015} D.\ T.\ Banuti. Crossing the Widom-line -- Supercritical pseudo-boiling.
+\emph{Journal of Supercritical Fluids}, 98:12--16, 2015.
+\bibitem{Pizzarelli2018} M.\ Pizzarelli. The status of the research on the heat transfer
+deterioration in supercritical fluids: A review. \emph{International Communications in
+Heat and Mass Transfer}, 95:132--138, 2018.
+\bibitem{Schreiber2000} T.\ Schreiber. Measuring information transfer. \emph{Physical Review
+Letters}, 85(2):461--464, 2000.
+\bibitem{LozanoDuranArranz2022} A.\ Lozano-Dur\'an, G.\ Arranz. Information-theoretic
+formulation of dynamical systems: causality, modeling, and control. \emph{Data-Centric
+Engineering}, 3:e34, 2022.
+\bibitem{MartinezSanchez2024} \'A.\ Mart\'inez-S\'anchez, G.\ Arranz, A.\ Lozano-Dur\'an.
+Decomposing causality into its synergistic, unique, and redundant components. \emph{Nature
+Communications}, 15:9296, 2024.
+\bibitem{vanSebille2020} E.\ van Sebille \emph{et al.} The physical oceanography of the
+transport of floating marine debris. \emph{Environmental Research Letters}, 15:023003, 2020.
+\bibitem{PengRobinson1976} D.-Y.\ Peng, D.\ B.\ Robinson. A new two-constant equation of
+state. \emph{Industrial \& Engineering Chemistry Fundamentals}, 15(1):59--64, 1976.
+\bibitem{Chung1988} T.-H.\ Chung, M.\ Ajlan, L.\ L.\ Lee, K.\ E.\ Starling. Generalized
+multiparameter correlation for nonpolar and polar fluid transport properties.
+\emph{Industrial \& Engineering Chemistry Research}, 27(4):671--679, 1988.
+\bibitem{DiRenzo2020} M.\ Di Renzo, L.\ Fu, J.\ Urzay. HTR solver: An open-source
+exascale-oriented task-based multi-GPU high-order code for hypersonic aerothermodynamics.
+\emph{Computer Physics Communications}, 255:107262, 2020.
+\bibitem{CoolProp2014} I.\ H.\ Bell, J.\ Wronski, S.\ Quoilin, V.\ Lemort. Pure and
+pseudo-pure fluid thermophysical property evaluation and the open-source thermophysical
+property library CoolProp. \emph{Industrial \& Engineering Chemistry Research},
+53(6):2498--2508, 2014.
+\bibitem{Freeman2014} S.\ Freeman, S.\ L.\ Eddy, M.\ McDonough, M.\ K.\ Smith, N.\ Okoroafor,
+H.\ Jordt, M.\ P.\ Wenderoth. Active learning increases student performance in science,
+engineering, and mathematics. \emph{Proceedings of the National Academy of Sciences},
+111(23):8410--8415, 2014.
+\bibitem{Toschi2009} F.\ Toschi, E.\ Bodenschatz. Lagrangian properties of particles in
+turbulence. \emph{Annual Review of Fluid Mechanics}, 41:375--404, 2009.
+\bibitem{Michels2018} J.\ Michels, A.\ Stippkugel, M.\ Lenz, K.\ Wirtz, A.\ Engel. Rapid
+aggregation of biofilm-covered microplastics with marine biogenic particles.
+\emph{Proceedings of the Royal Society B}, 285:20181203, 2018.
+\bibitem{Slotnick2014} J.\ Slotnick, A.\ Khodadoust, J.\ Alonso, D.\ Darmofal, W.\ Gropp,
+E.\ Lurie, D.\ Mavriplis. CFD Vision 2030 study: A path to revolutionary computational
+aerosciences. NASA/CR-2014-218178, 2014.
+\bibitem{Urzay2018} J.\ Urzay. Supersonic combustion in air-breathing propulsion systems for
+hypersonic flight. \emph{Annual Review of Fluid Mechanics}, 50:593--627, 2018.
+\bibitem{DiRenzoUrzay2021} M.\ Di Renzo, J.\ Urzay. Direct numerical simulation of a
+hypersonic transitional boundary layer at suborbital enthalpies. \emph{Journal of Fluid
+Mechanics}, 912:A29, 2021.
+\bibitem{Passiatore2022} D.\ Passiatore, L.\ Sciacovelli, P.\ Cinnella, G.\ Pascazio.
+Thermochemical non-equilibrium effects in turbulent hypersonic boundary layers.
+\emph{Journal of Fluid Mechanics}, 941:A21, 2022.
+\bibitem{Kestin2025} G.\ Kestin, K.\ Miller, A.\ Klales, T.\ Milbourne, G.\ Ponti. AI tutoring
+outperforms in-class active learning: an RCT introducing a novel research-based design in an
+authentic educational setting. \emph{Scientific Reports}, 15, 2025.
+\href{https://doi.org/10.1038/s41598-025-97652-6}{doi:10.1038/s41598-025-97652-6}.
+\bibitem{Bastani2025} H.\ Bastani, O.\ Bastani, A.\ Sungu, H.\ Ge, \"O.\ Kabakc\i{}, R.\
+Mariman. Generative AI without guardrails can harm learning: Evidence from high school
+mathematics. \emph{Proceedings of the National Academy of Sciences}, 122(26):e2422633122,
+2025.
+\bibitem{Stohr2024} C.\ St\"ohr, A.\ W.\ Ou, H.\ Malmstr\"om. Perceptions and usage of AI
+chatbots among students in higher education across genders, academic levels and fields of
+study. \emph{Computers and Education: Artificial Intelligence}, 7:100259, 2024.
+\bibitem{EUA2023} European University Association. \emph{Artificial intelligence tools and
+their responsible use in higher education learning and teaching}. Position paper,
+Brussels, 2023.
+\bibitem{EC2022} European Commission, Directorate-General for Education, Youth, Sport and
+Culture. \emph{Ethical guidelines on the use of artificial intelligence (AI) and data in
+teaching and learning for educators}. Publications Office of the European Union, 2022.
+\href{https://data.europa.eu/doi/10.2766/153756}{doi:10.2766/153756}.
+\bibitem{AIAct2024} Regulation (EU) 2024/1689 of the European Parliament and of the Council
+laying down harmonised rules on artificial intelligence (Artificial Intelligence Act),
+Annex III, point 3. \emph{Official Journal of the European Union}, 2024.
+\bibitem{UPCAI2026} Universitat Polit\`ecnica de Catalunya. \emph{Guia de bones pr\`actiques
+sobre l'\'us de la intel$\cdot$lig\`encia artificial a la UPC}, 2026.
+\url{https://www.upc.edu/ia/ca}.
+\end{thebibliography}
+
+\end{document}

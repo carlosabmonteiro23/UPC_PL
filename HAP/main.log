@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.1.31)  15 NOV 2026 18:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.1.31)  17 NOV 2026 23:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3061,25 +3061,88 @@ _Summer_Program_2026_letter.pdf , page1 used on input line 784.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [66 <./documents_justificacio/06_international/CTR_Stanford_Summer_Program_2026
 _letter.pdf>]
-LaTeX Font Info:    Trying to load font information for T1+zlmtt on input line 
-785.
-(/usr/share/texlive/texmf-dist/tex/latex/zlmtt/t1zlmtt.fd
-File: t1zlmtt.fd 2014/02/07 v1.0 Alternate font definitions for Latin Modern Ty
-pewriter, Michael Sharpe
-)
-LaTeX Font Info:    Font shape `T1/zlmtt/m/n' will be
-(Font)              scaled to size 15.84007pt on input line 785.
-
-Overfull \hbox (87.64511pt too wide) in paragraph at lines 785--785
- []\T1/zlmtt/m/n/14.4 documents_justificacio/02_positions/Continental_work_cert
-ificate.pdf 
- []
-
-[67
-
-]
+<./documents_justificacio/02_positions/Continental_AUMOVIO_work_declaration_202
+6_REDACTED.pdf, id=1345, 614.295pt x 794.97pt>
+File: ./documents_justificacio/02_positions/Continental_AUMOVIO_work_declaratio
+n_2026_REDACTED.pdf Graphic file (type pdf)
+<use ./documents_justificacio/02_positions/Continental_AUMOVIO_work_declaration
+_2026_REDACTED.pdf>
+Package pdftex.def Info: ./documents_justificacio/02_positions/Continental_AUMO
+VIO_work_declaration_2026_REDACTED.pdf  used on input line 785.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ./documents_justificacio/02_positions/Continental_AUMOVIO_work_declaratio
+n_2026_REDACTED.pdf Graphic file (type pdf)
+<use ./documents_justificacio/02_positions/Continental_AUMOVIO_work_declaration
+_2026_REDACTED.pdf>
+Package pdftex.def Info: ./documents_justificacio/02_positions/Continental_AUMO
+VIO_work_declaration_2026_REDACTED.pdf  used on input line 785.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<./documents_justificacio/02_positions/Continental_AUMOVIO_work_declaration_202
+6_REDACTED.pdf, id=1348, page=1, 614.295pt x 794.97pt>
+File: ./documents_justificacio/02_positions/Continental_AUMOVIO_work_declaratio
+n_2026_REDACTED.pdf Graphic file (type pdf)
+<use ./documents_justificacio/02_positions/Continental_AUMOVIO_work_declaration
+_2026_REDACTED.pdf, page 1>
+Package pdftex.def Info: ./documents_justificacio/02_positions/Continental_AUMO
+VIO_work_declaration_2026_REDACTED.pdf , page1 used on input line 785.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: ./documents_justificacio/02_positions/Continental_AUMOVIO_work_declaratio
+n_2026_REDACTED.pdf Graphic file (type pdf)
+<use ./documents_justificacio/02_positions/Continental_AUMOVIO_work_declaration
+_2026_REDACTED.pdf, page 1>
+Package pdftex.def Info: ./documents_justificacio/02_positions/Continental_AUMO
+VIO_work_declaration_2026_REDACTED.pdf , page1 used on input line 785.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ./documents_justificacio/02_positions/Continental_AUMOVIO_work_declaratio
+n_2026_REDACTED.pdf Graphic file (type pdf)
+<use ./documents_justificacio/02_positions/Continental_AUMOVIO_work_declaration
+_2026_REDACTED.pdf, page 1>
+Package pdftex.def Info: ./documents_justificacio/02_positions/Continental_AUMO
+VIO_work_declaration_2026_REDACTED.pdf , page1 used on input line 785.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ./documents_justificacio/02_positions/Continental_AUMOVIO_work_declaratio
+n_2026_REDACTED.pdf Graphic file (type pdf)
+<use ./documents_justificacio/02_positions/Continental_AUMOVIO_work_declaration
+_2026_REDACTED.pdf, page 1>
+Package pdftex.def Info: ./documents_justificacio/02_positions/Continental_AUMO
+VIO_work_declaration_2026_REDACTED.pdf , page1 used on input line 785.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ./documents_justificacio/02_positions/Continental_AUMOVIO_work_declaratio
+n_2026_REDACTED.pdf Graphic file (type pdf)
+<use ./documents_justificacio/02_positions/Continental_AUMOVIO_work_declaration
+_2026_REDACTED.pdf, page 1>
+Package pdftex.def Info: ./documents_justificacio/02_positions/Continental_AUMO
+VIO_work_declaration_2026_REDACTED.pdf , page1 used on input line 785.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[67 <./documents_justificacio/02_positions/Continental_AUMOVIO_work_declaration
+_2026_REDACTED.pdf>]
+<./documents_justificacio/02_positions/Continental_AUMOVIO_work_declaration_202
+6_REDACTED.pdf, id=1356, page=2, 614.295pt x 794.97pt>
+File: ./documents_justificacio/02_positions/Continental_AUMOVIO_work_declaratio
+n_2026_REDACTED.pdf Graphic file (type pdf)
+<use ./documents_justificacio/02_positions/Continental_AUMOVIO_work_declaration
+_2026_REDACTED.pdf, page 2>
+Package pdftex.def Info: ./documents_justificacio/02_positions/Continental_AUMO
+VIO_work_declaration_2026_REDACTED.pdf , page2 used on input line 785.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ./documents_justificacio/02_positions/Continental_AUMOVIO_work_declaratio
+n_2026_REDACTED.pdf Graphic file (type pdf)
+<use ./documents_justificacio/02_positions/Continental_AUMOVIO_work_declaration
+_2026_REDACTED.pdf, page 2>
+Package pdftex.def Info: ./documents_justificacio/02_positions/Continental_AUMO
+VIO_work_declaration_2026_REDACTED.pdf , page2 used on input line 785.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: ./documents_justificacio/02_positions/Continental_AUMOVIO_work_declaratio
+n_2026_REDACTED.pdf Graphic file (type pdf)
+<use ./documents_justificacio/02_positions/Continental_AUMOVIO_work_declaration
+_2026_REDACTED.pdf, page 2>
+Package pdftex.def Info: ./documents_justificacio/02_positions/Continental_AUMO
+VIO_work_declaration_2026_REDACTED.pdf , page2 used on input line 785.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[68 <./documents_justificacio/02_positions/Continental_AUMOVIO_work_declaration
+_2026_REDACTED.pdf>]
 <./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTED.pd
-f, id=1351, 597.6729pt x 845.19763pt>
+f, id=1363, 597.6729pt x 845.19763pt>
 File: ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACT
 ED.pdf Graphic file (type pdf)
 <use ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTE
@@ -3095,7 +3158,7 @@ Package pdftex.def Info: ./documents_justificacio/03_teaching/UPC_teaching_cert
 ificate_2026_REDACTED.pdf  used on input line 786.
 (pdftex.def)             Requested size: 597.67143pt x 845.19557pt.
 <./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTED.pd
-f, id=1354, page=1, 597.6729pt x 845.19763pt>
+f, id=1366, page=1, 597.6729pt x 845.19763pt>
 File: ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACT
 ED.pdf Graphic file (type pdf)
 <use ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTE
@@ -3131,124 +3194,169 @@ D.pdf, page 1>
 Package pdftex.def Info: ./documents_justificacio/03_teaching/UPC_teaching_cert
 ificate_2026_REDACTED.pdf , page1 used on input line 786.
 (pdftex.def)             Requested size: 597.69879pt x 845.23425pt.
-[68
-
- <./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTED.p
-df>]
-<./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTED.pd
-f, id=1361, page=2, 614.65634pt x 795.33133pt>
-File: ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACT
-ED.pdf Graphic file (type pdf)
-<use ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTE
-D.pdf, page 2>
-Package pdftex.def Info: ./documents_justificacio/03_teaching/UPC_teaching_cert
-ificate_2026_REDACTED.pdf , page2 used on input line 786.
-(pdftex.def)             Requested size: 614.68297pt x 795.36577pt.
-File: ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACT
-ED.pdf Graphic file (type pdf)
-<use ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTE
-D.pdf, page 2>
-Package pdftex.def Info: ./documents_justificacio/03_teaching/UPC_teaching_cert
-ificate_2026_REDACTED.pdf , page2 used on input line 786.
-(pdftex.def)             Requested size: 614.68297pt x 795.36577pt.
-File: ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACT
-ED.pdf Graphic file (type pdf)
-<use ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTE
-D.pdf, page 2>
-Package pdftex.def Info: ./documents_justificacio/03_teaching/UPC_teaching_cert
-ificate_2026_REDACTED.pdf , page2 used on input line 786.
-(pdftex.def)             Requested size: 614.68297pt x 795.36577pt.
 [69 <./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTE
 D.pdf>]
 <./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTED.pd
-f, id=1368, page=3, 597.6729pt x 845.19763pt>
+f, id=1373, page=2, 614.65634pt x 795.33133pt>
 File: ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACT
 ED.pdf Graphic file (type pdf)
 <use ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTE
-D.pdf, page 3>
+D.pdf, page 2>
 Package pdftex.def Info: ./documents_justificacio/03_teaching/UPC_teaching_cert
-ificate_2026_REDACTED.pdf , page3 used on input line 786.
-(pdftex.def)             Requested size: 597.69879pt x 845.23425pt.
+ificate_2026_REDACTED.pdf , page2 used on input line 786.
+(pdftex.def)             Requested size: 614.68297pt x 795.36577pt.
 File: ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACT
 ED.pdf Graphic file (type pdf)
 <use ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTE
-D.pdf, page 3>
+D.pdf, page 2>
 Package pdftex.def Info: ./documents_justificacio/03_teaching/UPC_teaching_cert
-ificate_2026_REDACTED.pdf , page3 used on input line 786.
-(pdftex.def)             Requested size: 597.69879pt x 845.23425pt.
+ificate_2026_REDACTED.pdf , page2 used on input line 786.
+(pdftex.def)             Requested size: 614.68297pt x 795.36577pt.
 File: ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACT
 ED.pdf Graphic file (type pdf)
 <use ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTE
-D.pdf, page 3>
+D.pdf, page 2>
 Package pdftex.def Info: ./documents_justificacio/03_teaching/UPC_teaching_cert
-ificate_2026_REDACTED.pdf , page3 used on input line 786.
-(pdftex.def)             Requested size: 597.69879pt x 845.23425pt.
+ificate_2026_REDACTED.pdf , page2 used on input line 786.
+(pdftex.def)             Requested size: 614.68297pt x 795.36577pt.
 [70 <./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTE
 D.pdf>]
 <./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTED.pd
-f, id=1375, page=4, 845.19763pt x 597.6729pt>
+f, id=1380, page=3, 597.6729pt x 845.19763pt>
 File: ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACT
 ED.pdf Graphic file (type pdf)
 <use ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTE
-D.pdf, page 4>
+D.pdf, page 3>
 Package pdftex.def Info: ./documents_justificacio/03_teaching/UPC_teaching_cert
-ificate_2026_REDACTED.pdf , page4 used on input line 786.
-(pdftex.def)             Requested size: 845.23425pt x 597.69879pt.
+ificate_2026_REDACTED.pdf , page3 used on input line 786.
+(pdftex.def)             Requested size: 597.69879pt x 845.23425pt.
 File: ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACT
 ED.pdf Graphic file (type pdf)
 <use ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTE
-D.pdf, page 4>
+D.pdf, page 3>
 Package pdftex.def Info: ./documents_justificacio/03_teaching/UPC_teaching_cert
-ificate_2026_REDACTED.pdf , page4 used on input line 786.
-(pdftex.def)             Requested size: 845.23425pt x 597.69879pt.
+ificate_2026_REDACTED.pdf , page3 used on input line 786.
+(pdftex.def)             Requested size: 597.69879pt x 845.23425pt.
 File: ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACT
 ED.pdf Graphic file (type pdf)
 <use ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTE
-D.pdf, page 4>
+D.pdf, page 3>
 Package pdftex.def Info: ./documents_justificacio/03_teaching/UPC_teaching_cert
-ificate_2026_REDACTED.pdf , page4 used on input line 786.
-(pdftex.def)             Requested size: 845.23425pt x 597.69879pt.
+ificate_2026_REDACTED.pdf , page3 used on input line 786.
+(pdftex.def)             Requested size: 597.69879pt x 845.23425pt.
 [71 <./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTE
 D.pdf>]
 <./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTED.pd
-f, id=1382, page=5, 845.19763pt x 597.6729pt>
+f, id=1387, page=4, 845.19763pt x 597.6729pt>
 File: ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACT
 ED.pdf Graphic file (type pdf)
 <use ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTE
-D.pdf, page 5>
+D.pdf, page 4>
 Package pdftex.def Info: ./documents_justificacio/03_teaching/UPC_teaching_cert
-ificate_2026_REDACTED.pdf , page5 used on input line 786.
+ificate_2026_REDACTED.pdf , page4 used on input line 786.
 (pdftex.def)             Requested size: 845.23425pt x 597.69879pt.
 File: ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACT
 ED.pdf Graphic file (type pdf)
 <use ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTE
-D.pdf, page 5>
+D.pdf, page 4>
 Package pdftex.def Info: ./documents_justificacio/03_teaching/UPC_teaching_cert
-ificate_2026_REDACTED.pdf , page5 used on input line 786.
+ificate_2026_REDACTED.pdf , page4 used on input line 786.
 (pdftex.def)             Requested size: 845.23425pt x 597.69879pt.
 File: ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACT
 ED.pdf Graphic file (type pdf)
 <use ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTE
-D.pdf, page 5>
+D.pdf, page 4>
 Package pdftex.def Info: ./documents_justificacio/03_teaching/UPC_teaching_cert
-ificate_2026_REDACTED.pdf , page5 used on input line 786.
+ificate_2026_REDACTED.pdf , page4 used on input line 786.
 (pdftex.def)             Requested size: 845.23425pt x 597.69879pt.
 [72 <./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTE
 D.pdf>]
-Overfull \hbox (71.3338pt too wide) in paragraph at lines 787--787
- []\T1/zlmtt/m/n/14.4 documents_justificacio/03_teaching/Teaching_assignment_20
-26-27.pdf 
- []
-
-[73
-
-]
+<./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTED.pd
+f, id=1394, page=5, 845.19763pt x 597.6729pt>
+File: ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACT
+ED.pdf Graphic file (type pdf)
+<use ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTE
+D.pdf, page 5>
+Package pdftex.def Info: ./documents_justificacio/03_teaching/UPC_teaching_cert
+ificate_2026_REDACTED.pdf , page5 used on input line 786.
+(pdftex.def)             Requested size: 845.23425pt x 597.69879pt.
+File: ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACT
+ED.pdf Graphic file (type pdf)
+<use ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTE
+D.pdf, page 5>
+Package pdftex.def Info: ./documents_justificacio/03_teaching/UPC_teaching_cert
+ificate_2026_REDACTED.pdf , page5 used on input line 786.
+(pdftex.def)             Requested size: 845.23425pt x 597.69879pt.
+File: ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACT
+ED.pdf Graphic file (type pdf)
+<use ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTE
+D.pdf, page 5>
+Package pdftex.def Info: ./documents_justificacio/03_teaching/UPC_teaching_cert
+ificate_2026_REDACTED.pdf , page5 used on input line 786.
+(pdftex.def)             Requested size: 845.23425pt x 597.69879pt.
+[73 <./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTE
+D.pdf>]
+<./documents_justificacio/03_teaching/EEBE_teaching_certificate_2026-27_S1_REDA
+CTED.pdf, id=1402, 598.39557pt x 845.19763pt>
+File: ./documents_justificacio/03_teaching/EEBE_teaching_certificate_2026-27_S1
+_REDACTED.pdf Graphic file (type pdf)
+<use ./documents_justificacio/03_teaching/EEBE_teaching_certificate_2026-27_S1_
+REDACTED.pdf>
+Package pdftex.def Info: ./documents_justificacio/03_teaching/EEBE_teaching_cer
+tificate_2026-27_S1_REDACTED.pdf  used on input line 787.
+(pdftex.def)             Requested size: 598.3941pt x 845.19557pt.
+File: ./documents_justificacio/03_teaching/EEBE_teaching_certificate_2026-27_S1
+_REDACTED.pdf Graphic file (type pdf)
+<use ./documents_justificacio/03_teaching/EEBE_teaching_certificate_2026-27_S1_
+REDACTED.pdf>
+Package pdftex.def Info: ./documents_justificacio/03_teaching/EEBE_teaching_cer
+tificate_2026-27_S1_REDACTED.pdf  used on input line 787.
+(pdftex.def)             Requested size: 598.3941pt x 845.19557pt.
+<./documents_justificacio/03_teaching/EEBE_teaching_certificate_2026-27_S1_REDA
+CTED.pdf, id=1405, page=1, 598.39557pt x 845.19763pt>
+File: ./documents_justificacio/03_teaching/EEBE_teaching_certificate_2026-27_S1
+_REDACTED.pdf Graphic file (type pdf)
+<use ./documents_justificacio/03_teaching/EEBE_teaching_certificate_2026-27_S1_
+REDACTED.pdf, page 1>
+Package pdftex.def Info: ./documents_justificacio/03_teaching/EEBE_teaching_cer
+tificate_2026-27_S1_REDACTED.pdf , page1 used on input line 787.
+(pdftex.def)             Requested size: 598.3941pt x 845.19557pt.
+File: ./documents_justificacio/03_teaching/EEBE_teaching_certificate_2026-27_S1
+_REDACTED.pdf Graphic file (type pdf)
+<use ./documents_justificacio/03_teaching/EEBE_teaching_certificate_2026-27_S1_
+REDACTED.pdf, page 1>
+Package pdftex.def Info: ./documents_justificacio/03_teaching/EEBE_teaching_cer
+tificate_2026-27_S1_REDACTED.pdf , page1 used on input line 787.
+(pdftex.def)             Requested size: 597.90103pt x 844.49915pt.
+File: ./documents_justificacio/03_teaching/EEBE_teaching_certificate_2026-27_S1
+_REDACTED.pdf Graphic file (type pdf)
+<use ./documents_justificacio/03_teaching/EEBE_teaching_certificate_2026-27_S1_
+REDACTED.pdf, page 1>
+Package pdftex.def Info: ./documents_justificacio/03_teaching/EEBE_teaching_cer
+tificate_2026-27_S1_REDACTED.pdf , page1 used on input line 787.
+(pdftex.def)             Requested size: 597.90103pt x 844.49915pt.
+File: ./documents_justificacio/03_teaching/EEBE_teaching_certificate_2026-27_S1
+_REDACTED.pdf Graphic file (type pdf)
+<use ./documents_justificacio/03_teaching/EEBE_teaching_certificate_2026-27_S1_
+REDACTED.pdf, page 1>
+Package pdftex.def Info: ./documents_justificacio/03_teaching/EEBE_teaching_cer
+tificate_2026-27_S1_REDACTED.pdf , page1 used on input line 787.
+(pdftex.def)             Requested size: 597.90103pt x 844.49915pt.
+File: ./documents_justificacio/03_teaching/EEBE_teaching_certificate_2026-27_S1
+_REDACTED.pdf Graphic file (type pdf)
+<use ./documents_justificacio/03_teaching/EEBE_teaching_certificate_2026-27_S1_
+REDACTED.pdf, page 1>
+Package pdftex.def Info: ./documents_justificacio/03_teaching/EEBE_teaching_cer
+tificate_2026-27_S1_REDACTED.pdf , page1 used on input line 787.
+(pdftex.def)             Requested size: 597.90103pt x 844.49915pt.
+[74 <./documents_justificacio/03_teaching/EEBE_teaching_certificate_2026-27_S1_
+REDACTED.pdf>]
 
 pdfTeX warning: pdflatex (file ./documents_justificacio/03_teaching/TTC_coordin
 ation_statement_Jofre_2026_signed.pdf): PDF inclusion: found PDF version <1.7>,
  but at most version <1.5> allowed
 <./documents_justificacio/03_teaching/TTC_coordination_statement_Jofre_2026_sig
-ned.pdf, id=1394, 597.50829pt x 845.0471pt>
+ned.pdf, id=1412, 597.50829pt x 845.0471pt>
 File: ./documents_justificacio/03_teaching/TTC_coordination_statement_Jofre_202
 6_signed.pdf Graphic file (type pdf)
 <use ./documents_justificacio/03_teaching/TTC_coordination_statement_Jofre_2026
@@ -3279,7 +3387,7 @@ pdfTeX warning: pdflatex (file ./documents_justificacio/03_teaching/TTC_coordin
 ation_statement_Jofre_2026_signed.pdf): PDF inclusion: found PDF version <1.7>,
  but at most version <1.5> allowed
 <./documents_justificacio/03_teaching/TTC_coordination_statement_Jofre_2026_sig
-ned.pdf, id=1397, page=1, 597.50829pt x 845.0471pt>
+ned.pdf, id=1415, page=1, 597.50829pt x 845.0471pt>
 File: ./documents_justificacio/03_teaching/TTC_coordination_statement_Jofre_202
 6_signed.pdf Graphic file (type pdf)
 <use ./documents_justificacio/03_teaching/TTC_coordination_statement_Jofre_2026
@@ -3315,12 +3423,10 @@ _signed.pdf, page 1>
 Package pdftex.def Info: ./documents_justificacio/03_teaching/TTC_coordination_
 statement_Jofre_2026_signed.pdf , page1 used on input line 788.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-[74
-
- <./documents_justificacio/03_teaching/TTC_coordination_statement_Jofre_2026_si
-gned.pdf>]
+[75 <./documents_justificacio/03_teaching/TTC_coordination_statement_Jofre_2026
+_signed.pdf>]
 <./documents_justificacio/03_teaching/Internship_605632_training_project_REDACT
-ED.pdf, id=1431, 597.6729pt x 845.19763pt>
+ED.pdf, id=1449, 597.6729pt x 845.19763pt>
 File: ./documents_justificacio/03_teaching/Internship_605632_training_project_R
 EDACTED.pdf Graphic file (type pdf)
 <use ./documents_justificacio/03_teaching/Internship_605632_training_project_RE
@@ -3336,7 +3442,7 @@ Package pdftex.def Info: ./documents_justificacio/03_teaching/Internship_605632
 _training_project_REDACTED.pdf  used on input line 789.
 (pdftex.def)             Requested size: 597.67143pt x 845.19557pt.
 <./documents_justificacio/03_teaching/Internship_605632_training_project_REDACT
-ED.pdf, id=1434, page=1, 597.6729pt x 845.19763pt>
+ED.pdf, id=1452, page=1, 597.6729pt x 845.19763pt>
 File: ./documents_justificacio/03_teaching/Internship_605632_training_project_R
 EDACTED.pdf Graphic file (type pdf)
 <use ./documents_justificacio/03_teaching/Internship_605632_training_project_RE
@@ -3371,40 +3477,40 @@ EDACTED.pdf Graphic file (type pdf)
 DACTED.pdf, page 1>
 Package pdftex.def Info: ./documents_justificacio/03_teaching/Internship_605632
 _training_project_REDACTED.pdf , page1 used on input line 789.
-(pdftex.def)             Requested size: 597.69879pt x 845.23425pt.
-[75 <./documents_justificacio/03_teaching/Internship_605632_training_project_RE
-DACTED.pdf>]
-<./documents_justificacio/03_teaching/Internship_605632_training_project_REDACT
-ED.pdf, id=1441, page=2, 597.6729pt x 845.19763pt>
-File: ./documents_justificacio/03_teaching/Internship_605632_training_project_R
-EDACTED.pdf Graphic file (type pdf)
-<use ./documents_justificacio/03_teaching/Internship_605632_training_project_RE
-DACTED.pdf, page 2>
-Package pdftex.def Info: ./documents_justificacio/03_teaching/Internship_605632
-_training_project_REDACTED.pdf , page2 used on input line 789.
-(pdftex.def)             Requested size: 597.69879pt x 845.23425pt.
-File: ./documents_justificacio/03_teaching/Internship_605632_training_project_R
-EDACTED.pdf Graphic file (type pdf)
-<use ./documents_justificacio/03_teaching/Internship_605632_training_project_RE
-DACTED.pdf, page 2>
-Package pdftex.def Info: ./documents_justificacio/03_teaching/Internship_605632
-_training_project_REDACTED.pdf , page2 used on input line 789.
-(pdftex.def)             Requested size: 597.69879pt x 845.23425pt.
-File: ./documents_justificacio/03_teaching/Internship_605632_training_project_R
-EDACTED.pdf Graphic file (type pdf)
-<use ./documents_justificacio/03_teaching/Internship_605632_training_project_RE
-DACTED.pdf, page 2>
-Package pdftex.def Info: ./documents_justificacio/03_teaching/Internship_605632
-_training_project_REDACTED.pdf , page2 used on input line 789.
 (pdftex.def)             Requested size: 597.69879pt x 845.23425pt.
 [76 <./documents_justificacio/03_teaching/Internship_605632_training_project_RE
 DACTED.pdf>]
+<./documents_justificacio/03_teaching/Internship_605632_training_project_REDACT
+ED.pdf, id=1459, page=2, 597.6729pt x 845.19763pt>
+File: ./documents_justificacio/03_teaching/Internship_605632_training_project_R
+EDACTED.pdf Graphic file (type pdf)
+<use ./documents_justificacio/03_teaching/Internship_605632_training_project_RE
+DACTED.pdf, page 2>
+Package pdftex.def Info: ./documents_justificacio/03_teaching/Internship_605632
+_training_project_REDACTED.pdf , page2 used on input line 789.
+(pdftex.def)             Requested size: 597.69879pt x 845.23425pt.
+File: ./documents_justificacio/03_teaching/Internship_605632_training_project_R
+EDACTED.pdf Graphic file (type pdf)
+<use ./documents_justificacio/03_teaching/Internship_605632_training_project_RE
+DACTED.pdf, page 2>
+Package pdftex.def Info: ./documents_justificacio/03_teaching/Internship_605632
+_training_project_REDACTED.pdf , page2 used on input line 789.
+(pdftex.def)             Requested size: 597.69879pt x 845.23425pt.
+File: ./documents_justificacio/03_teaching/Internship_605632_training_project_R
+EDACTED.pdf Graphic file (type pdf)
+<use ./documents_justificacio/03_teaching/Internship_605632_training_project_RE
+DACTED.pdf, page 2>
+Package pdftex.def Info: ./documents_justificacio/03_teaching/Internship_605632
+_training_project_REDACTED.pdf , page2 used on input line 789.
+(pdftex.def)             Requested size: 597.69879pt x 845.23425pt.
+[77 <./documents_justificacio/03_teaching/Internship_605632_training_project_RE
+DACTED.pdf>]
 
 pdfTeX warning: pdflatex (file ./documents_justificacio/03_teaching/Student_sur
 veys_MF_2025-26_S2.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf, id=144
-8, 845.19763pt x 598.39557pt>
+<./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf, id=146
+6, 845.19763pt x 598.39557pt>
 File: ./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf Gr
 aphic file (type pdf)
 <use ./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf>
@@ -3432,8 +3538,8 @@ rsion <1.5> allowed
 pdfTeX warning: pdflatex (file ./documents_justificacio/03_teaching/Student_sur
 veys_MF_2025-26_S2.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf, id=145
-1, page=1, 845.19763pt x 598.39557pt>
+<./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf, id=146
+9, page=1, 845.19763pt x 598.39557pt>
 File: ./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf Gr
 aphic file (type pdf)
 <use ./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf, pa
@@ -3469,69 +3575,78 @@ ge 1>
 Package pdftex.def Info: ./documents_justificacio/03_teaching/Student_surveys_M
 F_2025-26_S2.pdf , page1 used on input line 790.
 (pdftex.def)             Requested size: 597.64415pt x 423.12898pt.
-[77 <./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf>]
-
-pdfTeX warning: pdflatex (file ./documents_justificacio/03_teaching/Student_sur
-veys_MF_2025-26_S2.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
-rsion <1.5> allowed
-<./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf, id=145
-8, page=2, 845.1575pt x 598.235pt>
-File: ./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf Gr
-aphic file (type pdf)
-<use ./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf, pa
-ge 2>
-Package pdftex.def Info: ./documents_justificacio/03_teaching/Student_surveys_M
-F_2025-26_S2.pdf , page2 used on input line 790.
-(pdftex.def)             Requested size: 597.61578pt x 423.01544pt.
-File: ./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf Gr
-aphic file (type pdf)
-<use ./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf, pa
-ge 2>
-Package pdftex.def Info: ./documents_justificacio/03_teaching/Student_surveys_M
-F_2025-26_S2.pdf , page2 used on input line 790.
-(pdftex.def)             Requested size: 597.61578pt x 423.01544pt.
-File: ./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf Gr
-aphic file (type pdf)
-<use ./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf, pa
-ge 2>
-Package pdftex.def Info: ./documents_justificacio/03_teaching/Student_surveys_M
-F_2025-26_S2.pdf , page2 used on input line 790.
-(pdftex.def)             Requested size: 597.61578pt x 423.01544pt.
 [78 <./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf>]
 
 pdfTeX warning: pdflatex (file ./documents_justificacio/03_teaching/Student_sur
 veys_MF_2025-26_S2.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf, id=152
-4, page=3, 845.1575pt x 598.235pt>
+<./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf, id=147
+6, page=2, 845.1575pt x 598.235pt>
 File: ./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf Gr
 aphic file (type pdf)
 <use ./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf, pa
-ge 3>
+ge 2>
 Package pdftex.def Info: ./documents_justificacio/03_teaching/Student_surveys_M
-F_2025-26_S2.pdf , page3 used on input line 790.
+F_2025-26_S2.pdf , page2 used on input line 790.
 (pdftex.def)             Requested size: 597.61578pt x 423.01544pt.
 File: ./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf Gr
 aphic file (type pdf)
 <use ./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf, pa
-ge 3>
+ge 2>
 Package pdftex.def Info: ./documents_justificacio/03_teaching/Student_surveys_M
-F_2025-26_S2.pdf , page3 used on input line 790.
+F_2025-26_S2.pdf , page2 used on input line 790.
 (pdftex.def)             Requested size: 597.61578pt x 423.01544pt.
 File: ./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf Gr
 aphic file (type pdf)
 <use ./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf, pa
-ge 3>
+ge 2>
 Package pdftex.def Info: ./documents_justificacio/03_teaching/Student_surveys_M
-F_2025-26_S2.pdf , page3 used on input line 790.
+F_2025-26_S2.pdf , page2 used on input line 790.
 (pdftex.def)             Requested size: 597.61578pt x 423.01544pt.
 [79 <./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf>]
+
+pdfTeX warning: pdflatex (file ./documents_justificacio/03_teaching/Student_sur
+veys_MF_2025-26_S2.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
+rsion <1.5> allowed
+<./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf, id=154
+3, page=3, 845.1575pt x 598.235pt>
+File: ./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf Gr
+aphic file (type pdf)
+<use ./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf, pa
+ge 3>
+Package pdftex.def Info: ./documents_justificacio/03_teaching/Student_surveys_M
+F_2025-26_S2.pdf , page3 used on input line 790.
+(pdftex.def)             Requested size: 597.61578pt x 423.01544pt.
+File: ./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf Gr
+aphic file (type pdf)
+<use ./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf, pa
+ge 3>
+Package pdftex.def Info: ./documents_justificacio/03_teaching/Student_surveys_M
+F_2025-26_S2.pdf , page3 used on input line 790.
+(pdftex.def)             Requested size: 597.61578pt x 423.01544pt.
+File: ./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf Gr
+aphic file (type pdf)
+<use ./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf, pa
+ge 3>
+Package pdftex.def Info: ./documents_justificacio/03_teaching/Student_surveys_M
+F_2025-26_S2.pdf , page3 used on input line 790.
+(pdftex.def)             Requested size: 597.61578pt x 423.01544pt.
+[80 <./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf>]
+LaTeX Font Info:    Trying to load font information for T1+zlmtt on input line 
+791.
+(/usr/share/texlive/texmf-dist/tex/latex/zlmtt/t1zlmtt.fd
+File: t1zlmtt.fd 2014/02/07 v1.0 Alternate font definitions for Latin Modern Ty
+pewriter, Michael Sharpe
+)
+LaTeX Font Info:    Font shape `T1/zlmtt/m/n' will be
+(Font)              scaled to size 15.84007pt on input line 791.
+
 Overfull \hbox (112.08896pt too wide) in paragraph at lines 791--791
  []\T1/zlmtt/m/n/14.4 documents_justificacio/04_training/ICE_M2-4_Atenea_2026_c
 ertificate.pdf 
  []
 
-[80
+[81
 
 ]
 
@@ -3539,7 +3654,7 @@ pdfTeX warning: pdflatex (file ./documents_justificacio/04_training/Monsha_AI_E
 ducator_L1_certificate.pdf): PDF inclusion: found PDF version <1.7>, but at mos
 t version <1.5> allowed
 <./documents_justificacio/04_training/Monsha_AI_Educator_L1_certificate.pdf, id
-=1582, 844.15375pt x 597.23125pt>
+=1601, 844.15375pt x 597.23125pt>
 File: ./documents_justificacio/04_training/Monsha_AI_Educator_L1_certificate.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/04_training/Monsha_AI_Educator_L1_certificate.pdf
@@ -3570,7 +3685,7 @@ pdfTeX warning: pdflatex (file ./documents_justificacio/04_training/Monsha_AI_E
 ducator_L1_certificate.pdf): PDF inclusion: found PDF version <1.7>, but at mos
 t version <1.5> allowed
 <./documents_justificacio/04_training/Monsha_AI_Educator_L1_certificate.pdf, id
-=1585, page=1, 844.15375pt x 597.23125pt>
+=1604, page=1, 844.15375pt x 597.23125pt>
 File: ./documents_justificacio/04_training/Monsha_AI_Educator_L1_certificate.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/04_training/Monsha_AI_Educator_L1_certificate.pdf
@@ -3606,7 +3721,7 @@ f Graphic file (type pdf)
 Package pdftex.def Info: ./documents_justificacio/04_training/Monsha_AI_Educato
 r_L1_certificate.pdf , page1 used on input line 792.
 (pdftex.def)             Requested size: 597.61446pt x 422.80688pt.
-[81
+[82
 
  <./documents_justificacio/04_training/Monsha_AI_Educator_L1_certificate.pdf>]
 
@@ -3614,7 +3729,7 @@ pdfTeX warning: pdflatex (file ./documents_justificacio/04_training/CFDParSchoo
 l_2023_admission_letter.pdf): PDF inclusion: found PDF version <1.6>, but at mo
 st version <1.5> allowed
 <./documents_justificacio/04_training/CFDParSchool_2023_admission_letter.pdf, i
-d=1603, 598.235pt x 845.1575pt>
+d=1622, 598.235pt x 845.1575pt>
 File: ./documents_justificacio/04_training/CFDParSchool_2023_admission_letter.p
 df Graphic file (type pdf)
 <use ./documents_justificacio/04_training/CFDParSchool_2023_admission_letter.pd
@@ -3645,7 +3760,7 @@ pdfTeX warning: pdflatex (file ./documents_justificacio/04_training/CFDParSchoo
 l_2023_admission_letter.pdf): PDF inclusion: found PDF version <1.6>, but at mo
 st version <1.5> allowed
 <./documents_justificacio/04_training/CFDParSchool_2023_admission_letter.pdf, i
-d=1606, page=1, 598.235pt x 845.1575pt>
+d=1625, page=1, 598.235pt x 845.1575pt>
 File: ./documents_justificacio/04_training/CFDParSchool_2023_admission_letter.p
 df Graphic file (type pdf)
 <use ./documents_justificacio/04_training/CFDParSchool_2023_admission_letter.pd
@@ -3680,44 +3795,44 @@ df Graphic file (type pdf)
 f, page 1>
 Package pdftex.def Info: ./documents_justificacio/04_training/CFDParSchool_2023
 _admission_letter.pdf , page1 used on input line 793.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-[82 <./documents_justificacio/04_training/CFDParSchool_2023_admission_letter.pd
-f>]
-
-pdfTeX warning: pdflatex (file ./documents_justificacio/04_training/CFDParSchoo
-l_2023_admission_letter.pdf): PDF inclusion: found PDF version <1.6>, but at mo
-st version <1.5> allowed
-<./documents_justificacio/04_training/CFDParSchool_2023_admission_letter.pdf, i
-d=1629, page=2, 598.235pt x 845.1575pt>
-File: ./documents_justificacio/04_training/CFDParSchool_2023_admission_letter.p
-df Graphic file (type pdf)
-<use ./documents_justificacio/04_training/CFDParSchool_2023_admission_letter.pd
-f, page 2>
-Package pdftex.def Info: ./documents_justificacio/04_training/CFDParSchool_2023
-_admission_letter.pdf , page2 used on input line 793.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-File: ./documents_justificacio/04_training/CFDParSchool_2023_admission_letter.p
-df Graphic file (type pdf)
-<use ./documents_justificacio/04_training/CFDParSchool_2023_admission_letter.pd
-f, page 2>
-Package pdftex.def Info: ./documents_justificacio/04_training/CFDParSchool_2023
-_admission_letter.pdf , page2 used on input line 793.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-File: ./documents_justificacio/04_training/CFDParSchool_2023_admission_letter.p
-df Graphic file (type pdf)
-<use ./documents_justificacio/04_training/CFDParSchool_2023_admission_letter.pd
-f, page 2>
-Package pdftex.def Info: ./documents_justificacio/04_training/CFDParSchool_2023
-_admission_letter.pdf , page2 used on input line 793.
 (pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
 [83 <./documents_justificacio/04_training/CFDParSchool_2023_admission_letter.pd
 f>]
 
+pdfTeX warning: pdflatex (file ./documents_justificacio/04_training/CFDParSchoo
+l_2023_admission_letter.pdf): PDF inclusion: found PDF version <1.6>, but at mo
+st version <1.5> allowed
+<./documents_justificacio/04_training/CFDParSchool_2023_admission_letter.pdf, i
+d=1648, page=2, 598.235pt x 845.1575pt>
+File: ./documents_justificacio/04_training/CFDParSchool_2023_admission_letter.p
+df Graphic file (type pdf)
+<use ./documents_justificacio/04_training/CFDParSchool_2023_admission_letter.pd
+f, page 2>
+Package pdftex.def Info: ./documents_justificacio/04_training/CFDParSchool_2023
+_admission_letter.pdf , page2 used on input line 793.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: ./documents_justificacio/04_training/CFDParSchool_2023_admission_letter.p
+df Graphic file (type pdf)
+<use ./documents_justificacio/04_training/CFDParSchool_2023_admission_letter.pd
+f, page 2>
+Package pdftex.def Info: ./documents_justificacio/04_training/CFDParSchool_2023
+_admission_letter.pdf , page2 used on input line 793.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+File: ./documents_justificacio/04_training/CFDParSchool_2023_admission_letter.p
+df Graphic file (type pdf)
+<use ./documents_justificacio/04_training/CFDParSchool_2023_admission_letter.pd
+f, page 2>
+Package pdftex.def Info: ./documents_justificacio/04_training/CFDParSchool_2023
+_admission_letter.pdf , page2 used on input line 793.
+(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+[84 <./documents_justificacio/04_training/CFDParSchool_2023_admission_letter.pd
+f>]
+
 pdfTeX warning: pdflatex (file ./documents_justificacio/04_training/VKI_ML_Flui
 d_Dynamics_2023_certificate.pdf): PDF inclusion: found PDF version <1.7>, but a
 t most version <1.5> allowed
 <./documents_justificacio/04_training/VKI_ML_Fluid_Dynamics_2023_certificate.pd
-f, id=1643, 597.50786pt x 845.04686pt>
+f, id=1662, 597.50786pt x 845.04686pt>
 File: ./documents_justificacio/04_training/VKI_ML_Fluid_Dynamics_2023_certifica
 te.pdf Graphic file (type pdf)
 <use ./documents_justificacio/04_training/VKI_ML_Fluid_Dynamics_2023_certificat
@@ -3748,7 +3863,7 @@ pdfTeX warning: pdflatex (file ./documents_justificacio/04_training/VKI_ML_Flui
 d_Dynamics_2023_certificate.pdf): PDF inclusion: found PDF version <1.7>, but a
 t most version <1.5> allowed
 <./documents_justificacio/04_training/VKI_ML_Fluid_Dynamics_2023_certificate.pd
-f, id=1646, page=1, 597.50786pt x 845.04686pt>
+f, id=1665, page=1, 597.50786pt x 845.04686pt>
 File: ./documents_justificacio/04_training/VKI_ML_Fluid_Dynamics_2023_certifica
 te.pdf Graphic file (type pdf)
 <use ./documents_justificacio/04_training/VKI_ML_Fluid_Dynamics_2023_certificat
@@ -3784,10 +3899,10 @@ e.pdf, page 1>
 Package pdftex.def Info: ./documents_justificacio/04_training/VKI_ML_Fluid_Dyna
 mics_2023_certificate.pdf , page1 used on input line 794.
 (pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
-[84 <./documents_justificacio/04_training/VKI_ML_Fluid_Dynamics_2023_certificat
+[85 <./documents_justificacio/04_training/VKI_ML_Fluid_Dynamics_2023_certificat
 e.pdf>]
 <./documents_justificacio/04_training/Flowthermolab_Python_for_Engineers_2022_c
-ertificate.png, id=1675, 845.26315pt x 597.60106pt>
+ertificate.png, id=1695, 845.26315pt x 597.60106pt>
 File: ./documents_justificacio/04_training/Flowthermolab_Python_for_Engineers_2
 022_certificate.png Graphic file (type png)
 <use ./documents_justificacio/04_training/Flowthermolab_Python_for_Engineers_20
@@ -3837,10 +3952,10 @@ File: ./documents_justificacio/04_training/Flowthermolab_Python_for_Engineers_2
 Package pdftex.def Info: ./documents_justificacio/04_training/Flowthermolab_Pyt
 hon_for_Engineers_2022_certificate.png  used on input line 795.
 (pdftex.def)             Requested size: 597.69049pt x 422.56717pt.
-[85 <./documents_justificacio/04_training/Flowthermolab_Python_for_Engineers_20
+[86 <./documents_justificacio/04_training/Flowthermolab_Python_for_Engineers_20
 22_certificate.png>]
 <./documents_justificacio/04_training/Flowthermolab_ML_Mechanical_Engineers_202
-3_certificate.pdf, id=1685, 845.07718pt x 597.73312pt>
+3_certificate.pdf, id=1704, 845.07718pt x 597.73312pt>
 File: ./documents_justificacio/04_training/Flowthermolab_ML_Mechanical_Engineer
 s_2023_certificate.pdf Graphic file (type pdf)
 <use ./documents_justificacio/04_training/Flowthermolab_ML_Mechanical_Engineers
@@ -3856,7 +3971,7 @@ Package pdftex.def Info: ./documents_justificacio/04_training/Flowthermolab_ML_
 Mechanical_Engineers_2023_certificate.pdf  used on input line 796.
 (pdftex.def)             Requested size: 845.07512pt x 597.73166pt.
 <./documents_justificacio/04_training/Flowthermolab_ML_Mechanical_Engineers_202
-3_certificate.pdf, id=1688, page=1, 845.07718pt x 597.73312pt>
+3_certificate.pdf, id=1707, page=1, 845.07718pt x 597.73312pt>
 File: ./documents_justificacio/04_training/Flowthermolab_ML_Mechanical_Engineer
 s_2023_certificate.pdf Graphic file (type pdf)
 <use ./documents_justificacio/04_training/Flowthermolab_ML_Mechanical_Engineers
@@ -3892,10 +4007,10 @@ _2023_certificate.pdf, page 1>
 Package pdftex.def Info: ./documents_justificacio/04_training/Flowthermolab_ML_
 Mechanical_Engineers_2023_certificate.pdf , page1 used on input line 796.
 (pdftex.def)             Requested size: 597.55899pt x 422.66055pt.
-[86 <./documents_justificacio/04_training/Flowthermolab_ML_Mechanical_Engineers
+[87 <./documents_justificacio/04_training/Flowthermolab_ML_Mechanical_Engineers
 _2023_certificate.pdf>]
 <./documents_justificacio/04_training/Ansys_Turbulence_Beyond_Basics_2022_certi
-ficate.pdf, id=1756, 845.1575pt x 597.23125pt>
+ficate.pdf, id=1775, 845.1575pt x 597.23125pt>
 File: ./documents_justificacio/04_training/Ansys_Turbulence_Beyond_Basics_2022_
 certificate.pdf Graphic file (type pdf)
 <use ./documents_justificacio/04_training/Ansys_Turbulence_Beyond_Basics_2022_c
@@ -3911,7 +4026,7 @@ Package pdftex.def Info: ./documents_justificacio/04_training/Ansys_Turbulence_
 Beyond_Basics_2022_certificate.pdf  used on input line 797.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 <./documents_justificacio/04_training/Ansys_Turbulence_Beyond_Basics_2022_certi
-ficate.pdf, id=1759, page=1, 845.1575pt x 597.23125pt>
+ficate.pdf, id=1778, page=1, 845.1575pt x 597.23125pt>
 File: ./documents_justificacio/04_training/Ansys_Turbulence_Beyond_Basics_2022_
 certificate.pdf Graphic file (type pdf)
 <use ./documents_justificacio/04_training/Ansys_Turbulence_Beyond_Basics_2022_c
@@ -3947,10 +4062,10 @@ ertificate.pdf, page 1>
 Package pdftex.def Info: ./documents_justificacio/04_training/Ansys_Turbulence_
 Beyond_Basics_2022_certificate.pdf , page1 used on input line 797.
 (pdftex.def)             Requested size: 597.61578pt x 422.30568pt.
-[87 <./documents_justificacio/04_training/Ansys_Turbulence_Beyond_Basics_2022_c
+[88 <./documents_justificacio/04_training/Ansys_Turbulence_Beyond_Basics_2022_c
 ertificate.pdf>]
 <./documents_justificacio/04_training/Ansys_Scale_Resolving_Simulations_2022_ce
-rtificate.pdf, id=1779, 845.1575pt x 597.23125pt>
+rtificate.pdf, id=1798, 845.1575pt x 597.23125pt>
 File: ./documents_justificacio/04_training/Ansys_Scale_Resolving_Simulations_20
 22_certificate.pdf Graphic file (type pdf)
 <use ./documents_justificacio/04_training/Ansys_Scale_Resolving_Simulations_202
@@ -3966,7 +4081,7 @@ Package pdftex.def Info: ./documents_justificacio/04_training/Ansys_Scale_Resol
 ving_Simulations_2022_certificate.pdf  used on input line 798.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 <./documents_justificacio/04_training/Ansys_Scale_Resolving_Simulations_2022_ce
-rtificate.pdf, id=1782, page=1, 845.1575pt x 597.23125pt>
+rtificate.pdf, id=1801, page=1, 845.1575pt x 597.23125pt>
 File: ./documents_justificacio/04_training/Ansys_Scale_Resolving_Simulations_20
 22_certificate.pdf Graphic file (type pdf)
 <use ./documents_justificacio/04_training/Ansys_Scale_Resolving_Simulations_202
@@ -4002,14 +4117,14 @@ File: ./documents_justificacio/04_training/Ansys_Scale_Resolving_Simulations_20
 Package pdftex.def Info: ./documents_justificacio/04_training/Ansys_Scale_Resol
 ving_Simulations_2022_certificate.pdf , page1 used on input line 798.
 (pdftex.def)             Requested size: 597.61578pt x 422.30568pt.
-[88 <./documents_justificacio/04_training/Ansys_Scale_Resolving_Simulations_202
+[89 <./documents_justificacio/04_training/Ansys_Scale_Resolving_Simulations_202
 2_certificate.pdf>]
 
 pdfTeX warning: pdflatex (file ./documents_justificacio/04_training/ESSS_Ansys_
 Workshop_2020_certificate.pdf): PDF inclusion: found PDF version <1.7>, but at 
 most version <1.5> allowed
 <./documents_justificacio/04_training/ESSS_Ansys_Workshop_2020_certificate.pdf,
- id=1802, 845.07718pt x 597.55246pt>
+ id=1821, 845.07718pt x 597.55246pt>
 File: ./documents_justificacio/04_training/ESSS_Ansys_Workshop_2020_certificate
 .pdf Graphic file (type pdf)
 <use ./documents_justificacio/04_training/ESSS_Ansys_Workshop_2020_certificate.
@@ -4040,7 +4155,7 @@ pdfTeX warning: pdflatex (file ./documents_justificacio/04_training/ESSS_Ansys_
 Workshop_2020_certificate.pdf): PDF inclusion: found PDF version <1.7>, but at 
 most version <1.5> allowed
 <./documents_justificacio/04_training/ESSS_Ansys_Workshop_2020_certificate.pdf,
- id=1805, page=1, 845.07718pt x 597.55246pt>
+ id=1824, page=1, 845.07718pt x 597.55246pt>
 File: ./documents_justificacio/04_training/ESSS_Ansys_Workshop_2020_certificate
 .pdf Graphic file (type pdf)
 <use ./documents_justificacio/04_training/ESSS_Ansys_Workshop_2020_certificate.
@@ -4076,10 +4191,10 @@ pdf, page 1>
 Package pdftex.def Info: ./documents_justificacio/04_training/ESSS_Ansys_Worksh
 op_2020_certificate.pdf , page1 used on input line 799.
 (pdftex.def)             Requested size: 597.55899pt x 422.5328pt.
-[89 <./documents_justificacio/04_training/ESSS_Ansys_Workshop_2020_certificate.
+[90 <./documents_justificacio/04_training/ESSS_Ansys_Workshop_2020_certificate.
 pdf>]
 <./documents_justificacio/04_training/MathWorks_Simscape_Onramp_2021_certificat
-e.pdf, id=1836, 845.04686pt x 597.50792pt>
+e.pdf, id=1856, 845.04686pt x 597.50792pt>
 File: ./documents_justificacio/04_training/MathWorks_Simscape_Onramp_2021_certi
 ficate.pdf Graphic file (type pdf)
 <use ./documents_justificacio/04_training/MathWorks_Simscape_Onramp_2021_certif
@@ -4095,7 +4210,7 @@ Package pdftex.def Info: ./documents_justificacio/04_training/MathWorks_Simscap
 e_Onramp_2021_certificate.pdf  used on input line 800.
 (pdftex.def)             Requested size: 845.0448pt x 597.50645pt.
 <./documents_justificacio/04_training/MathWorks_Simscape_Onramp_2021_certificat
-e.pdf, id=1839, page=1, 845.04686pt x 597.50792pt>
+e.pdf, id=1859, page=1, 845.04686pt x 597.50792pt>
 File: ./documents_justificacio/04_training/MathWorks_Simscape_Onramp_2021_certi
 ficate.pdf Graphic file (type pdf)
 <use ./documents_justificacio/04_training/MathWorks_Simscape_Onramp_2021_certif
@@ -4131,10 +4246,10 @@ icate.pdf, page 1>
 Package pdftex.def Info: ./documents_justificacio/04_training/MathWorks_Simscap
 e_Onramp_2021_certificate.pdf , page1 used on input line 800.
 (pdftex.def)             Requested size: 597.53755pt x 422.50131pt.
-[90 <./documents_justificacio/04_training/MathWorks_Simscape_Onramp_2021_certif
+[91 <./documents_justificacio/04_training/MathWorks_Simscape_Onramp_2021_certif
 icate.pdf, page is rotated 90 degrees>]
 <./documents_justificacio/04_training/MathWorks_Simulink_Onramp_2021_certificat
-e.pdf, id=1864, 845.04686pt x 597.50792pt>
+e.pdf, id=1884, 845.04686pt x 597.50792pt>
 File: ./documents_justificacio/04_training/MathWorks_Simulink_Onramp_2021_certi
 ficate.pdf Graphic file (type pdf)
 <use ./documents_justificacio/04_training/MathWorks_Simulink_Onramp_2021_certif
@@ -4150,7 +4265,7 @@ Package pdftex.def Info: ./documents_justificacio/04_training/MathWorks_Simulin
 k_Onramp_2021_certificate.pdf  used on input line 801.
 (pdftex.def)             Requested size: 845.0448pt x 597.50645pt.
 <./documents_justificacio/04_training/MathWorks_Simulink_Onramp_2021_certificat
-e.pdf, id=1867, page=1, 845.04686pt x 597.50792pt>
+e.pdf, id=1887, page=1, 845.04686pt x 597.50792pt>
 File: ./documents_justificacio/04_training/MathWorks_Simulink_Onramp_2021_certi
 ficate.pdf Graphic file (type pdf)
 <use ./documents_justificacio/04_training/MathWorks_Simulink_Onramp_2021_certif
@@ -4186,10 +4301,10 @@ icate.pdf, page 1>
 Package pdftex.def Info: ./documents_justificacio/04_training/MathWorks_Simulin
 k_Onramp_2021_certificate.pdf , page1 used on input line 801.
 (pdftex.def)             Requested size: 597.53755pt x 422.50131pt.
-[91 <./documents_justificacio/04_training/MathWorks_Simulink_Onramp_2021_certif
+[92 <./documents_justificacio/04_training/MathWorks_Simulink_Onramp_2021_certif
 icate.pdf, page is rotated 90 degrees>]
 <./documents_justificacio/04_training/Udemy_CFD_Fundamentals_3_2021_certificate
-.pdf, id=1892, 1606.0pt x 1194.4625pt>
+.pdf, id=1911, 1606.0pt x 1194.4625pt>
 File: ./documents_justificacio/04_training/Udemy_CFD_Fundamentals_3_2021_certif
 icate.pdf Graphic file (type pdf)
 <use ./documents_justificacio/04_training/Udemy_CFD_Fundamentals_3_2021_certifi
@@ -4205,7 +4320,7 @@ Package pdftex.def Info: ./documents_justificacio/04_training/Udemy_CFD_Fundame
 ntals_3_2021_certificate.pdf  used on input line 802.
 (pdftex.def)             Requested size: 1605.99611pt x 1194.45958pt.
 <./documents_justificacio/04_training/Udemy_CFD_Fundamentals_3_2021_certificate
-.pdf, id=1895, page=1, 1606.0pt x 1194.4625pt>
+.pdf, id=1914, page=1, 1606.0pt x 1194.4625pt>
 File: ./documents_justificacio/04_training/Udemy_CFD_Fundamentals_3_2021_certif
 icate.pdf Graphic file (type pdf)
 <use ./documents_justificacio/04_training/Udemy_CFD_Fundamentals_3_2021_certifi
@@ -4241,10 +4356,10 @@ cate.pdf, page 1>
 Package pdftex.def Info: ./documents_justificacio/04_training/Udemy_CFD_Fundame
 ntals_3_2021_certificate.pdf , page1 used on input line 802.
 (pdftex.def)             Requested size: 597.86205pt x 444.65988pt.
-[92 <./documents_justificacio/04_training/Udemy_CFD_Fundamentals_3_2021_certifi
+[93 <./documents_justificacio/04_training/Udemy_CFD_Fundamentals_3_2021_certifi
 cate.pdf>]
 <./documents_justificacio/04_training/Udemy_CFD_Fundamentals_2_2020_certificate
-.pdf, id=1902, 1606.0pt x 1194.4625pt>
+.pdf, id=1921, 1606.0pt x 1194.4625pt>
 File: ./documents_justificacio/04_training/Udemy_CFD_Fundamentals_2_2020_certif
 icate.pdf Graphic file (type pdf)
 <use ./documents_justificacio/04_training/Udemy_CFD_Fundamentals_2_2020_certifi
@@ -4260,7 +4375,7 @@ Package pdftex.def Info: ./documents_justificacio/04_training/Udemy_CFD_Fundame
 ntals_2_2020_certificate.pdf  used on input line 803.
 (pdftex.def)             Requested size: 1605.99611pt x 1194.45958pt.
 <./documents_justificacio/04_training/Udemy_CFD_Fundamentals_2_2020_certificate
-.pdf, id=1905, page=1, 1606.0pt x 1194.4625pt>
+.pdf, id=1924, page=1, 1606.0pt x 1194.4625pt>
 File: ./documents_justificacio/04_training/Udemy_CFD_Fundamentals_2_2020_certif
 icate.pdf Graphic file (type pdf)
 <use ./documents_justificacio/04_training/Udemy_CFD_Fundamentals_2_2020_certifi
@@ -4296,10 +4411,10 @@ cate.pdf, page 1>
 Package pdftex.def Info: ./documents_justificacio/04_training/Udemy_CFD_Fundame
 ntals_2_2020_certificate.pdf , page1 used on input line 803.
 (pdftex.def)             Requested size: 597.86205pt x 444.65988pt.
-[93 <./documents_justificacio/04_training/Udemy_CFD_Fundamentals_2_2020_certifi
+[94 <./documents_justificacio/04_training/Udemy_CFD_Fundamentals_2_2020_certifi
 cate.pdf>]
 <./documents_justificacio/04_training/Udemy_CFD_Fundamentals_1_2020_certificate
-.pdf, id=1912, 1606.0pt x 1194.4625pt>
+.pdf, id=1931, 1606.0pt x 1194.4625pt>
 File: ./documents_justificacio/04_training/Udemy_CFD_Fundamentals_1_2020_certif
 icate.pdf Graphic file (type pdf)
 <use ./documents_justificacio/04_training/Udemy_CFD_Fundamentals_1_2020_certifi
@@ -4315,7 +4430,7 @@ Package pdftex.def Info: ./documents_justificacio/04_training/Udemy_CFD_Fundame
 ntals_1_2020_certificate.pdf  used on input line 804.
 (pdftex.def)             Requested size: 1605.99611pt x 1194.45958pt.
 <./documents_justificacio/04_training/Udemy_CFD_Fundamentals_1_2020_certificate
-.pdf, id=1915, page=1, 1606.0pt x 1194.4625pt>
+.pdf, id=1934, page=1, 1606.0pt x 1194.4625pt>
 File: ./documents_justificacio/04_training/Udemy_CFD_Fundamentals_1_2020_certif
 icate.pdf Graphic file (type pdf)
 <use ./documents_justificacio/04_training/Udemy_CFD_Fundamentals_1_2020_certifi
@@ -4351,14 +4466,14 @@ cate.pdf, page 1>
 Package pdftex.def Info: ./documents_justificacio/04_training/Udemy_CFD_Fundame
 ntals_1_2020_certificate.pdf , page1 used on input line 804.
 (pdftex.def)             Requested size: 597.86205pt x 444.65988pt.
-[94 <./documents_justificacio/04_training/Udemy_CFD_Fundamentals_1_2020_certifi
+[95 <./documents_justificacio/04_training/Udemy_CFD_Fundamentals_1_2020_certifi
 cate.pdf>]
 
 pdfTeX warning: pdflatex (file ./documents_justificacio/06_international/ECCOMA
 S_2024_attendance_certificate.pdf): PDF inclusion: found PDF version <1.7>, but
  at most version <1.5> allowed
 <./documents_justificacio/06_international/ECCOMAS_2024_attendance_certificate.
-pdf, id=1921, 597.51233pt x 845.0471pt>
+pdf, id=1940, 597.51233pt x 845.0471pt>
 File: ./documents_justificacio/06_international/ECCOMAS_2024_attendance_certifi
 cate.pdf Graphic file (type pdf)
 <use ./documents_justificacio/06_international/ECCOMAS_2024_attendance_certific
@@ -4389,7 +4504,7 @@ pdfTeX warning: pdflatex (file ./documents_justificacio/06_international/ECCOMA
 S_2024_attendance_certificate.pdf): PDF inclusion: found PDF version <1.7>, but
  at most version <1.5> allowed
 <./documents_justificacio/06_international/ECCOMAS_2024_attendance_certificate.
-pdf, id=1924, page=1, 597.51233pt x 845.0471pt>
+pdf, id=1943, page=1, 597.51233pt x 845.0471pt>
 File: ./documents_justificacio/06_international/ECCOMAS_2024_attendance_certifi
 cate.pdf Graphic file (type pdf)
 <use ./documents_justificacio/06_international/ECCOMAS_2024_attendance_certific
@@ -4425,14 +4540,14 @@ ate.pdf, page 1>
 Package pdftex.def Info: ./documents_justificacio/06_international/ECCOMAS_2024
 _attendance_certificate.pdf , page1 used on input line 805.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
-[95 <./documents_justificacio/06_international/ECCOMAS_2024_attendance_certific
+[96 <./documents_justificacio/06_international/ECCOMAS_2024_attendance_certific
 ate.pdf>]
 
 pdfTeX warning: pdflatex (file ./documents_justificacio/07_other/Catalan_A2.1_S
 LT-UPC_2025_certificate.pdf): PDF inclusion: found PDF version <1.7>, but at mo
 st version <1.5> allowed
 <./documents_justificacio/07_other/Catalan_A2.1_SLT-UPC_2025_certificate.pdf, i
-d=1943, 794.97pt x 614.295pt>
+d=1962, 794.97pt x 614.295pt>
 File: ./documents_justificacio/07_other/Catalan_A2.1_SLT-UPC_2025_certificate.p
 df Graphic file (type pdf)
 <use ./documents_justificacio/07_other/Catalan_A2.1_SLT-UPC_2025_certificate.pd
@@ -4463,7 +4578,7 @@ pdfTeX warning: pdflatex (file ./documents_justificacio/07_other/Catalan_A2.1_S
 LT-UPC_2025_certificate.pdf): PDF inclusion: found PDF version <1.7>, but at mo
 st version <1.5> allowed
 <./documents_justificacio/07_other/Catalan_A2.1_SLT-UPC_2025_certificate.pdf, i
-d=1946, page=1, 794.97pt x 614.295pt>
+d=1965, page=1, 794.97pt x 614.295pt>
 File: ./documents_justificacio/07_other/Catalan_A2.1_SLT-UPC_2025_certificate.p
 df Graphic file (type pdf)
 <use ./documents_justificacio/07_other/Catalan_A2.1_SLT-UPC_2025_certificate.pd
@@ -4499,14 +4614,14 @@ f, page 1>
 Package pdftex.def Info: ./documents_justificacio/07_other/Catalan_A2.1_SLT-UPC
 _2025_certificate.pdf , page1 used on input line 806.
 (pdftex.def)             Requested size: 598.22752pt x 462.26671pt.
-[96 <./documents_justificacio/07_other/Catalan_A2.1_SLT-UPC_2025_certificate.pd
+[97 <./documents_justificacio/07_other/Catalan_A2.1_SLT-UPC_2025_certificate.pd
 f>]
 
 pdfTeX warning: pdflatex (file ./documents_justificacio/07_other/Catalan_A2.2_S
 LT-UPC_2025_certificate.pdf): PDF inclusion: found PDF version <1.7>, but at mo
 st version <1.5> allowed
 <./documents_justificacio/07_other/Catalan_A2.2_SLT-UPC_2025_certificate.pdf, i
-d=1981, 794.97pt x 614.295pt>
+d=2001, 794.97pt x 614.295pt>
 File: ./documents_justificacio/07_other/Catalan_A2.2_SLT-UPC_2025_certificate.p
 df Graphic file (type pdf)
 <use ./documents_justificacio/07_other/Catalan_A2.2_SLT-UPC_2025_certificate.pd
@@ -4537,7 +4652,7 @@ pdfTeX warning: pdflatex (file ./documents_justificacio/07_other/Catalan_A2.2_S
 LT-UPC_2025_certificate.pdf): PDF inclusion: found PDF version <1.7>, but at mo
 st version <1.5> allowed
 <./documents_justificacio/07_other/Catalan_A2.2_SLT-UPC_2025_certificate.pdf, i
-d=1984, page=1, 794.97pt x 614.295pt>
+d=2004, page=1, 794.97pt x 614.295pt>
 File: ./documents_justificacio/07_other/Catalan_A2.2_SLT-UPC_2025_certificate.p
 df Graphic file (type pdf)
 <use ./documents_justificacio/07_other/Catalan_A2.2_SLT-UPC_2025_certificate.pd
@@ -4573,16 +4688,16 @@ f, page 1>
 Package pdftex.def Info: ./documents_justificacio/07_other/Catalan_A2.2_SLT-UPC
 _2025_certificate.pdf , page1 used on input line 807.
 (pdftex.def)             Requested size: 598.22752pt x 462.26671pt.
-[97 <./documents_justificacio/07_other/Catalan_A2.2_SLT-UPC_2025_certificate.pd
+[98 <./documents_justificacio/07_other/Catalan_A2.2_SLT-UPC_2025_certificate.pd
 f>] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 407D753CE1A97A58C932A2088B9F64E7;6970.
  ) 
 Here is how much of TeX's memory you used:
- 35165 strings out of 478287
- 713524 string characters out of 5849289
- 992798 words of memory out of 5000000
- 52389 multiletter control sequences out of 15000+600000
+ 35188 strings out of 478287
+ 715895 string characters out of 5849289
+ 992794 words of memory out of 5000000
+ 52408 multiletter control sequences out of 15000+600000
  526204 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  145i,17n,146p,906b,596s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -4596,10 +4711,10 @@ onts/type1/public/lm/lmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
 helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhv
 bo8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (97 pages, 17221200 bytes).
+Output written on main.pdf (98 pages, 18139872 bytes).
 PDF statistics:
- 2120 PDF objects out of 2487 (max. 8388607)
- 1338 compressed objects within 14 object streams
- 262 named destinations out of 1000 (max. 500000)
- 1333 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2139 PDF objects out of 2487 (max. 8388607)
+ 1344 compressed objects within 14 object streams
+ 264 named destinations out of 1000 (max. 500000)
+ 1378 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,74 @@
+1. Research plan
+
+
+
+	- Background and motivation 
+
+(1 page showing state of the art of fundamental turbulence research in supercritical flows, applications, from space to cycles, show promissing numbers with references to why supercritical fluids are used, and other, detail transcritical, pseudoboiling, where it is leveraged and favorable, and where it becomes a problem, mention complex thermodynamics regime, intersection between pseudo-boiling and turbulence, my thesis and background, goal of SCRAMBLE (microconfined turbulence, increased Re_b by increased rho/mu ratio, plus additional baroclinic torque, cite papers by the group), very dissimilar wall behavior, interaction with complex geometries remains uncharacterized (square ducts), HTD lacking predictability (space and cycles), nuances of the flows and open challenges (Li and Banuti + other 2025, other +2023 references), effects pressure drop and heat transfer in such configurations (extending things such as https://arxiv.org/html/2611.14276v1 to square ducts in supercritical regimes).
+lack of characterization of developing ducts with pseudo-boiling (connected to HTD in regenerative cooling for instance, references)
+We can also mention mixing layers to motivate investigating free shear flows with transcritical effects. (TT and TNT interfaces and pseudoboiling effects on it's properties, work from Carlos Bettencourt da Silva). Mention and reference injection, Lluis paper, but also something on film cooling ref.  
+
+(CHECK AND ORGANIZE THE LITERATURE FOLDER AND USE WHAT IS NEEDED AND STATE OTHERS NEEDES FOR REFERENCE /hdd/Data/UPC_PL_literature
+
+We need pictures schematizing such applications with references
+
+
+
+
+	- Research lines and objectives
+	
+- DNS investigation of physics of supercritical fluid turbulent flows and let clearly state all of the open questions identified from before.
+Lack of high-fidelity data in most of the fields, high enough Reynolds data in high-pressure transcritical channel flow and square duct, no developing duct with HTD, very limited in jets and free shear with supercritical, pseudoboiling etc)
+ML also: example, collab with Xiang Yang
+
+
+- Causality and extreme events. A particular niche of this is the fact that (for instance in regenerative cooling) extreme heat flux events (positive and negative) generate extreme loads that can generate and damage critical systems. The origin of these and what is fundamentally causing these deviations from the norm deviations, building on CTRSP work which you have assess etc. Conditional averaging is not enough and so it motivate information-theoretic frameworks. Altough these are used in stationary signals (mention other works) and events are non-stationary. We intend to investigate them, assess suitability of current trends and potentially explore and formalize a Lagrangian information theoretic framewrok what will be used to identify the causes these events. Furthermore, it will be made generelizable and will allow for other fields of multiphysics research from micro-plastics aggregation and settling in oceanic flows (important local institutions for collaboration (check the collaboration institution of 2025_Pizzi_SR) and with Mona's group based on ongoing collaboration and research stay in summer 2026), but also following the natural extention of the experience with a compressible flow solver and variable property flows to high-speed flows (long term goal that will be initiated with the stay in UniSalento with Mario and Donattela)
+
+- third research line is the development, maintainance and acceleration of compressible flow codes that could potentially be enabled for exa scale computing, building on my RHEA-X work, a work much more focused on scientific-computing but also finding strategic ways of "fighting off" expensive parts of such computations such as surrogate models for complex relations of fluid properties but also other strategies such as techniques of kernel-optimization (check the most recent papers on it from the StreamS group and other similar ones (Roccon 2026) , etc, and maybe even in the future partial ofload to quantum computing (very very brief mention with a single ref. mention contact with Canada in HPC
+
+
+	
+	- Growth of the research lines and long-term direction 
+	
+Some of what was mentioned before haz to be moved here and
+
+
+
+
+	- Work plan and timeline
+	
+We need to describe a precise plan to tackle each one answering the different identified questions. This involves recruiting 1 PhD in UPC that will extend two separate databases for solving questions of the first work line. I will continue developing on my own line 2 (more self focused on causality but supporting progress on line 1). Apply for the grant to bring money and estabilize researhc line 1. Will have to leverage current synergies to extend line 1 and 2. Attending Hackathons and establishing connections with BSC for line 3 (evolve scie comput. in CFD in EEBE through proposed batchelor and master projects and collabs with BSC and the PhDs.
+Fit collabs and stays and properly place them with respect to work packages
+
+
+	- Resources, funding strategy and risk management
+Compute: Canada, BSC, EuroHPC,
+Resources: Get from Joan,
+Risc managements: get strategies	
+
+
+- Supervision of doctoral theses and group building
+ more detail about PhDs and masters
+
+- Mobility and collaborations
+mention what has been said
+
+- Open science, transfer and dissemination
+ databases, code, publications, conferences, summer programs, collabs
+
+
+2. Teaching plan
+- Teaching background
+- Personal vision of teaching
+- Institutional context
+- Subjects of the call and adequacy
+- Developed subject: Thermodynamics and Heat Transfer (TTC)
+- Developed subject: Fluid Engineering
+- Master’s subject: Computational Fluid Mechanics
+- Teaching innovation and training plan
+- Generative artificial intelligence in learning
+- Supervision of TFG, TFM and doctoral theses
+- Language plan
+- Equality, inclusion and sustainability
+3. Year-3 milestones and self-assessment
+References

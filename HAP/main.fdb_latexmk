@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1794764545 "main.tex" "main.pdf" "main" 1794764549
+["pdflatex"] 1794954425 "main.tex" "main.pdf" "main" 1794954429
   "/etc/texmf/web2c/texmf.cnf" 1654593952 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -266,13 +266,15 @@
   "documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf" 1679025480 410253 133673e9580aa0e5c3219e43a2722118 ""
   "documents_justificacio/01_education/MSc_NOVA_2021_grade_equivalence.pdf" 1679024308 123154 4501880323f08f9fd83ff438b274570e ""
   "documents_justificacio/01_education/PhD_UPC_2026_degree_fee_receipt.pdf" 1794238260 124979 1cffdf6609169a60d227bd022698754e ""
+  "documents_justificacio/02_positions/Continental_AUMOVIO_work_declaration_2026_REDACTED.pdf" 1794871821 581757 362221126335d102e9293d196027b721 ""
   "documents_justificacio/02_positions/Contract_postdoc_SCRAMBLE_2026_REDACTED.pdf" 1794327577 1378678 439cdb53a562e55e17f031f35d719ef7 ""
   "documents_justificacio/02_positions/Contract_predoctoral_2023-2026_REDACTED.pdf" 1794327576 2602406 33923e32de78abbd3a6c790b896cc45e ""
   "documents_justificacio/02_positions/Contract_substitute_lecturer_2026-27_REDACTED.pdf" 1794327577 964421 265c15585e776ed409997dff102b4163 ""
+  "documents_justificacio/03_teaching/EEBE_teaching_certificate_2026-27_S1_REDACTED.pdf" 1794928747 336606 c9d1d7a85187216721f14104b9543a32 ""
   "documents_justificacio/03_teaching/Internship_605632_training_project_REDACTED.pdf" 1794328764 640545 2b27ac855b734af2f1a13a79db765a3b ""
   "documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf" 1794386376 351015 3a723935827a0e81e5767fc93e9f74f1 ""
   "documents_justificacio/03_teaching/TTC_coordination_statement_Jofre_2026_signed.pdf" 1794388835 160159 f853e2e7e07001530688e71b062160e9 ""
-  "documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTED.pdf" 1794494638 1063399 63d955e1288e8d89285d7abf64bbb630 ""
+  "documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTED.pdf" 1794929011 1065765 4ed8b9442ab8aaf443941b5c8dd2739a ""
   "documents_justificacio/04_training/Ansys_Scale_Resolving_Simulations_2022_certificate.pdf" 1668485756 269698 229029b79f5ab5c2e4ebffe9665af241 ""
   "documents_justificacio/04_training/Ansys_Turbulence_Beyond_Basics_2022_certificate.pdf" 1794238762 269513 7ab70d42b5d3875fccbae560e7d2ba7f ""
   "documents_justificacio/04_training/CFDParSchool_2023_admission_letter.pdf" 1794242326 367427 1596a5f903fb55708265df472b3bc0aa ""
@@ -292,10 +294,10 @@
   "documents_justificacio/07_other/Catalan_A2.2_SLT-UPC_2025_certificate.pdf" 1794239936 137364 659905bc4dc76f586735b05571a3af64 ""
   "lector.sty" 1794764541 6520 ee2e11396d41856420902be1f9100387 ""
   "logo-upc.jpeg" 1793877590 71975 8b0f1a216663429c3567c58d22a5f1bc ""
-  "main.aux" 1794764548 7358 31d840858650ff591b171ff1b3e54b16 "pdflatex"
-  "main.out" 1794764548 6970 407d753ce1a97a58c932a2088b9f64e7 "pdflatex"
-  "main.tex" 1794764541 57328 9f5c98726577d876985479c747b292fc ""
-  "main.toc" 1794764548 3619 169cc9096b083ec953217e3d900283eb "pdflatex"
+  "main.aux" 1794954428 7271 329758ceac1d06db784598d67981505f "pdflatex"
+  "main.out" 1794954428 6970 407d753ce1a97a58c932a2088b9f64e7 "pdflatex"
+  "main.tex" 1794954425 57451 6152b04fc627037cc15aac4272f5f777 ""
+  "main.toc" 1794954428 3619 169cc9096b083ec953217e3d900283eb "pdflatex"
   "style.sty" 1793877590 14907 245763fd14b1d6766acd342399007263 ""
   (generated)
   "main.aux"

@@ -1,23 +1,64 @@
 \babel@toc {british}{}\relax 
 \contentsline {section}{\numberline {1}Research plan}{3}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Research background}{3}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Motivation and research objectives}{3}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Work packages}{4}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}Research mobility}{5}{subsection.1.4}%
-\contentsline {subsection}{\numberline {1.5}Resources and funding strategy}{5}{subsection.1.5}%
-\contentsline {subsection}{\numberline {1.6}Computational resources and software tools}{6}{subsection.1.6}%
-\contentsline {subsection}{\numberline {1.7}PhD supervision and group building}{6}{subsection.1.7}%
-\contentsline {subsection}{\numberline {1.8}Collaborations, transfer and dissemination}{6}{subsection.1.8}%
-\contentsline {section}{\numberline {2}Teaching plan}{7}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Teaching background}{7}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Personal vision of teaching}{7}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Context: the EEBE degrees}{8}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Subjects of the call and adequacy}{8}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Developed subject: Thermodynamics and Heat Transfer (TTC)}{8}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}Fluid Engineering}{9}{subsection.2.6}%
-\contentsline {subsection}{\numberline {2.7}Master's subject: Computational Fluid Mechanics}{11}{subsection.2.7}%
-\contentsline {subsection}{\numberline {2.8}Teaching innovation}{11}{subsection.2.8}%
-\contentsline {subsection}{\numberline {2.9}Bachelor's, master's and PhD theses}{11}{subsection.2.9}%
-\contentsline {subsection}{\numberline {2.10}Language commitment}{11}{subsection.2.10}%
-\contentsline {subsection}{\numberline {2.11}Equality and inclusion}{12}{subsection.2.11}%
-\contentsline {section}{\numberline {3}Year-3 milestones (self-assessment)}{12}{section.3}%
+\contentsline {subsection}{\numberline {1.1}Background and motivation}{3}{subsection.1.1}%
+\contentsline {paragraph}{Supercritical fluids in engineering.}{3}{paragraph*.1}%
+\contentsline {paragraph}{The pseudo-boiling region.}{3}{paragraph*.2}%
+\contentsline {paragraph}{Pseudo-boiling and turbulence.}{3}{paragraph*.3}%
+\contentsline {paragraph}{The SCRAMBLE context and my contribution.}{3}{paragraph*.4}%
+\contentsline {paragraph}{Open challenges.}{3}{paragraph*.6}%
+\contentsline {subsection}{\numberline {1.2}Research lines, open questions and objectives}{5}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Growth of the research lines and long-term direction}{7}{subsection.1.3}%
+\contentsline {paragraph}{Long-term direction.}{7}{paragraph*.7}%
+\contentsline {subsection}{\numberline {1.4}Work plan and timeline}{7}{subsection.1.4}%
+\contentsline {paragraph}{WP1 -- Supercritical turbulence databases (Line~1; O1--O3; Y1--Y6).}{7}{paragraph*.8}%
+\contentsline {paragraph}{WP2 -- Causality and extreme events (Line~2; O4--O6; Y1--Y6).}{7}{paragraph*.9}%
+\contentsline {paragraph}{WP3 -- Solver performance and exascale readiness (Line~3; O7, O8; Y1--Y6).}{8}{paragraph*.10}%
+\contentsline {paragraph}{WP4 -- Resources, group building and management (Y1--Y6).}{8}{paragraph*.11}%
+\contentsline {paragraph}{WP5 -- Mobility, collaborations and dissemination (Y1--Y6).}{8}{paragraph*.12}%
+\contentsline {subsection}{\numberline {1.5}Resources, funding strategy and risk management}{9}{subsection.1.5}%
+\contentsline {paragraph}{Starting point.}{9}{paragraph*.14}%
+\contentsline {paragraph}{Funding.}{9}{paragraph*.15}%
+\contentsline {paragraph}{Computing resources.}{9}{paragraph*.16}%
+\contentsline {paragraph}{Software and data.}{9}{paragraph*.17}%
+\contentsline {paragraph}{Risk management.}{9}{paragraph*.18}%
+\contentsline {subsection}{\numberline {1.6}Supervision of doctoral theses and group building}{9}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}Mobility and collaborations}{10}{subsection.1.7}%
+\contentsline {subsection}{\numberline {1.8}Open science, transfer and dissemination}{10}{subsection.1.8}%
+\contentsline {section}{\numberline {2}Teaching plan}{12}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Teaching background}{12}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Personal vision of teaching}{12}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Institutional context}{12}{subsection.2.3}%
+\contentsline {paragraph}{The EHEA framework.}{12}{paragraph*.19}%
+\contentsline {paragraph}{The EEBE.}{13}{paragraph*.20}%
+\contentsline {paragraph}{The EPSEVG.}{13}{paragraph*.21}%
+\contentsline {paragraph}{The Department of Fluid Mechanics.}{13}{paragraph*.22}%
+\contentsline {subsection}{\numberline {2.4}Subjects of the call and adequacy}{13}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Developed subject: Thermodynamics and Heat Transfer (TTC)}{14}{subsection.2.5}%
+\contentsline {paragraph}{Prerequisites.}{14}{paragraph*.23}%
+\contentsline {paragraph}{Competences and learning objectives.}{14}{paragraph*.24}%
+\contentsline {paragraph}{Contents.}{14}{paragraph*.25}%
+\contentsline {paragraph}{Methodology.}{15}{paragraph*.26}%
+\contentsline {paragraph}{Assessment.}{15}{paragraph*.27}%
+\contentsline {paragraph}{Workload (6 ECTS, 150 hours).}{15}{paragraph*.28}%
+\contentsline {paragraph}{Resources.}{15}{paragraph*.29}%
+\contentsline {paragraph}{Schedule (15 weeks).}{15}{paragraph*.30}%
+\contentsline {subsection}{\numberline {2.6}Developed subject: Fluid Engineering}{15}{subsection.2.6}%
+\contentsline {paragraph}{Prerequisites and competences.}{16}{paragraph*.31}%
+\contentsline {paragraph}{Learning objectives.}{16}{paragraph*.32}%
+\contentsline {paragraph}{Contents.}{16}{paragraph*.33}%
+\contentsline {paragraph}{Methodology.}{16}{paragraph*.34}%
+\contentsline {paragraph}{Assessment.}{16}{paragraph*.35}%
+\contentsline {paragraph}{Workload (6 ECTS, 150 hours).}{16}{paragraph*.36}%
+\contentsline {paragraph}{Schedule.}{16}{paragraph*.37}%
+\contentsline {paragraph}{Bibliography.}{17}{paragraph*.38}%
+\contentsline {subsection}{\numberline {2.7}Master's subject: Computational Fluid Mechanics}{17}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Teaching innovation and training plan}{17}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.9}Generative artificial intelligence in learning}{17}{subsection.2.9}%
+\contentsline {paragraph}{The issue.}{17}{paragraph*.39}%
+\contentsline {paragraph}{The European framework.}{18}{paragraph*.40}%
+\contentsline {paragraph}{What I will do.}{18}{paragraph*.41}%
+\contentsline {subsection}{\numberline {2.10}Supervision of TFG, TFM and doctoral theses}{18}{subsection.2.10}%
+\contentsline {subsection}{\numberline {2.11}Language plan}{19}{subsection.2.11}%
+\contentsline {subsection}{\numberline {2.12}Equality, inclusion and sustainability}{19}{subsection.2.12}%
+\contentsline {section}{\numberline {3}Year-3 milestones and self-assessment}{20}{section.3}%
+\contentsline {section}{References}{23}{section.3}%
