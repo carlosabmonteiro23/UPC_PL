@@ -28,21 +28,9 @@
 
 %\vspace{0.8cm}
 %\noindent\textbf{Summary.}
-This work plan describes how I will meet the three requirements of position LE-403/729
-over the six years of the Lector contract, starting in September 2027, with a
-self-assessment in the third year. In research, it develops three lines that correspond to
-the research lines of the call: the physics of supercritical turbulent flows by direct
-numerical simulation; the causal analysis and prediction of extreme events in multiphysics
-turbulence; and high-performance computing for compressible, real-fluid turbulence. Their
-common long-term goal is to explain, predict and prevent heat-transfer deterioration in
-regenerative cooling and supercritical power cycles. In teaching, the plan develops two
-subjects of the profile that I currently teach, Thermodynamics and Heat Transfer and Fluid
-Engineering, proposes contributions to the master's subject Computational Fluid Mechanics,
-and links final theses to the research plan. In supervision, it foresees two doctoral
-theses funded through competitive predoctoral grants. In funding, it sets out a progression
-from initial UPC and group resources to an independent national project as principal
-investigator and, at the end of the contract, an ERC Starting Grant proposal. Own publications are cited with the numbering of the HAP ([J], [R],
-[C], [D]); other references are numbered and listed at the end.
+This work plan outlines the research, teaching, supervision, and funding objectives to be pursued over the six-year duration of the Lector contract for position LE-403/729, starting in September 2027.
+The research programme is structured around three interconnected lines aligned with the position's research profile: (i) the physics of supercritical turbulent flows; (ii) the causal analysis and prediction of extreme events in multiphysics turbulence; and (iii) high-performance computing for compressible, real-fluid turbulent flows. Together, these lines aim to advance the understanding, prediction, and mitigation of complex thermofluid phenomena in supercritical fluid systems, with particular emphasis on pseudo-boiling effects relevant to propulsion technologies and supercritical power cycles. The principal scientific contributions will include the development and consolidation of a generalizable Lagrangian framework for identifying the causal mechanisms underlying extreme turbulent events, particularly intermittent thermal loading, and new physical insights into the onset and mechanisms of heat-transfer deterioration.
+In parallel, the teaching plan builds on my current experience in Thermodynamics and Heat Transfer and Fluid Engineering, proposes contributions to the master's course in Computational Fluid Mechanics, and establishes connections between student theses and the proposed research activities. The supervision strategy envisions two doctoral theses supported by competitive predoctoral grants. Finally, the funding strategy establishes a progressive transition from collaborative research within the GReCEF group towards scientific independence, through the leadership of a nationally funded research project and the preparation of an ERC Starting Grant proposal towards the end of the contract.
 
 \newpage
 \tableofcontents
@@ -52,18 +40,32 @@ investigator and, at the end of the contract, an ERC Starting Grant proposal. Ow
 
 \subsection{Background and motivation}\label{sec:background}
 
-\paragraph{Supercritical fluids in engineering.} Fluids operated above their critical
-pressure are central to several energy and propulsion technologies. In supercritical
-CO$_2$ (sCO$_2$) Brayton cycles, the high density of the working fluid near the critical
-point reduces the size of the turbomachinery by about one order of magnitude with respect
-to steam Rankine cycles and can raise the thermal efficiency by up to five percentage
-points~\cite{Ahn2015}. Liquid-rocket engines cool their thrust chambers regeneratively with
+%\paragraph{Supercritical fluids in engineering.} 
+Fluids operated above their critical pressure are central to several energy and propulsion technologies. 
+In supercritical CO$_2$ (sCO$_2$) thermodynamic cycle technology, the high density of the working fluid near the critical point reduces the necessary size of the turbomachinery by about one order of magnitude with respect to steam Rankine cycles and can raise the thermal efficiency by up to five percentage points~\cite{Ahn2015}. 
+
+Liquid-rocket engines cool their thrust chambers regeneratively with
 propellants (hydrogen, methane or kerosene) flowing at supercritical pressure through
 narrow channels next to the hot wall~\cite{Pizzarelli2018,Nasuti2021}, and inject them into
 combustion chambers at pressures above the critical pressure of the
 propellants~\cite{JofreUrzay2021,Bellan2020}. Supercritical fluids are also used in
 refrigeration and heat pumps~\cite{Nieuwenhuyse2023}, in supercritical-water reactors and
 oxidation processes, and in chemical extraction~\cite{Brunner2010,Yoo2013}.
+
+\paragraph{National and European priorities in space propulsion.} Spain invests directly in
+space transportation: in 2024 the Ministry of Science, Innovation and Universities, through
+the CDTI and within the PERTE Aeroespacial, allocated \texteuro{}40.5 million to the development
+phase of the first Spanish small-satellite launcher~\cite{CDTI2024}. At the European level,
+ESA's Future Launchers Preparatory Programme (FLPP) seeks, through THRUST!~2, to demonstrate
+staged-combustion engines for high-thrust liquid propulsion~\cite{ESA2026}, whose thrust
+chambers are regeneratively cooled and fed by propellants at supercritical
+pressure~\cite{Pizzarelli2018}. These programs address engine design and testing; this plan
+contributes the fundamental understanding of transcritical heat transfer, mixing and
+near-wall thermal protection on which the models used in that design rely. Spanish companies
+developing liquid-rocket engines, such as PLD Space and the Barcelona-based Pangea Aerospace,
+which designed a regeneratively cooled demonstrator with real-fluid models of supercritical
+oxygen and methane~\cite{Esnault2021}, are prospective partners for transfer and industrial
+doctorates.
 
 \paragraph{The pseudo-boiling region.} Above the critical pressure there is no
 liquid--vapor phase change. However, an isobaric change of temperature drives the fluid
@@ -542,7 +544,12 @@ direction, Section~\ref{sec:research}).
 position at the end of the six-year contract requires the research accreditation of AQU
 Catalunya (\emph{acreditaci\'o de recerca}). The outputs, funding and supervision planned
 above are aligned with its criteria; I will apply in Y5 and aim to obtain it before the end
-of the contract. The R3 certification will be considered as a complementary objective, subject
+of the contract. Since 2025, this accreditation also requires at least nine months of
+accumulated research or teaching activity at universities or research centers other than the
+one where the doctoral thesis was presented, counting only the postdoctoral
+period~\cite{AQU2025}. As my thesis was presented at the UPC, the stays of
+Section~\ref{sec:mobility} (UBC, 3 months; Salento, 3 months; United States, 6 months;
+12 months in total, which leaves a margin over the minimum) are a necessary part of the plan, not an option. The R3 certification will be considered as a complementary objective, subject
 to its requirements; it is not a prerequisite for the plan.
 
 \paragraph{Computing resources.} The DNS of WP1 require several million GPU hours per year. I will apply every year to the RES calls (MareNostrum~5, BSC) and, from year~2, to
@@ -599,8 +606,11 @@ theses (TFG) will address GPU acceleration of simple solvers and the thermodynam
 sCO$_2$ cycles (Section~\ref{sec:theses}).
 
 \subsection{Mobility and collaborations}\label{sec:mobility}
+The three postdoctoral stays below develop the research lines with leading international
+groups and, together, provide the nine months of mobility required for the research
+accreditation (Section~\ref{sec:resources}).
 \begin{itemize}
-  \item \textbf{University of British Columbia (Canada), summer 2027, 2--3 months, before the
+  \item \textbf{University of British Columbia (Canada), summer 2027, 3 months, before the
   contract.} Host: \href{https://chbe.ubc.ca/mona-rahmani/}{Prof.\ Mona Rahmani}. Lagrangian
   causality applied to the aggregation of microplastics in ocean turbulence (Mitacs Globalink
   Research Award; T2.3).
@@ -612,7 +622,7 @@ sCO$_2$ cycles (Section~\ref{sec:theses}).
   Mechanics has agreed to concentrate my teaching in one semester. The stay is limited to
   three months so that, together with the UBC stay, it keeps me eligible for the José
   Castillejo program for the US stay.
-  \item \textbf{Stanford University or Caltech (USA), 2029--30 (Y3), 4--6 months,
+  \item \textbf{Stanford University or Caltech (USA), 2029--30 (Y3), 6 months,
   prospective.} At Stanford, with
   \href{https://me.stanford.edu/people/gianluca-iaccarino}{Prof.\ Gianluca Iaccarino},
   \href{https://me.stanford.edu/people/sanjiva-lele}{Prof.\ Sanjiva Lele} and A.\ Chandra
@@ -1047,6 +1057,10 @@ Career & -- & AQU research accreditation; conditions for stabilization as Profes
 \begin{thebibliography}{99}\small
 \bibitem{Pizzarelli2018} M.\ Pizzarelli. The status of the research on the heat transfer deterioration in supercritical fluids: A review. \emph{Int.\ Commun.\ Heat Mass Transf.}, 95:132--138, 2018.
 \bibitem{Nasuti2021} F.\ Nasuti, M.\ Pizzarelli. Pseudo-boiling and heat transfer deterioration while heating supercritical liquid rocket engine propellants. \emph{J.\ Supercrit.\ Fluids}, 168:105066, 2021.
+\bibitem{CDTI2024} Ministerio de Ciencia, Innovaci\'on y Universidades and CDTI. El Ministerio de Ciencia, Innovaci\'on y Universidades designa a PLD Space contratista final para la fase de desarrollo del primer lanzador espa\~nol de peque\~nos sat\'elites. Press release, Madrid, 29 January 2024. \url{https://www.cdti.es/sites/default/files/2024-01/ndp_cpp_lanzador_pequenos_satelites_3.pdf}.
+\bibitem{ESA2026} European Space Agency, Future Launchers Preparatory Programme. THRUST!~2: call for ideas on staged-combustion liquid propulsion, closing date 24 August 2026. \url{https://spacetransportation.esa.int/opportunities/thrust-2/} (accessed 18 November 2026).
+\bibitem{Esnault2021} G.\ Esnault, F.\ Rossi. Design and CFD analysis of the LOX/LCH4 dual regenerative cooling circuit of the DemoP1 demonstrator. \emph{Aerospace Europe Conference (AEC 2021)}, Warsaw, 2021. \url{https://psaa.meil.pw.edu.pl/AEC2021/Papers/AEC_2021_102_Esnault_Gabrielle.pdf}.
+\bibitem{AQU2025} AQU Catalunya. Resoluci\'o REU/974/2025, de 19 de mar\c{c}, per la qual es dona publicitat al procediment per a l'emissi\'o de l'acreditaci\'o per a professorat agregat. \emph{DOGC}, n\'um.~9378, 25 March 2025. \url{https://www.aqu.cat/doc/Professorat/Agregat-Catedratic/Resolucio-REU_974_2025_procediment-per-a-l-acreditacio-per-a-professorat-agregat_ca}.
 \bibitem{Bellan2020} J.\ Bellan. Future challenges in the modelling and simulations of high-pressure flows. \emph{Combust.\ Sci.\ Technol.}, 2020. \href{https://doi.org/10.1080/00102202.2020.1719404}{doi:10.1080/00102202.2020.1719404}.
 \bibitem{Nieuwenhuyse2023} J.\ Van Nieuwenhuyse, S.\ Lecompte, M.\ De Paepe. Current status of the thermohydraulic behavior of supercritical refrigerants: A review. \emph{Appl.\ Therm.\ Eng.}, 218:119201, 2023.
 \bibitem{Brunner2010} G.\ Brunner. Applications of supercritical fluids. \emph{Annu.\ Rev.\ Chem.\ Biomol.\ Eng.}, 1:321--342, 2010.
