@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.1.31)  17 NOV 2026 23:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.1.31)  19 NOV 2026 14:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1376,37 +1376,37 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
 [16]
 <./documents_justificacio/01_education/PhD_UPC_2026_degree_fee_receipt.pdf, id=
-529, 597.51233pt x 845.0471pt>
+529, 597.6729pt x 845.19763pt>
 File: ./documents_justificacio/01_education/PhD_UPC_2026_degree_fee_receipt.pdf
  Graphic file (type pdf)
 <use ./documents_justificacio/01_education/PhD_UPC_2026_degree_fee_receipt.pdf>
 
 Package pdftex.def Info: ./documents_justificacio/01_education/PhD_UPC_2026_deg
 ree_fee_receipt.pdf  used on input line 772.
-(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+(pdftex.def)             Requested size: 597.67143pt x 845.19557pt.
 File: ./documents_justificacio/01_education/PhD_UPC_2026_degree_fee_receipt.pdf
  Graphic file (type pdf)
 <use ./documents_justificacio/01_education/PhD_UPC_2026_degree_fee_receipt.pdf>
 
 Package pdftex.def Info: ./documents_justificacio/01_education/PhD_UPC_2026_deg
 ree_fee_receipt.pdf  used on input line 772.
-(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+(pdftex.def)             Requested size: 597.67143pt x 845.19557pt.
 <./documents_justificacio/01_education/PhD_UPC_2026_degree_fee_receipt.pdf, id=
-532, page=1, 597.51233pt x 845.0471pt>
+532, page=1, 597.6729pt x 845.19763pt>
 File: ./documents_justificacio/01_education/PhD_UPC_2026_degree_fee_receipt.pdf
  Graphic file (type pdf)
 <use ./documents_justificacio/01_education/PhD_UPC_2026_degree_fee_receipt.pdf,
  page 1>
 Package pdftex.def Info: ./documents_justificacio/01_education/PhD_UPC_2026_deg
 ree_fee_receipt.pdf , page1 used on input line 772.
-(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+(pdftex.def)             Requested size: 597.67143pt x 845.19557pt.
 File: ./documents_justificacio/01_education/PhD_UPC_2026_degree_fee_receipt.pdf
  Graphic file (type pdf)
 <use ./documents_justificacio/01_education/PhD_UPC_2026_degree_fee_receipt.pdf,
  page 1>
 Package pdftex.def Info: ./documents_justificacio/01_education/PhD_UPC_2026_deg
 ree_fee_receipt.pdf , page1 used on input line 772.
-(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.69879pt x 845.23425pt.
 File: logo-upc.jpeg Graphic file (type jpg)
 <use logo-upc.jpeg>
 Package pdftex.def Info: logo-upc.jpeg  used on input line 772.
@@ -1428,24 +1428,24 @@ File: ./documents_justificacio/01_education/PhD_UPC_2026_degree_fee_receipt.pdf
  page 1>
 Package pdftex.def Info: ./documents_justificacio/01_education/PhD_UPC_2026_deg
 ree_fee_receipt.pdf , page1 used on input line 772.
-(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.69879pt x 845.23425pt.
 File: ./documents_justificacio/01_education/PhD_UPC_2026_degree_fee_receipt.pdf
  Graphic file (type pdf)
 <use ./documents_justificacio/01_education/PhD_UPC_2026_degree_fee_receipt.pdf,
  page 1>
 Package pdftex.def Info: ./documents_justificacio/01_education/PhD_UPC_2026_deg
 ree_fee_receipt.pdf , page1 used on input line 772.
-(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.69879pt x 845.23425pt.
 File: ./documents_justificacio/01_education/PhD_UPC_2026_degree_fee_receipt.pdf
  Graphic file (type pdf)
 <use ./documents_justificacio/01_education/PhD_UPC_2026_degree_fee_receipt.pdf,
  page 1>
 Package pdftex.def Info: ./documents_justificacio/01_education/PhD_UPC_2026_deg
 ree_fee_receipt.pdf , page1 used on input line 772.
-(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.69879pt x 845.23425pt.
 [18 <./documents_justificacio/01_education/PhD_UPC_2026_degree_fee_receipt.pdf>
 ]
-<./documents_justificacio/01_education/MSc_NOVA_2021_diploma.pdf, id=577, 598.3
+<./documents_justificacio/01_education/MSc_NOVA_2021_diploma.pdf, id=549, 598.3
 9557pt x 845.19763pt>
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_diploma.pdf Graphic f
 ile (type pdf)
@@ -1459,7 +1459,7 @@ ile (type pdf)
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_di
 ploma.pdf  used on input line 773.
 (pdftex.def)             Requested size: 598.3941pt x 845.19557pt.
-<./documents_justificacio/01_education/MSc_NOVA_2021_diploma.pdf, id=580, page=
+<./documents_justificacio/01_education/MSc_NOVA_2021_diploma.pdf, id=552, page=
 1, 598.39557pt x 845.19763pt>
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_diploma.pdf Graphic f
 ile (type pdf)
@@ -1492,7 +1492,7 @@ Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_di
 ploma.pdf , page1 used on input line 773.
 (pdftex.def)             Requested size: 597.90103pt x 844.49915pt.
 [19 <./documents_justificacio/01_education/MSc_NOVA_2021_diploma.pdf>]
-<./documents_justificacio/01_education/MSc_NOVA_2021_diploma.pdf, id=588, page=
+<./documents_justificacio/01_education/MSc_NOVA_2021_diploma.pdf, id=560, page=
 2, 598.39557pt x 845.19763pt>
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_diploma.pdf Graphic f
 ile (type pdf)
@@ -1513,469 +1513,469 @@ Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_di
 ploma.pdf , page2 used on input line 773.
 (pdftex.def)             Requested size: 597.90103pt x 844.49915pt.
 [20 <./documents_justificacio/01_education/MSc_NOVA_2021_diploma.pdf>]
-<./documents_justificacio/01_education/MSc_NOVA_2021_certificate.pdf, id=595, 5
-97.432pt x 844.83629pt>
+<./documents_justificacio/01_education/MSc_NOVA_2021_certificate.pdf, id=567, 5
+97.6729pt x 844.83629pt>
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_certificate.pdf Graph
 ic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_certificate.pdf>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_ce
 rtificate.pdf  used on input line 774.
-(pdftex.def)             Requested size: 597.43054pt x 844.83423pt.
+(pdftex.def)             Requested size: 597.67143pt x 844.83423pt.
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_certificate.pdf Graph
 ic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_certificate.pdf>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_ce
 rtificate.pdf  used on input line 774.
-(pdftex.def)             Requested size: 597.43054pt x 844.83423pt.
-<./documents_justificacio/01_education/MSc_NOVA_2021_certificate.pdf, id=598, p
-age=1, 597.432pt x 844.83629pt>
+(pdftex.def)             Requested size: 597.67143pt x 844.83423pt.
+<./documents_justificacio/01_education/MSc_NOVA_2021_certificate.pdf, id=570, p
+age=1, 597.6729pt x 844.83629pt>
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_certificate.pdf Graph
 ic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_certificate.pdf, page 
 1>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_ce
 rtificate.pdf , page1 used on input line 774.
-(pdftex.def)             Requested size: 597.43054pt x 844.83423pt.
+(pdftex.def)             Requested size: 597.67143pt x 844.83423pt.
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_certificate.pdf Graph
 ic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_certificate.pdf, page 
 1>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_ce
 rtificate.pdf , page1 used on input line 774.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_certificate.pdf Graph
 ic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_certificate.pdf, page 
 1>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_ce
 rtificate.pdf , page1 used on input line 774.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_certificate.pdf Graph
 ic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_certificate.pdf, page 
 1>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_ce
 rtificate.pdf , page1 used on input line 774.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_certificate.pdf Graph
 ic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_certificate.pdf, page 
 1>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_ce
 rtificate.pdf , page1 used on input line 774.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 [21 <./documents_justificacio/01_education/MSc_NOVA_2021_certificate.pdf>]
-<./documents_justificacio/01_education/MSc_NOVA_2021_certificate.pdf, id=612, p
-age=2, 597.432pt x 844.83629pt>
+<./documents_justificacio/01_education/MSc_NOVA_2021_certificate.pdf, id=577, p
+age=2, 597.6729pt x 844.83629pt>
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_certificate.pdf Graph
 ic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_certificate.pdf, page 
 2>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_ce
 rtificate.pdf , page2 used on input line 774.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_certificate.pdf Graph
 ic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_certificate.pdf, page 
 2>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_ce
 rtificate.pdf , page2 used on input line 774.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_certificate.pdf Graph
 ic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_certificate.pdf, page 
 2>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_ce
 rtificate.pdf , page2 used on input line 774.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 [22 <./documents_justificacio/01_education/MSc_NOVA_2021_certificate.pdf>]
 <./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf, id
-=638, 597.432pt x 844.83629pt>
+=584, 597.6729pt x 844.83629pt>
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf
 >
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_di
 ploma_supplement.pdf  used on input line 775.
-(pdftex.def)             Requested size: 597.43054pt x 844.83423pt.
+(pdftex.def)             Requested size: 597.67143pt x 844.83423pt.
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf
 >
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_di
 ploma_supplement.pdf  used on input line 775.
-(pdftex.def)             Requested size: 597.43054pt x 844.83423pt.
+(pdftex.def)             Requested size: 597.67143pt x 844.83423pt.
 <./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf, id
-=641, page=1, 597.432pt x 844.83629pt>
+=587, page=1, 597.6729pt x 844.83629pt>
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf
 , page 1>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_di
 ploma_supplement.pdf , page1 used on input line 775.
-(pdftex.def)             Requested size: 597.43054pt x 844.83423pt.
+(pdftex.def)             Requested size: 597.67143pt x 844.83423pt.
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf
 , page 1>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_di
 ploma_supplement.pdf , page1 used on input line 775.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf
 , page 1>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_di
 ploma_supplement.pdf , page1 used on input line 775.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf
 , page 1>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_di
 ploma_supplement.pdf , page1 used on input line 775.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf
 , page 1>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_di
 ploma_supplement.pdf , page1 used on input line 775.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 [23 <./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf
 >]
 <./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf, id
-=657, page=2, 597.432pt x 844.83629pt>
+=594, page=2, 597.6729pt x 844.83629pt>
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf
 , page 2>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_di
 ploma_supplement.pdf , page2 used on input line 775.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf
 , page 2>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_di
 ploma_supplement.pdf , page2 used on input line 775.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf
 , page 2>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_di
 ploma_supplement.pdf , page2 used on input line 775.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 [24 <./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf
 >]
 <./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf, id
-=673, page=3, 597.432pt x 844.83629pt>
+=601, page=3, 597.6729pt x 844.83629pt>
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf
 , page 3>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_di
 ploma_supplement.pdf , page3 used on input line 775.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf
 , page 3>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_di
 ploma_supplement.pdf , page3 used on input line 775.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf
 , page 3>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_di
 ploma_supplement.pdf , page3 used on input line 775.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 [25 <./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf
 >]
 <./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf, id
-=715, page=4, 597.432pt x 844.83629pt>
+=609, page=4, 597.6729pt x 844.83629pt>
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf
 , page 4>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_di
 ploma_supplement.pdf , page4 used on input line 775.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf
 , page 4>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_di
 ploma_supplement.pdf , page4 used on input line 775.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf
 , page 4>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_di
 ploma_supplement.pdf , page4 used on input line 775.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 [26 <./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf
 >]
 <./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf, id
-=741, page=5, 597.432pt x 844.83629pt>
+=616, page=5, 597.6729pt x 844.83629pt>
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf
 , page 5>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_di
 ploma_supplement.pdf , page5 used on input line 775.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf
 , page 5>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_di
 ploma_supplement.pdf , page5 used on input line 775.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf
 , page 5>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_di
 ploma_supplement.pdf , page5 used on input line 775.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 [27 <./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf
 >]
 <./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf, id
-=757, page=6, 597.432pt x 844.83629pt>
+=623, page=6, 597.6729pt x 844.83629pt>
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf
 , page 6>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_di
 ploma_supplement.pdf , page6 used on input line 775.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf
 , page 6>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_di
 ploma_supplement.pdf , page6 used on input line 775.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf
 , page 6>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_di
 ploma_supplement.pdf , page6 used on input line 775.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 [28 <./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf
 >]
 <./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf, id
-=773, page=7, 597.432pt x 844.83629pt>
+=630, page=7, 597.6729pt x 844.83629pt>
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf
 , page 7>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_di
 ploma_supplement.pdf , page7 used on input line 775.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf
 , page 7>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_di
 ploma_supplement.pdf , page7 used on input line 775.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf
 , page 7>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_di
 ploma_supplement.pdf , page7 used on input line 775.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 [29 <./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf
 >]
 <./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf, id
-=785, page=8, 597.432pt x 844.83629pt>
+=637, page=8, 597.6729pt x 844.83629pt>
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf
 , page 8>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_di
 ploma_supplement.pdf , page8 used on input line 775.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf
 , page 8>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_di
 ploma_supplement.pdf , page8 used on input line 775.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf
 , page 8>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_di
 ploma_supplement.pdf , page8 used on input line 775.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 [30 <./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf
 >]
 <./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf, id
-=807, page=9, 597.432pt x 844.83629pt>
+=644, page=9, 597.6729pt x 844.83629pt>
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf
 , page 9>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_di
 ploma_supplement.pdf , page9 used on input line 775.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf
 , page 9>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_di
 ploma_supplement.pdf , page9 used on input line 775.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf
 , page 9>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_di
 ploma_supplement.pdf , page9 used on input line 775.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 [31 <./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf
 >]
 <./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf, id
-=846, page=10, 597.432pt x 844.83629pt>
+=652, page=10, 597.6729pt x 844.83629pt>
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf
 , page 10>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_di
 ploma_supplement.pdf , page10 used on input line 775.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf
 , page 10>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_di
 ploma_supplement.pdf , page10 used on input line 775.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf
 , page 10>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_di
 ploma_supplement.pdf , page10 used on input line 775.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 [32 <./documents_justificacio/01_education/MSc_NOVA_2021_diploma_supplement.pdf
 >]
 <./documents_justificacio/01_education/MSc_NOVA_2021_grade_equivalence.pdf, id=
-854, 597.23125pt x 845.1575pt>
+659, 597.31157pt x 845.19763pt>
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_grade_equivalence.pdf
  Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_grade_equivalence.pdf>
 
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_gr
 ade_equivalence.pdf  used on input line 776.
-(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+(pdftex.def)             Requested size: 597.3101pt x 845.19557pt.
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_grade_equivalence.pdf
  Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_grade_equivalence.pdf>
 
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_gr
 ade_equivalence.pdf  used on input line 776.
-(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+(pdftex.def)             Requested size: 597.3101pt x 845.19557pt.
 <./documents_justificacio/01_education/MSc_NOVA_2021_grade_equivalence.pdf, id=
-857, page=1, 597.23125pt x 845.1575pt>
+662, page=1, 597.31157pt x 845.19763pt>
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_grade_equivalence.pdf
  Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_grade_equivalence.pdf,
  page 1>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_gr
 ade_equivalence.pdf , page1 used on input line 776.
-(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+(pdftex.def)             Requested size: 597.3101pt x 845.19557pt.
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_grade_equivalence.pdf
  Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_grade_equivalence.pdf,
  page 1>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_gr
 ade_equivalence.pdf , page1 used on input line 776.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+(pdftex.def)             Requested size: 597.33743pt x 845.23425pt.
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_grade_equivalence.pdf
  Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_grade_equivalence.pdf,
  page 1>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_gr
 ade_equivalence.pdf , page1 used on input line 776.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+(pdftex.def)             Requested size: 597.33743pt x 845.23425pt.
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_grade_equivalence.pdf
  Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_grade_equivalence.pdf,
  page 1>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_gr
 ade_equivalence.pdf , page1 used on input line 776.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+(pdftex.def)             Requested size: 597.33743pt x 845.23425pt.
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_grade_equivalence.pdf
  Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_grade_equivalence.pdf,
  page 1>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_gr
 ade_equivalence.pdf , page1 used on input line 776.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+(pdftex.def)             Requested size: 597.33743pt x 845.23425pt.
 [33 <./documents_justificacio/01_education/MSc_NOVA_2021_grade_equivalence.pdf>
 ]
 <./documents_justificacio/01_education/MSc_NOVA_2021_grade_equivalence.pdf, id=
-881, page=2, 597.23125pt x 845.1575pt>
+669, page=2, 597.31157pt x 845.19763pt>
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_grade_equivalence.pdf
  Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_grade_equivalence.pdf,
  page 2>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_gr
 ade_equivalence.pdf , page2 used on input line 776.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+(pdftex.def)             Requested size: 597.33743pt x 845.23425pt.
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_grade_equivalence.pdf
  Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_grade_equivalence.pdf,
  page 2>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_gr
 ade_equivalence.pdf , page2 used on input line 776.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+(pdftex.def)             Requested size: 597.33743pt x 845.23425pt.
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_grade_equivalence.pdf
  Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_grade_equivalence.pdf,
  page 2>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_gr
 ade_equivalence.pdf , page2 used on input line 776.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+(pdftex.def)             Requested size: 597.33743pt x 845.23425pt.
 [34 <./documents_justificacio/01_education/MSc_NOVA_2021_grade_equivalence.pdf>
 ]
 <./documents_justificacio/01_education/MSc_NOVA_2021_grade_equivalence.pdf, id=
-888, page=3, 597.23125pt x 845.1575pt>
+676, page=3, 597.31157pt x 845.19763pt>
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_grade_equivalence.pdf
  Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_grade_equivalence.pdf,
  page 3>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_gr
 ade_equivalence.pdf , page3 used on input line 776.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+(pdftex.def)             Requested size: 597.33743pt x 845.23425pt.
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_grade_equivalence.pdf
  Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_grade_equivalence.pdf,
  page 3>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_gr
 ade_equivalence.pdf , page3 used on input line 776.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+(pdftex.def)             Requested size: 597.33743pt x 845.23425pt.
 File: ./documents_justificacio/01_education/MSc_NOVA_2021_grade_equivalence.pdf
  Graphic file (type pdf)
 <use ./documents_justificacio/01_education/MSc_NOVA_2021_grade_equivalence.pdf,
  page 3>
 Package pdftex.def Info: ./documents_justificacio/01_education/MSc_NOVA_2021_gr
 ade_equivalence.pdf , page3 used on input line 776.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+(pdftex.def)             Requested size: 597.33743pt x 845.23425pt.
 [35 <./documents_justificacio/01_education/MSc_NOVA_2021_grade_equivalence.pdf>
 ]
 <./documents_justificacio/01_education/Erasmus_Polimi_2019-20_certificate.pdf, 
-id=896, 596.97731pt x 844.83629pt>
+id=683, 596.97731pt x 844.83629pt>
 File: ./documents_justificacio/01_education/Erasmus_Polimi_2019-20_certificate.
 pdf Graphic file (type pdf)
 <use ./documents_justificacio/01_education/Erasmus_Polimi_2019-20_certificate.p
@@ -1991,7 +1991,7 @@ Package pdftex.def Info: ./documents_justificacio/01_education/Erasmus_Polimi_2
 019-20_certificate.pdf  used on input line 777.
 (pdftex.def)             Requested size: 596.97585pt x 844.83423pt.
 <./documents_justificacio/01_education/Erasmus_Polimi_2019-20_certificate.pdf, 
-id=899, page=1, 596.97731pt x 844.83629pt>
+id=686, page=1, 596.97731pt x 844.83629pt>
 File: ./documents_justificacio/01_education/Erasmus_Polimi_2019-20_certificate.
 pdf Graphic file (type pdf)
 <use ./documents_justificacio/01_education/Erasmus_Polimi_2019-20_certificate.p
@@ -2029,471 +2029,468 @@ Package pdftex.def Info: ./documents_justificacio/01_education/Erasmus_Polimi_2
 (pdftex.def)             Requested size: 597.71368pt x 845.8784pt.
 [36 <./documents_justificacio/01_education/Erasmus_Polimi_2019-20_certificate.p
 df>]
-<./documents_justificacio/01_education/BSc_NOVA_2019_certificate.pdf, id=910, 5
-98.235pt x 845.1575pt>
+<./documents_justificacio/01_education/BSc_NOVA_2019_certificate.pdf, id=697, 5
+98.39557pt x 845.19763pt>
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_certificate.pdf Graph
 ic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_certificate.pdf>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_ce
 rtificate.pdf  used on input line 778.
-(pdftex.def)             Requested size: 598.23354pt x 845.15544pt.
+(pdftex.def)             Requested size: 598.3941pt x 845.19557pt.
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_certificate.pdf Graph
 ic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_certificate.pdf>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_ce
 rtificate.pdf  used on input line 778.
-(pdftex.def)             Requested size: 598.23354pt x 845.15544pt.
-<./documents_justificacio/01_education/BSc_NOVA_2019_certificate.pdf, id=913, p
-age=1, 598.235pt x 845.1575pt>
+(pdftex.def)             Requested size: 598.3941pt x 845.19557pt.
+<./documents_justificacio/01_education/BSc_NOVA_2019_certificate.pdf, id=700, p
+age=1, 598.39557pt x 845.19763pt>
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_certificate.pdf Graph
 ic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_certificate.pdf, page 
 1>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_ce
 rtificate.pdf , page1 used on input line 778.
-(pdftex.def)             Requested size: 598.23354pt x 845.15544pt.
+(pdftex.def)             Requested size: 598.3941pt x 845.19557pt.
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_certificate.pdf Graph
 ic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_certificate.pdf, page 
 1>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_ce
 rtificate.pdf , page1 used on input line 778.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+(pdftex.def)             Requested size: 597.90103pt x 844.49915pt.
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_certificate.pdf Graph
 ic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_certificate.pdf, page 
 1>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_ce
 rtificate.pdf , page1 used on input line 778.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+(pdftex.def)             Requested size: 597.90103pt x 844.49915pt.
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_certificate.pdf Graph
 ic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_certificate.pdf, page 
 1>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_ce
 rtificate.pdf , page1 used on input line 778.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+(pdftex.def)             Requested size: 597.90103pt x 844.49915pt.
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_certificate.pdf Graph
 ic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_certificate.pdf, page 
 1>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_ce
 rtificate.pdf , page1 used on input line 778.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-[37 <./documents_justificacio/01_education/BSc_NOVA_2019_certificate.pdf, page 
-is rotated 270 degrees>]
-<./documents_justificacio/01_education/BSc_NOVA_2019_certificate.pdf, id=930, p
-age=2, 598.235pt x 845.1575pt>
+(pdftex.def)             Requested size: 597.90103pt x 844.49915pt.
+[37 <./documents_justificacio/01_education/BSc_NOVA_2019_certificate.pdf>]
+<./documents_justificacio/01_education/BSc_NOVA_2019_certificate.pdf, id=708, p
+age=2, 598.39557pt x 845.19763pt>
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_certificate.pdf Graph
 ic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_certificate.pdf, page 
 2>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_ce
 rtificate.pdf , page2 used on input line 778.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+(pdftex.def)             Requested size: 597.90103pt x 844.49915pt.
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_certificate.pdf Graph
 ic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_certificate.pdf, page 
 2>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_ce
 rtificate.pdf , page2 used on input line 778.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+(pdftex.def)             Requested size: 597.90103pt x 844.49915pt.
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_certificate.pdf Graph
 ic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_certificate.pdf, page 
 2>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_ce
 rtificate.pdf , page2 used on input line 778.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-[38 <./documents_justificacio/01_education/BSc_NOVA_2019_certificate.pdf, page 
-is rotated 270 degrees>]
-<./documents_justificacio/01_education/BSc_NOVA_2019_certificate.pdf, id=947, p
-age=3, 598.235pt x 845.1575pt>
+(pdftex.def)             Requested size: 597.90103pt x 844.49915pt.
+[38 <./documents_justificacio/01_education/BSc_NOVA_2019_certificate.pdf>]
+<./documents_justificacio/01_education/BSc_NOVA_2019_certificate.pdf, id=715, p
+age=3, 598.39557pt x 845.19763pt>
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_certificate.pdf Graph
 ic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_certificate.pdf, page 
 3>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_ce
 rtificate.pdf , page3 used on input line 778.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+(pdftex.def)             Requested size: 597.90103pt x 844.49915pt.
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_certificate.pdf Graph
 ic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_certificate.pdf, page 
 3>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_ce
 rtificate.pdf , page3 used on input line 778.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
+(pdftex.def)             Requested size: 597.90103pt x 844.49915pt.
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_certificate.pdf Graph
 ic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_certificate.pdf, page 
 3>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_ce
 rtificate.pdf , page3 used on input line 778.
-(pdftex.def)             Requested size: 597.7406pt x 844.45905pt.
-[39 <./documents_justificacio/01_education/BSc_NOVA_2019_certificate.pdf, page 
-is rotated 270 degrees>]
+(pdftex.def)             Requested size: 597.90103pt x 844.49915pt.
+[39 <./documents_justificacio/01_education/BSc_NOVA_2019_certificate.pdf>]
 <./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf, id
-=962, 597.432pt x 844.83629pt>
+=723, 597.6729pt x 844.83629pt>
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf
 >
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_di
 ploma_supplement.pdf  used on input line 779.
-(pdftex.def)             Requested size: 597.43054pt x 844.83423pt.
+(pdftex.def)             Requested size: 597.67143pt x 844.83423pt.
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf
 >
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_di
 ploma_supplement.pdf  used on input line 779.
-(pdftex.def)             Requested size: 597.43054pt x 844.83423pt.
+(pdftex.def)             Requested size: 597.67143pt x 844.83423pt.
 <./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf, id
-=965, page=1, 597.432pt x 844.83629pt>
+=726, page=1, 597.6729pt x 844.83629pt>
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf
 , page 1>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_di
 ploma_supplement.pdf , page1 used on input line 779.
-(pdftex.def)             Requested size: 597.43054pt x 844.83423pt.
+(pdftex.def)             Requested size: 597.67143pt x 844.83423pt.
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf
 , page 1>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_di
 ploma_supplement.pdf , page1 used on input line 779.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf
 , page 1>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_di
 ploma_supplement.pdf , page1 used on input line 779.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf
 , page 1>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_di
 ploma_supplement.pdf , page1 used on input line 779.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf
 , page 1>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_di
 ploma_supplement.pdf , page1 used on input line 779.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 [40 <./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf
 >]
 <./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf, id
-=979, page=2, 597.432pt x 844.83629pt>
+=733, page=2, 597.6729pt x 844.83629pt>
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf
 , page 2>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_di
 ploma_supplement.pdf , page2 used on input line 779.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf
 , page 2>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_di
 ploma_supplement.pdf , page2 used on input line 779.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf
 , page 2>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_di
 ploma_supplement.pdf , page2 used on input line 779.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 [41 <./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf
 >]
 <./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf, id
-=993, page=3, 597.432pt x 844.83629pt>
+=740, page=3, 597.6729pt x 844.83629pt>
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf
 , page 3>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_di
 ploma_supplement.pdf , page3 used on input line 779.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf
 , page 3>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_di
 ploma_supplement.pdf , page3 used on input line 779.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf
 , page 3>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_di
 ploma_supplement.pdf , page3 used on input line 779.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 [42 <./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf
 >]
 <./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf, id
-=1025, page=4, 597.432pt x 844.83629pt>
+=747, page=4, 597.6729pt x 844.83629pt>
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf
 , page 4>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_di
 ploma_supplement.pdf , page4 used on input line 779.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf
 , page 4>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_di
 ploma_supplement.pdf , page4 used on input line 779.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf
 , page 4>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_di
 ploma_supplement.pdf , page4 used on input line 779.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 [43 <./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf
 >]
 <./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf, id
-=1040, page=5, 597.432pt x 844.83629pt>
+=755, page=5, 597.6729pt x 844.83629pt>
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf
 , page 5>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_di
 ploma_supplement.pdf , page5 used on input line 779.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf
 , page 5>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_di
 ploma_supplement.pdf , page5 used on input line 779.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf
 , page 5>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_di
 ploma_supplement.pdf , page5 used on input line 779.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 [44 <./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf
 >]
 <./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf, id
-=1056, page=6, 597.432pt x 844.83629pt>
+=762, page=6, 597.6729pt x 844.83629pt>
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf
 , page 6>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_di
 ploma_supplement.pdf , page6 used on input line 779.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf
 , page 6>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_di
 ploma_supplement.pdf , page6 used on input line 779.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf
 , page 6>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_di
 ploma_supplement.pdf , page6 used on input line 779.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 [45 <./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf
 >]
 <./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf, id
-=1080, page=7, 597.432pt x 844.83629pt>
+=769, page=7, 597.6729pt x 844.83629pt>
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf
 , page 7>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_di
 ploma_supplement.pdf , page7 used on input line 779.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf
 , page 7>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_di
 ploma_supplement.pdf , page7 used on input line 779.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf
 , page 7>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_di
 ploma_supplement.pdf , page7 used on input line 779.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 [46 <./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf
 >]
 <./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf, id
-=1115, page=8, 597.432pt x 844.83629pt>
+=776, page=8, 597.6729pt x 844.83629pt>
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf
 , page 8>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_di
 ploma_supplement.pdf , page8 used on input line 779.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf
 , page 8>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_di
 ploma_supplement.pdf , page8 used on input line 779.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf
 , page 8>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_di
 ploma_supplement.pdf , page8 used on input line 779.
-(pdftex.def)             Requested size: 597.93192pt x 845.54323pt.
+(pdftex.def)             Requested size: 598.173pt x 845.54323pt.
 [47 <./documents_justificacio/01_education/BSc_NOVA_2019_diploma_supplement.pdf
 >]
 <./documents_justificacio/01_education/BSc_NOVA_2019_grade_equivalence.pdf, id=
-1125, 597.23125pt x 845.1575pt>
+783, 597.31157pt x 845.19763pt>
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_grade_equivalence.pdf
  Graphic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_grade_equivalence.pdf>
 
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_gr
 ade_equivalence.pdf  used on input line 780.
-(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+(pdftex.def)             Requested size: 597.3101pt x 845.19557pt.
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_grade_equivalence.pdf
  Graphic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_grade_equivalence.pdf>
 
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_gr
 ade_equivalence.pdf  used on input line 780.
-(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+(pdftex.def)             Requested size: 597.3101pt x 845.19557pt.
 <./documents_justificacio/01_education/BSc_NOVA_2019_grade_equivalence.pdf, id=
-1128, page=1, 597.23125pt x 845.1575pt>
+786, page=1, 597.31157pt x 845.19763pt>
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_grade_equivalence.pdf
  Graphic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_grade_equivalence.pdf,
  page 1>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_gr
 ade_equivalence.pdf , page1 used on input line 780.
-(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+(pdftex.def)             Requested size: 597.3101pt x 845.19557pt.
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_grade_equivalence.pdf
  Graphic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_grade_equivalence.pdf,
  page 1>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_gr
 ade_equivalence.pdf , page1 used on input line 780.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+(pdftex.def)             Requested size: 597.33743pt x 845.23425pt.
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_grade_equivalence.pdf
  Graphic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_grade_equivalence.pdf,
  page 1>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_gr
 ade_equivalence.pdf , page1 used on input line 780.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+(pdftex.def)             Requested size: 597.33743pt x 845.23425pt.
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_grade_equivalence.pdf
  Graphic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_grade_equivalence.pdf,
  page 1>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_gr
 ade_equivalence.pdf , page1 used on input line 780.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+(pdftex.def)             Requested size: 597.33743pt x 845.23425pt.
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_grade_equivalence.pdf
  Graphic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_grade_equivalence.pdf,
  page 1>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_gr
 ade_equivalence.pdf , page1 used on input line 780.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+(pdftex.def)             Requested size: 597.33743pt x 845.23425pt.
 [48 <./documents_justificacio/01_education/BSc_NOVA_2019_grade_equivalence.pdf>
 ]
 <./documents_justificacio/01_education/BSc_NOVA_2019_grade_equivalence.pdf, id=
-1152, page=2, 597.23125pt x 845.1575pt>
+793, page=2, 597.31157pt x 845.19763pt>
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_grade_equivalence.pdf
  Graphic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_grade_equivalence.pdf,
  page 2>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_gr
 ade_equivalence.pdf , page2 used on input line 780.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+(pdftex.def)             Requested size: 597.33743pt x 845.23425pt.
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_grade_equivalence.pdf
  Graphic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_grade_equivalence.pdf,
  page 2>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_gr
 ade_equivalence.pdf , page2 used on input line 780.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+(pdftex.def)             Requested size: 597.33743pt x 845.23425pt.
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_grade_equivalence.pdf
  Graphic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_grade_equivalence.pdf,
  page 2>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_gr
 ade_equivalence.pdf , page2 used on input line 780.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+(pdftex.def)             Requested size: 597.33743pt x 845.23425pt.
 [49 <./documents_justificacio/01_education/BSc_NOVA_2019_grade_equivalence.pdf>
 ]
 <./documents_justificacio/01_education/BSc_NOVA_2019_grade_equivalence.pdf, id=
-1160, page=3, 597.23125pt x 845.1575pt>
+801, page=3, 597.31157pt x 845.19763pt>
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_grade_equivalence.pdf
  Graphic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_grade_equivalence.pdf,
  page 3>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_gr
 ade_equivalence.pdf , page3 used on input line 780.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+(pdftex.def)             Requested size: 597.33743pt x 845.23425pt.
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_grade_equivalence.pdf
  Graphic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_grade_equivalence.pdf,
  page 3>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_gr
 ade_equivalence.pdf , page3 used on input line 780.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+(pdftex.def)             Requested size: 597.33743pt x 845.23425pt.
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_grade_equivalence.pdf
  Graphic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_grade_equivalence.pdf,
  page 3>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_gr
 ade_equivalence.pdf , page3 used on input line 780.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+(pdftex.def)             Requested size: 597.33743pt x 845.23425pt.
 [50 <./documents_justificacio/01_education/BSc_NOVA_2019_grade_equivalence.pdf>
 ]
 <./documents_justificacio/01_education/BSc_NOVA_2019_grade_equivalence.pdf, id=
-1167, page=4, 597.23125pt x 845.1575pt>
+808, page=4, 597.31157pt x 845.19763pt>
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_grade_equivalence.pdf
  Graphic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_grade_equivalence.pdf,
  page 4>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_gr
 ade_equivalence.pdf , page4 used on input line 780.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+(pdftex.def)             Requested size: 597.33743pt x 845.23425pt.
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_grade_equivalence.pdf
  Graphic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_grade_equivalence.pdf,
  page 4>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_gr
 ade_equivalence.pdf , page4 used on input line 780.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+(pdftex.def)             Requested size: 597.33743pt x 845.23425pt.
 File: ./documents_justificacio/01_education/BSc_NOVA_2019_grade_equivalence.pdf
  Graphic file (type pdf)
 <use ./documents_justificacio/01_education/BSc_NOVA_2019_grade_equivalence.pdf,
  page 4>
 Package pdftex.def Info: ./documents_justificacio/01_education/BSc_NOVA_2019_gr
 ade_equivalence.pdf , page4 used on input line 780.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+(pdftex.def)             Requested size: 597.33743pt x 845.23425pt.
 [51 <./documents_justificacio/01_education/BSc_NOVA_2019_grade_equivalence.pdf>
 ]
 <./documents_justificacio/02_positions/Contract_substitute_lecturer_2026-27_RED
-ACTED.pdf, id=1174, 597.31157pt x 845.19763pt>
+ACTED.pdf, id=815, 597.31157pt x 845.19763pt>
 File: ./documents_justificacio/02_positions/Contract_substitute_lecturer_2026-2
 7_REDACTED.pdf Graphic file (type pdf)
 <use ./documents_justificacio/02_positions/Contract_substitute_lecturer_2026-27
@@ -2509,7 +2506,7 @@ Package pdftex.def Info: ./documents_justificacio/02_positions/Contract_substit
 ute_lecturer_2026-27_REDACTED.pdf  used on input line 781.
 (pdftex.def)             Requested size: 597.3101pt x 845.19557pt.
 <./documents_justificacio/02_positions/Contract_substitute_lecturer_2026-27_RED
-ACTED.pdf, id=1177, page=1, 597.31157pt x 845.19763pt>
+ACTED.pdf, id=818, page=1, 597.31157pt x 845.19763pt>
 File: ./documents_justificacio/02_positions/Contract_substitute_lecturer_2026-2
 7_REDACTED.pdf Graphic file (type pdf)
 <use ./documents_justificacio/02_positions/Contract_substitute_lecturer_2026-27
@@ -2548,7 +2545,7 @@ ute_lecturer_2026-27_REDACTED.pdf , page1 used on input line 781.
 [52 <./documents_justificacio/02_positions/Contract_substitute_lecturer_2026-27
 _REDACTED.pdf>]
 <./documents_justificacio/02_positions/Contract_substitute_lecturer_2026-27_RED
-ACTED.pdf, id=1184, page=2, 597.31157pt x 845.19763pt>
+ACTED.pdf, id=825, page=2, 597.31157pt x 845.19763pt>
 File: ./documents_justificacio/02_positions/Contract_substitute_lecturer_2026-2
 7_REDACTED.pdf Graphic file (type pdf)
 <use ./documents_justificacio/02_positions/Contract_substitute_lecturer_2026-27
@@ -2573,7 +2570,7 @@ ute_lecturer_2026-27_REDACTED.pdf , page2 used on input line 781.
 [53 <./documents_justificacio/02_positions/Contract_substitute_lecturer_2026-27
 _REDACTED.pdf>]
 <./documents_justificacio/02_positions/Contract_substitute_lecturer_2026-27_RED
-ACTED.pdf, id=1191, page=3, 597.31157pt x 845.19763pt>
+ACTED.pdf, id=832, page=3, 597.31157pt x 845.19763pt>
 File: ./documents_justificacio/02_positions/Contract_substitute_lecturer_2026-2
 7_REDACTED.pdf Graphic file (type pdf)
 <use ./documents_justificacio/02_positions/Contract_substitute_lecturer_2026-27
@@ -2602,7 +2599,7 @@ pdfTeX warning: pdflatex (file ./documents_justificacio/02_positions/Contract_p
 ostdoc_SCRAMBLE_2026_REDACTED.pdf): PDF inclusion: found PDF version <1.7>, but
  at most version <1.5> allowed
 <./documents_justificacio/02_positions/Contract_postdoc_SCRAMBLE_2026_REDACTED.
-pdf, id=1198, 597.31157pt x 845.19763pt>
+pdf, id=839, 597.31157pt x 845.19763pt>
 File: ./documents_justificacio/02_positions/Contract_postdoc_SCRAMBLE_2026_REDA
 CTED.pdf Graphic file (type pdf)
 <use ./documents_justificacio/02_positions/Contract_postdoc_SCRAMBLE_2026_REDAC
@@ -2633,7 +2630,7 @@ pdfTeX warning: pdflatex (file ./documents_justificacio/02_positions/Contract_p
 ostdoc_SCRAMBLE_2026_REDACTED.pdf): PDF inclusion: found PDF version <1.7>, but
  at most version <1.5> allowed
 <./documents_justificacio/02_positions/Contract_postdoc_SCRAMBLE_2026_REDACTED.
-pdf, id=1201, page=1, 597.31157pt x 845.19763pt>
+pdf, id=842, page=1, 597.31157pt x 845.19763pt>
 File: ./documents_justificacio/02_positions/Contract_postdoc_SCRAMBLE_2026_REDA
 CTED.pdf Graphic file (type pdf)
 <use ./documents_justificacio/02_positions/Contract_postdoc_SCRAMBLE_2026_REDAC
@@ -2676,7 +2673,7 @@ pdfTeX warning: pdflatex (file ./documents_justificacio/02_positions/Contract_p
 ostdoc_SCRAMBLE_2026_REDACTED.pdf): PDF inclusion: found PDF version <1.7>, but
  at most version <1.5> allowed
 <./documents_justificacio/02_positions/Contract_postdoc_SCRAMBLE_2026_REDACTED.
-pdf, id=1209, page=2, 597.31157pt x 845.19763pt>
+pdf, id=850, page=2, 597.31157pt x 845.19763pt>
 File: ./documents_justificacio/02_positions/Contract_postdoc_SCRAMBLE_2026_REDA
 CTED.pdf Graphic file (type pdf)
 <use ./documents_justificacio/02_positions/Contract_postdoc_SCRAMBLE_2026_REDAC
@@ -2705,7 +2702,7 @@ pdfTeX warning: pdflatex (file ./documents_justificacio/02_positions/Contract_p
 ostdoc_SCRAMBLE_2026_REDACTED.pdf): PDF inclusion: found PDF version <1.7>, but
  at most version <1.5> allowed
 <./documents_justificacio/02_positions/Contract_postdoc_SCRAMBLE_2026_REDACTED.
-pdf, id=1216, page=3, 597.31157pt x 845.19763pt>
+pdf, id=857, page=3, 597.31157pt x 845.19763pt>
 File: ./documents_justificacio/02_positions/Contract_postdoc_SCRAMBLE_2026_REDA
 CTED.pdf Graphic file (type pdf)
 <use ./documents_justificacio/02_positions/Contract_postdoc_SCRAMBLE_2026_REDAC
@@ -2734,7 +2731,7 @@ pdfTeX warning: pdflatex (file ./documents_justificacio/02_positions/Contract_p
 ostdoc_SCRAMBLE_2026_REDACTED.pdf): PDF inclusion: found PDF version <1.7>, but
  at most version <1.5> allowed
 <./documents_justificacio/02_positions/Contract_postdoc_SCRAMBLE_2026_REDACTED.
-pdf, id=1223, page=4, 597.31157pt x 844.11362pt>
+pdf, id=864, page=4, 597.31157pt x 844.11362pt>
 File: ./documents_justificacio/02_positions/Contract_postdoc_SCRAMBLE_2026_REDA
 CTED.pdf Graphic file (type pdf)
 <use ./documents_justificacio/02_positions/Contract_postdoc_SCRAMBLE_2026_REDAC
@@ -2763,7 +2760,7 @@ pdfTeX warning: pdflatex (file ./documents_justificacio/02_positions/Contract_p
 redoctoral_2023-2026_REDACTED.pdf): PDF inclusion: found PDF version <1.7>, but
  at most version <1.5> allowed
 <./documents_justificacio/02_positions/Contract_predoctoral_2023-2026_REDACTED.
-pdf, id=1230, 597.6729pt x 845.19763pt>
+pdf, id=871, 597.6729pt x 845.19763pt>
 File: ./documents_justificacio/02_positions/Contract_predoctoral_2023-2026_REDA
 CTED.pdf Graphic file (type pdf)
 <use ./documents_justificacio/02_positions/Contract_predoctoral_2023-2026_REDAC
@@ -2794,7 +2791,7 @@ pdfTeX warning: pdflatex (file ./documents_justificacio/02_positions/Contract_p
 redoctoral_2023-2026_REDACTED.pdf): PDF inclusion: found PDF version <1.7>, but
  at most version <1.5> allowed
 <./documents_justificacio/02_positions/Contract_predoctoral_2023-2026_REDACTED.
-pdf, id=1233, page=1, 597.6729pt x 845.19763pt>
+pdf, id=874, page=1, 597.6729pt x 845.19763pt>
 File: ./documents_justificacio/02_positions/Contract_predoctoral_2023-2026_REDA
 CTED.pdf Graphic file (type pdf)
 <use ./documents_justificacio/02_positions/Contract_predoctoral_2023-2026_REDAC
@@ -2837,7 +2834,7 @@ pdfTeX warning: pdflatex (file ./documents_justificacio/02_positions/Contract_p
 redoctoral_2023-2026_REDACTED.pdf): PDF inclusion: found PDF version <1.7>, but
  at most version <1.5> allowed
 <./documents_justificacio/02_positions/Contract_predoctoral_2023-2026_REDACTED.
-pdf, id=1240, page=2, 597.6729pt x 845.19763pt>
+pdf, id=881, page=2, 597.6729pt x 845.19763pt>
 File: ./documents_justificacio/02_positions/Contract_predoctoral_2023-2026_REDA
 CTED.pdf Graphic file (type pdf)
 <use ./documents_justificacio/02_positions/Contract_predoctoral_2023-2026_REDAC
@@ -2866,7 +2863,7 @@ pdfTeX warning: pdflatex (file ./documents_justificacio/02_positions/Contract_p
 redoctoral_2023-2026_REDACTED.pdf): PDF inclusion: found PDF version <1.7>, but
  at most version <1.5> allowed
 <./documents_justificacio/02_positions/Contract_predoctoral_2023-2026_REDACTED.
-pdf, id=1247, page=3, 597.6729pt x 845.19763pt>
+pdf, id=888, page=3, 597.6729pt x 845.19763pt>
 File: ./documents_justificacio/02_positions/Contract_predoctoral_2023-2026_REDA
 CTED.pdf Graphic file (type pdf)
 <use ./documents_justificacio/02_positions/Contract_predoctoral_2023-2026_REDAC
@@ -2895,7 +2892,7 @@ pdfTeX warning: pdflatex (file ./documents_justificacio/02_positions/Contract_p
 redoctoral_2023-2026_REDACTED.pdf): PDF inclusion: found PDF version <1.7>, but
  at most version <1.5> allowed
 <./documents_justificacio/02_positions/Contract_predoctoral_2023-2026_REDACTED.
-pdf, id=1255, page=4, 597.6729pt x 845.19763pt>
+pdf, id=896, page=4, 597.6729pt x 845.19763pt>
 File: ./documents_justificacio/02_positions/Contract_predoctoral_2023-2026_REDA
 CTED.pdf Graphic file (type pdf)
 <use ./documents_justificacio/02_positions/Contract_predoctoral_2023-2026_REDAC
@@ -2924,7 +2921,7 @@ pdfTeX warning: pdflatex (file ./documents_justificacio/02_positions/Contract_p
 redoctoral_2023-2026_REDACTED.pdf): PDF inclusion: found PDF version <1.7>, but
  at most version <1.5> allowed
 <./documents_justificacio/02_positions/Contract_predoctoral_2023-2026_REDACTED.
-pdf, id=1262, page=5, 597.6729pt x 845.19763pt>
+pdf, id=904, page=5, 597.6729pt x 845.19763pt>
 File: ./documents_justificacio/02_positions/Contract_predoctoral_2023-2026_REDA
 CTED.pdf Graphic file (type pdf)
 <use ./documents_justificacio/02_positions/Contract_predoctoral_2023-2026_REDAC
@@ -2953,7 +2950,7 @@ pdfTeX warning: pdflatex (file ./documents_justificacio/02_positions/Contract_p
 redoctoral_2023-2026_REDACTED.pdf): PDF inclusion: found PDF version <1.7>, but
  at most version <1.5> allowed
 <./documents_justificacio/02_positions/Contract_predoctoral_2023-2026_REDACTED.
-pdf, id=1269, page=6, 597.6729pt x 845.19763pt>
+pdf, id=911, page=6, 597.6729pt x 845.19763pt>
 File: ./documents_justificacio/02_positions/Contract_predoctoral_2023-2026_REDA
 CTED.pdf Graphic file (type pdf)
 <use ./documents_justificacio/02_positions/Contract_predoctoral_2023-2026_REDAC
@@ -2982,7 +2979,7 @@ pdfTeX warning: pdflatex (file ./documents_justificacio/02_positions/Contract_p
 redoctoral_2023-2026_REDACTED.pdf): PDF inclusion: found PDF version <1.7>, but
  at most version <1.5> allowed
 <./documents_justificacio/02_positions/Contract_predoctoral_2023-2026_REDACTED.
-pdf, id=1276, page=7, 597.6729pt x 845.19763pt>
+pdf, id=918, page=7, 597.6729pt x 845.19763pt>
 File: ./documents_justificacio/02_positions/Contract_predoctoral_2023-2026_REDA
 CTED.pdf Graphic file (type pdf)
 <use ./documents_justificacio/02_positions/Contract_predoctoral_2023-2026_REDAC
@@ -3007,7 +3004,7 @@ oral_2023-2026_REDACTED.pdf , page7 used on input line 783.
 [65 <./documents_justificacio/02_positions/Contract_predoctoral_2023-2026_REDAC
 TED.pdf>]
 <./documents_justificacio/06_international/CTR_Stanford_Summer_Program_2026_let
-ter.pdf, id=1284, 614.295pt x 794.97pt>
+ter.pdf, id=925, 614.295pt x 794.97pt>
 File: ./documents_justificacio/06_international/CTR_Stanford_Summer_Program_202
 6_letter.pdf Graphic file (type pdf)
 <use ./documents_justificacio/06_international/CTR_Stanford_Summer_Program_2026
@@ -3023,7 +3020,7 @@ Package pdftex.def Info: ./documents_justificacio/06_international/CTR_Stanford
 _Summer_Program_2026_letter.pdf  used on input line 784.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 <./documents_justificacio/06_international/CTR_Stanford_Summer_Program_2026_let
-ter.pdf, id=1287, page=1, 614.295pt x 794.97pt>
+ter.pdf, id=928, page=1, 614.295pt x 794.97pt>
 File: ./documents_justificacio/06_international/CTR_Stanford_Summer_Program_202
 6_letter.pdf Graphic file (type pdf)
 <use ./documents_justificacio/06_international/CTR_Stanford_Summer_Program_2026
@@ -3062,7 +3059,7 @@ _Summer_Program_2026_letter.pdf , page1 used on input line 784.
 [66 <./documents_justificacio/06_international/CTR_Stanford_Summer_Program_2026
 _letter.pdf>]
 <./documents_justificacio/02_positions/Continental_AUMOVIO_work_declaration_202
-6_REDACTED.pdf, id=1345, 614.295pt x 794.97pt>
+6_REDACTED.pdf, id=986, 614.295pt x 794.97pt>
 File: ./documents_justificacio/02_positions/Continental_AUMOVIO_work_declaratio
 n_2026_REDACTED.pdf Graphic file (type pdf)
 <use ./documents_justificacio/02_positions/Continental_AUMOVIO_work_declaration
@@ -3078,7 +3075,7 @@ Package pdftex.def Info: ./documents_justificacio/02_positions/Continental_AUMO
 VIO_work_declaration_2026_REDACTED.pdf  used on input line 785.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 <./documents_justificacio/02_positions/Continental_AUMOVIO_work_declaration_202
-6_REDACTED.pdf, id=1348, page=1, 614.295pt x 794.97pt>
+6_REDACTED.pdf, id=989, page=1, 614.295pt x 794.97pt>
 File: ./documents_justificacio/02_positions/Continental_AUMOVIO_work_declaratio
 n_2026_REDACTED.pdf Graphic file (type pdf)
 <use ./documents_justificacio/02_positions/Continental_AUMOVIO_work_declaration
@@ -3117,7 +3114,7 @@ VIO_work_declaration_2026_REDACTED.pdf , page1 used on input line 785.
 [67 <./documents_justificacio/02_positions/Continental_AUMOVIO_work_declaration
 _2026_REDACTED.pdf>]
 <./documents_justificacio/02_positions/Continental_AUMOVIO_work_declaration_202
-6_REDACTED.pdf, id=1356, page=2, 614.295pt x 794.97pt>
+6_REDACTED.pdf, id=997, page=2, 614.295pt x 794.97pt>
 File: ./documents_justificacio/02_positions/Continental_AUMOVIO_work_declaratio
 n_2026_REDACTED.pdf Graphic file (type pdf)
 <use ./documents_justificacio/02_positions/Continental_AUMOVIO_work_declaration
@@ -3142,7 +3139,7 @@ VIO_work_declaration_2026_REDACTED.pdf , page2 used on input line 785.
 [68 <./documents_justificacio/02_positions/Continental_AUMOVIO_work_declaration
 _2026_REDACTED.pdf>]
 <./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTED.pd
-f, id=1363, 597.6729pt x 845.19763pt>
+f, id=1004, 597.6729pt x 845.19763pt>
 File: ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACT
 ED.pdf Graphic file (type pdf)
 <use ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTE
@@ -3158,7 +3155,7 @@ Package pdftex.def Info: ./documents_justificacio/03_teaching/UPC_teaching_cert
 ificate_2026_REDACTED.pdf  used on input line 786.
 (pdftex.def)             Requested size: 597.67143pt x 845.19557pt.
 <./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTED.pd
-f, id=1366, page=1, 597.6729pt x 845.19763pt>
+f, id=1007, page=1, 597.6729pt x 845.19763pt>
 File: ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACT
 ED.pdf Graphic file (type pdf)
 <use ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTE
@@ -3197,7 +3194,7 @@ ificate_2026_REDACTED.pdf , page1 used on input line 786.
 [69 <./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTE
 D.pdf>]
 <./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTED.pd
-f, id=1373, page=2, 614.65634pt x 795.33133pt>
+f, id=1014, page=2, 614.65634pt x 795.33133pt>
 File: ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACT
 ED.pdf Graphic file (type pdf)
 <use ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTE
@@ -3222,7 +3219,7 @@ ificate_2026_REDACTED.pdf , page2 used on input line 786.
 [70 <./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTE
 D.pdf>]
 <./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTED.pd
-f, id=1380, page=3, 597.6729pt x 845.19763pt>
+f, id=1021, page=3, 597.6729pt x 845.19763pt>
 File: ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACT
 ED.pdf Graphic file (type pdf)
 <use ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTE
@@ -3247,7 +3244,7 @@ ificate_2026_REDACTED.pdf , page3 used on input line 786.
 [71 <./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTE
 D.pdf>]
 <./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTED.pd
-f, id=1387, page=4, 845.19763pt x 597.6729pt>
+f, id=1028, page=4, 845.19763pt x 597.6729pt>
 File: ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACT
 ED.pdf Graphic file (type pdf)
 <use ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTE
@@ -3272,7 +3269,7 @@ ificate_2026_REDACTED.pdf , page4 used on input line 786.
 [72 <./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTE
 D.pdf>]
 <./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTED.pd
-f, id=1394, page=5, 845.19763pt x 597.6729pt>
+f, id=1035, page=5, 845.19763pt x 597.6729pt>
 File: ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACT
 ED.pdf Graphic file (type pdf)
 <use ./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTE
@@ -3297,7 +3294,7 @@ ificate_2026_REDACTED.pdf , page5 used on input line 786.
 [73 <./documents_justificacio/03_teaching/UPC_teaching_certificate_2026_REDACTE
 D.pdf>]
 <./documents_justificacio/03_teaching/EEBE_teaching_certificate_2026-27_S1_REDA
-CTED.pdf, id=1402, 598.39557pt x 845.19763pt>
+CTED.pdf, id=1043, 598.39557pt x 845.19763pt>
 File: ./documents_justificacio/03_teaching/EEBE_teaching_certificate_2026-27_S1
 _REDACTED.pdf Graphic file (type pdf)
 <use ./documents_justificacio/03_teaching/EEBE_teaching_certificate_2026-27_S1_
@@ -3313,7 +3310,7 @@ Package pdftex.def Info: ./documents_justificacio/03_teaching/EEBE_teaching_cer
 tificate_2026-27_S1_REDACTED.pdf  used on input line 787.
 (pdftex.def)             Requested size: 598.3941pt x 845.19557pt.
 <./documents_justificacio/03_teaching/EEBE_teaching_certificate_2026-27_S1_REDA
-CTED.pdf, id=1405, page=1, 598.39557pt x 845.19763pt>
+CTED.pdf, id=1046, page=1, 598.39557pt x 845.19763pt>
 File: ./documents_justificacio/03_teaching/EEBE_teaching_certificate_2026-27_S1
 _REDACTED.pdf Graphic file (type pdf)
 <use ./documents_justificacio/03_teaching/EEBE_teaching_certificate_2026-27_S1_
@@ -3356,7 +3353,7 @@ pdfTeX warning: pdflatex (file ./documents_justificacio/03_teaching/TTC_coordin
 ation_statement_Jofre_2026_signed.pdf): PDF inclusion: found PDF version <1.7>,
  but at most version <1.5> allowed
 <./documents_justificacio/03_teaching/TTC_coordination_statement_Jofre_2026_sig
-ned.pdf, id=1412, 597.50829pt x 845.0471pt>
+ned.pdf, id=1053, 597.50829pt x 845.0471pt>
 File: ./documents_justificacio/03_teaching/TTC_coordination_statement_Jofre_202
 6_signed.pdf Graphic file (type pdf)
 <use ./documents_justificacio/03_teaching/TTC_coordination_statement_Jofre_2026
@@ -3387,7 +3384,7 @@ pdfTeX warning: pdflatex (file ./documents_justificacio/03_teaching/TTC_coordin
 ation_statement_Jofre_2026_signed.pdf): PDF inclusion: found PDF version <1.7>,
  but at most version <1.5> allowed
 <./documents_justificacio/03_teaching/TTC_coordination_statement_Jofre_2026_sig
-ned.pdf, id=1415, page=1, 597.50829pt x 845.0471pt>
+ned.pdf, id=1056, page=1, 597.50829pt x 845.0471pt>
 File: ./documents_justificacio/03_teaching/TTC_coordination_statement_Jofre_202
 6_signed.pdf Graphic file (type pdf)
 <use ./documents_justificacio/03_teaching/TTC_coordination_statement_Jofre_2026
@@ -3426,7 +3423,7 @@ statement_Jofre_2026_signed.pdf , page1 used on input line 788.
 [75 <./documents_justificacio/03_teaching/TTC_coordination_statement_Jofre_2026
 _signed.pdf>]
 <./documents_justificacio/03_teaching/Internship_605632_training_project_REDACT
-ED.pdf, id=1449, 597.6729pt x 845.19763pt>
+ED.pdf, id=1090, 597.6729pt x 845.19763pt>
 File: ./documents_justificacio/03_teaching/Internship_605632_training_project_R
 EDACTED.pdf Graphic file (type pdf)
 <use ./documents_justificacio/03_teaching/Internship_605632_training_project_RE
@@ -3442,7 +3439,7 @@ Package pdftex.def Info: ./documents_justificacio/03_teaching/Internship_605632
 _training_project_REDACTED.pdf  used on input line 789.
 (pdftex.def)             Requested size: 597.67143pt x 845.19557pt.
 <./documents_justificacio/03_teaching/Internship_605632_training_project_REDACT
-ED.pdf, id=1452, page=1, 597.6729pt x 845.19763pt>
+ED.pdf, id=1093, page=1, 597.6729pt x 845.19763pt>
 File: ./documents_justificacio/03_teaching/Internship_605632_training_project_R
 EDACTED.pdf Graphic file (type pdf)
 <use ./documents_justificacio/03_teaching/Internship_605632_training_project_RE
@@ -3481,7 +3478,7 @@ _training_project_REDACTED.pdf , page1 used on input line 789.
 [76 <./documents_justificacio/03_teaching/Internship_605632_training_project_RE
 DACTED.pdf>]
 <./documents_justificacio/03_teaching/Internship_605632_training_project_REDACT
-ED.pdf, id=1459, page=2, 597.6729pt x 845.19763pt>
+ED.pdf, id=1101, page=2, 597.6729pt x 845.19763pt>
 File: ./documents_justificacio/03_teaching/Internship_605632_training_project_R
 EDACTED.pdf Graphic file (type pdf)
 <use ./documents_justificacio/03_teaching/Internship_605632_training_project_RE
@@ -3509,8 +3506,8 @@ DACTED.pdf>]
 pdfTeX warning: pdflatex (file ./documents_justificacio/03_teaching/Student_sur
 veys_MF_2025-26_S2.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf, id=146
-6, 845.19763pt x 598.39557pt>
+<./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf, id=110
+8, 845.19763pt x 598.39557pt>
 File: ./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf Gr
 aphic file (type pdf)
 <use ./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf>
@@ -3538,8 +3535,8 @@ rsion <1.5> allowed
 pdfTeX warning: pdflatex (file ./documents_justificacio/03_teaching/Student_sur
 veys_MF_2025-26_S2.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf, id=146
-9, page=1, 845.19763pt x 598.39557pt>
+<./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf, id=111
+1, page=1, 845.19763pt x 598.39557pt>
 File: ./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf Gr
 aphic file (type pdf)
 <use ./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf, pa
@@ -3580,8 +3577,8 @@ F_2025-26_S2.pdf , page1 used on input line 790.
 pdfTeX warning: pdflatex (file ./documents_justificacio/03_teaching/Student_sur
 veys_MF_2025-26_S2.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf, id=147
-6, page=2, 845.1575pt x 598.235pt>
+<./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf, id=111
+8, page=2, 845.1575pt x 598.235pt>
 File: ./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf Gr
 aphic file (type pdf)
 <use ./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf, pa
@@ -3608,8 +3605,8 @@ F_2025-26_S2.pdf , page2 used on input line 790.
 pdfTeX warning: pdflatex (file ./documents_justificacio/03_teaching/Student_sur
 veys_MF_2025-26_S2.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf, id=154
-3, page=3, 845.1575pt x 598.235pt>
+<./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf, id=118
+4, page=3, 845.1575pt x 598.235pt>
 File: ./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf Gr
 aphic file (type pdf)
 <use ./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf, pa
@@ -3632,29 +3629,67 @@ Package pdftex.def Info: ./documents_justificacio/03_teaching/Student_surveys_M
 F_2025-26_S2.pdf , page3 used on input line 790.
 (pdftex.def)             Requested size: 597.61578pt x 423.01544pt.
 [80 <./documents_justificacio/03_teaching/Student_surveys_MF_2025-26_S2.pdf>]
-LaTeX Font Info:    Trying to load font information for T1+zlmtt on input line 
-791.
-(/usr/share/texlive/texmf-dist/tex/latex/zlmtt/t1zlmtt.fd
-File: t1zlmtt.fd 2014/02/07 v1.0 Alternate font definitions for Latin Modern Ty
-pewriter, Michael Sharpe
-)
-LaTeX Font Info:    Font shape `T1/zlmtt/m/n' will be
-(Font)              scaled to size 15.84007pt on input line 791.
+<./documents_justificacio/04_training/ICE_M2-4_Atenea_2026_certificate.pdf, id=
+1237, 845.19763pt x 597.31157pt>
+File: ./documents_justificacio/04_training/ICE_M2-4_Atenea_2026_certificate.pdf
+ Graphic file (type pdf)
+<use ./documents_justificacio/04_training/ICE_M2-4_Atenea_2026_certificate.pdf>
 
-Overfull \hbox (112.08896pt too wide) in paragraph at lines 791--791
- []\T1/zlmtt/m/n/14.4 documents_justificacio/04_training/ICE_M2-4_Atenea_2026_c
-ertificate.pdf 
- []
+Package pdftex.def Info: ./documents_justificacio/04_training/ICE_M2-4_Atenea_2
+026_certificate.pdf  used on input line 791.
+(pdftex.def)             Requested size: 845.19557pt x 597.3101pt.
+File: ./documents_justificacio/04_training/ICE_M2-4_Atenea_2026_certificate.pdf
+ Graphic file (type pdf)
+<use ./documents_justificacio/04_training/ICE_M2-4_Atenea_2026_certificate.pdf>
 
-[81
-
+Package pdftex.def Info: ./documents_justificacio/04_training/ICE_M2-4_Atenea_2
+026_certificate.pdf  used on input line 791.
+(pdftex.def)             Requested size: 845.19557pt x 597.3101pt.
+<./documents_justificacio/04_training/ICE_M2-4_Atenea_2026_certificate.pdf, id=
+1240, page=1, 845.19763pt x 597.31157pt>
+File: ./documents_justificacio/04_training/ICE_M2-4_Atenea_2026_certificate.pdf
+ Graphic file (type pdf)
+<use ./documents_justificacio/04_training/ICE_M2-4_Atenea_2026_certificate.pdf,
+ page 1>
+Package pdftex.def Info: ./documents_justificacio/04_training/ICE_M2-4_Atenea_2
+026_certificate.pdf , page1 used on input line 791.
+(pdftex.def)             Requested size: 845.19557pt x 597.3101pt.
+File: ./documents_justificacio/04_training/ICE_M2-4_Atenea_2026_certificate.pdf
+ Graphic file (type pdf)
+<use ./documents_justificacio/04_training/ICE_M2-4_Atenea_2026_certificate.pdf,
+ page 1>
+Package pdftex.def Info: ./documents_justificacio/04_training/ICE_M2-4_Atenea_2
+026_certificate.pdf , page1 used on input line 791.
+(pdftex.def)             Requested size: 597.64415pt x 422.36247pt.
+File: ./documents_justificacio/04_training/ICE_M2-4_Atenea_2026_certificate.pdf
+ Graphic file (type pdf)
+<use ./documents_justificacio/04_training/ICE_M2-4_Atenea_2026_certificate.pdf,
+ page 1>
+Package pdftex.def Info: ./documents_justificacio/04_training/ICE_M2-4_Atenea_2
+026_certificate.pdf , page1 used on input line 791.
+(pdftex.def)             Requested size: 597.64415pt x 422.36247pt.
+File: ./documents_justificacio/04_training/ICE_M2-4_Atenea_2026_certificate.pdf
+ Graphic file (type pdf)
+<use ./documents_justificacio/04_training/ICE_M2-4_Atenea_2026_certificate.pdf,
+ page 1>
+Package pdftex.def Info: ./documents_justificacio/04_training/ICE_M2-4_Atenea_2
+026_certificate.pdf , page1 used on input line 791.
+(pdftex.def)             Requested size: 597.64415pt x 422.36247pt.
+File: ./documents_justificacio/04_training/ICE_M2-4_Atenea_2026_certificate.pdf
+ Graphic file (type pdf)
+<use ./documents_justificacio/04_training/ICE_M2-4_Atenea_2026_certificate.pdf,
+ page 1>
+Package pdftex.def Info: ./documents_justificacio/04_training/ICE_M2-4_Atenea_2
+026_certificate.pdf , page1 used on input line 791.
+(pdftex.def)             Requested size: 597.64415pt x 422.36247pt.
+[81 <./documents_justificacio/04_training/ICE_M2-4_Atenea_2026_certificate.pdf>
 ]
 
 pdfTeX warning: pdflatex (file ./documents_justificacio/04_training/Monsha_AI_E
 ducator_L1_certificate.pdf): PDF inclusion: found PDF version <1.7>, but at mos
 t version <1.5> allowed
 <./documents_justificacio/04_training/Monsha_AI_Educator_L1_certificate.pdf, id
-=1601, 844.15375pt x 597.23125pt>
+=1247, 844.15375pt x 597.23125pt>
 File: ./documents_justificacio/04_training/Monsha_AI_Educator_L1_certificate.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/04_training/Monsha_AI_Educator_L1_certificate.pdf
@@ -3685,7 +3720,7 @@ pdfTeX warning: pdflatex (file ./documents_justificacio/04_training/Monsha_AI_E
 ducator_L1_certificate.pdf): PDF inclusion: found PDF version <1.7>, but at mos
 t version <1.5> allowed
 <./documents_justificacio/04_training/Monsha_AI_Educator_L1_certificate.pdf, id
-=1604, page=1, 844.15375pt x 597.23125pt>
+=1250, page=1, 844.15375pt x 597.23125pt>
 File: ./documents_justificacio/04_training/Monsha_AI_Educator_L1_certificate.pd
 f Graphic file (type pdf)
 <use ./documents_justificacio/04_training/Monsha_AI_Educator_L1_certificate.pdf
@@ -3721,15 +3756,14 @@ f Graphic file (type pdf)
 Package pdftex.def Info: ./documents_justificacio/04_training/Monsha_AI_Educato
 r_L1_certificate.pdf , page1 used on input line 792.
 (pdftex.def)             Requested size: 597.61446pt x 422.80688pt.
-[82
-
- <./documents_justificacio/04_training/Monsha_AI_Educator_L1_certificate.pdf>]
+[82 <./documents_justificacio/04_training/Monsha_AI_Educator_L1_certificate.pdf
+>]
 
 pdfTeX warning: pdflatex (file ./documents_justificacio/04_training/CFDParSchoo
 l_2023_admission_letter.pdf): PDF inclusion: found PDF version <1.6>, but at mo
 st version <1.5> allowed
 <./documents_justificacio/04_training/CFDParSchool_2023_admission_letter.pdf, i
-d=1622, 598.235pt x 845.1575pt>
+d=1268, 598.235pt x 845.1575pt>
 File: ./documents_justificacio/04_training/CFDParSchool_2023_admission_letter.p
 df Graphic file (type pdf)
 <use ./documents_justificacio/04_training/CFDParSchool_2023_admission_letter.pd
@@ -3760,7 +3794,7 @@ pdfTeX warning: pdflatex (file ./documents_justificacio/04_training/CFDParSchoo
 l_2023_admission_letter.pdf): PDF inclusion: found PDF version <1.6>, but at mo
 st version <1.5> allowed
 <./documents_justificacio/04_training/CFDParSchool_2023_admission_letter.pdf, i
-d=1625, page=1, 598.235pt x 845.1575pt>
+d=1271, page=1, 598.235pt x 845.1575pt>
 File: ./documents_justificacio/04_training/CFDParSchool_2023_admission_letter.p
 df Graphic file (type pdf)
 <use ./documents_justificacio/04_training/CFDParSchool_2023_admission_letter.pd
@@ -3803,7 +3837,7 @@ pdfTeX warning: pdflatex (file ./documents_justificacio/04_training/CFDParSchoo
 l_2023_admission_letter.pdf): PDF inclusion: found PDF version <1.6>, but at mo
 st version <1.5> allowed
 <./documents_justificacio/04_training/CFDParSchool_2023_admission_letter.pdf, i
-d=1648, page=2, 598.235pt x 845.1575pt>
+d=1294, page=2, 598.235pt x 845.1575pt>
 File: ./documents_justificacio/04_training/CFDParSchool_2023_admission_letter.p
 df Graphic file (type pdf)
 <use ./documents_justificacio/04_training/CFDParSchool_2023_admission_letter.pd
@@ -3832,7 +3866,7 @@ pdfTeX warning: pdflatex (file ./documents_justificacio/04_training/VKI_ML_Flui
 d_Dynamics_2023_certificate.pdf): PDF inclusion: found PDF version <1.7>, but a
 t most version <1.5> allowed
 <./documents_justificacio/04_training/VKI_ML_Fluid_Dynamics_2023_certificate.pd
-f, id=1662, 597.50786pt x 845.04686pt>
+f, id=1309, 597.50786pt x 845.04686pt>
 File: ./documents_justificacio/04_training/VKI_ML_Fluid_Dynamics_2023_certifica
 te.pdf Graphic file (type pdf)
 <use ./documents_justificacio/04_training/VKI_ML_Fluid_Dynamics_2023_certificat
@@ -3863,7 +3897,7 @@ pdfTeX warning: pdflatex (file ./documents_justificacio/04_training/VKI_ML_Flui
 d_Dynamics_2023_certificate.pdf): PDF inclusion: found PDF version <1.7>, but a
 t most version <1.5> allowed
 <./documents_justificacio/04_training/VKI_ML_Fluid_Dynamics_2023_certificate.pd
-f, id=1665, page=1, 597.50786pt x 845.04686pt>
+f, id=1312, page=1, 597.50786pt x 845.04686pt>
 File: ./documents_justificacio/04_training/VKI_ML_Fluid_Dynamics_2023_certifica
 te.pdf Graphic file (type pdf)
 <use ./documents_justificacio/04_training/VKI_ML_Fluid_Dynamics_2023_certificat
@@ -3902,7 +3936,7 @@ mics_2023_certificate.pdf , page1 used on input line 794.
 [85 <./documents_justificacio/04_training/VKI_ML_Fluid_Dynamics_2023_certificat
 e.pdf>]
 <./documents_justificacio/04_training/Flowthermolab_Python_for_Engineers_2022_c
-ertificate.png, id=1695, 845.26315pt x 597.60106pt>
+ertificate.png, id=1341, 845.26315pt x 597.60106pt>
 File: ./documents_justificacio/04_training/Flowthermolab_Python_for_Engineers_2
 022_certificate.png Graphic file (type png)
 <use ./documents_justificacio/04_training/Flowthermolab_Python_for_Engineers_20
@@ -3955,7 +3989,7 @@ hon_for_Engineers_2022_certificate.png  used on input line 795.
 [86 <./documents_justificacio/04_training/Flowthermolab_Python_for_Engineers_20
 22_certificate.png>]
 <./documents_justificacio/04_training/Flowthermolab_ML_Mechanical_Engineers_202
-3_certificate.pdf, id=1704, 845.07718pt x 597.73312pt>
+3_certificate.pdf, id=1350, 845.07718pt x 597.73312pt>
 File: ./documents_justificacio/04_training/Flowthermolab_ML_Mechanical_Engineer
 s_2023_certificate.pdf Graphic file (type pdf)
 <use ./documents_justificacio/04_training/Flowthermolab_ML_Mechanical_Engineers
@@ -3971,7 +4005,7 @@ Package pdftex.def Info: ./documents_justificacio/04_training/Flowthermolab_ML_
 Mechanical_Engineers_2023_certificate.pdf  used on input line 796.
 (pdftex.def)             Requested size: 845.07512pt x 597.73166pt.
 <./documents_justificacio/04_training/Flowthermolab_ML_Mechanical_Engineers_202
-3_certificate.pdf, id=1707, page=1, 845.07718pt x 597.73312pt>
+3_certificate.pdf, id=1353, page=1, 845.07718pt x 597.73312pt>
 File: ./documents_justificacio/04_training/Flowthermolab_ML_Mechanical_Engineer
 s_2023_certificate.pdf Graphic file (type pdf)
 <use ./documents_justificacio/04_training/Flowthermolab_ML_Mechanical_Engineers
@@ -4010,7 +4044,7 @@ Mechanical_Engineers_2023_certificate.pdf , page1 used on input line 796.
 [87 <./documents_justificacio/04_training/Flowthermolab_ML_Mechanical_Engineers
 _2023_certificate.pdf>]
 <./documents_justificacio/04_training/Ansys_Turbulence_Beyond_Basics_2022_certi
-ficate.pdf, id=1775, 845.1575pt x 597.23125pt>
+ficate.pdf, id=1421, 845.1575pt x 597.23125pt>
 File: ./documents_justificacio/04_training/Ansys_Turbulence_Beyond_Basics_2022_
 certificate.pdf Graphic file (type pdf)
 <use ./documents_justificacio/04_training/Ansys_Turbulence_Beyond_Basics_2022_c
@@ -4026,7 +4060,7 @@ Package pdftex.def Info: ./documents_justificacio/04_training/Ansys_Turbulence_
 Beyond_Basics_2022_certificate.pdf  used on input line 797.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 <./documents_justificacio/04_training/Ansys_Turbulence_Beyond_Basics_2022_certi
-ficate.pdf, id=1778, page=1, 845.1575pt x 597.23125pt>
+ficate.pdf, id=1424, page=1, 845.1575pt x 597.23125pt>
 File: ./documents_justificacio/04_training/Ansys_Turbulence_Beyond_Basics_2022_
 certificate.pdf Graphic file (type pdf)
 <use ./documents_justificacio/04_training/Ansys_Turbulence_Beyond_Basics_2022_c
@@ -4065,7 +4099,7 @@ Beyond_Basics_2022_certificate.pdf , page1 used on input line 797.
 [88 <./documents_justificacio/04_training/Ansys_Turbulence_Beyond_Basics_2022_c
 ertificate.pdf>]
 <./documents_justificacio/04_training/Ansys_Scale_Resolving_Simulations_2022_ce
-rtificate.pdf, id=1798, 845.1575pt x 597.23125pt>
+rtificate.pdf, id=1444, 845.1575pt x 597.23125pt>
 File: ./documents_justificacio/04_training/Ansys_Scale_Resolving_Simulations_20
 22_certificate.pdf Graphic file (type pdf)
 <use ./documents_justificacio/04_training/Ansys_Scale_Resolving_Simulations_202
@@ -4081,7 +4115,7 @@ Package pdftex.def Info: ./documents_justificacio/04_training/Ansys_Scale_Resol
 ving_Simulations_2022_certificate.pdf  used on input line 798.
 (pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
 <./documents_justificacio/04_training/Ansys_Scale_Resolving_Simulations_2022_ce
-rtificate.pdf, id=1801, page=1, 845.1575pt x 597.23125pt>
+rtificate.pdf, id=1447, page=1, 845.1575pt x 597.23125pt>
 File: ./documents_justificacio/04_training/Ansys_Scale_Resolving_Simulations_20
 22_certificate.pdf Graphic file (type pdf)
 <use ./documents_justificacio/04_training/Ansys_Scale_Resolving_Simulations_202
@@ -4124,7 +4158,7 @@ pdfTeX warning: pdflatex (file ./documents_justificacio/04_training/ESSS_Ansys_
 Workshop_2020_certificate.pdf): PDF inclusion: found PDF version <1.7>, but at 
 most version <1.5> allowed
 <./documents_justificacio/04_training/ESSS_Ansys_Workshop_2020_certificate.pdf,
- id=1821, 845.07718pt x 597.55246pt>
+ id=1467, 845.07718pt x 597.55246pt>
 File: ./documents_justificacio/04_training/ESSS_Ansys_Workshop_2020_certificate
 .pdf Graphic file (type pdf)
 <use ./documents_justificacio/04_training/ESSS_Ansys_Workshop_2020_certificate.
@@ -4155,7 +4189,7 @@ pdfTeX warning: pdflatex (file ./documents_justificacio/04_training/ESSS_Ansys_
 Workshop_2020_certificate.pdf): PDF inclusion: found PDF version <1.7>, but at 
 most version <1.5> allowed
 <./documents_justificacio/04_training/ESSS_Ansys_Workshop_2020_certificate.pdf,
- id=1824, page=1, 845.07718pt x 597.55246pt>
+ id=1470, page=1, 845.07718pt x 597.55246pt>
 File: ./documents_justificacio/04_training/ESSS_Ansys_Workshop_2020_certificate
 .pdf Graphic file (type pdf)
 <use ./documents_justificacio/04_training/ESSS_Ansys_Workshop_2020_certificate.
@@ -4194,7 +4228,7 @@ op_2020_certificate.pdf , page1 used on input line 799.
 [90 <./documents_justificacio/04_training/ESSS_Ansys_Workshop_2020_certificate.
 pdf>]
 <./documents_justificacio/04_training/MathWorks_Simscape_Onramp_2021_certificat
-e.pdf, id=1856, 845.04686pt x 597.50792pt>
+e.pdf, id=1502, 845.04686pt x 597.50792pt>
 File: ./documents_justificacio/04_training/MathWorks_Simscape_Onramp_2021_certi
 ficate.pdf Graphic file (type pdf)
 <use ./documents_justificacio/04_training/MathWorks_Simscape_Onramp_2021_certif
@@ -4210,7 +4244,7 @@ Package pdftex.def Info: ./documents_justificacio/04_training/MathWorks_Simscap
 e_Onramp_2021_certificate.pdf  used on input line 800.
 (pdftex.def)             Requested size: 845.0448pt x 597.50645pt.
 <./documents_justificacio/04_training/MathWorks_Simscape_Onramp_2021_certificat
-e.pdf, id=1859, page=1, 845.04686pt x 597.50792pt>
+e.pdf, id=1505, page=1, 845.04686pt x 597.50792pt>
 File: ./documents_justificacio/04_training/MathWorks_Simscape_Onramp_2021_certi
 ficate.pdf Graphic file (type pdf)
 <use ./documents_justificacio/04_training/MathWorks_Simscape_Onramp_2021_certif
@@ -4249,7 +4283,7 @@ e_Onramp_2021_certificate.pdf , page1 used on input line 800.
 [91 <./documents_justificacio/04_training/MathWorks_Simscape_Onramp_2021_certif
 icate.pdf, page is rotated 90 degrees>]
 <./documents_justificacio/04_training/MathWorks_Simulink_Onramp_2021_certificat
-e.pdf, id=1884, 845.04686pt x 597.50792pt>
+e.pdf, id=1530, 845.04686pt x 597.50792pt>
 File: ./documents_justificacio/04_training/MathWorks_Simulink_Onramp_2021_certi
 ficate.pdf Graphic file (type pdf)
 <use ./documents_justificacio/04_training/MathWorks_Simulink_Onramp_2021_certif
@@ -4265,7 +4299,7 @@ Package pdftex.def Info: ./documents_justificacio/04_training/MathWorks_Simulin
 k_Onramp_2021_certificate.pdf  used on input line 801.
 (pdftex.def)             Requested size: 845.0448pt x 597.50645pt.
 <./documents_justificacio/04_training/MathWorks_Simulink_Onramp_2021_certificat
-e.pdf, id=1887, page=1, 845.04686pt x 597.50792pt>
+e.pdf, id=1533, page=1, 845.04686pt x 597.50792pt>
 File: ./documents_justificacio/04_training/MathWorks_Simulink_Onramp_2021_certi
 ficate.pdf Graphic file (type pdf)
 <use ./documents_justificacio/04_training/MathWorks_Simulink_Onramp_2021_certif
@@ -4304,7 +4338,7 @@ k_Onramp_2021_certificate.pdf , page1 used on input line 801.
 [92 <./documents_justificacio/04_training/MathWorks_Simulink_Onramp_2021_certif
 icate.pdf, page is rotated 90 degrees>]
 <./documents_justificacio/04_training/Udemy_CFD_Fundamentals_3_2021_certificate
-.pdf, id=1911, 1606.0pt x 1194.4625pt>
+.pdf, id=1557, 1606.0pt x 1194.4625pt>
 File: ./documents_justificacio/04_training/Udemy_CFD_Fundamentals_3_2021_certif
 icate.pdf Graphic file (type pdf)
 <use ./documents_justificacio/04_training/Udemy_CFD_Fundamentals_3_2021_certifi
@@ -4320,7 +4354,7 @@ Package pdftex.def Info: ./documents_justificacio/04_training/Udemy_CFD_Fundame
 ntals_3_2021_certificate.pdf  used on input line 802.
 (pdftex.def)             Requested size: 1605.99611pt x 1194.45958pt.
 <./documents_justificacio/04_training/Udemy_CFD_Fundamentals_3_2021_certificate
-.pdf, id=1914, page=1, 1606.0pt x 1194.4625pt>
+.pdf, id=1560, page=1, 1606.0pt x 1194.4625pt>
 File: ./documents_justificacio/04_training/Udemy_CFD_Fundamentals_3_2021_certif
 icate.pdf Graphic file (type pdf)
 <use ./documents_justificacio/04_training/Udemy_CFD_Fundamentals_3_2021_certifi
@@ -4359,7 +4393,7 @@ ntals_3_2021_certificate.pdf , page1 used on input line 802.
 [93 <./documents_justificacio/04_training/Udemy_CFD_Fundamentals_3_2021_certifi
 cate.pdf>]
 <./documents_justificacio/04_training/Udemy_CFD_Fundamentals_2_2020_certificate
-.pdf, id=1921, 1606.0pt x 1194.4625pt>
+.pdf, id=1567, 1606.0pt x 1194.4625pt>
 File: ./documents_justificacio/04_training/Udemy_CFD_Fundamentals_2_2020_certif
 icate.pdf Graphic file (type pdf)
 <use ./documents_justificacio/04_training/Udemy_CFD_Fundamentals_2_2020_certifi
@@ -4375,7 +4409,7 @@ Package pdftex.def Info: ./documents_justificacio/04_training/Udemy_CFD_Fundame
 ntals_2_2020_certificate.pdf  used on input line 803.
 (pdftex.def)             Requested size: 1605.99611pt x 1194.45958pt.
 <./documents_justificacio/04_training/Udemy_CFD_Fundamentals_2_2020_certificate
-.pdf, id=1924, page=1, 1606.0pt x 1194.4625pt>
+.pdf, id=1570, page=1, 1606.0pt x 1194.4625pt>
 File: ./documents_justificacio/04_training/Udemy_CFD_Fundamentals_2_2020_certif
 icate.pdf Graphic file (type pdf)
 <use ./documents_justificacio/04_training/Udemy_CFD_Fundamentals_2_2020_certifi
@@ -4414,7 +4448,7 @@ ntals_2_2020_certificate.pdf , page1 used on input line 803.
 [94 <./documents_justificacio/04_training/Udemy_CFD_Fundamentals_2_2020_certifi
 cate.pdf>]
 <./documents_justificacio/04_training/Udemy_CFD_Fundamentals_1_2020_certificate
-.pdf, id=1931, 1606.0pt x 1194.4625pt>
+.pdf, id=1577, 1606.0pt x 1194.4625pt>
 File: ./documents_justificacio/04_training/Udemy_CFD_Fundamentals_1_2020_certif
 icate.pdf Graphic file (type pdf)
 <use ./documents_justificacio/04_training/Udemy_CFD_Fundamentals_1_2020_certifi
@@ -4430,7 +4464,7 @@ Package pdftex.def Info: ./documents_justificacio/04_training/Udemy_CFD_Fundame
 ntals_1_2020_certificate.pdf  used on input line 804.
 (pdftex.def)             Requested size: 1605.99611pt x 1194.45958pt.
 <./documents_justificacio/04_training/Udemy_CFD_Fundamentals_1_2020_certificate
-.pdf, id=1934, page=1, 1606.0pt x 1194.4625pt>
+.pdf, id=1580, page=1, 1606.0pt x 1194.4625pt>
 File: ./documents_justificacio/04_training/Udemy_CFD_Fundamentals_1_2020_certif
 icate.pdf Graphic file (type pdf)
 <use ./documents_justificacio/04_training/Udemy_CFD_Fundamentals_1_2020_certifi
@@ -4473,7 +4507,7 @@ pdfTeX warning: pdflatex (file ./documents_justificacio/06_international/ECCOMA
 S_2024_attendance_certificate.pdf): PDF inclusion: found PDF version <1.7>, but
  at most version <1.5> allowed
 <./documents_justificacio/06_international/ECCOMAS_2024_attendance_certificate.
-pdf, id=1940, 597.51233pt x 845.0471pt>
+pdf, id=1586, 597.51233pt x 845.0471pt>
 File: ./documents_justificacio/06_international/ECCOMAS_2024_attendance_certifi
 cate.pdf Graphic file (type pdf)
 <use ./documents_justificacio/06_international/ECCOMAS_2024_attendance_certific
@@ -4504,7 +4538,7 @@ pdfTeX warning: pdflatex (file ./documents_justificacio/06_international/ECCOMA
 S_2024_attendance_certificate.pdf): PDF inclusion: found PDF version <1.7>, but
  at most version <1.5> allowed
 <./documents_justificacio/06_international/ECCOMAS_2024_attendance_certificate.
-pdf, id=1943, page=1, 597.51233pt x 845.0471pt>
+pdf, id=1589, page=1, 597.51233pt x 845.0471pt>
 File: ./documents_justificacio/06_international/ECCOMAS_2024_attendance_certifi
 cate.pdf Graphic file (type pdf)
 <use ./documents_justificacio/06_international/ECCOMAS_2024_attendance_certific
@@ -4542,12 +4576,8 @@ _attendance_certificate.pdf , page1 used on input line 805.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 [96 <./documents_justificacio/06_international/ECCOMAS_2024_attendance_certific
 ate.pdf>]
-
-pdfTeX warning: pdflatex (file ./documents_justificacio/07_other/Catalan_A2.1_S
-LT-UPC_2025_certificate.pdf): PDF inclusion: found PDF version <1.7>, but at mo
-st version <1.5> allowed
 <./documents_justificacio/07_other/Catalan_A2.1_SLT-UPC_2025_certificate.pdf, i
-d=1962, 794.97pt x 614.295pt>
+d=1608, 794.97pt x 614.295pt>
 File: ./documents_justificacio/07_other/Catalan_A2.1_SLT-UPC_2025_certificate.p
 df Graphic file (type pdf)
 <use ./documents_justificacio/07_other/Catalan_A2.1_SLT-UPC_2025_certificate.pd
@@ -4555,11 +4585,6 @@ f>
 Package pdftex.def Info: ./documents_justificacio/07_other/Catalan_A2.1_SLT-UPC
 _2025_certificate.pdf  used on input line 806.
 (pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-
-
-pdfTeX warning: pdflatex (file ./documents_justificacio/07_other/Catalan_A2.1_S
-LT-UPC_2025_certificate.pdf): PDF inclusion: found PDF version <1.7>, but at mo
-st version <1.5> allowed
 File: ./documents_justificacio/07_other/Catalan_A2.1_SLT-UPC_2025_certificate.p
 df Graphic file (type pdf)
 <use ./documents_justificacio/07_other/Catalan_A2.1_SLT-UPC_2025_certificate.pd
@@ -4567,18 +4592,8 @@ f>
 Package pdftex.def Info: ./documents_justificacio/07_other/Catalan_A2.1_SLT-UPC
 _2025_certificate.pdf  used on input line 806.
 (pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-
-
-pdfTeX warning: pdflatex (file ./documents_justificacio/07_other/Catalan_A2.1_S
-LT-UPC_2025_certificate.pdf): PDF inclusion: found PDF version <1.7>, but at mo
-st version <1.5> allowed
-
-
-pdfTeX warning: pdflatex (file ./documents_justificacio/07_other/Catalan_A2.1_S
-LT-UPC_2025_certificate.pdf): PDF inclusion: found PDF version <1.7>, but at mo
-st version <1.5> allowed
 <./documents_justificacio/07_other/Catalan_A2.1_SLT-UPC_2025_certificate.pdf, i
-d=1965, page=1, 794.97pt x 614.295pt>
+d=1611, page=1, 794.97pt x 614.295pt>
 File: ./documents_justificacio/07_other/Catalan_A2.1_SLT-UPC_2025_certificate.p
 df Graphic file (type pdf)
 <use ./documents_justificacio/07_other/Catalan_A2.1_SLT-UPC_2025_certificate.pd
@@ -4616,12 +4631,8 @@ _2025_certificate.pdf , page1 used on input line 806.
 (pdftex.def)             Requested size: 598.22752pt x 462.26671pt.
 [97 <./documents_justificacio/07_other/Catalan_A2.1_SLT-UPC_2025_certificate.pd
 f>]
-
-pdfTeX warning: pdflatex (file ./documents_justificacio/07_other/Catalan_A2.2_S
-LT-UPC_2025_certificate.pdf): PDF inclusion: found PDF version <1.7>, but at mo
-st version <1.5> allowed
 <./documents_justificacio/07_other/Catalan_A2.2_SLT-UPC_2025_certificate.pdf, i
-d=2001, 794.97pt x 614.295pt>
+d=1619, 794.97pt x 614.295pt>
 File: ./documents_justificacio/07_other/Catalan_A2.2_SLT-UPC_2025_certificate.p
 df Graphic file (type pdf)
 <use ./documents_justificacio/07_other/Catalan_A2.2_SLT-UPC_2025_certificate.pd
@@ -4629,11 +4640,6 @@ f>
 Package pdftex.def Info: ./documents_justificacio/07_other/Catalan_A2.2_SLT-UPC
 _2025_certificate.pdf  used on input line 807.
 (pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-
-
-pdfTeX warning: pdflatex (file ./documents_justificacio/07_other/Catalan_A2.2_S
-LT-UPC_2025_certificate.pdf): PDF inclusion: found PDF version <1.7>, but at mo
-st version <1.5> allowed
 File: ./documents_justificacio/07_other/Catalan_A2.2_SLT-UPC_2025_certificate.p
 df Graphic file (type pdf)
 <use ./documents_justificacio/07_other/Catalan_A2.2_SLT-UPC_2025_certificate.pd
@@ -4641,18 +4647,8 @@ f>
 Package pdftex.def Info: ./documents_justificacio/07_other/Catalan_A2.2_SLT-UPC
 _2025_certificate.pdf  used on input line 807.
 (pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-
-
-pdfTeX warning: pdflatex (file ./documents_justificacio/07_other/Catalan_A2.2_S
-LT-UPC_2025_certificate.pdf): PDF inclusion: found PDF version <1.7>, but at mo
-st version <1.5> allowed
-
-
-pdfTeX warning: pdflatex (file ./documents_justificacio/07_other/Catalan_A2.2_S
-LT-UPC_2025_certificate.pdf): PDF inclusion: found PDF version <1.7>, but at mo
-st version <1.5> allowed
 <./documents_justificacio/07_other/Catalan_A2.2_SLT-UPC_2025_certificate.pdf, i
-d=2004, page=1, 794.97pt x 614.295pt>
+d=1622, page=1, 794.97pt x 614.295pt>
 File: ./documents_justificacio/07_other/Catalan_A2.2_SLT-UPC_2025_certificate.p
 df Graphic file (type pdf)
 <use ./documents_justificacio/07_other/Catalan_A2.2_SLT-UPC_2025_certificate.pd
@@ -4694,27 +4690,26 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 407D753CE1A97A58C932A2088B9F64E7;6970.
  ) 
 Here is how much of TeX's memory you used:
- 35188 strings out of 478287
- 715895 string characters out of 5849289
- 992794 words of memory out of 5000000
- 52408 multiletter control sequences out of 15000+600000
- 526204 words of font info for 98 fonts, out of 8000000 for 9000
+ 35154 strings out of 478287
+ 715870 string characters out of 5849289
+ 992792 words of memory out of 5000000
+ 52377 multiletter control sequences out of 15000+600000
+ 525886 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  145i,17n,146p,906b,596s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texlive/texmf-dist
-/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/t
-exmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/l
-mr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/f
-onts/type1/public/lm/lmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
-helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhv
-bo8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (98 pages, 18139872 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/pu
+blic/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/sha
+re/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/l
+m/lmri10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on main.pdf (98 pages, 27062398 bytes).
 PDF statistics:
- 2139 PDF objects out of 2487 (max. 8388607)
- 1344 compressed objects within 14 object streams
+ 1723 PDF objects out of 1728 (max. 8388607)
+ 1119 compressed objects within 12 object streams
  264 named destinations out of 1000 (max. 500000)
- 1378 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1398 words of extra memory for PDF output out of 10000 (max. 10000000)
 

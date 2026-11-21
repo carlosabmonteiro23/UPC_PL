@@ -26,338 +26,360 @@
 \vspace{0.5cm}
 \begin{center}\postdata\end{center}
 
-%\vspace{0.8cm}
-%\noindent\textbf{Summary.}
-This work plan outlines the research, teaching, supervision, and funding objectives to be pursued over the six-year duration of the Lector contract for position LE-403/729, starting in September 2027.
-The research programme is structured around three interconnected lines aligned with the position's research profile: (i) the physics of supercritical turbulent flows; (ii) the causal analysis and prediction of extreme events in multiphysics turbulence; and (iii) high-performance computing for compressible, real-fluid turbulent flows. Together, these lines aim to advance the understanding, prediction, and mitigation of complex thermofluid phenomena in supercritical fluid systems, with particular emphasis on pseudo-boiling effects relevant to propulsion technologies and supercritical power cycles. The principal scientific contributions will include the development and consolidation of a generalizable Lagrangian framework for identifying the causal mechanisms underlying extreme turbulent events, particularly intermittent thermal loading, and new physical insights into the onset and mechanisms of heat-transfer deterioration.
-In parallel, the teaching plan builds on my current experience in Thermodynamics and Heat Transfer and Fluid Engineering, proposes contributions to the master's course in Computational Fluid Mechanics, and establishes connections between student theses and the proposed research activities. The supervision strategy envisions two doctoral theses supported by competitive predoctoral grants. Finally, the funding strategy establishes a progressive transition from collaborative research within the GReCEF group towards scientific independence, through the leadership of a nationally funded research project and the preparation of an ERC Starting Grant proposal towards the end of the contract.
-
 \newpage
 \tableofcontents
 
 % =====================================================================
 \section{Research plan}\label{sec:research}
 
-\subsection{Background and motivation}\label{sec:background}
+My doctoral research focuses on understanding the fundamental mechanisms governing turbulent flows under supercritical thermodynamic conditions, where strong variations in thermophysical properties influence flow dynamics and transport processes.
+During my doctoral research at the Universitat Politècnica de Catalunya (UPC), I investigated these phenomena through direct numerical simulation (DNS), contributing to the detailed characterization of flow states and turbulence organization in wall-bounded supercritical flows under different thermophysical and buoyant regimes [J2--J7]\footnote{My own publications are cited with the numbering of Section~3.4 of the HAP: [J] articles in indexed journals; [R] submitted articles, proceedings and articles in preparation; [C] conference papers; and [D] datasets.}.
+In parallel, I contributed to the development of RHEA-X, a GPU-native, accelerated, high-fidelity flow solver designed to address the computational demands of multiphysics turbulence [J1].
+My most recent research concerned the physical mechanisms underlying extreme thermal events, leading to the development of Lagrangian and information-theoretic (causality assessment) approaches during the 2026 Center for Turbulence Research Summer Program at Stanford University [R2, R3].
+These contributions establish the scientific and computational foundations for the research program proposed here.
 
-%\paragraph{Supercritical fluids in engineering.} 
-Fluids operated above their critical pressure are central to several energy and propulsion technologies. 
-In supercritical CO$_2$ (sCO$_2$) thermodynamic cycle technology, the high density of the working fluid near the critical point reduces the necessary size of the turbomachinery by about one order of magnitude with respect to steam Rankine cycles and can raise the thermal efficiency by up to five percentage points~\cite{Ahn2015}. 
+\subsection{Research context and motivation}\label{sec:background}
 
-Liquid-rocket engines cool their thrust chambers regeneratively with
-propellants (hydrogen, methane or kerosene) flowing at supercritical pressure through
-narrow channels next to the hot wall~\cite{Pizzarelli2018,Nasuti2021}, and inject them into
-combustion chambers at pressures above the critical pressure of the
-propellants~\cite{JofreUrzay2021,Bellan2020}. Supercritical fluids are also used in
-refrigeration and heat pumps~\cite{Nieuwenhuyse2023}, in supercritical-water reactors and
-oxidation processes, and in chemical extraction~\cite{Brunner2010,Yoo2013}.
+Supercritical fluids offer significant opportunities to improve the efficiency, performance, and compactness of advanced energy and propulsion technologies \cite{Li2025,Guardone2024}.
+In aerospace propulsion, liquid rocket engines frequently operate at pressures exceeding the critical pressures of their propellants.
+As shown in Figure~\ref{fig:regen}a,b, these are first passed through regenerative cooling channels of thrust chambers and subsequently injected into high-pressure combustors~\cite{Nasuti2021,JofreUrzay2021}.
+Computational design and additive manufacturing now produce increasingly complex cooling passages (Figures~\ref{fig:regen}a and~\ref{fig:duct}a)~\cite{LEAP71,Gradl2019}, whose design relies on accurate predictions of heat transfer at supercritical pressure.
+High-pressure injection and film cooling further motivate the investigation of mixing and thermal protection under supercritical conditions.
+In energy technologies, supercritical CO$_2$ (sCO$_2$) Brayton cycles offer high thermal efficiencies and substantially more compact turbomachinery than conventional steam-based systems, with applications in waste-heat recovery, energy storage, and nuclear and concentrated solar power generation \cite{Li2025,Guardone2024}.
+These advantages are closely connected to the distinctive thermophysical properties of fluids operating at supercritical pressures, particularly near the pseudo-boiling region \cite{Banuti2015}.
+In this region, pronounced variations in density, viscosity, thermal conductivity, and specific heat (Figure~\ref{fig:regen}c) can substantially modify turbulence, mixing, and heat transfer \cite{Li2025}.
+Despite their efficiency advantages, supercritical fluids can exhibit heat-transfer deterioration (HTD) under certain conditions, causing severe localized wall-temperature rises that threaten component reliability (Figure~\ref{fig:regen}b) \cite{Pizzarelli2018,Nasuti2021,Li2025}.
 
-\paragraph{National and European priorities in space propulsion.} Spain invests directly in
-space transportation: in 2024 the Ministry of Science, Innovation and Universities, through
-the CDTI and within the PERTE Aeroespacial, allocated \texteuro{}40.5 million to the development
-phase of the first Spanish small-satellite launcher~\cite{CDTI2024}. At the European level,
-ESA's Future Launchers Preparatory Programme (FLPP) seeks, through THRUST!~2, to demonstrate
-staged-combustion engines for high-thrust liquid propulsion~\cite{ESA2026}, whose thrust
-chambers are regeneratively cooled and fed by propellants at supercritical
-pressure~\cite{Pizzarelli2018}. These programs address engine design and testing; this plan
-contributes the fundamental understanding of transcritical heat transfer, mixing and
-near-wall thermal protection on which the models used in that design rely. Spanish companies
-developing liquid-rocket engines, such as PLD Space and the Barcelona-based Pangea Aerospace,
-which designed a regeneratively cooled demonstrator with real-fluid models of supercritical
-oxygen and methane~\cite{Esnault2021}, are prospective partners for transfer and industrial
-doctorates.
+\begin{figure}[t]
+	\centering
+	\def\FigH{5.15cm}%
+	\begin{tabular}[b]{@{}c@{}}
+		\includegraphics[height=\FigH, trim=120 0 40 0, clip]{images/leap71_engine.jpg}\\[-1pt]
+		{\small (a)}
+	\end{tabular}\hspace{2mm}%
+	\begin{tabular}[b]{@{}c@{}}
+		\resizebox{!}{\FigH}{\begin{tikzpicture}[font=\scriptsize\rmfamily, x=1cm, y=1cm,
+				arr/.style={-{Stealth[length=1.5mm]}, line width=0.6pt}]
+				% ---- cross-section A-A (top)
+				\begin{scope}[shift={(0.45,2.75)}, scale=1.25]
+					\fill[black!12] (0,0) rectangle (2.55,1.12);
+					\foreach \x in {0.2,1.05,1.9} {
+						\shade[top color=UPCAccent!35, bottom color=red!45] (\x,0.14) rectangle ++(0.45,0.84);
+						\draw[black!60] (\x,0.14) rectangle ++(0.45,0.84);
+						\draw[dashed, black!70] (\x,0.4) -- ++(0.45,0);
+					}
+					\foreach \x in {0.35,0.85,1.35,1.85,2.35} \draw[arr, red!70!black] (\x,-0.35) -- (\x,0.02);
+					\node[red!70!black] at (1.27,-0.5) {$q_w$ (hot-gas side only)};
+					\node[align=left, anchor=west] at (2.65,0.8) {liquid-like};
+					\node[align=left, anchor=west] at (2.65,0.28) {gas-like};
+					\draw[black!50] (2.35,0.75) -- (2.65,0.8); \draw[black!50] (2.35,0.25) -- (2.65,0.28);
+					\node[anchor=south] at (1.27,1.12) {section A--A: cooling channels};
+				\end{scope}
+				% ---- thrust chamber and nozzle (upper half), wall with coolant passage
+				\def\inner{(0,1.05) -- (1.4,1.05) .. controls (2.0,1.05) and (2.1,0.55) .. (2.5,0.55)
+					.. controls (2.9,0.55) and (3.4,1.0) .. (4.3,1.45)}
+				\def\outer{(0,1.40) -- (1.4,1.40) .. controls (2.0,1.40) and (2.1,0.90) .. (2.5,0.90)
+					.. controls (2.9,0.90) and (3.4,1.35) .. (4.3,1.80)}
+				\fill[orange!12] (0,0) -- \inner -- (4.3,0) -- cycle;
+				\draw[line width=0.9pt, black!70] \inner;
+				\draw[line width=0.9pt, black!70] \outer;
+				\draw[black!40] (0,0) -- (4.3,0);
+				\node[orange!70!black, align=center] at (0.85,0.55) {hot combustion\\ gas};
+				\draw[arr, orange!80!black] (0.25,0.15) -- (1.45,0.15);
+				\draw[arr, UPCAccent, line width=0.9pt] (4.15,1.62) .. controls (3.4,1.18) and (2.9,0.72) .. (2.5,0.72)
+				.. controls (2.1,0.72) and (2.0,1.22) .. (1.4,1.22) -- (0.15,1.22);
+				\node[UPCAccent, align=center, anchor=west] at (4.35,1.75) {coolant in\\ ($P>P_c$,\\ $T<T_{pb}$)};
+				\node[UPCAccent, anchor=south] at (0.55,1.42) {to injector};
+				\draw[arr, red!70!black] (2.5,0.15) -- (2.5,0.50);
+				\node[red!70!black, align=center] at (2.5,-0.18) {throat: peak $q_w$};
+				\draw[dashed, black!50] (1.8,1.6) -- (1.8,0.85) node[pos=0,above] {A};
+		\end{tikzpicture}}\\[-1pt]
+		{\small (b)}
+	\end{tabular}\hspace{2mm}%
+	\begin{tabular}[b]{@{}c@{}}
+		\includegraphics[height=\FigH]{images/co2_pseudoboiling_narrow.pdf}\\[-1pt]
+		{\small (c)}
+	\end{tabular}
+	\caption{(a) Regeneratively cooled engine designed by LEAP~71; the frost on its surface is caused by the cryogenic propellant in the cooling passages (image:
+		LEAP~71~\cite{LEAP71}). (b) Schematic of regenerative cooling at supercritical pressure through rectangular channels in the chamber wall; near the heated wall it crosses $T_{pb}$ and becomes gas-like, which can trigger heat-transfer deterioration~\cite{Pizzarelli2018,Nasuti2021,Urbano2013}. 
+		(c) Thermophysical properties of CO$_2$ at 8~MPa across the pseudo-boiling temperature $T_{pb}=307.8$~K, normalized by their values at $T_{pb}$ (computed with CoolProp~\cite{CoolProp2014}).}
+	\label{fig:regen}
+\end{figure}
 
-\paragraph{The pseudo-boiling region.} Above the critical pressure there is no
-liquid--vapor phase change. However, an isobaric change of temperature drives the fluid
-from a liquid-like to a gas-like state across a narrow region around the pseudo-boiling
-temperature $T_{pb}$, where the specific heat peaks and density, viscosity and thermal
-conductivity drop steeply~\cite{Banuti2015}. For CO$_2$ at 8~MPa
-(figure~\ref{fig:background}a), density decreases sixfold and viscosity fivefold between
-$0.91\,T_{pb}$ and $1.17\,T_{pb}$, while the specific heat at $T_{pb}$ is 15 to 25 times
-larger than at the ends of this interval. This behavior is the source of both the
-advantages and the difficulties of these fluids. The large heat capacity and density
-enable compact, efficient heat exchange~\cite{Ahn2015}. In heated channels, however, the
-same property variations can cause heat-transfer deterioration (HTD): a local drop of the
-heat-transfer coefficient that produces a peak of wall temperature, typically when the wall
-temperature exceeds $T_{pb}$ while the bulk remains below it~\cite{Urbano2013}. HTD is still
-not fully understood and is hardly predictable, which is critical in rocket engines and
-nuclear reactors, where a wrong estimate of the wall temperature can lead to failure of the
-component~\cite{Pizzarelli2018}. The thermodynamics of this region remains an active field:
-recent reviews identify open questions on the structure of the supercritical state itself
-and report that the velocity and temperature transformations developed for variable-property
-flows succeed only for moderate density ratios~\cite{Li2025}.
 
-\paragraph{Pseudo-boiling and turbulence.} Direct numerical simulation (DNS) has
-established that the property variations of pseudo-boiling modulate near-wall turbulence
-and heat transfer in heated pipes, annuli and channels~\cite{Bae2005,Peeters2016,Nemati2016,Kawai2019,Guo2022,Wan2025}.
-A distinctive feature is the very dissimilar behavior of the two walls of a differentially
-heated channel: the cold wall is bathed by a dense, liquid-like fluid and the hot wall by a
-light, gas-like fluid, so that the turbulence and the thermal structures differ markedly
-between them~\cite{Ma2018,Guo2022,ElMansy2025}. Even for water, whose properties vary far less, recent
-DNS shows that the friction coefficient changes by $-39\,\%$ to $+32\,\%$ with respect to
-constant-property flow, and that empirical correlations deviate by up to 26~\% from the
-DNS~\cite{Modesti2026}. Pseudo-boiling flows are much more extreme, and their predictive
-description is correspondingly weaker.
-
-\paragraph{The SCRAMBLE context and my contribution.} The ERC project SCRAMBLE, in which I
-carried out my PhD, exploits pseudo-boiling to achieve turbulence in microdevices. Near the
-pseudo-boiling line the kinematic viscosity drops sharply, which raises the bulk Reynolds
-number of a microchannel from about $170$ to above $2000$ for the same geometry and bulk
-velocity~\cite{Hurtan2025}. In addition, the strong density gradients generate baroclinic
-torque, which destabilizes the flow and promotes the transition to
-turbulence~\cite{Bernades2023,Bernades2025}. Within this project, the group has developed the
-numerical methods~\cite{BernadesKEEP2023} and the open-source solver RHEA [J1], and I have
-contributed resolution and minimal-domain standards for DNS of transcritical wall turbulence
-[J5, J6], characterized the flow regimes of microconfined flows [J3, J4, J7], and shown that
-buoyancy reorganizes the secondary flows of square ducts and redistributes momentum and heat
-[J2, R1, C1].
+Despite substantial advances in understanding supercritical fluid flows, current knowledge remains largely confined to canonical configurations and restricted operating conditions \cite{Li2025}. High-fidelity simulations have revealed how strong thermophysical-property variations reshape turbulence and thermal transport \cite{Peeters2016,Guo2022}, yet their influence at higher Reynolds numbers, in complex geometries, and under nonuniform heating remains insufficiently understood. 
+Square ducts, in particular, provide a canonical configuration for investigating how turbulence anisotropy and secondary motions interact with strong property variations (Figure~\ref{fig:duct}). 
+These limitations are critical when predicting HTD, as it remains strongly dependent on operating conditions and flow configuration, with errors in the predicted peak wall temperature of up to 200~K near the critical pressure~\cite{Nasuti2021}. 
+Likewise, pseudo-boiling can profoundly alter jet stability and development, yet its effects on entrainment and mixing remain poorly understood, limiting our ability to predict and optimize high-pressure injection and film cooling \cite{Lapenna2019,SharanBellan2021}.
+Addressing these gaps is essential to exploiting supercritical-fluid properties while ensuring reliable thermal performance.
 
 \begin{figure}[t]
 \centering
-\begin{minipage}[c]{0.40\textwidth}\centering
-\includegraphics[width=\textwidth]{images/co2_pseudoboiling.pdf}\\[-2pt]
-{\small (a)}
-\end{minipage}\hfill
-\begin{minipage}[c]{0.58\textwidth}\centering
-\resizebox{\linewidth}{!}{\begin{tikzpicture}[font=\scriptsize, x=1cm, y=1cm,
-  arr/.style={-{Stealth[length=1.5mm]}, line width=0.6pt}]
-% ---- thrust chamber and nozzle (upper half), wall with coolant passage
-\def\inner{(0,1.05) -- (1.4,1.05) .. controls (2.0,1.05) and (2.1,0.55) .. (2.5,0.55)
-           .. controls (2.9,0.55) and (3.4,1.0) .. (4.3,1.45)}
-\def\outer{(0,1.40) -- (1.4,1.40) .. controls (2.0,1.40) and (2.1,0.90) .. (2.5,0.90)
-           .. controls (2.9,0.90) and (3.4,1.35) .. (4.3,1.80)}
-\fill[orange!12] (0,0) -- \inner -- (4.3,0) -- cycle;
-\draw[line width=0.9pt, black!70] \inner;
-\draw[line width=0.9pt, black!70] \outer;
-\draw[black!40] (0,0) -- (4.3,0);
-\node[orange!70!black, align=center] at (0.85,0.55) {hot combustion\\ gas};
-\draw[arr, orange!80!black] (0.25,0.15) -- (1.45,0.15);
-% coolant path inside the wall (from nozzle exit to injector)
-\draw[arr, UPCAccent, line width=0.9pt] (4.15,1.62) .. controls (3.4,1.18) and (2.9,0.72) .. (2.5,0.72)
-      .. controls (2.1,0.72) and (2.0,1.22) .. (1.4,1.22) -- (0.15,1.22);
-\node[UPCAccent, align=center, anchor=south] at (3.55,1.72) {coolant in\\ ($p>p_c$, $T<T_{pb}$)};
-\node[UPCAccent, anchor=south] at (0.55,1.42) {to injector};
-\draw[arr, red!70!black] (2.5,0.15) -- (2.5,0.50);
-\node[red!70!black, align=center] at (2.5,-0.18) {throat: peak $q_w$};
-\draw[dashed, black!50] (1.8,1.55) -- (1.8,0.85) node[pos=0,above] {A};
-% ---- cross-section A-A
-\begin{scope}[shift={(4.9,0.05)}]
-  \fill[black!12] (0,0) rectangle (2.55,1.55);
-  \foreach \x in {0.2,1.05,1.9} {
-    \shade[top color=UPCAccent!35, bottom color=red!45] (\x,0.45) rectangle ++(0.45,0.85);
-    \draw[black!60] (\x,0.45) rectangle ++(0.45,0.85);
-    \draw[dashed, black!70] (\x,0.72) -- ++(0.45,0);
-  }
-  \foreach \x in {0.35,0.85,1.35,1.85,2.35} \draw[arr, red!70!black] (\x,-0.35) -- (\x,0.02);
-  \node[red!70!black] at (1.27,-0.52) {$q_w$ (one-sided heating)};
-  \node[align=left, anchor=west] at (2.65,1.2) {liquid-like core};
-  \node[align=left, anchor=west] at (2.65,0.85) {\textbf{- -} $T=T_{pb}$};
-  \node[align=left, anchor=west] at (2.65,0.5) {gas-like near wall};
-  \draw[black!50] (2.35,1.1) -- (2.65,1.2); \draw[black!50] (2.35,0.72) -- (2.65,0.85); \draw[black!50] (2.35,0.55) -- (2.65,0.5);
-  \node[anchor=south] at (1.27,1.58) {section A--A};
-\end{scope}
-\end{tikzpicture}}\\[-2pt]
-{\small (b)}
-\end{minipage}
-\caption{(a) Thermophysical properties of CO$_2$ at 8~MPa across the pseudo-boiling
-temperature $T_{pb}=307.8$~K, normalized by their values at $T_{pb}$ (computed with
-CoolProp~\cite{CoolProp2014}). (b) Regenerative cooling of a liquid-rocket thrust chamber
-(schematic): the propellant flows at supercritical pressure through rectangular channels in the
-chamber wall, heated on the hot-gas side only; near the heated wall it crosses $T_{pb}$ and becomes
-gas-like, which can trigger heat-transfer deterioration~\cite{Pizzarelli2018,Nasuti2021,Urbano2013}.}
-\label{fig:background}
+\begin{tikzpicture}
+  \node[anchor=north west, inner sep=0] (B) at (0,0)
+    {\includegraphics[height=6.3cm]{images/regen_NASA.png}};
+  \node[anchor=north east, inner sep=0] (C) at (\textwidth,0)
+    {\includegraphics[height=6.3cm]{images/duct_L8.pdf}};
+  \node[below=1pt of B] {\small (a)};
+  \node[below=1pt of C] {\small (b)};
+  \def\Bw{7.788cm}\def\Bh{6.3cm}\def\Cw{7.274cm}\def\Ch{6.3cm}
+  \coordinate (I1) at ([xshift=0.639*\Bw, yshift=0.36*\Bh]B.south west);
+  \coordinate (I2) at ([xshift=0.985*\Bw, yshift=0.745*\Bh]B.south west);
+  \coordinate (K1) at ([xshift=0.515*\Cw, yshift=0.085*\Ch]C.south west);
+  \coordinate (K2) at ([xshift=0.870*\Cw, yshift=0.515*\Ch]C.south west);
+  \draw[red!80!black, line width=0.8pt] (I1) rectangle (I2);
+  \draw[red!80!black, line width=0.8pt] (K1) rectangle (K2);
+  \draw[red!80!black, densely dashed, line width=0.6pt] (I2) -- (K1 |- K2);
+  \draw[red!80!black, densely dashed, line width=0.6pt] (I1 -| I2) -- (K1);
+\end{tikzpicture}
+\caption{(a) Coolant channels in a mid-scale Haynes~230 nozzle liner at NASA, with the cross-section of one channel (inset)~\cite{Gradl2019}. 
+(b) DNS of turbulent square duct supercritical CO$_2$ flow in a square duct at 1.5 times the critical pressure, with walls hotter than $T_{pb}$ ($Re_b=12\,000$, $Re_\tau\approx300$, ongoing work). It shows instantaneous streamwise velocity on planes at $y^+\approx15$ from the walls and on the cross-section; the outlined quadrant shows the mean streamwise velocity and the streamlines of the secondary flow.}
+\label{fig:duct}
 \end{figure}
 
-\paragraph{Open challenges.} Five gaps limit the prediction of these flows:
-\begin{enumerate}[label=(\roman*)]
-  \item \textbf{Reynolds number.} Most DNS of pseudo-boiling wall turbulence are performed at
-  Reynolds numbers one to two orders of magnitude below those of the
-  applications~\cite{Li2025}, so the scaling of friction and heat transfer with Reynolds
-  number is uncertain.
-  \item \textbf{Complex geometries.} Cooling passages and compact heat exchangers have
-  rectangular cross-sections, where corners and secondary flows redistribute momentum and
-  heat. Apart from our own work [R1, C1], I am not aware of DNS of pseudo-boiling flows in
-  square ducts.
-  \item \textbf{Developing flows and HTD.} HTD develops along heated channels, but DNS of
-  spatially developing pseudo-boiling flows is limited to round tubes at low Reynolds
-  numbers~\cite{Bae2005,Zhao2021}. Regenerative cooling channels, in addition, are heated on
-  one side only, which changes the onset of deterioration~\cite{Nasuti2021}.
-  \item \textbf{Free shear flows.} High-fidelity studies of transcritical jets and mixing
-  layers exist~\cite{Ries2017,SharanBellan2021,PobladorIbanez2026}, and recent simulations of
-  oxygen--hydrogen mixing layers at rocket-engine conditions show that the thermodynamic model
-  changes the growth rate and the small-scale mixing, most strongly near the critical
-  pressure~\cite{Cavalieri2026}. Turbulent pseudo-boiling rates have also been quantified with
-  large-eddy simulations of transcritical oxygen--methane flames~\cite{Cavalieri2025}, where the
-  pseudo-boiling transition occurs below the grid scale. Single-fluid jets, in which the jet and its
-  environment are the same substance (nitrogen or CO$_2$) on opposite sides of the
-  pseudo-boiling temperature, have shown that pseudo-boiling strongly stratifies the jet near the
-  critical pressure and enhances its shear-layer instability and decay~\cite{Lapenna2019,Ream2025}; these studies analyze statistics and
-  spectra, not the interfaces. Therefore, the effect of
-  pseudo-boiling on the turbulent/non-turbulent and turbulent/turbulent interfaces that
-  control entrainment, characterized in detail for constant-property
-  flows~\cite{Silva2018,Alves2025}, remains unexplored. These interfaces govern mixing in
-  injection~\cite{JofreUrzay2021} and the coolant layer in film cooling.
-  \TODO{add one film-cooling reference at supercritical pressure}
-  \item \textbf{Extreme events.} Design limits are set by the largest local excursions of
-  wall heat flux and wall temperature, not by their averages. These rare events are not
-  captured by mean correlations, and their causes in pseudo-boiling flows are unknown
-  (Section~\ref{sec:lines}, Line~2).
-\end{enumerate}
 
-\subsection{Research lines, open questions and objectives}\label{sec:lines}
-The plan addresses these gaps through three lines, which correspond to the three research
-lines of the call. Each line states its open questions (Q) and the objectives (O) that
-answer them.
+Beyond mean flow behavior, intermittent turbulent events can generate extreme wall-heat-flux fluctuations and localized thermal loads overlooked by conventional mean-based approaches.
+Previous studies have characterized extreme wall events primarily in ideal-gas and constant-property turbulence \cite{Hack2021,Zhang2023}, but their underlying mechanisms and predictive precursors under supercritical conditions remain poorly understood.
+In my preliminary investigations of turbulent CO$_2$ channel flow, I identified fluctuations exceeding ten times their root-mean-square value, associated with near-wall vortices transporting fluid of contrasting temperatures towards the wall (Figure~\ref{fig:extreme}a,b) [R3].
+Building on these findings and my preliminary work at Stanford [R2, R3], information-theoretic causal analysis offers a promising approach to identifying the mechanisms and precursors of extreme events \cite{LozanoDuran2020,Massaro2023}.
+Such advances could improve the prediction of critical operating conditions and the reliability of thermal systems.
 
-\subsubsection*{Line 1 -- Physics of supercritical turbulent flows by direct numerical
-simulation (profile line a)}
-High-fidelity data are scarce in the regimes that matter for the applications: at higher
-Reynolds numbers in channels and square ducts, in spatially developing ducts with HTD, and in
-free shear flows across pseudo-boiling. This line generates and analyzes such data.
-\begin{itemize}
-  \item[\textbf{Q1.1}] How do pseudo-boiling and the asymmetry between liquid-like and
-  gas-like walls change friction and heat transfer as the Reynolds number increases, and
-  how do corners and secondary flows modify them in square ducts?
-  \item[\textbf{Q1.2}] Which mechanisms trigger HTD and its recovery in a spatially developing
-  square duct, and how do they depend on the heat-flux-to-mass-flux ratio and on one-sided
-  heating?
-  \item[\textbf{Q1.3}] How does pseudo-boiling modify the entrainment across the interfaces
-  of a jet or mixing layer?
-\end{itemize}
-\textbf{Objectives.}
-\begin{itemize}
-  \item[\textbf{O1.}] Generate two open DNS databases with real-fluid
-  thermodynamics~\cite{PengRobinson1976,Chung1988}: (a) fully developed differentially heated
-  channel and square duct at friction Reynolds numbers above those of our current
-  databases; and (b) a spatially developing, heated square duct that reaches and recovers
-  from HTD.
-  \item[\textbf{O2.}] Derive predictive tools from these data: extend the integral
-  transformations recently developed for variable-property flows~\cite{Modesti2026} to
-  pseudo-boiling conditions, and train compact neural networks for wall-normal profiles,
-  in collaboration with Prof.\ X.\ Yang (Penn State).
-  \item[\textbf{O3.}] (Phase~2, exploratory) Characterize the turbulent/non-turbulent and
-  turbulent/turbulent interfaces of a temporal mixing layer and a temporal planar jet of a
-  single fluid, in which a liquid-like stream meets a gas-like stream of the same substance at
-  supercritical pressure. This single-component, single-phase configuration isolates
-  pseudo-boiling from species diffusion, phase separation and combustion, as in the classical
-  experiments and simulations of cryogenic nitrogen injected into warm nitrogen at
-  supercritical pressure~\cite{Mayer2003,Muller2016,Lapenna2019}, and it is resolved with the
-  real-fluid DNS framework of Line~1. The interface detection and entrainment analysis will be
-  developed with the group of Prof.\ C.\ B.\ da Silva (Instituto Superior T\'ecnico).
-\end{itemize}
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{images/ctr_extreme_events.pdf}
+\caption{Extreme wall-heat-flux events in supercritical CO$_2$ channel flow (three transcritical cases and a low-pressure reference) [R3]. (a) Probability density functions of the wall-heat-flux fluctuation normalized by its root-mean-square value, for all cases and both
+walls. (b) Instantaneous extreme event at the cold wall of
+case~1: wall heat flux (colormap), positive $Q$-criterion isosurfaces (white), and regions of hot (red) and cold (blue) fluid.}
+\label{fig:extreme}
+\end{figure}
 
-\subsubsection*{Line 2 -- Causality and extreme events in multiphysics turbulence (profile
-line b)}
-In regenerative cooling, extreme positive and negative excursions of the wall heat flux
-impose local thermal loads that may damage the wall. Extreme wall events in turbulence have
-been characterized by conditional averaging and space--time
-analysis~\cite{Guerrero2020,Hack2021,Zhang2023}, and their predictability has been
-examined~\cite{Blonigan2019}; our group has also proposed conditional POD to predict extreme
-events from time signals~\cite{Martin2025}. Conditional averages, however, reveal what
-accompanies an event, not what causes it. Information-theoretic measures such as transfer
-entropy~\cite{Schreiber2000}, the Liang--Kleeman information flow~\cite{Liang2005} and the
-decomposition of causality into synergistic, unique and redundant
-components~\cite{MartinezSanchez2024} quantify cause and effect, and have been applied to
-wall turbulence~\cite{LozanoDuran2020,Massaro2023,Zhang2026}. These estimators usually
-assume stationary, long time series, whereas extreme events are rare and non-stationary.
-Ensemble estimators for non-stationary signals exist in other fields~\cite{Wollstadt2014},
-and Lagrangian information-theoretic analyses have recently been applied to
-flows~\cite{Jiang2027}. In the 2026 CTR Summer Program, I combined event-conditioned
-Eulerian fields, Lagrangian trajectories and event-anchored transfer entropy to identify the
-precursor sequence of extreme wall-heat-flux events in four DNS of transcritical channel
-flow [R3], which provides the starting point of this line.
-\begin{itemize}
-  \item[\textbf{Q2.1}] Are current causality estimators reliable for rare, non-stationary
-  events, and how many independent events do they require?
-  \item[\textbf{Q2.2}] Which processes, and in which order, cause extreme wall-heat-flux
-  events in pseudo-boiling flows, and how do they differ from a low-pressure reference?
-  \item[\textbf{Q2.3}] Do the identified precursors improve the prediction of these events?
-  \item[\textbf{Q2.4}] Does the framework transfer to other multiphysics problems?
-\end{itemize}
-\textbf{Objectives.}
-\begin{itemize}
-  \item[\textbf{O4.}] Assess current estimators on synthetic and canonical signals with known
-  causal structure, and formalize an event-anchored Lagrangian information-theoretic
-  framework, released as open-source code.
-  \item[\textbf{O5.}] Apply it to the Line~1 databases to identify the causes of extreme
-  wall-heat-flux events and to test precursor-based prediction against conditional
-  statistics and conditional POD~\cite{Martin2025}.
-  \item[\textbf{O6.}] Transfer it to two further problems: the aggregation and settling of
-  microplastics with biogenic particles in ocean
-  turbulence~\cite{Rahmani2022,Pizzi2024,Pizzi2026}, with the University of British Columbia
-  and, locally, with the Institut de Ci\`encies del Mar (ICM-CSIC), a partner of our group in
-  experiments on biofilm growth on microplastics~\cite{Pizzi2025}; and extreme wall heat flux
-  in compressible boundary layers, starting with the stay at the Universit\`a del Salento.
-\end{itemize}
+Moreover, addressing these challenges requires increasingly sophisticated computational capabilities.
+High-fidelity simulations must resolve strong property gradients, investigate increasingly demanding flow conditions, and capture sufficient statistics of rare events, imposing substantial computational costs.
+These requirements motivate the continued development of efficient, scalable numerical methods capable of exploiting modern GPU-based supercomputing architectures.
+Building on RHEA-X [J1], advances in real-fluid property evaluation, computational performance, and Lagrangian analysis will support these investigations.
+By integrating fundamental flow physics, causal analysis of extreme events, and high-performance scientific computing, the proposed research program aims to advance the understanding and prediction of supercritical turbulent flows, ultimately contributing to more efficient and reliable energy and propulsion technologies.
 
-\subsubsection*{Line 3 -- High-performance computing for compressible, real-fluid
-turbulence (profile line c)}
-The DNS of Lines 1 and 2 require GPU-resident solvers. RHEA-X, the distributed GPU version of
-RHEA for which I was responsible, combines MPI and OpenACC and shows near-ideal scaling on
-large GPU systems [J1]. GPU-accelerated solvers are now widespread in turbulence
-research~\cite{Roccon2026}, and state-of-the-art compressible solvers such as STREAmS have been
-rewritten to support several GPU back-ends~\cite{Bernardini2021,Bernardini2023}. Europe's first exascale
-system, JUPITER, entered operation in 2025. In real-fluid simulations, a large part of the cost
-comes from the equation of state and the transport coefficients; low-rank surrogates reduce
-it and suit GPU execution [R4]. Quantum algorithms for flow problems are an emerging,
-long-term option that I will follow but not pursue in this plan~\cite{Bharadwaj2023}.
-\begin{itemize}
-  \item[\textbf{Q3.1}] Which parts of a real-fluid compressible solver limit performance on
-  current GPU architectures, and how much can kernel optimization and surrogates reduce them?
-  \item[\textbf{Q3.2}] How can large ensembles of Lagrangian trajectories be tracked in situ
-  without limiting the scalability required by Line~2?
-\end{itemize}
-\textbf{Objectives.}
-\begin{itemize}
-  \item[\textbf{O7.}] Profile and optimize the kernels of RHEA-X, integrate the GPU surrogates
-  of real-fluid properties, and publish reproducible benchmarks of cost and accuracy versus
-  problem size and GPU count.
-  \item[\textbf{O8.}] Implement in-situ Lagrangian tracking and statistics, and port the
-  solver to the architectures of the EuroHPC systems.
-\end{itemize}
+\subsection{Research lines and objectives}\label{sec:lines}
+The program is organized in three lines, which correspond to the research lines of the call and
+form a single program (Figure~\ref{fig:lines}). For each line, I summarize my previous work, the
+investigations that address its open problems, and the resulting objectives (O) and expected
+outcomes.
 
-\subsection{Growth of the research lines and long-term direction}\label{sec:growth}
-The three lines are designed to grow from canonical problems towards engineering conditions,
-and each step is supported by an external group that has selected, adopted or co-developed
-the work.
+\begin{figure}[t]
+\centering
+\begin{tikzpicture}[font=\footnotesize,
+  box/.style={draw=#1, fill=#1!8, rounded corners=2pt, line width=0.8pt, align=center,
+              text width=3.7cm, minimum height=1.05cm, inner sep=3pt},
+  arr/.style={-{Stealth[length=2mm]}, line width=0.7pt, black!70},
+  lab/.style={font=\scriptsize, align=center, black!80}]
+  \definecolor{LA}{HTML}{2F5D8A}\definecolor{LB}{HTML}{C8742B}\definecolor{LC}{HTML}{3C8D6E}
+  \node[box=LA] (L1) at (0,0) {\textbf{Line 1}\\ Physics of supercritical\\ turbulence (DNS), O1--O3};
+  \node[box=LB] (L2) at (5.6,0) {\textbf{Line 2}\\ Causality and\\ extreme events, O4--O6};
+  \node[box=LC] (L3) at (2.8,-2.2) {\textbf{Line 3}\\ HPC for real-fluid\\ turbulence, O7--O8};
+  \node[draw=black!55, dashed, rounded corners=2pt, align=center, font=\scriptsize,
+        text width=3.1cm, minimum height=1.05cm] (P) at (10.6,0)
+        {\textbf{Phase 2}\\ prediction of HTD and\\ extreme thermal loads\\ (O3 + O5, T2.5)};
+  \draw[arr] (L1) -- node[lab, above] {databases} (L2);
+  \draw[arr] (L2) -- node[lab, above] {precursors} (P);
+  \draw[arr] (L2.south) |- node[lab, pos=0.3, right] {Lagrangian\\ requirements} (L3.east);
+  \draw[arr] (L3.west) -| node[lab, pos=0.7, left] {affordable\\ simulations} (L1.south);
+  \draw[arr] (L1.north) |- ++(0,0.45) -| node[lab, pos=0.25, above] {developing-duct database (O3)} (P.north);
+\end{tikzpicture}
+\caption{The three research lines as one program.}
+\label{fig:lines}
+\end{figure}
+
+
+%%%%%%%% CARLOS IS HERE %%%%%%%%%%%%%
+
+
+\subsubsection{Line 1 -- Physics of supercritical turbulent flows}
+
+My doctoral investigations demonstrated how pseudo-boiling can be exploited to enhance heat transfer and fundamentally modify turbulence in microconfined flows~\cite{Hurtan2025,Bernades2023,Bernades2025}.
+In asymmetrically heated microducts, I showed that pseudo-boiling can trigger turbulence-like regimes under hydrodynamic conditions that remain laminar at low pressure, increasing the hot-wall Nusselt number by approximately $20\times$ with the same imposed temperature difference [J3, J4, J7].
+In turbulent square ducts, I demonstrated that secondary-flow intensity can reach 4.6\,\% of the bulk velocity, approximately twice the upper bound reported for canonical ducts.
+Moreover, changing the orientation of gravity altered secondary-flow intensity by more than 100\,\% and the hot- and cold-wall Nusselt numbers by up to 28\,\% and 63\,\%, respectively, despite variations below 10\,\% and 3\,\% in bulk and friction Reynolds numbers.
+These findings revealed how buoyancy and pseudo-boiling interact to reorganize secondary motions and redistribute momentum, wall shear stress, and turbulent transport [J2, R1, C1].
+These investigations also exposed limitations in conventional DNS resolution practices.
+I established refined resolution requirements for pseudo-boiling turbulence, demonstrating that grids reproducing first-order statistics within 2\,\% can nevertheless underestimate the intensity and wall proximity of the pseudo-boiling region.
+Accurate characterization required finer near-wall resolution and wall-normal spacings below approximately 3.5 Kolmogorov and Batchelor scales [J5].
+I also reassessed the applicability of minimal computational domains, establishing their ability to reproduce near-wall turbulence while identifying limitations in capturing larger-scale motions [J6].
+Building on these contributions, this research line will pursue three complementary investigations, progressing from fundamental transport mechanisms to predictive correlations and the characterization of heat-transfer deterioration (HTD) in increasingly engineering-relevant configurations.
+
+
+The first investigation will extend my previous analyses of asymmetrically heated channels and square ducts, where pseudo-boiling interacts with buoyancy and turbulence anisotropy.
+Although the organization of momentum transport and secondary motions has been characterized, the corresponding thermal mechanisms remain less thoroughly understood.
+Using the existing DNS databases, I will investigate enthalpy and turbulent heat-flux budgets to quantify how buoyancy, secondary motions, and pseudo-boiling redistribute thermal energy and influence local heat transfer.
+Particular attention will be devoted to higher-order statistics and the coherent turbulent structures associated with extreme wall-heat-flux events, especially at the heated wall.
+These analyses will provide a more complete physical interpretation of heat-transfer enhancement and establish reference datasets for the causal investigations developed in Line~2.
+The second investigation, for which new simulations are already under development (Figure~\ref{fig:duct}b), will extend the analysis to canonical channels and square ducts with uniform perimeter heating.
+These configurations will facilitate systematic comparisons with existing literature across Reynolds numbers, thermophysical regimes, and geometries, while improving the statistical convergence of corner vorticity and secondary-flow structures.
+Despite substantial advances, conventional friction and heat-transfer correlations and variable-property transformations do not necessarily retain their accuracy under strong pseudo-boiling effects \cite{Modesti2026,Li2025}.
+Building on my contributions to DNS resolution criteria and minimal computational domains [J5, J6], I will investigate progressively higher Reynolds numbers, examining the scaling of skin friction, Nusselt number, streamwise vorticity, and momentum and thermal budgets.
+The resulting databases will enable systematic assessments of established correlations and recent momentum transformations, including their ability to capture the effects of strong property gradients and geometry-induced secondary motions.
+Where existing descriptions prove inadequate, I will develop improved physics-based correlations and complementary data-driven models, building on preliminary work already initiated.
+The ambition is to establish predictive relationships that remain applicable across thermophysical regimes and geometries, rather than relying on case-specific adjustments.
+The third investigation will extend the analysis towards spatially developing flows representative of supercritical cooling passages, where thermal development, geometry, and turbulence modulation interact.
+Although previous studies have identified operating conditions associated with HTD, accurately predicting its onset and recovery remains challenging, and the relative contributions of the underlying physical mechanisms continue to be debated \cite{Nasuti2021,Li2025}.
+Existing correlations can mispredict peak wall temperatures by up to 200~K near the critical pressure, illustrating the limitations of current predictive descriptions \cite{Nasuti2021}.
+Building on the physical understanding established in the preceding investigations, I will perform DNS of spatially developing channels and square ducts heated from one side, progressively incorporating more representative heating conditions and cooling-passage geometries.
+These simulations will identify the mechanisms governing HTD onset and recovery, including the influence of buoyancy, turbulence attenuation, secondary motions, and the evolving thermal boundary layer.
+The resulting databases will also provide a demanding assessment of the predictive relationships developed in the second investigation, identifying their limitations and guiding their extension towards deteriorated heat-transfer conditions.
+
+Together, these investigations address three complementary scientific objectives:
 \begin{itemize}
-  \item \textbf{Line 1} starts from databases that are already used outside the group: they
-  contribute to the BLASTNet machine-learning dataset coordinated by Prof.\ M.\ Ihme
-  (Stanford University) [D1], and Prof.\ X.\ Yang (Penn State) uses them to train neural
-  networks. The square-duct results will be presented at EFDC3 (2027). The line moves from
-  fully developed to developing ducts, and only then, in Phase~2, to free shear flows.
-  Supercritical flows remain the main focus of the plan.
-  \item \textbf{Line 2} was selected through the competitive call of the 2026 CTR Summer
-  Program and will be presented at THMT-27 (2027). Its formalization draws on non-stationary
-  transfer entropy, developed with A.\ Chandra (CTR), and on the information-theoretic
-  causality developed by Prof.\ A.\ Lozano-Dur\'an and \'A.\ Mart\'inez-S\'anchez
-  (Caltech, MIT). It is then tested by other groups on their own problems: ocean turbulence
-  at UBC (stay in summer 2027, before the contract) and compressible boundary layers at the
-  Universit\`a del Salento (first half of 2028). A prospective stay in the United States
-  (2029--30), at Stanford University or Caltech, would consolidate the compressible
-  extension.
-  \item \textbf{Line 3} builds on a published solver [J1], two BSC hackathons and six
-  peer-reviewed supercomputing allocations. Its development serves Lines 1 and 2 and will
-  be strengthened through the BSC hackathons and bachelor's and master's projects in
-  scientific computing at the EEBE.
+	\item[\textbf{O1.}] Identify and quantify the mechanisms through which pseudo-boiling, buoyancy, and secondary motions govern turbulent heat transfer and extreme wall-heat-flux events in asymmetrically heated ducts, representative of regenerative cooling and energy-conversion applications.
+	\item[\textbf{O2.}] Establish the Reynolds-number dependence of friction and heat transfer in supercritical flows, critically assess existing scaling laws and correlations, and develop improved predictive models for the skin-friction coefficient and Nusselt number across thermophysical regimes.
+	\item[\textbf{O3.}] Elucidate the physical mechanisms governing HTD onset and recovery in spatially developing, asymmetrically heated ducts, and quantify the influence of secondary motions and regenerative-cooling-relevant geometries on thermal deterioration.
 \end{itemize}
+In a subsequent exploratory stage, this research will extend beyond wall-bounded turbulence to single-fluid jets and mixing layers.
+Previous investigations indicate that pseudo-boiling can substantially modify shear-layer instability and jet development \cite{Lapenna2019,SharanBellan2021}, yet its consequences for turbulent interfaces and entrainment remain insufficiently understood.
+By investigating liquid-like and gas-like streams of the same substance, these configurations will isolate pseudo-boiling effects from compositional mixing and establish a foundation for understanding turbulent entrainment relevant to high-pressure injection and film cooling~\cite{Mayer2003,Muller2016}.
 
-\paragraph{Long-term direction.} With mature databases (Line~1), a validated causal framework
-(Line~2) and an efficient solver (Line~3), Phase~2 targets a central engineering problem of
-the field: to explain, predict and ultimately prevent HTD in its applications, from
-regenerative cooling channels to the heat exchangers of sCO$_2$
-cycles~\cite{Pizzarelli2018,Ahn2015}. Beyond the contract, the same capabilities lead
-naturally to high-speed aerothermodynamics, where extreme wall heat fluxes, large property
-variations and thermochemical effects coexist~\cite{Urzay2018,DiRenzoUrzay2021,Passiatore2022}.
-The stays at the Universit\`a del Salento and in the United States prepare this extension,
-in line with the department's priority on compressible flows.
+The expected outcomes extend beyond individual flow configurations.
+The program will deliver openly accessible, systematically validated DNS databases covering asymmetric heating, Reynolds-number scaling, and spatially developing flows exhibiting HTD, providing reference benchmarks for future numerical and turbulence-modeling developments.
+These databases will support new physical scaling relationships and improved skin-friction and Nusselt-number correlations, with the ambition of establishing predictive descriptions that transcend individual fluids, geometries, and operating conditions.
+For HTD, the investigation will seek to establish physically interpretable onset and recovery criteria, advancing from empirical identification of deterioration towards predictive models informed by its underlying turbulent mechanisms.
+These contributions aim to establish a comprehensive high-fidelity framework for understanding and predicting the beneficial and detrimental consequences of pseudo-boiling, supporting the development of more efficient and reliable supercritical-fluid technologies.
 
-\subsection{Work plan and timeline}\label{sec:workplan}
+\subsubsection{Line 2 -- Causality and extreme events in multiphysics turbulence}
+
+Extreme wall events have been characterized by conditional averaging and space--time
+analysis~\cite{Guerrero2020,Hack2021,Zhang2023}, their predictability has been
+examined~\cite{Blonigan2019}, and our group has proposed conditional POD to predict them from time
+signals~\cite{Martin2025}. These methods reveal what accompanies an event, not what causes it.
+In the 2026 CTR Summer Program, I addressed this question for extreme wall-heat-flux events in
+four DNS of CO$_2$ channel flow at $Re_b=5000$: three transcritical cases, with the pseudo-boiling
+layer displaced from the hot towards the cold wall, and a low-pressure reference [R3]. Events were
+defined as local maxima of the wall heat flux above its 99th percentile (about $3\,q_{w,\rm rms}$),
+and the fluid parcels reaching them were followed backwards in time. The events are produced by a
+wallward sweep of contrasting-temperature fluid accompanied by a quasi-streamwise vortex
+(Figure~\ref{fig:extreme}b). Along the parcel, the enthalpy balance is dominated by conduction,
+streamwise enstrophy is produced by vortex stretching, and baroclinic torque becomes a significant
+sink as the pseudo-boiling layer approaches the hot wall. At that wall the precursors follow a
+robust order, in viscous time from the event: wallward acceleration peaks at
+$t_e^+\approx-20$, the sweep at $-16$, the streamwise vorticity at $-7$, stretching and baroclinic
+torque at $-5$, and $c_P$ and the conductive flux at the event. Event-anchored transfer entropy,
+estimated across realizations aligned on the event~\cite{Schreiber2000,Wollstadt2014}, shows that
+the wall-normal velocity and the spanwise vorticity carry the earliest predictive information
+($t_e^+\approx-17$ to $-10$), whereas the streamwise vorticity and the enthalpy tendency peak at
+$-6$ to $-3$; pseudo-boiling redistributes this information among coupled kinematic and
+thermodynamic variables instead of concentrating it in one [R2, R3].
+
+These results establish a precursor sequence, but not its causal structure. The first
+investigation addresses the estimator itself. Interdependent variables, such as $v$ and
+$\omega_x$ or $T$, $h$ and $c_P$, share information, which bivariate transfer entropy cannot
+separate. The decomposition of causality into synergistic, unique and redundant (SURD)
+components~\cite{MartinezSanchez2024} does, and, like the information flow~\cite{Liang2005}, has been
+applied to wall turbulence~\cite{LozanoDuran2020,Massaro2023,Zhang2026}, but only to stationary,
+long time series. I will formalize the non-stationary, event-anchored estimator (its bias, its
+convergence with the number of events, and the choice of lags and bins), test it on synthetic
+systems and canonical flows with known causal structure, and extend it to multivariate SURD along
+fluid-parcel trajectories. This first-person view, in which the parcel carries the causes towards
+the wall, is the natural frame for cause and effect, and Lagrangian information-theoretic analyses
+of flows are only emerging~\cite{Jiang2027}. The second investigation applies the framework to the
+Line~1 databases, where buoyancy, secondary flows and HTD add new candidate causes, and tests
+whether the identified precursors predict extreme events better than conditional statistics and
+conditional POD~\cite{Martin2025}. The third tests its generality in two problems with different
+physics: the aggregation and settling of microplastics with biogenic particles in ocean
+turbulence~\cite{Rahmani2022,Pizzi2024,Pizzi2026}, with UBC and the Institut de Ci\`encies del Mar
+(ICM-CSIC)~\cite{Pizzi2025}; and extreme wall heat flux in compressible and hypersonic boundary
+layers, with the Universit\`a del Salento~\cite{DiRenzoUrzay2021,Passiatore2022}.
+
+Together, these investigations address three scientific objectives:
+\begin{itemize}
+  \item[\textbf{O4.}] Formalize a non-stationary, event-anchored Lagrangian information-theoretic
+  framework, including its multivariate SURD decomposition, and establish its reliability and data
+  requirements for rare events.
+  \item[\textbf{O5.}] Identify the unique, redundant and synergistic causes of extreme
+  wall-heat-flux events in pseudo-boiling channel and duct flows, and assess whether
+  precursor-based prediction outperforms conditional statistics and conditional POD.
+  \item[\textbf{O6.}] Establish the generality of the framework in particle-laden ocean turbulence
+  and in compressible boundary layers.
+\end{itemize}
+The expected outcomes are an open-source estimator of causality for rare, non-stationary events
+from the Lagrangian perspective, with documented reliability; the first causal decomposition, to
+my knowledge, of extreme wall heat flux in pseudo-boiling flows, identifying which precursors act
+uniquely, redundantly or synergistically, and with which lead times; precursor-based predictors of
+critical thermal loads tens of viscous time units before they occur; and joint articles with the
+host groups that demonstrate the transfer to other multiphysics flows.
+
+\subsubsection{Line 3 -- High-performance computing for compressible, real-fluid turbulence}
+
+I was responsible for porting RHEA to distributed GPU systems [J1]. A first stage offloaded only
+the inviscid and viscous fluxes with OpenACC, reducing the time-to-solution by up to six times on
+hybrid CPU--GPU nodes, but the remaining host routines and host--device transfers limited the
+gain, as Amdahl's law dictates. RHEA-X was therefore rebuilt as a fully GPU-resident C++ solver,
+ported with OpenACC directives (pragmas) that keep a single, portable source: all fields reside
+persistently on the device, and the halo exchanges, the most demanding inter-rank communication
+of compressible solvers, use GPU-aware MPI with precomputed contiguous pack/unpack buffers and
+non-blocking sends and receives, while asynchronous kernels overlap computation, communication and
+I/O. On MareNostrum~5 and Snellius (H100 and A100 GPUs), RHEA-X retains about 97\,\% of ideal strong
+scaling up to 64 GPUs and weak-scaling efficiencies above 90\,\%, and reduces the time-to-solution
+by up to $70\times$ with respect to CPU execution and by up to $8\times$ with respect to
+host-mediated communication [J1]. Within one framework, it combines low-dissipation
+discretizations that preserve kinetic energy and pressure equilibrium, strong-stability-preserving
+time integration, and thermodynamics from ideal gases to real-fluid equations of
+state~\cite{PengRobinson1976} with high-pressure transport coefficients~\cite{Chung1988}; it
+includes immersed boundaries and Lagrangian point particles, and has been validated for near-wall
+turbulence, transcritical channels and ducts (Figures~\ref{fig:duct} and~\ref{fig:extreme}),
+separated flow around an airfoil [R5] and particle-laden turbulence. Real-fluid properties remain a
+major cost: tabulations fine enough to resolve the pseudo-boiling line have large memory footprints
+on accelerators, and our low-rank (SVD) surrogates compress them, with the leading mode retaining
+99.96\,\% of the energy of the density table [R4]. This line also builds on two BSC hackathons and
+six competitive supercomputing allocations.
+
+GPU solvers for turbulence are now widespread~\cite{Roccon2026}, with different routes to
+performance and portability: native CUDA in STREAmS~\cite{Bernardini2021,Bernardini2023} and its
+OpenMP offload to Intel GPUs~\cite{Salvadore2024}; directives in URANOS-2.0~\cite{DeVanna2024},
+FluTAS~\cite{CrialesiEsposito2023} and CaLES~\cite{Xiao2025}; backend-agnostic Julia in
+WaterLily.jl~\cite{Weymouth2025}; high-order discontinuous Galerkin methods in
+GAL\AE XI~\cite{Kurz2025}; and task-based execution for hypersonic flows in HTR~\cite{DiRenzo2020}.
+CUBENS addresses non-ideal fluids in wall-bounded flows~\cite{Boldini2025}, but fully GPU-resident
+DNS solvers for flows crossing the pseudo-boiling region remain scarce [J1]. The aim of this line is
+to advance RHEA-X towards better and faster predictions of multiphysics turbulence, extended to
+high-speed real-fluid regimes, keeping portability and extensibility as priorities so that the
+scientific community can use it for high-fidelity simulations. Three investigations serve this
+aim. The first targets performance: profiling on current GPUs, optimization of memory access,
+kernel fusion and cache reuse, prepared and tested in BSC hackathons, and on-device evaluation of
+the surrogates [R4] or of external property libraries such as CoolProp~\cite{CoolProp2014}, with
+the trade-off between cost and accuracy quantified. The second targets scalability and
+portability: at large GPU counts, halo exchanges and synchronization become the bottleneck, which
+I will address by deepening the overlap of communication and computation; and the solver will run
+on the non-NVIDIA accelerators of EuroHPC systems, including JUPITER, Europe's first exascale
+system, through backend-agnostic models such as OpenMP offload or SYCL, building on the experience
+of STREAmS and URANOS~\cite{Salvadore2024,DeVanna2024}. The third targets extensibility, through
+modules that keep the single GPU-resident framework: on-device tracking of large parcel ensembles,
+with on-the-fly event detection and conditional statistics, for the Lagrangian analysis of Line~2;
+and shock-capturing schemes that extend the real-fluid formulation to high-speed flows, in which
+large property variations and extreme wall heat fluxes coexist~\cite{Urzay2018,DiRenzoUrzay2021}.
+
+Together, these investigations address two objectives:
+\begin{itemize}
+  \item[\textbf{O7.}] Quantify and reduce the performance bottlenecks of real-fluid compressible
+  DNS on current GPU architectures, through kernel optimization and GPU surrogates of the
+  thermophysical properties, with documented cost and accuracy.
+  \item[\textbf{O8.}] Ensure the scalability and portability of the solver across the accelerators
+  of EuroHPC systems, and extend it with in-situ Lagrangian analysis and high-speed real-fluid
+  capabilities.
+\end{itemize}
+The expected outcomes are versioned, documented open-source releases of RHEA-X that run efficiently
+beyond a single GPU vendor and can be extended by other groups; reproducible benchmarks of cost and
+accuracy versus problem size and GPU count; and the computational capability that makes the higher
+Reynolds numbers and developing ducts of Line~1, the event ensembles of Line~2 and high-speed
+real-fluid flows affordable within the competitive allocations of RES and EuroHPC.
+
+\subsection{Work plan, timeline and risks}\label{sec:workplan}
 The plan covers six years, from September 2027 to August 2033, with Year~1 corresponding to
-the academic year 2027--28. Scientifically, it is divided into two phases, consistent with the
+the academic year 2027--28. The program develops gradually, from canonical configurations to
+engineering-relevant conditions and from understanding to prediction: Line~1 moves from fully
+developed channels and ducts to the developing duct with HTD and then to free shear flows;
+Line~2 from the assessment of estimators to prediction and transfer to other flows; and Line~3
+from kernel optimization to in-situ Lagrangian analysis and exascale systems. Scientifically, it is divided into two phases, consistent with the
 intermediate evaluation of the contract: \textbf{Phase~1 (years 1--3), foundations}:
 databases, causal framework and optimized solver; and \textbf{Phase~2 (years 4--6),
-prediction}: HTD prediction and transfer to other flows. In parallel, the Lector position
+prediction}: prediction of HTD and extreme events, free shear flows and transfer to other
+flows. In parallel, the Lector position
 provides the framework to build an independent research program within GReCEF, in three
 stages:
 \begin{itemize}
@@ -374,8 +396,9 @@ The work is organized in five work packages (WPs).
 
 \paragraph{WP1 -- Supercritical turbulence databases (Line~1; O1--O3; Y1--Y6).} Carried out
 mainly by doctoral student~1, under my supervision and co-supervision within GReCEF.
-\emph{Tasks:} T1.1 fully developed channel and square duct at higher Reynolds numbers
-(Y1--Y3); T1.2 spatially developing heated square duct with HTD (Y2--Y4); T1.3 transformations
+\emph{Tasks:} T1.1 thermal budgets and extreme events in the existing asymmetrically heated
+databases, and uniformly heated channels and ducts at increasing Reynolds numbers (O1, O2;
+Y1--Y3); T1.2 spatially developing ducts heated on one side, with HTD and changes of cross-section (Y2--Y4); T1.3 correlations, transformations
 and compact neural networks for friction and heat transfer, with Penn State (Y3--Y5); T1.4
 exploratory single-fluid temporal mixing layer and planar jet across pseudo-boiling (Y5--Y6).
 \emph{Outcomes:} two open databases, 3--4 journal articles and doctoral thesis~1.
@@ -394,7 +417,7 @@ the host groups.
 \emph{Tasks:} T3.1 profiling and kernel optimization of RHEA-X, prepared and tested in BSC
 hackathons (Y1--Y3); T3.2 integration of GPU surrogates of real-fluid properties [R4] (Y1--Y2);
 T3.3 in-situ Lagrangian tracking for WP2 (Y2--Y4); T3.4 porting and benchmarks on EuroHPC
-systems (Y3--Y6). Bachelor's and master's theses at the EEBE contribute to T3.1--T3.3;
+systems, and shock-capturing extension to high-speed real-fluid flows (Y3--Y6). Bachelor's and master's theses at the EEBE contribute to T3.1--T3.3;
 doctoral student~2 (Phase~2) can take T3.3--T3.4 or T2.5.
 \emph{Outcomes:} versioned open-source releases, 1--2 articles and the computing allocations
 required by WP1 and WP2.
@@ -414,11 +437,11 @@ collaborations (Section~\ref{sec:mobility}) and dissemination
 \midrule
 M1 & Y1 & First version of the causality framework; publication of the square-duct and CTR work [R1, R3]; Salento stay; predoctoral applications for doctoral student~1. \\
 M2 & Y2 & First proposal as principal investigator (\emph{Generaci\'on de Conocimiento}, Tipo~A) submitted; doctoral student~1 recruited; open-source causality code released; application for the US stay. \\
-M3 & Y3 & First open database (O1a); optimized solver release; US stay; start of the independent project, if funded; Year-3 self-assessment. \\
-M4 & Y4 & Developing-duct HTD database (O1b); doctoral student~2 recruited. \\
-M5 & Y5 & First HTD predictions; ERC Starting Grant proposal in preparation; application for research accreditation. \\
+M3 & Y3 & First open database (O2); optimized solver release; US stay; start of the independent project, if funded; Year-3 self-assessment. \\
+M4 & Y4 & Developing-duct HTD database (O3); doctoral student~2 recruited. \\
+M5 & Y5 & First HTD predictions (O3, O5); ERC Starting Grant proposal in preparation; application for research accreditation. \\
 M6 & Y6 & ERC Starting Grant proposal submitted; follow-up national proposal; defense of doctoral thesis~1. \\
-M7 & Y6 & Exploratory free-shear results; consolidated independent line on HTD and extreme events. \\
+M7 & Y6 & Exploratory free-shear results (T1.4); consolidated independent program on supercritical turbulence and extreme events. \\
 \bottomrule
 \end{tabularx}
 \end{center}
@@ -490,7 +513,24 @@ periods. The UBC stay (summer 2027) precedes Y1. All dates after Y1 are indicati
 on future calls and on successful evaluation.}
 \end{figure}
 
-\subsection{Resources, funding strategy and risk management}\label{sec:resources}
+\paragraph{Risk management.}
+\begin{center}\small
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{4.4cm}X@{}}
+\toprule
+\textbf{Risk} & \textbf{Mitigation} \\
+\midrule
+Not eligible for Tipo~A in 2028 & Participation in a GReCEF proposal as co-principal investigator or team member; independent proposal in the next suitable call. \\
+Tipo~A proposal not funded (2029) & WP1 continues with initial funding, existing databases and computing allocations; resubmission with Phase~1 results; doctoral students funded through FI, FPU or UPC grants, independent of the project. \\
+Doctoral student~1 not recruited in Y2 & T1.1 started by me and by master's theses; recruitment moved to the next call; T1.4 postponed. \\
+Insufficient computing allocation & Simulation campaigns prioritized by objective (O1--O2 before O3); reduced domains justified by the minimal-flow-unit criteria [J6]; national and UPC resources for smaller cases. \\
+Estimators unreliable for rare events (O4) & Larger event ensembles from longer DNS; fall-back to conditional statistics and conditional POD~\cite{Martin2025}, which still deliver O5. \\
+US stay not funded & Collaboration continued remotely and through the CTR Summer Program (2030); the compressible extension relies on the Salento stay. \\
+ERC Starting Grant not funded & Resubmission at the next eligible call; the follow-up national proposal ensures continuity. \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\subsection{Funding, resources and career development}\label{sec:resources}
 \paragraph{Starting point.} The ERC Starting Grant SCRAMBLE, which currently funds my
 postdoctoral position, and the infrastructure of GReCEF cover the first months of WP1--WP3.
 
@@ -517,7 +557,7 @@ evaluation, and each one supports specific objectives of Section~\ref{sec:resear
   Generaci\'on de Conocimiento}, Tipo~A, prepared in the first half of 2028 and submitted in
   late 2028, subject to the eligibility rules of that call. The objective is to secure a three-
   or four-year project, with execution in 2029--2032/33, on supercritical duct turbulence and
-  the causal prediction of extreme heat-transfer events (O1, O4, O5): computing campaigns,
+  the causal prediction of extreme heat-transfer events (O1--O3, O5): computing campaigns,
   doctoral research, collaborations and dissemination. An associated predoctoral contract
   (FPI) for doctoral student~2 will be requested where the call allows it. AGAUR
   \emph{Doctorats Industrials} with companies in the energy and space sectors will also be
@@ -532,13 +572,25 @@ evaluation, and each one supports specific objectives of Section~\ref{sec:resear
   eligibility of the corresponding call; and a follow-up national proposal to ensure the
   continuity of the doctoral projects.
 \end{itemize}
+\paragraph{Long-term direction.} By the end of the contract, the program aims to predict the
+consequences of strong property variations in engineering flows: both the transport
+enhancement that the applications seek and the HTD and extreme thermal loads that limit them, in
+regenerative cooling channels and sCO$_2$ heat exchangers~\cite{Pizzarelli2018,Ahn2015}. The
+same capabilities lead naturally to high-speed aerothermodynamics, where extreme wall heat
+fluxes, large property variations and thermochemical effects
+coexist~\cite{Urzay2018,DiRenzoUrzay2021,Passiatore2022}. This extension continues my work on
+variable-property turbulence, extreme thermal events and GPU-accelerated high-fidelity CFD. It
+starts with T2.4 at the Universit\`a del Salento, whose hosts have studied hypersonic
+boundary layers~\cite{DiRenzoUrzay2021,Passiatore2022}, is consolidated during the US stay, and
+is in line with the department's priority on compressible flows.
+
 The ERC Starting Grant is placed deliberately at the end of the contract. By then, the
 proposal can build on the results of the first independent project, experience managing
 competitive funding, doctoral supervision, an independent publication record, and the
 collaborations established at UBC, Salento and in the United States. Its scientific question
-will go substantially beyond the national project: from understanding HTD and extreme events
-to their causal prediction and control in real-fluid and high-speed flows (Long-term
-direction, Section~\ref{sec:research}).
+will go substantially beyond the national project: from understanding supercritical turbulence
+and extreme events to their causal prediction and control in real-fluid and high-speed flows
+(see the long-term direction above).
 
 \paragraph{Accreditation and stabilization.} Progression to a permanent Professor Agregat
 position at the end of the six-year contract requires the research accreditation of AQU
@@ -564,24 +616,9 @@ WP1--WP3. Analysis uses Python and Julia, the thermophysical surrogate software 
 CoolProp~\cite{CoolProp2014}. Databases are stored on the long-term storage of the HPC centers
 and published in open repositories (Zenodo, Figshare+, BLASTNet [D1]).
 
-\paragraph{Risk management.}
-\begin{center}\small
-\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{4.4cm}X@{}}
-\toprule
-\textbf{Risk} & \textbf{Mitigation} \\
-\midrule
-Not eligible for Tipo~A in 2028 & Participation in a GReCEF proposal as co-principal investigator or team member; independent proposal in the next suitable call. \\
-Tipo~A proposal not funded (2029) & WP1 continues with initial funding, existing databases and computing allocations; resubmission with Phase~1 results; doctoral students funded through FI, FPU or UPC grants, independent of the project. \\
-Doctoral student~1 not recruited in Y2 & T1.1 started by me and by master's theses; recruitment moved to the next call; T1.4 postponed. \\
-Insufficient computing allocation & Simulation campaigns prioritized by objective (O1a before O1b); reduced domains justified by the minimal-flow-unit criteria [J6]; national and UPC resources for smaller cases. \\
-Estimators unreliable for rare events (Q2.1) & Larger event ensembles from longer DNS; fall-back to conditional statistics and conditional POD~\cite{Martin2025}, which still deliver O5. \\
-US stay not funded & Collaboration continued remotely and through the CTR Summer Program (2030); the compressible extension relies on the Salento stay. \\
-ERC Starting Grant not funded & Resubmission at the next eligible call; the follow-up national proposal ensures continuity. \\
-\bottomrule
-\end{tabularx}
-\end{center}
 
-\subsection{Supervision of doctoral theses and group building}
+\subsection{Team, collaborations and dissemination}\label{sec:mobility}\label{sec:dissemination}
+\subsubsection*{Doctoral supervision and team}
 Teaching at the EEBE allows identifying motivated students early, and bachelor's and
 master's theses will be the entry point to the research lines. I currently tutor a
 curricular internship on extreme events in turbulent flows and co-supervised a bachelor's
@@ -605,7 +642,16 @@ estimators (T2.1), kernel optimization (T3.1) or surrogate integration (T3.2); b
 theses (TFG) will address GPU acceleration of simple solvers and the thermodynamic analysis of
 sCO$_2$ cycles (Section~\ref{sec:theses}).
 
-\subsection{Mobility and collaborations}\label{sec:mobility}
+\subsubsection*{Mobility and collaborations}
+Each line is backed by groups that have selected, adopted or co-developed the work. The Line~1
+databases contribute to the BLASTNet machine-learning dataset coordinated by Prof.\ M.\ Ihme
+(Stanford University) [D1], Prof.\ X.\ Yang (Penn State) uses them to train neural networks, and
+the square-duct results will be presented at EFDC3 (2027). Line~2 was selected through the
+competitive call of the 2026 CTR Summer Program and will be presented at THMT-27 (2027); its
+formalization draws on non-stationary transfer entropy, developed with A.\ Chandra (CTR), and on
+the information-theoretic causality of Prof.\ A.\ Lozano-Dur\'an and \'A.\ Mart\'inez-S\'anchez
+(Caltech, MIT). Line~3 builds on two BSC hackathons and six peer-reviewed supercomputing
+allocations.
 The three postdoctoral stays below develop the research lines with leading international
 groups and, together, provide the nine months of mobility required for the research
 accreditation (Section~\ref{sec:resources}).
@@ -634,13 +680,10 @@ accreditation (Section~\ref{sec:resources}).
   Investiga\c{c}\~ao}, 4--6 months, open to all areas), and the José Castillejo program of the
   Spanish Ministry, either in its general track or in its Fulbright track, which adds a minimum
   score in the scientific evaluation and a limited number of grants.
-  \item \textbf{Ongoing collaborations.} CTR (A.\ Chandra: non-stationary transfer entropy);
-  Caltech and MIT (Prof.\ A.\ Lozano-Dur\'an and \'A.\ Mart\'inez-S\'anchez: causality);
-  Penn State (Prof.\ X.\ Yang: neural networks for wall-normal profiles); Stanford (group of
-  Prof.\ M.\ Ihme: BLASTNet); ICM-CSIC Barcelona (microplastics and biofilms); BSC
-  (hackathons).
-  \item \textbf{Instituto Superior T\'ecnico, Lisbon (Portugal), prospective, Phase~2 (O3,
-  T1.4).} Prof.\ Carlos B.\ da Silva's group has characterized the turbulent/non-turbulent and turbulent/turbulent
+  \item \textbf{Other ongoing collaborations.} ICM-CSIC Barcelona (microplastics and biofilms;
+  O6) and BSC (hackathons; O7), in addition to those above.
+  \item \textbf{Instituto Superior T\'ecnico, Lisbon (Portugal), prospective, Phase~2
+  (T1.4).} Prof.\ Carlos B.\ da Silva's group has characterized the turbulent/non-turbulent and turbulent/turbulent
   interfaces of jets and shear-free flows at high Reynolds numbers~\cite{Silva2018,Alves2025}.
   Single-fluid transcritical jets have been simulated~\cite{Lapenna2019,Ream2025},
   but their interfaces have not been analyzed, although pseudo-boiling changes density,
@@ -648,10 +691,10 @@ accreditation (Section~\ref{sec:resources}).
   real-fluid DNS of single-fluid transcritical jets and mixing layers with their methods for
   interface detection and entrainment, to establish how pseudo-boiling modifies entrainment
   and mixing in free shear flows.
-  \item \textbf{Prospective collaborations.} \MAYBE{Smart Ocean Peniche (Portugal): R\&D projects in ocean engineering.}
+  %\item \textbf{Prospective collaborations.} \MAYBE{Smart Ocean Peniche (Portugal): R\&D projects in ocean engineering.}
 \end{itemize}
 
-\subsection{Open science, transfer and dissemination}\label{sec:dissemination}
+\subsubsection*{Open science, transfer and dissemination}
 \begin{itemize}
   \item \textbf{Databases and code:} the two WP1 databases (Zenodo, Figshare+, BLASTNet), the
   causality code (WP2) and versioned releases of RHEA-X (WP3), following the FAIR principles.
@@ -662,7 +705,12 @@ accreditation (Section~\ref{sec:resources}).
   tentative); APS-DFD, ETMM, TSFP and the European Turbulence Conference.
   \item \textbf{Transfer:} reference data and predictive tools for the design of cooling
   channels and sCO$_2$ heat exchangers; industrial doctorates and contracts through the UPC
-  transfer services.
+  transfer services. Spain invests directly in space transportation, with \texteuro{}40.5
+  million for the development of the first Spanish small-satellite launcher~\cite{CDTI2024},
+  and ESA's FLPP pursues high-thrust liquid propulsion~\cite{ESA2026}; Spanish companies
+  developing liquid-rocket engines, such as PLD Space and the Barcelona-based Pangea Aerospace,
+  which designs regeneratively cooled engines with real-fluid models~\cite{Esnault2021}, are
+  prospective partners.
   \item \textbf{Outreach:} UPC open days, the \emph{Setmana de la Ci\`encia}, and initiatives
   that encourage girls to pursue engineering studies.
 \end{itemize}
@@ -1055,36 +1103,36 @@ Career & -- & AQU research accreditation; conditions for stabilization as Profes
 
 % =====================================================================
 \begin{thebibliography}{99}\small
+\bibitem{Guardone2024}
+A.\ Guardone, P.\ Colonna, M.\ Pini, A.\ Spinelli.
+Nonideal compressible fluid dynamics of dense vapors and supercritical fluids.
+\emph{Annu.\ Rev.\ Fluid Mech.}, 56:241--269, 2024.
+\href{https://doi.org/10.1146/annurev-fluid-120720-033342}{doi:10.1146/annurev-fluid-120720-033342}.
+\bibitem{LEAP71} LEAP~71. Noyron: Large Computational Engineering Model for the design of physical objects, and hot-fire tests of computationally engineered rocket engines. \url{https://leap71.com} (accessed 20 November 2026). Image courtesy of LEAP~71.
+\bibitem{Gradl2019} P.\ R.\ Gradl, C.\ S.\ Protz. Channel wall nozzle manufacturing technology advancements for liquid rocket engines. \emph{70th International Astronautical Congress}, IAC-19-C4.3.5x52522, Washington D.C., 2019. \url{https://ntrs.nasa.gov/citations/20190033314}.
 \bibitem{Pizzarelli2018} M.\ Pizzarelli. The status of the research on the heat transfer deterioration in supercritical fluids: A review. \emph{Int.\ Commun.\ Heat Mass Transf.}, 95:132--138, 2018.
 \bibitem{Nasuti2021} F.\ Nasuti, M.\ Pizzarelli. Pseudo-boiling and heat transfer deterioration while heating supercritical liquid rocket engine propellants. \emph{J.\ Supercrit.\ Fluids}, 168:105066, 2021.
 \bibitem{CDTI2024} Ministerio de Ciencia, Innovaci\'on y Universidades and CDTI. El Ministerio de Ciencia, Innovaci\'on y Universidades designa a PLD Space contratista final para la fase de desarrollo del primer lanzador espa\~nol de peque\~nos sat\'elites. Press release, Madrid, 29 January 2024. \url{https://www.cdti.es/sites/default/files/2024-01/ndp_cpp_lanzador_pequenos_satelites_3.pdf}.
 \bibitem{ESA2026} European Space Agency, Future Launchers Preparatory Programme. THRUST!~2: call for ideas on staged-combustion liquid propulsion, closing date 24 August 2026. \url{https://spacetransportation.esa.int/opportunities/thrust-2/} (accessed 18 November 2026).
 \bibitem{Esnault2021} G.\ Esnault, F.\ Rossi. Design and CFD analysis of the LOX/LCH4 dual regenerative cooling circuit of the DemoP1 demonstrator. \emph{Aerospace Europe Conference (AEC 2021)}, Warsaw, 2021. \url{https://psaa.meil.pw.edu.pl/AEC2021/Papers/AEC_2021_102_Esnault_Gabrielle.pdf}.
 \bibitem{AQU2025} AQU Catalunya. Resoluci\'o REU/974/2025, de 19 de mar\c{c}, per la qual es dona publicitat al procediment per a l'emissi\'o de l'acreditaci\'o per a professorat agregat. \emph{DOGC}, n\'um.~9378, 25 March 2025. \url{https://www.aqu.cat/doc/Professorat/Agregat-Catedratic/Resolucio-REU_974_2025_procediment-per-a-l-acreditacio-per-a-professorat-agregat_ca}.
-\bibitem{Bellan2020} J.\ Bellan. Future challenges in the modelling and simulations of high-pressure flows. \emph{Combust.\ Sci.\ Technol.}, 2020. \href{https://doi.org/10.1080/00102202.2020.1719404}{doi:10.1080/00102202.2020.1719404}.
-\bibitem{Nieuwenhuyse2023} J.\ Van Nieuwenhuyse, S.\ Lecompte, M.\ De Paepe. Current status of the thermohydraulic behavior of supercritical refrigerants: A review. \emph{Appl.\ Therm.\ Eng.}, 218:119201, 2023.
-\bibitem{Brunner2010} G.\ Brunner. Applications of supercritical fluids. \emph{Annu.\ Rev.\ Chem.\ Biomol.\ Eng.}, 1:321--342, 2010.
 \bibitem{Urbano2013} A.\ Urbano, F.\ Nasuti. Onset of heat transfer deterioration in supercritical methane flow channels. \emph{J.\ Thermophys.\ Heat Transf.}, 27(2), 2013. \href{https://doi.org/10.2514/1.T4001}{doi:10.2514/1.T4001}.
 \bibitem{Li2025} Z.\ Li, D.\ T.\ Banuti, J.\ Ren, J.\ Lyu, H.\ Wang, X.\ Chu. A review of microscale physics and macroscale convective heat transfer in supercritical fluids for energy and propulsion systems. \emph{Appl.\ Therm.\ Eng.}, 272:126380, 2025.
 \bibitem{Bae2005} J.\ H.\ Bae, J.\ Y.\ Yoo, H.\ Choi. Direct numerical simulation of turbulent supercritical flows with heat transfer. \emph{Phys.\ Fluids}, 17:105104, 2005.
 \bibitem{Peeters2016} J.\ W.\ R.\ Peeters, R.\ Pecnik, M.\ Rohde, T.\ H.\ J.\ J.\ van der Hagen, B.\ J.\ Boersma. Turbulence attenuation in simultaneously heated and cooled annular flows at supercritical pressure. \emph{J.\ Fluid Mech.}, 799:505--540, 2016.
-\bibitem{Nemati2016} H.\ Nemati, A.\ Patel, B.\ J.\ Boersma, R.\ Pecnik. The effect of thermal boundary conditions on forced convection heat transfer to fluids at supercritical pressure. \emph{J.\ Fluid Mech.}, 800:531--556, 2016.
 \bibitem{Kawai2019} S.\ Kawai. Heated transcritical and unheated non-transcritical turbulent boundary layers at supercritical pressures. \emph{J.\ Fluid Mech.}, 865:563--601, 2019.
 \bibitem{Ma2018} P.\ C.\ Ma, X.\ I.\ A.\ Yang, M.\ Ihme. Structure of wall-bounded flows at transcritical conditions. \emph{Phys.\ Rev.\ Fluids}, 3:034609, 2018.
 \bibitem{Guo2022} J.\ Guo, X.\ I.\ A.\ Yang, M.\ Ihme. Structure of the thermal boundary layer in turbulent channel flows at transcritical conditions. \emph{J.\ Fluid Mech.}, 934:A45, 2022.
-\bibitem{Wan2025} T.\ Wan, X.\ J.\ Wang, Y.\ X.\ Jin, P.\ H.\ Zhao. Effects of large density variations on near-wall turbulence and heat transfer in channel flow at supercritical pressure. \emph{J.\ Fluid Mech.}, 1007:A68, 2025.
 \bibitem{ElMansy2025} R.\ El Mansy, G.\ Barea, F.\ Mellibovsky, L.\ Jofre. Thermal effects on high-pressure transcritical wall-bounded turbulence. \emph{Phys.\ Fluids}, 37:105119, 2025.
 \bibitem{Modesti2026} D.\ Modesti, A.\ Ceci. Direct numerical simulation of turbulent heat transfer in water with temperature-dependent viscosity and conductivity. arXiv:2611.14276 (preprint), 2026.
 \bibitem{Hurtan2025} E.\ Hurt\'an, R.\ El Mansy, M.\ Jofre, J.\ Farr\'e-Llados, J.\ Casals-Terr\'e, L.\ Jofre. Supercritical miniaturization of turbulence in microsystems. \emph{Sci.\ Rep.}, 2025. \href{https://doi.org/10.1038/s41598-025-20583-9}{doi:10.1038/s41598-025-20583-9}.
 \bibitem{Bernades2023} M.\ Bernades, F.\ Capuano, L.\ Jofre. Microconfined high-pressure transcritical fluid turbulence. \emph{Phys.\ Fluids}, 35:015163, 2023.
 \bibitem{Bernades2025} M.\ Bernades, F.\ Capuano, L.\ Jofre. Linear stability analysis of differentially heated wall-bounded high-pressure transcritical fluids. \emph{J.\ Fluid Mech.}, 1022:A25, 2025.
-\bibitem{BernadesKEEP2023} M.\ Bernades, L.\ Jofre, F.\ Capuano. Kinetic-energy- and pressure-equilibrium-preserving schemes for real-gas turbulence in the transcritical regime. \emph{J.\ Comput.\ Phys.}, 493:112477, 2023.
 \bibitem{Zhao2021} P.\ Zhao \emph{et al.} Direct numerical simulation analysis of heat transfer deterioration of supercritical fluids in a vertical tube at a high ratio of heat flux to mass flowrate. \emph{Phys.\ Fluids}, 33:055114, 2021.
 \bibitem{Ries2017} F.\ Ries, J.\ Janicka, A.\ Sadiki. Thermal transport and entropy production mechanisms in a turbulent round jet at supercritical thermodynamic conditions. \emph{Entropy}, 19(8):404, 2017.
 \bibitem{SharanBellan2021} N.\ Sharan, J.\ Bellan. Investigation of high-pressure turbulent jets using direct numerical simulation. \emph{J.\ Fluid Mech.}, 2021 (arXiv:2009.12926).
 \bibitem{PobladorIbanez2026} J.\ Poblador-Ibanez, F.\ Hussain. Dynamics of a vortex column of supercritical fluid across the pseudo-boiling line. arXiv:2606.17795 (preprint), 2026.
 \bibitem{Cavalieri2026} D.\ Cavalieri, D.\ Schintu, P.\ P.\ Ciottoli, F.\ Creta, P.\ E.\ Lapenna. Role of phase separation in transcritical mixing layers under liquid rocket engine conditions. \emph{Flow Turbul.\ Combust.}, 117:44, 2026.
-\bibitem{Cavalieri2025} D.\ Cavalieri, D.\ Schintu, P.\ P.\ Ciottoli, P.\ E.\ Lapenna, F.\ Creta. Characterization of turbulent pseudo-boiling in transcritical and doubly-transcritical oxygen--methane flames. \emph{Int.\ J.\ Heat Mass Transf.}, 251:127284, 2025.
 \bibitem{Mayer2003} W.\ Mayer, J.\ Telaar, R.\ Branam, G.\ Schneider, J.\ Hussong. Raman measurements of cryogenic injection at supercritical pressure. \emph{Heat Mass Transf.}, 39:709--719, 2003.
 \bibitem{Muller2016} H.\ M\"uller, C.\ A.\ Niedermeier, J.\ Matheis, M.\ Pfitzner, S.\ Hickel. Large-eddy simulation of nitrogen injection at trans- and supercritical conditions. \emph{Phys.\ Fluids}, 28:015102, 2016.
 \bibitem{Lapenna2019} P.\ E.\ Lapenna, F.\ Creta. Direct numerical simulation of transcritical jets at moderate Reynolds number. \emph{AIAA J.}, 57(6), 2019. \href{https://doi.org/10.2514/1.J058360}{doi:10.2514/1.J058360}.
@@ -1109,16 +1157,20 @@ Career & -- & AQU research accreditation; conditions for stabilization as Profes
 \bibitem{Roccon2026} A.\ Roccon \emph{et al.} GPU-accelerated simulations of turbulence: Review of current applications and future perspectives. \emph{Phys.\ Rev.\ Fluids}, 11:034905, 2026.
 \bibitem{Bernardini2021} M.\ Bernardini, D.\ Modesti, F.\ Salvadore, S.\ Pirozzoli. STREAmS: a high-fidelity accelerated solver for direct numerical simulation of compressible turbulent flows. \emph{Comput.\ Phys.\ Commun.}, 263:107906, 2021.
 \bibitem{Bernardini2023} M.\ Bernardini \emph{et al.} STREAmS-2.0: Supersonic turbulent accelerated Navier--Stokes solver version 2.0. \emph{Comput.\ Phys.\ Commun.}, 285:108644, 2023.
-\bibitem{Bharadwaj2023} S.\ S.\ Bharadwaj, K.\ R.\ Sreenivasan. Hybrid quantum algorithms for flow problems. \emph{Proc.\ Natl.\ Acad.\ Sci.\ USA}, 120(49):e2311014120, 2023.
-\addcontentsline{toc}{section}{References}
+\bibitem{Salvadore2024} F.\ Salvadore, G.\ Rossi, S.\ Sathyanarayana, M.\ Bernardini. OpenMP offload toward the exascale using Intel GPU Max 1550: evaluation of STREAmS compressible solver. \emph{J.\ Supercomput.}, 80:21094--21127, 2024.
+\bibitem{DeVanna2024} F.\ De Vanna, G.\ Baldan. URANOS-2.0: Improved performance, enhanced portability, and model extension towards exascale computing of high-speed engineering flows. \emph{Comput.\ Phys.\ Commun.}, 303:109285, 2024.
+\bibitem{CrialesiEsposito2023} M.\ Crialesi-Esposito, N.\ Scapin, A.\ D.\ Demou, M.\ E.\ Rosti, P.\ Costa, F.\ Spiga, L.\ Brandt. FluTAS: A GPU-accelerated finite difference code for multiphase flows. \emph{Comput.\ Phys.\ Commun.}, 284:108602, 2023.
+\bibitem{Xiao2025} M.\ Xiao, A.\ Ceci, P.\ Costa, J.\ Larsson, S.\ Pirozzoli. CaLES: A GPU-accelerated solver for large-eddy simulation of wall-bounded flows. \emph{Comput.\ Phys.\ Commun.}, 310:109546, 2025.
+\bibitem{Weymouth2025} G.\ D.\ Weymouth, B.\ Font. WaterLily.jl: A differentiable and backend-agnostic Julia solver for incompressible viscous flow around dynamic bodies. \emph{Comput.\ Phys.\ Commun.}, 315:109748, 2025.
+\bibitem{Kurz2025} M.\ Kurz, D.\ Kempf, M.\ P.\ Blind, P.\ Kopper, P.\ Offenh\"auser, A.\ Schwarz, S.\ Starr, J.\ Keim, A.\ Beck. GAL\AE XI: Solving complex compressible flows with high-order discontinuous Galerkin methods on accelerator-based systems. \emph{Comput.\ Phys.\ Commun.}, 306:109388, 2025.
+\bibitem{DiRenzo2020} M.\ Di Renzo, L.\ Fu, J.\ Urzay. HTR solver: An open-source exascale-oriented task-based multi-GPU high-order code for hypersonic aerothermodynamics. \emph{Comput.\ Phys.\ Commun.}, 255:107262, 2020.
+\bibitem{Boldini2025} P.\ C.\ Boldini, R.\ Hirai, P.\ Costa, J.\ W.\ R.\ Peeters, R.\ Pecnik. CUBENS: A GPU-accelerated high-order solver for wall-bounded flows with non-ideal fluids. \emph{Comput.\ Phys.\ Commun.}, 309:109507, 2025.
 \bibitem{Ahn2015} Y.\ Ahn, S.\ J.\ Bae, M.\ Kim, S.\ K.\ Cho, S.\ Baik, J.\ I.\ Lee, J.\ E.\ Cha.
 Review of supercritical CO$_2$ power cycle technology and current status of research and
 development. \emph{Nuclear Engineering and Technology}, 47(6):647--661, 2015.
 \bibitem{JofreUrzay2021} L.\ Jofre, J.\ Urzay. Transcritical diffuse-interface hydrodynamics
 of propellants in high-pressure combustors of chemical propulsion systems. \emph{Progress
 in Energy and Combustion Science}, 82:100877, 2021.
-\bibitem{Yoo2013} J.\ Y.\ Yoo. The turbulent flows of supercritical fluids with heat
-transfer. \emph{Annual Review of Fluid Mechanics}, 45:495--525, 2013.
 \bibitem{Banuti2015} D.\ T.\ Banuti. Crossing the Widom-line -- Supercritical pseudo-boiling.
 \emph{Journal of Supercritical Fluids}, 98:12--16, 2015.
 \bibitem{Schreiber2000} T.\ Schreiber. Measuring information transfer. \emph{Physical Review
@@ -1171,6 +1223,7 @@ Annex III, point 3. \emph{Official Journal of the European Union}, 2024.
 \bibitem{UPCAI2026} Universitat Polit\`ecnica de Catalunya. \emph{Guia de bones pr\`actiques
 sobre l'\'us de la intel$\cdot$lig\`encia artificial a la UPC}, 2026.
 \url{https://www.upc.edu/ia/ca}.
+
 \end{thebibliography}
 
 \end{document}
