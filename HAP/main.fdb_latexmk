@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1795096681 "main.tex" "main.pdf" "main" 1795096685
+["pdflatex"] 1795352525 "main.tex" "main.pdf" "main" 1795352530
   "/etc/texmf/web2c/texmf.cnf" 1654593952 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -291,10 +291,10 @@
   "documents_justificacio/07_other/Catalan_A2.2_SLT-UPC_2025_certificate.pdf" 1795096350 263078 0bc8acfb6b800c767a6e5e458c67a4ef ""
   "lector.sty" 1794764541 6520 ee2e11396d41856420902be1f9100387 ""
   "logo-upc.jpeg" 1793877590 71975 8b0f1a216663429c3567c58d22a5f1bc ""
-  "main.aux" 1795096684 7234 11e15af2d726e3939f5dd114d15ba7c8 "pdflatex"
-  "main.out" 1795096684 6970 407d753ce1a97a58c932a2088b9f64e7 "pdflatex"
-  "main.tex" 1795096293 57474 e4ea157122c543b3fd93b34ae943ac68 ""
-  "main.toc" 1795096684 3619 169cc9096b083ec953217e3d900283eb "pdflatex"
+  "main.aux" 1795352529 7234 11e15af2d726e3939f5dd114d15ba7c8 "pdflatex"
+  "main.out" 1795352529 6970 407d753ce1a97a58c932a2088b9f64e7 "pdflatex"
+  "main.tex" 1795352521 57601 acbcff3bbeb36a7c87b041b4722e6ade ""
+  "main.toc" 1795352529 3619 169cc9096b083ec953217e3d900283eb "pdflatex"
   "style.sty" 1793877590 14907 245763fd14b1d6766acd342399007263 ""
   (generated)
   "main.aux"
