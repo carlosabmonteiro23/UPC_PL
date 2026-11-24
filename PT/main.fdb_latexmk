@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1795443860 "main.tex" "main.pdf" "main" 1795443862
+["pdflatex"] 1795539192 "main.tex" "main.pdf" "main" 1795539195
   "/etc/texmf/web2c/texmf.cnf" 1654593952 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -292,10 +292,10 @@
   "images/regen_NASA.png" 1795157372 768018 27ab6df9b73da06f37d3003cbe0da200 ""
   "lector.sty" 1794764541 6520 ee2e11396d41856420902be1f9100387 ""
   "logo-upc.jpeg" 1793877590 71975 8b0f1a216663429c3567c58d22a5f1bc ""
-  "main.aux" 1795443862 17618 ca679ebf72eaed45b159d766f2c21357 "pdflatex"
-  "main.out" 1795443862 9227 b4a3d175c7911a12342a5cd79ce84a58 "pdflatex"
-  "main.tex" 1795443860 128266 ebe6a5774e2c0717811e32bd6f8f23c5 ""
-  "main.toc" 1795443862 4349 378887a0a2529332685609e101019980 "pdflatex"
+  "main.aux" 1795539194 20891 172a55e92e96d5f6b00fad31d064d3f4 "pdflatex"
+  "main.out" 1795539194 8216 dc7e9411a2d0154bdfdbcca200583639 "pdflatex"
+  "main.tex" 1795539183 145194 7b40761713a582f84542e8c67a17a0c1 ""
+  "main.toc" 1795539194 4785 71367c6ffc3702b5b286949b9aa22426 "pdflatex"
   "style.sty" 1793877590 14907 245763fd14b1d6766acd342399007263 ""
   (generated)
   "main.aux"

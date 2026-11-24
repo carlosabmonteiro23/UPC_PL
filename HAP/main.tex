@@ -12,6 +12,7 @@
 \usepackage{lector}
 \newcommand{\sectionbreak}{\clearpage} % every section starts on a new page (titlesec)
 %\finaltrue
+\newcommand{\NEW}[1]{\iffinal #1\else{\color{red}#1}\fi} % new or revised text in red (plain with \finaltrue)
 \setupheader{HAP}
 
 \title{\textbf{Historial Acad\`emic i Professional}\\[2pt]\large Academic and Professional Record}
@@ -39,12 +40,12 @@
     {Barcelona East School of Engineering (EEBE), Universitat Polit\`ecnica de Catalunya
     (UPC), \textbf{Spain}}
   \begin{itemize}
-    \item Grade: \textbf{Excellent \emph{cum laude}}.\footnote{The thesis was
+    \item Grade: \textbf{Excellent \emph{cum laude}}\footnote{The thesis was
     completed on 04/09/2026 and the degree issuance fee was paid on 23/09/2026; the degree
     certificate is being issued.} (\certref{phd}{UPC degree fee receipt})
     \item Thesis: \emph{Pseudo-Boiling Wall-Bounded Turbulence in Supercritical
-    Flows} (\href{https://hdl.handle.net/2117/473525}{thesis} \docsep see
-    Sec.~\ref{sec:thesis})
+    Flows: Direct Numerical Simulation \& Flow Physics} (\href{https://hdl.handle.net/2117/473525}{thesis} \docsep see
+    Section~\ref{sec:thesis})
   \end{itemize}
 
   \entry{2019--2021}{Master's Degree in Mechanical Engineering}
@@ -75,7 +76,7 @@
   \begin{itemize}
     \item Teaching: Thermodynamics and Heat Transfer, Fluid Mechanics, Fluid Engineering
     and Fundamentals of Thermal Engineering (\certref{contract-sub}{contract} \docsep see
-    Sec.~\ref{sec:teaching})
+    Section~\ref{sec:teaching})
   \end{itemize}
 
   \entry{01/09/2026 -- present}{Postdoctoral Researcher}
@@ -83,7 +84,7 @@
   \begin{itemize}
     \item Research: numerical simulation of supercritical turbulent flows, within the ERC
     project SCRAMBLE (\certref{contract-psr}{contract and project addendum} \docsep see
-    Sec.~\ref{sec:projects})
+    Section~\ref{sec:projects})
   \end{itemize}
 
   \entry{11/01/2023 -- 31/08/2026}{Predoctoral Researcher}
@@ -92,7 +93,7 @@
   \begin{itemize}
     \item Research: doctoral thesis on supercritical turbulent flows, within the ERC
     project SCRAMBLE (\certref{contract-pre}{contract, extensions and end of contract}
-    \docsep see Sec.~\ref{sec:thesis})
+    \docsep see Section~\ref{sec:thesis})
   \end{itemize}
 \end{entries}
 
@@ -129,7 +130,7 @@
   \end{itemize}
 \end{entries}
 
-\subsection[Professional experience]{Professional experience {\normalsize\mdseries(see Sec.~\ref{sec:prof})}}
+\subsection[Professional experience]{Professional experience {\normalsize\mdseries(see Section~\ref{sec:prof})}}
 % The projects and tasks of each position are described in Section~\ref{sec:prof}.
 \begin{entries}
   \entry{2021--2022}{Thermal Simulation Engineer}
@@ -139,7 +140,7 @@
     {Cubot\'onic -- Ind\'ustria Metalomec\^anica, Malveira, Portugal}
 \end{entries}
 
-\subsection[Other experience]{Other experience {\normalsize\mdseries(see Sec.~\ref{sec:prof})}}
+\subsection[Other experience]{Other experience {\normalsize\mdseries(see Section~\ref{sec:prof})}}
 % The tasks and results are described in Section~\ref{sec:prof}.
 \begin{entries}
   \entry{2020--2021}{FST Lisboa Formula Student team -- Aerodynamics and CFD Engineer\nocert}
@@ -187,7 +188,7 @@ Teacher training is presented separately in Section~\ref{sec:training}.
 
 \subsection{Teaching in official Bachelor's degrees (UPC)}
 Every subject I teach (Thermodynamics and Heat Transfer, Fluid Mechanics, Fluid Engineering
-and Thermal Engineering) belongs to the profile of the position. My lectures
+and Fundamentals of Thermal Engineering) belongs to the profile of the position. My lectures
 combine real heat-transfer and fluid-flow cases from industrial practice with current
 questions from my doctoral research on real-fluid thermodynamics and turbulence. Hours are
 class hours, as certified by the UPC.
@@ -204,11 +205,11 @@ Fluid Mechanics (820013, MF) & EEBE & Laboratory (M35, T25) & 2025--26, S1 & 30 
 Fluid Mechanics (820013, MF) & EEBE & Laboratory (M33, M34) & 2025--26, S2 & 30 \\
 Fluid Mechanics (820013, MF) & EEBE & Laboratory (T22, T24) & 2024--25, S2 & 30 \\
 \midrule
-\multicolumn{4}{@{}r}{\textbf{Total, 2024--25 to 2026--27 S1}} & \textbf{180} \\
+\multicolumn{4}{@{}r}{\textbf{Total 2024--25 to 2026--27 S1}} & \textbf{180} \\
 \midrule
 \multicolumn{5}{@{}l}{\emph{Assigned for 2026--27, S2 (spring 2027)} \textbf{(scheduled)}}\\
 Thermodynamics and Heat Transfer (820020, TTC) & EEBE & Theory, one further group & 2026--27, S2 & 45 \\
-Fluid Engineering (\emph{Enginyeria de Fluids}, 340058, ENFL) & EPSEVG & Theory, groups M65 and M66\textsuperscript{a} & 2026--27, S2 & 92 \\
+Fluid Engineering (\emph{Enginyeria de Fluids}, 340058, ENFL) & EPSEVG & Theory (M65, M66)\textsuperscript{a} & 2026--27, S2 & 92 \\
 Fluid Mechanics (820013, MF) & EEBE & Laboratory, one group & 2026--27, S2 & 15 \\
 \midrule
 \multicolumn{4}{@{}r}{\textbf{Total 2026--27 (90 h in S1 + 152 h in S2)}\textsuperscript{b}} & \textbf{242} \\
@@ -223,8 +224,8 @@ Fluid Mechanics (820013, MF) & EEBE & Laboratory, one group & 2026--27, S2 & 15 
 \subsection{Course coordination and assessment}
 \begin{itemize}
   \item \textbf{2026--27} -- \textbf{Thermodynamics and Heat Transfer} (EEBE). Full course
-  (6 ECTS) of group M1, and support to the coordination: exam preparation and
-  organization with Julia-based tools, marking (exams and continuous assessment) and exam
+  (6 ECTS) of group M1, and support for the course coordination: exam preparation and
+  organization with Julia-based tools, grading (exams and continuous assessment) and exam
   review
   \certlink{ttc-coord}{see statement}.
   \item \textbf{2026--27 (scheduled)} -- \textbf{Fluid Engineering} (EPSEVG). Course
@@ -234,12 +235,12 @@ Fluid Mechanics (820013, MF) & EEBE & Laboratory, one group & 2026--27, S2 & 15 
 \subsection{Supervision and assessment of academic work}
 \begin{itemize}
   \item \textbf{Member of a TFG assessment committee} (EPSEVG), 01--03/02/2027
-  \textbf{(scheduled)} -- Bachelor's thesis defenses, 2026--27 autumn call
+  \textbf{(scheduled)} -- bachelor's thesis defenses, 2026--27 autumn call
   (\href{https://drive.google.com/file/d/1TGufsft81vD3qv27ZWpKPmW_KSVtG-hR/view}{see academic calendar}).
   \item \textbf{Academic tutor of a curricular internship} of Mag\'i Boada Sivill
   (Bachelor's Degree in Mech.\ Eng.), 2026--27 \textbf{(ongoing)} -- Data analysis of
   extreme events in turbulent flows \certlink{internship}{see project}.
-  \item \textbf{Co-supervisor of a Bachelor's thesis (TFG)} of J\'ulia Aguilera Jofre
+  \item \textbf{Co-supervisor of a bachelor's thesis (TFG)} of J\'ulia Aguilera Jofre
   (Bachelor's Degree in Mech.\ Eng.), 2023 -- \emph{Microconfined high-pressure
   supercritical turbulent square duct flow}
   (\href{https://hdl.handle.net/2117/395741}{UPCommons})
@@ -289,15 +290,15 @@ Selected student comments (2025--26, S2, in the original language):
   ent\`es.''}
 \end{itemize}
 
-\subsection{Teaching training}\label{sec:training}
+\subsection{Teacher training}\label{sec:training}
 % \NOTE{Criterion 3 (up to 5 points). Only courses completed and certified by 25/11/2026 count.
 % The ICE certificate requires a positive assessment of the proposed assignment: submit it and
 % request the certificate as soon as the course ends. A single 3 h course scores little; it is
 % advisable to add other ICE courses that finish before 25/11.}
-\subsubsection*{Courses certified by the UPC}
+\subsubsection*{Courses at the UPC}
 \begin{itemize}[itemsep=1pt]
-  \item \textbf{23--25/11/2026 (enrolled)} -- \emph{M2.4 -- Atenea: Curs de nivell avan\c{c}ats}, ICE--UPC.
   \item \textbf{09--11/11/2026} -- \emph{M2.4 -- Atenea: Curs de nivell mitj\`a}, ICE--UPC, online, 3~h \certlink{ice1}{certificate}.
+  \item \textbf{23--25/11/2026 (enrolled)} -- \emph{M2.4 -- Atenea: Curs de nivell avan\c{c}at}, ICE--UPC.
   \item \textbf{09/12/2026 (scheduled)} -- \emph{Taller sobre gesti\'o dels conflictes}, Mediaci\'o UPC (ICE-recognized).
 \end{itemize}
 
@@ -384,18 +385,18 @@ My work in fluid mechanics spans a range of CFD approaches, from industrial Reyn
 	
 	\item \textbf{Physics of multiphysics turbulence in supercritical and compressible flows.}
 	
-	The use of supercritical fluids in power and refrigeration cycles, aerospace propulsion and thermal management, and chemical processing and extraction motivates my research on how strong thermophysical property variations affect turbulence, momentum transport and heat transfer. In my doctoral work, I used DNS of canonical channels and square ducts to examine how pseudo-boiling and buoyancy alter 	flow regimes, secondary motions, momentum transport, and heat transfer [\hyperlink{pub-J2}{J2}, \hyperlink{pub-J3}{J3}, \hyperlink{pub-J4}{J4}, \hyperlink{pub-R1}{R1}]. This work builds on my contributions to grid-resolution and simulation domain (minimal-flow-unit) criteria studies for transcritical wall turbulence [\hyperlink{pub-J5}{J5}, \hyperlink{pub-J6}{J6}], and on data-informed analysis of experiments on microconfined transcritical flows [\hyperlink{pub-J7}{J7}].
+	The use of supercritical fluids in power and refrigeration cycles, aerospace propulsion and thermal management, and chemical processing and extraction motivates my research on how strong thermophysical property variations affect turbulence, momentum transport and heat transfer. In my doctoral work, I used DNS of canonical channels and square ducts to examine how pseudo-boiling and buoyancy alter 	flow regimes, secondary motions, momentum transport, and heat transfer [\hyperlink{pub-J2}{J2}, \hyperlink{pub-J3}{J3}, \hyperlink{pub-J4}{J4}, \hyperlink{pub-R1}{R1}]. This work builds on my contributions to grid-resolution and simulation-domain (minimal-flow-unit) criteria studies for transcritical wall turbulence [\hyperlink{pub-J5}{J5}, \hyperlink{pub-J6}{J6}], and on data-informed analysis of experiments on microconfined transcritical flows [\hyperlink{pub-J7}{J7}].
 	I aim to clearly identify which mechanisms of such flows govern heat transfer and pressure losses in engineering configurations such as regenerative cooling passages in rocket engines. 
 	%Additionaly, my broader CFD experience includes industrial RANS simulations for electronics cooling and vehicle	aerodynamics, as well as a contribution to a DNS database of transitional and separated flow around a NACA~0012 airfoil [\hyperlink{pub-R5}{R5}].
 	Understanding how pseudo-boiling and buoyancy reshape near-wall transport led me to a further question, connected to the potentially catastrophic thermal loads in these engineering systems: which local flow mechanisms lead to the largest excursions in wall heat flux, and how early can those events be anticipated?
 	
 	\item \textbf{Causality and data-driven prediction of extreme events in multiphysics turbulent flows.}
 	
-	Building on work initiated at the 2026 Center for Turbulence Research Summer Program at Stanford University, I combine Lagrangian signals with information-theoretic methods (such as transfer entropy) to investigate which turbulent processes contribute to extreme wall heat-flux events in
+	Building on work initiated at the 2026 Center for Turbulence Research Summer Program at Stanford University, I combine Lagrangian signals with information-theoretic methods (such as transfer entropy) to investigate which turbulent processes contribute to extreme wall-heat-flux events in
 	supercritical flows and in what sequence they occur	[\hyperlink{pub-R2}{R2}, \hyperlink{pub-R3}{R3}]. 
 	I aim to formalize these methods into a Lagrangian causality framework and test whether the precursors	it identifies improve predictions of targeted events. The objective is to anticipate extreme thermal loads that could compromise cooling performance.
 	
-	Through the collaborations described in Section~\ref{sec:collab}, I am extending this work to extreme wall heat-flux events associated with shock--turbulence interactions in hypersonic boundary layers, with relevance	to aerothermal loads in space exploration. In planned work with the University of British Columbia, I will also apply the framework to the aggregation
+	Through the collaborations described in Section~\ref{sec:collab}, I am extending this work to extreme wall-heat-flux events associated with shock--turbulence interactions in hypersonic boundary layers, with relevance	to aerothermal loads in space exploration. In planned work with the University of British Columbia, I will also apply the framework to the aggregation
 	of microplastics and biogenic particles in ocean turbulence. I aim to identify the flow structures and particle motions	that promote collisions and assess their implications for aggregation and	settling to greater depths of the ocean. 
 	The different turbulent scenarios mentioned require simulations that resolve the relevant flow scales, track large ensembles of fluid parcels or particles, and run long enough to sample rare events reliably. Meeting these requirements motivates my work on scalable high-fidelity solvers.
 	
@@ -417,18 +418,18 @@ and to build the GPU-accelerated tools needed to predict them at engineering-rel
 
 \subsection{Publications}\label{sec:publications}
 \subsubsection*{Articles in indexed journals}
-\begin{enumerate}[label={[J\arabic*]}]
+\begin{enumerate}[label={[J\arabic*]}, itemsep=0pt]
   \item \hypertarget{pub-J1}{}\textbf{C.\ Monteiro}, X.\ \'Alvarez-Farr\'e, D.\ Mart\'in, F.\ Pizzi, L.\ Jofre.
   RHEA-X: Distributed GPU-resident high-fidelity flow solver for multiphysics turbulence.
-  \emph{Computer Physics Communications}, 110233, 2026.
+  \emph{Computer Physics Communications}, 326, 110233, 2026.
   \href{https://doi.org/10.1016/j.cpc.2026.110233}{doi:10.1016/j.cpc.2026.110233} [Q1].
   \item \hypertarget{pub-J2}{}\textbf{C.\ Monteiro}, G.\ Barea, L.\ Jofre. Buoyancy-driven secondary flows and
   momentum redistribution in high-pressure transcritical duct turbulence.
-  \emph{Physics of Fluids}, 065127, 2026.
+  \emph{Physics of Fluids}, 38, 065127, 2026.
   \href{https://doi.org/10.1063/5.0337547}{doi:10.1063/5.0337547} [Q1]. \textbf{Editor's Pick.}
   \item \hypertarget{pub-J3}{}A.\ Abdellatif, \textbf{C.\ Monteiro}, M.\ Bernades, L.\ Jofre. Microconfined
   high-pressure transcritical channel flow database: laminar, transitional \& turbulent
-  regimes. \emph{Scientific Data}, 11(1), 2024.
+  regimes. \emph{Scientific Data}, 11, 916, 2024.
   \href{https://doi.org/10.1038/s41597-024-03757-4}{doi:10.1038/s41597-024-03757-4} [Q1].
   \item \hypertarget{pub-J4}{}\textbf{C.\ Monteiro}, L.\ Jofre. Flow regime analysis of high-pressure
   transcritical fluids in microducts. \emph{International Journal of Heat and Mass
@@ -436,11 +437,11 @@ and to build the GPU-accelerated tools needed to predict them at engineering-rel
   \href{https://doi.org/10.1016/j.ijheatmasstransfer.2024.125295}{doi:10.1016/j.ijheatmasstransfer.2024.125295} [Q1].
   \item \hypertarget{pub-J5}{}\textbf{C.\ Monteiro}, L.\ Jofre. Resolution standards for direct numerical
   simulation of wall turbulence in high-pressure transcritical fluids. \emph{Physics of
-  Fluids}, 36(12), 2024.
+  Fluids}, 36, 125184, 2024.
   \href{https://doi.org/10.1063/5.0244472}{doi:10.1063/5.0244472} [Q1].
   \item \hypertarget{pub-J6}{}R.\ El Mansy, \textbf{C.\ Monteiro}, F.\ Mellibovsky, L.\ Jofre. Minimal flow unit
   of wall-bounded high-pressure transcritical turbulence. \emph{Physics of Fluids},
-  36(12), 2024.
+  36, 125182, 2024.
   \href{https://doi.org/10.1063/5.0243832}{doi:10.1063/5.0243832} [Q1].
   \item \hypertarget{pub-J7}{}E.\ Hurt\'an, \textbf{C.\ Monteiro}, M.\ Jofre, J.\ Casals-Terr\'e, L.\ Jofre.
   Data-informed characterization of spatio-temporal scales in experiments of microconfined
@@ -450,7 +451,7 @@ and to build the GPU-accelerated tools needed to predict them at engineering-rel
 \end{enumerate}
 
 \subsubsection*{Submitted articles, proceedings and articles in preparation}
-\begin{enumerate}[label={[R\arabic*]}]
+\begin{enumerate}[label={[R\arabic*]}, itemsep=0pt]
   \item \hypertarget{pub-R1}{}\textbf{C.\ Monteiro}, L.\ Jofre. Turbulent supercritical fluid flow in
   square ducts. \emph{Journal of Fluid Mechanics}, submitted.
   \item \hypertarget{pub-R2}{}\textbf{C.\ Monteiro}, D.\ Mart\'in, F.\ Pizzi, A.\ Chandra, L.\ Jofre. Causal structure of extreme
@@ -464,13 +465,13 @@ and to build the GPU-accelerated tools needed to predict them at engineering-rel
   Python tool that compresses tabulated real-fluid properties into low-rank (SVD)
   surrogates, used in the solver RHEA for DNS of supercritical CO$_2$ turbulence.
   \item \hypertarget{pub-R5}{}E.\ Mart\'in, \textbf{C.\ Monteiro}, D.\ Mart\'in, L.\ Jofre,
-  J.\ Calafell. NACA0012 database. \emph{Scientific Data}, submitted. Direct numerical
+  J.\ Calafell. NACA~0012 database. \emph{Scientific Data}, submitted. Direct numerical
   simulation database of the transitional and separated flow around a NACA~0012 airfoil at
   low to moderate Reynolds numbers.
 \end{enumerate}
 
 \subsubsection*{Conference papers}
-\begin{enumerate}[label={[C\arabic*]}]
+\begin{enumerate}[label={[C\arabic*]}, itemsep=0pt]
   \item \hypertarget{pub-C1}{}\textbf{C.\ Monteiro}, L.\ Jofre. Buoyant high-pressure transcritical fluid duct
   flows. \emph{9th European Congress on Computational Methods in Applied Sciences and
   Engineering (ECCOMAS 2024)}, Lisbon, 2024.
@@ -482,7 +483,7 @@ and to build the GPU-accelerated tools needed to predict them at engineering-rel
 \end{enumerate}
 
 \subsubsection*{Datasets}
-\begin{enumerate}[label={[D\arabic*]}]
+\begin{enumerate}[label={[D\arabic*]}, itemsep=0pt]
   \item \hypertarget{pub-D1}{}W.\ T.\ Chung, M.\ Ihme, K.\ S.\ Jung, \emph{et al.} (incl.\ \textbf{C.\ Monteiro}).
   BLASTNet multiphysics simulation dataset, v3.0. Zenodo, 2026.
   \href{https://doi.org/10.5281/zenodo.21348075}{doi:10.5281/zenodo.21348075}.
@@ -519,11 +520,11 @@ and to build the GPU-accelerated tools needed to predict them at engineering-rel
 \textbf{Year} & \textbf{Call / system} & \textbf{Project} & \textbf{Resources} \\
 \midrule
 2026--27 & RES IM-2026-1-0034, MareNostrum 5 (BSC) & Extreme thermofluid events in transcritical flows (PI: L.\ Jofre) & 4 M core-h \\
-2026 & Digital Research Alliance of Canada, RAC-2026 kfw-162-ab & GPU-accelerated simulations of microplastics transport in ocean turbulence (PI: M.\ Rahmani) & 1340 core-years \\
+2026 & Digital Research Alliance of Canada, RAC-2026 kfw-162-ab & GPU-accelerated simulations of microplastics transport in ocean turbulence (PI: M.\ Rahmani) & 1,340 core-years \\
 2025--26 & RES IM-2025-2-0017, MareNostrum 5 (BSC) & Dataset generation for turbulent flow reconstruction in external aerodynamics (PI: J.\ Calafell) & 1.7 M GPU-h \\
 2025 & RES IM-2025-1-0017, MareNostrum 5 (BSC) & Same project (PI: J.\ Calafell) & 4 M GPU-h \\
 2023--24 & RES IM-2023-2-0005, CTE-AMD (BSC) & Direct numerical simulations of microconfined high-pressure transcritical fluid turbulence (PI: L.\ Jofre) & 490,000 core-h \\
-2023 & RES IM-2023-1-0005, Finisterrae (CESGA) & Same project (PI: L.\ Jofre) & 500,000 core-h \\
+2023 & RES IM-2023-1-0005, Finisterrae~III (CESGA) & Same project (PI: L.\ Jofre) & 500,000 core-h \\
 \bottomrule
 \end{tabularx}
 \end{center}
@@ -531,7 +532,7 @@ and to build the GPU-accelerated tools needed to predict them at engineering-rel
 
 \subsection{Research software}
 \begin{itemize}
-  \item \textbf{RHEA / RHEA-X} -- Open-source, GPU-resident solver (MPI + OpenACC/CUDA) for
+  \item \textbf{RHEA / RHEA-X} -- Open-source, GPU-resident solver (OpenACC with CUDA-aware MPI) for
   the high-fidelity simulation of compressible multiphysics turbulence
   [\hyperlink{pub-J1}{J1}]. I am a co-developer and responsible for its GPU acceleration (\href{https://gitlab.com/ProjectRHEA/flowsolverrhea}{gitlab.com/ProjectRHEA/flowsolverrhea}).
   
@@ -556,7 +557,7 @@ As a postdoctoral researcher and PI of the hackathon project, led a team of doct
   Horizon Europe, grant agreement 101040379 (UPC reference E01704). Principal
   investigator: L.\ Jofre. I am a member of the project team and have been funded by it
   as a predoctoral researcher (2023--2026) and as a postdoctoral researcher (since
-  09/2026) (see Section~\ref{sec:lines}). \certlink{contract-psr}{see project addendum}
+  09/2026; see Section~\ref{sec:lines}). \certlink{contract-psr}{see project addendum}
 \end{itemize}
 
 \subsection{Awards and recognition}
@@ -569,14 +570,14 @@ As a postdoctoral researcher and PI of the hackathon project, led a team of doct
 % =====================================================================
 \section{Internationalization}
 
-I began my academic training in Portugal, completing my bachelor's and master's degrees in mechanical engineering at Universidade NOVA de Lisboa. During my Erasmus+ semester at Politecnico di Milano, aerospace coursework, wind tunnel experiments, and my first exposure to Formula Student drew me toward fluid mechanics and CFD. I pursued these interests through applied research on race-car aerodynamics with FST Lisboa, at Universidade de Lisboa. This collaboration resulted in my \href{http://hdl.handle.net/10362/149236}{master's thesis}
+I began my academic training in Portugal, completing my bachelor's and master's degrees in mechanical engineering at Universidade NOVA de Lisboa. During my Erasmus+ semester at Politecnico di Milano, aerospace coursework, wind-tunnel experiments, and my first exposure to Formula Student drew me toward fluid mechanics and CFD. I pursued these interests through applied research on race-car aerodynamics with FST Lisboa, at Universidade de Lisboa. This collaboration resulted in my \href{http://hdl.handle.net/10362/149236}{master's thesis}
 and a first-author paper [\hyperlink{pub-C2}{C2}].
-During my PhD at UPC, I took part in the 2026 CTR Summer Program at Stanford University (USA), where I began investigating extreme events in turbulence. Two planned research stays will build on this work. At the University of British Columbia in 2027, I plan to apply Lagrangian causality methods to microplastic aggregation in ocean turbulence. In 2028, I plan to spend three months at the Universit\`a del Salento, continuing a collaboration begun at Stanford on extreme events in hypersonic boundary layers. These collaborations will strengthen my international research network in fundamental turbulence and support the Department's priorities in multiphysics and compressible flows, extreme events, and causal analysis.
+During my PhD at the UPC, I took part in the 2026 CTR Summer Program at Stanford University (USA), where I began investigating extreme events in turbulence. Two planned research stays will build on this work. At the University of British Columbia in 2027, I plan to apply Lagrangian causality methods to microplastic aggregation in ocean turbulence. In 2028, I plan to spend three months at the Universit\`a del Salento, continuing a collaboration begun at Stanford on extreme events in hypersonic boundary layers. These collaborations will strengthen my international research network in fundamental turbulence and support the department's priorities in multiphysics and compressible flows, extreme events, and causal analysis.
 
 % \NOTE{Criterion 4 (up to 5 points).}
 \subsection{International research stays}\label{sec:stays}
 \begin{itemize}
-  \item \textbf{28/06 -- 24/07/2026 (1 month)} -- \textbf{Center for Turbulence
+  \item \textbf{28/06--24/07/2026 (1 month)} -- \textbf{Center for Turbulence
   Research, Stanford University (USA)}, 2026 Summer Program. \certlink{ctr}{see certificate}
   \begin{itemize}
     \item Project: \emph{Hunting Thermofluid-Driven Transcritical Black Swans:
@@ -591,9 +592,9 @@ During my PhD at UPC, I took part in the 2026 CTR Summer Program at Stanford Uni
   \begin{itemize}
     \item Host: \href{https://chbe.ubc.ca/mona-rahmani/}{Prof.\ Mona Rahmani},
     Department of Chemical and Biological Engineering.
-    \item Topic: Lagrangian-causality framework to investigate the aggregation of
-    microplastics in oceanic turbulent flows, building on the RAC-2026 GPU allocation (Section~\ref{sec:hpc}).
-    \item Funding: \emph{Mitacs Globalink Research Award}; application has
+    \item Topic: Lagrangian causality framework to investigate the aggregation of
+    microplastics in oceanic turbulent flows, building on the RAC-2026 supercomputing allocation (Section~\ref{sec:hpc}).
+    \item Funding: \emph{Mitacs Globalink Research Award}; the application has
     passed the internal selection of the University of British Columbia.
   \end{itemize}
   \item \textbf{2028 (3 months)} -- \textbf{Universit\`a del Salento, Lecce
@@ -611,7 +612,7 @@ During my PhD at UPC, I took part in the 2026 CTR Summer Program at Stanford Uni
 \begin{itemize}
   \item \textbf{2019--2020} -- Erasmus+ semester at the Politecnico di Milano (Italy).
   \certlink{erasmus}{see certificate}
-  \item \textbf{2016--2026} -- Higher education in two countries: Bachelor's and Master's
+  \item \textbf{2016--2026} -- Higher education in two countries: bachelor's and master's
   degrees at the Universidade NOVA de Lisboa (Portugal) and PhD at the UPC (Spain).
   \item \textbf{2023--2024} -- International schools and congresses attended in person:
   CFDParSchool at the Gran Sasso Science Institute (L'Aquila, Italy, 2023) and the ECCOMAS
@@ -621,19 +622,19 @@ During my PhD at UPC, I took part in the 2026 CTR Summer Program at Stanford Uni
   (Canada, 2024).
 \end{itemize}
 
-\subsection{Ongoing collaborations}\label{sec:collab}
+\subsection{Ongoing and prospective collaborations}\label{sec:collab}
 \begin{itemize}
   \item \textbf{University of British Columbia (Canada)} --
   \href{https://chbe.ubc.ca/mona-rahmani/}{Prof.\ Mona Rahmani}. Causality in oceanic
   turbulent flows and aggregation of microplastics. The collaboration is already active
-  through the RAC-2026 GPU allocation on microplastics transport, led by M.\ Rahmani
+  through the RAC-2026 supercomputing allocation on microplastics transport, led by M.\ Rahmani
   (Section~\ref{sec:hpc}), and will be strengthened with the 3-month stay in summer 2027 \textbf{(scheduled)}
   and joint publications.
   \item \textbf{Universit\`a del Salento, Lecce (Italy)} --
   \href{https://www.unisalento.it/scheda-utente/-/people/mario.direnzo}{Prof.\ Mario Di Renzo}
   and \href{https://www.unisalento.it/scheda-utente/-/people/donatella.passiatore}{Prof.\ Donatella Passiatore}.
   Causal and physical analysis of extreme wall-heat-flux events in hypersonic flows. The
-  collaboration started at the CTR 2026 Summer Program (Stanford) and will be strengthened
+  collaboration started at the 2026 CTR Summer Program (Stanford) and will be strengthened
   with the research stay in 2028 \textbf{(scheduled)} and joint publications.
   \item \textbf{California Institute of Technology (USA) and Massachusetts Institute of
   Technology (USA)} --
@@ -650,17 +651,17 @@ During my PhD at UPC, I took part in the 2026 CTR Summer Program at Stanford Uni
   \item \textbf{Center for Turbulence Research (CTR), Stanford University (USA)} --
   \href{https://me.stanford.edu/people/sanjiva-lele}{Prof.\ Sanjiva Lele} and his research team,
   including Anjini Chandra. Collaboration on supercritical fluid flows, building on the joint work
-  with Anjini Chandra started during the CTR 2026 Summer Program (Section~\ref{sec:stays}) on the
+  with Anjini Chandra started during the 2026 CTR Summer Program (Section~\ref{sec:stays}) on the
   application of non-stationary transfer-entropy frameworks to extreme wall-heat-flux events
   in supercritical fluid flows.
   \item \textbf{Stanford University (USA)} -- group of Prof.\ Matthias Ihme. Contribution
   to the BLASTNet multiphysics simulation dataset for machine learning [\hyperlink{pub-D1}{D1}].
   \item \textbf{Smart Ocean Peniche (Portugal)} -- Sea Science and Technology Park
   of Peniche, an ocean-economy innovation ecosystem promoted by the Municipality of
-  Peniche, the Polytechnic Institute of Leiria and Biocant (prospective).
-  Collaboration through R\&D projects in ocean engineering, extending the expertise in oceanic turbulent flows developed within the UBC (Canada) collaboration.
+  Peniche, the Polytechnic Institute of Leiria and Biocant; prospective.
+  Collaboration through R\&D projects in ocean engineering, extending the expertise in oceanic turbulent flows being developed within the UBC (Canada) collaboration.
   (\href{https://smartoceanpeniche.com}{smartoceanpeniche.com})
-  \item \textbf{Instituto Superior T{\'e}cnico, Lisbon (Portugal)} -- Prof. Carlos da Silva
+  \item \textbf{Instituto Superior T{\'e}cnico, Lisbon (Portugal)} -- Prof.\ Carlos da Silva
   (prospective). Turbulent/turbulent (TT) and turbulent/non-turbulent (TNT) interfaces in
   flows with variable fluid properties, extending the supercritical-fluid DNS database.
 \end{itemize}
@@ -672,11 +673,11 @@ My professional experience spans thermal simulation, vehicle aerodynamics, and m
 \subsection{Engineering experience}
 
 \begin{itemize}[itemsep=3pt]
-	\item \textbf{Thermal Simulation Engineer, Continental Engineering Services} (now AUMOVIO; 1.5 years) -- Porto, Portugal, 06/2021--11/2022. Performed conjugate heat transfer simulations of inverter and electric-motor cooling systems using STAR-CCM+, Ansys, and Matlab \& Simulink; contributed to a CFD study of drag reduction for heavy vehicles; carried out tolerance stack-up analyses with the mechanical design team;
+	\item \textbf{Thermal Simulation Engineer, Continental Engineering Services} (now AUMOVIO; 1.5 years) -- Porto, Portugal, 06/2021--11/2022. Performed conjugate heat transfer simulations of inverter and electric-motor cooling systems using STAR-CCM+, Ansys, and MATLAB \& Simulink; contributed to a CFD study of drag reduction for heavy vehicles; carried out tolerance stack-up analyses with the mechanical design team;
 	assessed operating temperatures and thermal design margins for automotive electronics using Ansys Icepak. 
 	\certlink{continental}{see certificate}
 	
-	\item \textbf{Aerodynamics team member, FST Lisboa Formula Student} at Universidade de Lisboa, Portugal, 2020--2021 (unpaid student team). Full responsibility for the aerodynamics analysis of the aero-package of a race-car (FST~10e): geometry adaptation, meshing, setup, simulation, post-processing and process automation. Simulated the flow around the car, and contributed to the design of a multi-element rear wing and its	drag-reduction system. This work resulted in my \href{http://hdl.handle.net/10362/149236}{master's thesis} (graded 19/20) and a first-author SAE Technical Paper [\hyperlink{pub-C2}{C2}].\nocert
+	\item \textbf{Aerodynamics and CFD Engineer, FST Lisboa Formula Student team} at Universidade de Lisboa, Portugal, 2020--2021 (unpaid student team). Full responsibility for the aerodynamic analysis of the aero-package of a race car (FST~10e): geometry adaptation, meshing, setup, simulation, post-processing and process automation. Simulated the flow around the car and contributed to the design of a multi-element rear wing and its	drag-reduction system. This work resulted in my \href{http://hdl.handle.net/10362/149236}{master's thesis} (graded 19/20) and a first-author SAE Technical Paper [\hyperlink{pub-C2}{C2}].\nocert
 	
 	\item \textbf{Design Engineering Intern, Cubot\'onic -- Ind\'ustria Metalomec\^anica}
 	(Malveira, Portugal, 2019).
@@ -706,13 +707,13 @@ I was responsible for the GPU acceleration of RHEA, released as the open-source 
 % =====================================================================
 \section{Adequacy for the position}\label{sec:adequacy}
 
-My research and teaching experience align directly with the requirements of position LE-403/729. 
+My research and teaching experience aligns directly with the requirements of position LE-403/729. 
 
 \paragraph{Research and engineering transfer.}
 
 My research directly addresses the three priorities of the call: the physics of supercritical and compressible turbulence, the causal analysis and data-driven prediction of extreme events, and the development of distributed, GPU-accelerated CFD tools. 
-In less than three years, I published seven articles in Q1 journals, four as first author and three as second author. 
-Three additional manuscripts have been submitted and one is in preparation, and my work has received 81 citations as of November 11, 2026 (Section~\ref{sec:publications}).
+In less than three years, I have published seven articles in Q1 journals, four as first author and three as second author. 
+Three additional manuscripts have been submitted and one is in preparation, and my work has received 81 citations as of 11/11/2026 (Section~\ref{sec:publications}).
 My active collaborations with leading international research groups, several of which began at Stanford's Center for Turbulence Research, bring complementary expertise in multiphysics and compressible turbulence (Section~\ref{sec:collab}). 
 The publication record and research network provide a strong foundation for carrying out the proposed Work Plan (\textit{Pla de treball}) and contributing original research and joint
 publications in the department's priority areas.
@@ -736,8 +737,8 @@ I would build on it by improving solver scalability and the efficiency of real-f
 \paragraph{Teaching, assessment, and course development.}
 The connection between fundamental flow physics and engineering design also shapes my teaching. 
 I am ready to take on broader teaching responsibilities at EEBE, from planning and delivering courses to developing instructional materials and assessing student work. 
-I currently teach the full theory course of a group in Thermodynamics and Heat Transfer and Fluid Mechanics laboratories, and contribute to exam preparation, grading, and review (Section~\ref{sec:teaching}).
-My research and professional experience give me practical material across the advertised curriculum. In Thermodynamics and Heat Transfer, I have used practical example cases from Continental Engineering Services, such as inverter cooling, to show how heat generation, conduction, and convection determine operating temperatures and how a design change can improve cooling. 
+I currently teach the full theory course of one group in Thermodynamics and Heat Transfer, as well as laboratory groups in Fluid Mechanics and Fundamentals of Thermal Engineering, and contribute to exam preparation, grading, and review (Section~\ref{sec:teaching}).
+My research and professional experience give me practical material across the advertised curriculum. In Thermodynamics and Heat Transfer, I have used practical cases from Continental Engineering Services, such as inverter cooling, to show how heat generation, conduction, and convection determine operating temperatures and how a design change can improve cooling. 
 My work in thermal design and real-fluid thermodynamics provides examples for Thermodynamics, Thermal Engineering, and power generation. 
 In Fluid Engineering and master's-level Computational Fluid Mechanics, I would draw on vehicle aerodynamics, industrial RANS, and high-fidelity solver development to teach students how to select models, check numerical accuracy, and judge which design decisions a simulation can support.
 My Fluid Mechanics laboratory teaching received ratings of 4.6--4.8 out of 5 in the 2025--26 S2 student surveys. 
@@ -746,7 +747,7 @@ I would build on that practice by working with the course teams to review experi
 an outcome, compare it with their measurements, and explain discrepancies. 
 
 \paragraph{Student and doctoral supervision.}
-Lastly, I have co-supervised a bachelor's thesis on supercritical duct flow and currently mentor an intern studying extreme events in turbulence (Section~\ref{sec:teaching}). 
+I have co-supervised a bachelor's thesis on supercritical duct flow and currently mentor an intern studying extreme events in turbulence (Section~\ref{sec:teaching}). 
 As a postdoctoral researcher, I have also begun supervising doctoral researchers working on kernel-level optimization of RHEA-X, leading their project at the 8th MareNostrum Hackathon.
 These experiences prepare me to supervise doctoral research that combines solver development with physical analysis. 
 I would build on them by developing thesis projects in supercritical turbulence, extreme-event prediction, and GPU-accelerated CFD in the Department of Fluid Mechanics of EEBE, UPC.
@@ -755,7 +756,7 @@ I would build on them by developing thesis projects in supercritical turbulence,
 
 \newpage
 \section{Supporting documents}
-List of attached documents, in the order in which they are cited:
+List of attached documents, by type:
 \begin{enumerate}[itemsep=0pt]
 \item Academic qualifications: PhD degree fee receipt (UPC); Master's diploma
 (\emph{Carta de Curso}); Master's and Bachelor's certificates, Diploma Supplements and Spanish grade equivalences (NOVA Lisbon);
@@ -764,8 +765,8 @@ Erasmus+ certificate (Politecnico di Milano).
 (with ERC addendum) and predoctoral researcher; CTR-Stanford Summer Program letter;
 Continental work certificate.
 \item Teaching: UPC certificate of teaching activity (hours, TFG supervision and student surveys) and EEBE certificate of teaching in 2026--27 S1; TTC statement by
-the course coordinator; internship training project; detailed student surveys; Catalan certificates (SLT-UPC).
-\item Training: ICE course; CFD, HPC and machine-learning schools and courses.
+the course coordinator; internship training project; detailed student surveys; Catalan certificates (SLT--UPC).
+\item Training: ICE and Monsha teacher-training courses; CFD, HPC and machine-learning schools and courses.
 \item Research: ECCOMAS attendance
 certificate.
 \end{enumerate}
@@ -786,7 +787,7 @@ certificate.
 \certpdf{continental}{02_positions/Continental_AUMOVIO_work_declaration_2026_REDACTED.pdf}
 \certpdf{teaching}{03_teaching/UPC_teaching_certificate_2026_REDACTED.pdf}
 \certpdf{assignment}{03_teaching/EEBE_teaching_certificate_2026-27_S1_REDACTED.pdf}
-\certpdf{ttc-coord}{03_teaching/TTC_coordination_statement_Jofre_2026_signed.pdf}
+\certpdf{ttc-coord}{03_teaching/TTC_coordination_statement_Jofre_2026_signed_flattened.pdf}
 \certpdf{internship}{03_teaching/Internship_605632_training_project_REDACTED.pdf}
 \certpdf{surveys}{03_teaching/Student_surveys_MF_2025-26_S2.pdf}
 \certpdf{ice1}{04_training/ICE_M2-4_Atenea_2026_certificate.pdf}
